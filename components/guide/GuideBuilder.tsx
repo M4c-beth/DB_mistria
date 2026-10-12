@@ -21,6 +21,9 @@ import { cn } from '@/lib/utils';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Sprite } from '@/components/ui/Sprite';
 import { TIER_LABEL, TIER_STYLE } from '@/components/ui/GiftBadge';
+import { markSpoiler } from '@/lib/spoiler';
+import { useHideSpoilers } from '@/lib/store/settingsStore';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 interface Props {
   villagers: Villager[];
@@ -31,6 +34,7 @@ interface Props {
   recipes: Recipe[];
   schedules: Record<string, Schedule>;
   quests: Record<string, Quests>;
+  spoilerNames: string[];
   meta: DataMeta;
 }
 
@@ -39,6 +43,7 @@ interface Listed {
   slug: string;
   name: string;
   icon: string | null;
+  spoiler: boolean;
 }
 
 const GROUPS: { kind: GuideKind; label: string; browse: string }[] = [
@@ -50,7 +55,18 @@ const GROUPS: { kind: GuideKind; label: string; browse: string }[] = [
   { kind: 'recipes', label: 'Recipes', browse: '/recipes/' },
 ];
 
-export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, schedules, quests, meta }: Props): React.JSX.Element {
+export function GuideBuilder({
+  villagers,
+  fish,
+  bugs,
+  crops,
+  forage,
+  recipes,
+  schedules,
+  quests,
+  spoilerNames,
+  meta,
+}: Props): React.JSX.Element {
   const hydrated = useGuideHydrated();
   const entries = useGuideStore((s) => s.entries);
   const options = useGuideStore((s) => s.options);
@@ -60,6 +76,7 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, sc
   const addMany = useGuideStore((s) => s.addMany);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const hideSpoilers = useHideSpoilers();
 
   // Resolve stored slugs against current data; entries for removed items are dropped silently.
   const selected = useMemo(() => {
@@ -78,14 +95,16 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, sc
   }, [entries, villagers, fish, bugs, crops, forage, recipes]);
 
   const listed: Record<GuideKind, Listed[]> = {
-    villager: selected.villager.map((v) => ({ kind: 'villager', slug: v.slug, name: v.name, icon: v.portrait })),
-    fish: selected.fish.map((f) => ({ kind: 'fish', slug: f.slug, name: f.name, icon: f.icon })),
-    bugs: selected.bugs.map((b) => ({ kind: 'bugs', slug: b.slug, name: b.name, icon: b.icon })),
-    crops: selected.crops.map((c) => ({ kind: 'crops', slug: c.slug, name: c.name, icon: c.icon })),
-    forage: selected.forage.map((f) => ({ kind: 'forage', slug: f.slug, name: f.name, icon: f.icon })),
-    recipes: selected.recipes.map((r) => ({ kind: 'recipes', slug: r.slug, name: r.name, icon: r.icon })),
+    villager: selected.villager.map((v) => ({ kind: 'villager', slug: v.slug, name: v.name, icon: v.portrait, spoiler: v.spoiler })),
+    fish: selected.fish.map((f) => ({ kind: 'fish', slug: f.slug, name: f.name, icon: f.icon, spoiler: f.spoiler })),
+    bugs: selected.bugs.map((b) => ({ kind: 'bugs', slug: b.slug, name: b.name, icon: b.icon, spoiler: b.spoiler })),
+    crops: selected.crops.map((c) => ({ kind: 'crops', slug: c.slug, name: c.name, icon: c.icon, spoiler: c.spoiler })),
+    forage: selected.forage.map((f) => ({ kind: 'forage', slug: f.slug, name: f.name, icon: f.icon, spoiler: f.spoiler })),
+    recipes: selected.recipes.map((r) => ({ kind: 'recipes', slug: r.slug, name: r.name, icon: r.icon, spoiler: r.spoiler })),
   };
   const total = Object.values(listed).reduce((n, l) => n + l.length, 0);
+  const all = Object.values(listed).flat();
+  const leftOut = hideSpoilers ? all.filter((i) => i.spoiler).length : 0;
 
   const download = async (): Promise<void> => {
     setBusy(true);
@@ -98,6 +117,8 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, sc
         groupBySeason: options.groupBySeason,
         schedules: options.includeSchedules ? schedules : {},
         quests: options.includeQuests ? quests : {},
+        hideSpoilers,
+        spoilerNames,
         villagers: selected.villager,
         fish: selected.fish,
         bugs: selected.bugs,
@@ -165,7 +186,9 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, sc
                   {items.map((i) => (
                     <li key={i.slug} className="flex items-center gap-2 rounded-md border border-stone-300 bg-white/70 py-1 pl-1 pr-1 text-sm">
                       <Sprite src={i.icon} alt="" size={20} />
-                      <span className="font-medium">{i.name}</span>
+                      <span className="font-medium">
+                        <SpoilerText text={markSpoiler(i.name, i.spoiler)} />
+                      </span>
                       <button
                         type="button"
                         onClick={() => remove({ kind: i.kind, slug: i.slug })}
@@ -246,19 +269,34 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, sc
           </span>
         </label>
 
-        <label className="flex min-h-10 cursor-pointer items-center gap-3 text-sm">
+        <label
+          className={cn('flex min-h-10 items-center gap-3 text-sm', hideSpoilers ? 'cursor-not-allowed opacity-60' : 'cursor-pointer')}
+        >
           <input
             type="checkbox"
-            checked={options.includeQuests}
+            checked={options.includeQuests && !hideSpoilers}
+            disabled={hideSpoilers}
             onChange={(e) => setOptions({ includeQuests: e.target.checked })}
             className="size-5 accent-[#3F6630]"
           />
-          <span className="font-semibold">Include villager quests</span>
+          <span>
+            <span className="font-semibold">Include villager quests</span>
+            {hideSpoilers && (
+              <span className="block text-xs text-stone-600">The wiki marks quests as spoilers. Turn off Hide spoilers to include them.</span>
+            )}
+          </span>
         </label>
+
+        {leftOut > 0 && (
+          <p className="rounded-md border border-wood-brown/30 bg-wood-brown/5 p-3 text-xs text-stone-600">
+            {leftOut} spoiler {leftOut === 1 ? 'entry' : 'entries'} in your guide will be left out of the PDF while{' '}
+            <span className="font-semibold">Hide spoilers</span> is on.
+          </p>
+        )}
 
         <button type="button" onClick={download} disabled={busy} className="btn-primary w-full">
           {busy ? <Loader2 aria-hidden className="size-4 animate-spin" /> : <Download aria-hidden className="size-4" />}
-          {busy ? 'Making your PDF…' : `Download PDF (${total} items)`}
+          {busy ? 'Making your PDF…' : `Download PDF (${total - leftOut} items)`}
         </button>
         {error && (
           <p role="alert" className="text-sm text-berry-red-ink">

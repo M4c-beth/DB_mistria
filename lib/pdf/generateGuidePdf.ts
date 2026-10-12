@@ -1,5 +1,6 @@
 import { jsPDF } from 'jspdf';
-import { autoTable, type RowInput } from 'jspdf-autotable';
+import { autoTable, type CellInput, type RowInput } from 'jspdf-autotable';
+import { spoilerPlainText } from '@/lib/spoiler';
 import {
   SEASONS,
   type Bug,
@@ -27,6 +28,10 @@ export interface GuidePdfInput {
   crops: Crop[];
   forage: Forage[];
   recipes: Recipe[];
+  /** Leave out spoiler-flagged entries and blank out inline spoilers. */
+  hideSpoilers: boolean;
+  /** Names of items/characters whose wiki pages are marked as spoilers. */
+  spoilerNames: string[];
   meta: { source: string; license: string; fetchedAt: string };
 }
 
@@ -84,6 +89,15 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   const pageHeight = doc.internal.pageSize.getHeight();
   let y = MARGIN;
 
+  const hide = input.hideSpoilers;
+  const spoilerSet = new Set(input.spoilerNames);
+  const keep = <T extends { spoiler: boolean }>(items: T[]): T[] => (hide ? items.filter((i) => !i.spoiler) : items);
+  /** Strips spoiler markers, replacing spoiler text when hiding. */
+  const txt = (text: string): string => spoilerPlainText(text, hide ? '[spoiler]' : undefined);
+  const itemName = (name: string): string => (hide && spoilerSet.has(name) ? '[spoiler]' : name);
+  const cell = (c: CellInput): CellInput =>
+    typeof c === 'string' ? txt(c) : c && typeof c === 'object' && 'content' in c && typeof c.content === 'string' ? { ...c, content: txt(c.content) } : c;
+
   const ensureSpace = (needed: number): void => {
     if (y + needed > pageHeight - MARGIN - 20) {
       doc.addPage();
@@ -94,7 +108,7 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   const heading = (text: string, size: number, gap = 8): void => {
     ensureSpace(size + 40);
     doc.setFont('helvetica', 'bold').setFontSize(size).setTextColor(...COLOR.wood);
-    doc.text(pdfSafe(text), MARGIN, y + size);
+    doc.text(pdfSafe(txt(text)), MARGIN, y + size);
     y += size + gap;
   };
 
@@ -102,7 +116,7 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
     autoTable(doc, {
       startY: y,
       head: [head],
-      body,
+      body: body.map((row) => (Array.isArray(row) ? row.map(cell) : row)),
       margin: { left: MARGIN, right: MARGIN, bottom: MARGIN + 20 },
       theme: 'grid',
       styles: { font: 'helvetica', fontSize: 9, textColor: COLOR.text, lineColor: COLOR.border, lineWidth: 0.5, cellPadding: 4 },
@@ -124,21 +138,23 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   doc.text(`Fields of Mistria  -  made ${new Date().toLocaleDateString('en-US', { dateStyle: 'medium' })}`, MARGIN, 70);
   y = 120;
 
-  if (input.villagers.length) {
+  const villagers = keep(input.villagers);
+  if (villagers.length) {
     heading('Villagers', 18, 12);
-    for (const v of input.villagers) {
+    for (const v of villagers) {
       heading(v.name, 13, 4);
       const details = [v.birthday && `Birthday: ${v.birthday}`, v.occupation].filter(Boolean).join('   |   ');
       if (details) {
         doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(...COLOR.muted);
-        doc.text(details, MARGIN, y + 6);
+        doc.text(pdfSafe(txt(details)), MARGIN, y + 6);
         y += 14;
       }
+      const gifts = (t: GiftTier): string[] => (hide ? v.gifts[t].filter((g) => !spoilerSet.has(g)) : v.gifts[t]);
       const rows: RowInput[] = input.giftTiers
-        .filter((t) => v.gifts[t].length > 0)
+        .filter((t) => gifts(t).length > 0)
         .map((t) => [
           { content: TIER[t].label, styles: { textColor: TIER[t].color, fontStyle: 'bold' } },
-          v.gifts[t].join(', '),
+          gifts(t).join(', '),
         ]);
       if (rows.length) {
         table(['Reaction', 'Gifts'], rows, { 0: { cellWidth: 70 } });
@@ -149,7 +165,7 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
       }
 
       const schedule = input.schedules[v.slug];
-      if (schedule) {
+      if (schedule && !(hide && schedule.spoiler)) {
         for (const s of schedule.sections) {
           heading(`${v.name}'s schedule: ${s.title}`, 11, 4);
           table(
@@ -164,7 +180,7 @@ ${d.condition}` : d.day) : '', stop.time, stop.place]),
       }
 
       const quests = input.quests[v.slug];
-      if (quests) {
+      if (quests && !(hide && quests.spoiler)) {
         for (const t of quests.tables) {
           heading(`${v.name}: ${t.title}`, 11, 4);
           table(t.headers, t.rows, { 0: { cellWidth: 90 } });
@@ -173,13 +189,14 @@ ${d.condition}` : d.day) : '', stop.time, stop.place]),
     }
   }
 
-  const section = <T extends { seasons: Season[] }>(
+  const section = <T extends { seasons: Season[]; spoiler: boolean }>(
     title: string,
     items: T[],
     head: string[],
     toRow: (item: T) => RowInput,
     columnStyles?: Record<number, { cellWidth?: number | 'auto'; halign?: 'right' }>,
   ): void => {
+    items = keep(items);
     if (!items.length) return;
     heading(title, 18, 12);
     if (!input.groupBySeason) {
@@ -224,14 +241,15 @@ ${d.condition}` : d.day) : '', stop.time, stop.place]),
   );
 
   // Recipes aren't seasonal, so they're one table regardless of grouping.
-  if (input.recipes.length) {
+  const recipes = keep(input.recipes);
+  if (recipes.length) {
     heading('Recipes', 18, 12);
     table(
       ['Name', 'Type', 'Ingredients', 'Sell'],
-      input.recipes.map((r) => [
+      recipes.map((r) => [
         r.name,
         r.type,
-        r.ingredients.map((i) => `${i.name} x${i.amount}`).join(', '),
+        r.ingredients.map((i) => `${itemName(i.name)} x${i.amount}`).join(', '),
         gold(r.sellValue),
       ]),
       { 0: { cellWidth: 110 }, 1: { cellWidth: 70 }, 3: { halign: 'right' } },

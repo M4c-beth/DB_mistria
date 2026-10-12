@@ -8,6 +8,7 @@ import {
   getFish,
   getForage,
   getRecipes,
+  getSpoilerNames,
   getVillagers,
 } from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -36,6 +37,7 @@ export default function GuidePage(): React.JSX.Element {
         recipes={getRecipes()}
         schedules={getAllSchedules()}
         quests={getAllQuests()}
+        spoilerNames={getSpoilerNames()}
         meta={getDataMeta()}
       />
     </>
