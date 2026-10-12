@@ -1,0 +1,8104 @@
+[
+  {
+    "slug": "apple-honey-curry",
+    "name": "Apple Honey Curry",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "amount": 1
+      },
+      {
+        "name": "Curry Powder",
+        "amount": 1
+      },
+      {
+        "name": "Honey",
+        "amount": 1
+      },
+      {
+        "name": "Onion",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Sweet Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Harvest Festival for 800t"
+    ],
+    "sellValue": 600,
+    "health": 188,
+    "stamina": 188,
+    "mana": null,
+    "icon": "/icons/recipe-apple-honey-curry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Honey_Curry"
+  },
+  {
+    "slug": "apple-juice",
+    "name": "Apple Juice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship an Apple"
+    ],
+    "sellValue": 50,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-apple-juice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Juice"
+  },
+  {
+    "slug": "apple-pie",
+    "name": "Apple Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 18,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 360,
+    "health": 92,
+    "stamina": 92,
+    "mana": null,
+    "icon": "/icons/recipe-apple-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Pie"
+  },
+  {
+    "slug": "baked-potato",
+    "name": "Baked Potato",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Potato"
+    ],
+    "sellValue": 80,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-baked-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Baked_Potato"
+  },
+  {
+    "slug": "baked-sweetroot",
+    "name": "Baked Sweetroot",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Sweetroot",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Donate a Sweetroot to The Museum"
+    ],
+    "sellValue": 22,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-baked-sweetroot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Baked_Sweetroot"
+  },
+  {
+    "slug": "beet-salad",
+    "name": "Beet Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Beet",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Beet"
+    ],
+    "sellValue": 40,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-beet-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Beet_Salad"
+  },
+  {
+    "slug": "beet-soup",
+    "name": "Beet Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Beet",
+        "amount": 1
+      },
+      {
+        "name": "Cabbage",
+        "amount": 1
+      },
+      {
+        "name": "Carrot",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Onion",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 800t"
+    ],
+    "sellValue": 710,
+    "health": 230,
+    "stamina": 230,
+    "mana": null,
+    "icon": "/icons/recipe-beet-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Beet_Soup"
+  },
+  {
+    "slug": "bell-berry-bakewell-tart",
+    "name": "Bell Berry Bakewell Tart",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bell Berry",
+        "amount": 3
+      },
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 26,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Ship a Bell berry"
+    ],
+    "sellValue": 510,
+    "health": 106,
+    "stamina": 106,
+    "mana": null,
+    "icon": "/icons/recipe-bell-berry-bakewell-tart.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry_Bakewell_Tart"
+  },
+  {
+    "slug": "berries-and-cream",
+    "name": "Berries and Cream",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Eiland's Request for Berries"
+    ],
+    "sellValue": 50,
+    "health": 16,
+    "stamina": 16,
+    "mana": null,
+    "icon": "/icons/recipe-berries-and-cream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Berries_and_Cream"
+  },
+  {
+    "slug": "berry-bowl",
+    "name": "Berry Bowl",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Blueberry",
+        "amount": 4
+      },
+      {
+        "name": "Honey",
+        "amount": 2
+      },
+      {
+        "name": "Strawberry",
+        "amount": 2
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Wishing Well 500t Wish"
+    ],
+    "sellValue": 440,
+    "health": 100,
+    "stamina": 100,
+    "mana": null,
+    "icon": "/icons/recipe-berry-bowl.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Berry_Bowl"
+  },
+  {
+    "slug": "blackberry-jam",
+    "name": "Blackberry Jam",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Blackberry",
+        "amount": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Elsie's Request for Blackberries"
+    ],
+    "sellValue": 140,
+    "health": 22,
+    "stamina": 22,
+    "mana": null,
+    "icon": "/icons/recipe-blackberry-jam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blackberry_Jam"
+  },
+  {
+    "slug": "blueberry-jam",
+    "name": "Blueberry Jam",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Blueberry",
+        "amount": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Reina's Request for Blueberries"
+    ],
+    "sellValue": 140,
+    "health": 22,
+    "stamina": 22,
+    "mana": null,
+    "icon": "/icons/recipe-blueberry-jam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blueberry_Jam"
+  },
+  {
+    "slug": "braised-burdock",
+    "name": "Braised Burdock",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Burdock Root",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Burdock Root"
+    ],
+    "sellValue": 180,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-braised-burdock.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Braised_Burdock"
+  },
+  {
+    "slug": "braised-carrots",
+    "name": "Braised Carrots",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Carrot"
+    ],
+    "sellValue": 85,
+    "health": 36,
+    "stamina": 36,
+    "mana": null,
+    "icon": "/icons/recipe-braised-carrots.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Braised_Carrots"
+  },
+  {
+    "slug": "bread",
+    "name": "Bread",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 6,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 190,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-bread.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bread"
+  },
+  {
+    "slug": "breaded-catfish",
+    "name": "Breaded Catfish",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Catfish",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Hemlock's Request for a Catfish"
+    ],
+    "sellValue": 320,
+    "health": 64,
+    "stamina": 64,
+    "mana": null,
+    "icon": "/icons/recipe-breaded-catfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Breaded_Catfish"
+  },
+  {
+    "slug": "broccoli-salad",
+    "name": "Broccoli Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": 1
+      },
+      {
+        "name": "Cranberry",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 18,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Reina's Request for Broccoli"
+    ],
+    "sellValue": 330,
+    "health": 74,
+    "stamina": 74,
+    "mana": null,
+    "icon": "/icons/recipe-broccoli-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Broccoli_Salad"
+  },
+  {
+    "slug": "butter",
+    "name": "Butter",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 90,
+    "health": 6,
+    "stamina": 6,
+    "mana": null,
+    "icon": "/icons/recipe-butter.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Butter"
+  },
+  {
+    "slug": "buttered-peas",
+    "name": "Buttered Peas",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Peas",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Peas"
+    ],
+    "sellValue": 240,
+    "health": 48,
+    "stamina": 48,
+    "mana": null,
+    "icon": "/icons/recipe-buttered-peas.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Buttered_Peas"
+  },
+  {
+    "slug": "cabbage-slaw",
+    "name": "Cabbage Slaw",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "amount": 1
+      },
+      {
+        "name": "Fennel",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Cabbage"
+    ],
+    "sellValue": 220,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-cabbage-slaw.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cabbage_Slaw"
+  },
+  {
+    "slug": "candied-lemon-peel",
+    "name": "Candied Lemon Peel",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Lemon"
+    ],
+    "sellValue": 160,
+    "health": 48,
+    "stamina": 48,
+    "mana": null,
+    "icon": "/icons/recipe-candied-lemon-peel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Lemon_Peel"
+  },
+  {
+    "slug": "candied-strawberries",
+    "name": "Candied Strawberries",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Strawberry"
+    ],
+    "sellValue": 240,
+    "health": 42,
+    "stamina": 42,
+    "mana": null,
+    "icon": "/icons/recipe-candied-strawberries.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Strawberries"
+  },
+  {
+    "slug": "candied-walnuts",
+    "name": "Candied Walnuts",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Walnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Walnut"
+    ],
+    "sellValue": 135,
+    "health": 36,
+    "stamina": 36,
+    "mana": null,
+    "icon": "/icons/recipe-candied-walnuts.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Walnuts"
+  },
+  {
+    "slug": "canned-sardines",
+    "name": "Canned Sardines",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      },
+      {
+        "name": "Sardine",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Wooden Treasure Box",
+      "Tackle Shop"
+    ],
+    "sellValue": 65,
+    "health": 22,
+    "stamina": 22,
+    "mana": null,
+    "icon": "/icons/recipe-canned-sardines.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Canned_Sardines"
+  },
+  {
+    "slug": "caramel-candy",
+    "name": "Caramel Candy",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 200,
+    "health": 36,
+    "stamina": 36,
+    "mana": null,
+    "icon": "/icons/recipe-caramel-candy.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Caramel_Candy"
+  },
+  {
+    "slug": "caramelized-moon-fruit",
+    "name": "Caramelized Moon Fruit",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Moon Fruit",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 6,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Eiland's Request for a Moon Fruit"
+    ],
+    "sellValue": 145,
+    "health": 42,
+    "stamina": 42,
+    "mana": null,
+    "icon": "/icons/recipe-caramelized-moon-fruit.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Caramelized_Moon_Fruit"
+  },
+  {
+    "slug": "cat-treat",
+    "name": "Cat Treat",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Smallmouth Bass",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 50,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-cat-treat.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cat_Treat"
+  },
+  {
+    "slug": "cauliflower-curry",
+    "name": "Cauliflower Curry",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cauliflower",
+        "amount": 1
+      },
+      {
+        "name": "Curry Powder",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 24,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 430,
+    "health": 110,
+    "stamina": 110,
+    "mana": null,
+    "icon": "/icons/recipe-cauliflower-curry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower_Curry"
+  },
+  {
+    "slug": "cheese",
+    "name": "Cheese",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 90,
+    "health": 6,
+    "stamina": 6,
+    "mana": null,
+    "icon": "/icons/recipe-cheese.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cheese"
+  },
+  {
+    "slug": "cherry-cobbler",
+    "name": "Cherry Cobbler",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 160,
+    "health": 48,
+    "stamina": 48,
+    "mana": null,
+    "icon": "/icons/recipe-cherry-cobbler.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Cobbler"
+  },
+  {
+    "slug": "cherry-smoothie",
+    "name": "Cherry Smoothie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "amount": 1
+      },
+      {
+        "name": "Honey",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 155,
+    "health": 66,
+    "stamina": 66,
+    "mana": null,
+    "icon": "/icons/recipe-cherry-smoothie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Smoothie"
+  },
+  {
+    "slug": "cherry-tart",
+    "name": "Cherry Tart",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 18,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 360,
+    "health": 92,
+    "stamina": 92,
+    "mana": null,
+    "icon": "/icons/recipe-cherry-tart.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Tart"
+  },
+  {
+    "slug": "chickpea-curry",
+    "name": "Chickpea Curry",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chickpea",
+        "amount": 1
+      },
+      {
+        "name": "Curry Powder",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 250,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-chickpea-curry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea_Curry"
+  },
+  {
+    "slug": "chili-coconut-curry",
+    "name": "Chili Coconut Curry",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cave Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Coconut Milk",
+        "amount": 1
+      },
+      {
+        "name": "Curry Powder",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 36,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Lava Caves (requires Taste Maker Skill)",
+      "The Inn (After Upgrade) for 600t"
+    ],
+    "sellValue": 450,
+    "health": 256,
+    "stamina": 256,
+    "mana": null,
+    "icon": "/icons/recipe-chili-coconut-curry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chili_Coconut_Curry"
+  },
+  {
+    "slug": "chocolate-cake",
+    "name": "Chocolate Cake",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Chocolate",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 400t"
+    ],
+    "sellValue": 470,
+    "health": 110,
+    "stamina": 110,
+    "mana": null,
+    "icon": "/icons/recipe-chocolate-cake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chocolate_Cake"
+  },
+  {
+    "slug": "clam-chowder",
+    "name": "Clam Chowder",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Clam",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Errol's Request for a Clam"
+    ],
+    "sellValue": 170,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-clam-chowder.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Clam_Chowder"
+  },
+  {
+    "slug": "clay",
+    "name": "Clay",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 5,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-clay.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Clay"
+  },
+  {
+    "slug": "coconut-cream-pie",
+    "name": "Coconut Cream Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Coconut Milk",
+        "amount": 1
+      },
+      {
+        "name": "Coconut",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 38,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 600t"
+    ],
+    "sellValue": 580,
+    "health": 150,
+    "stamina": 150,
+    "mana": null,
+    "icon": "/icons/recipe-coconut-cream-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut_Cream_Pie"
+  },
+  {
+    "slug": "coconut-milk",
+    "name": "Coconut Milk",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Coconut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Coconut"
+    ],
+    "sellValue": 30,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-coconut-milk.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut_Milk"
+  },
+  {
+    "slug": "cod-with-thyme",
+    "name": "Cod with Thyme",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cod",
+        "amount": 1
+      },
+      {
+        "name": "Thyme",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Reina's Request for Cod"
+    ],
+    "sellValue": 190,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-cod-with-thyme.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cod_with_Thyme"
+  },
+  {
+    "slug": "copper-armor",
+    "name": "Copper Armor",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-armor.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Armor"
+  },
+  {
+    "slug": "copper-axe",
+    "name": "Copper Axe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-axe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Axe"
+  },
+  {
+    "slug": "copper-fishing-rod",
+    "name": "Copper Fishing Rod",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-fishing-rod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Fishing_Rod"
+  },
+  {
+    "slug": "copper-greaves",
+    "name": "Copper Greaves",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-greaves.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Greaves"
+  },
+  {
+    "slug": "copper-helmet",
+    "name": "Copper Helmet",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-helmet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Helmet"
+  },
+  {
+    "slug": "copper-hoe",
+    "name": "Copper Hoe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-hoe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Hoe"
+  },
+  {
+    "slug": "copper-ingot",
+    "name": "Copper Ingot",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 1,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 110,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-ingot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot"
+  },
+  {
+    "slug": "copper-legplates",
+    "name": "Copper Legplates",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-legplates.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Legplates"
+  },
+  {
+    "slug": "copper-net",
+    "name": "Copper Net",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-net.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Net"
+  },
+  {
+    "slug": "copper-pickaxe",
+    "name": "Copper Pickaxe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-pickaxe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Pickaxe"
+  },
+  {
+    "slug": "copper-ring",
+    "name": "Copper Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ring"
+  },
+  {
+    "slug": "copper-shovel",
+    "name": "Copper Shovel",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-shovel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Shovel"
+  },
+  {
+    "slug": "copper-sword",
+    "name": "Copper Sword",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-sword.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Sword"
+  },
+  {
+    "slug": "copper-watering-can",
+    "name": "Copper Watering Can",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 480,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-copper-watering-can.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Watering_Can"
+  },
+  {
+    "slug": "coral",
+    "name": "Coral",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 8
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-coral.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coral"
+  },
+  {
+    "slug": "crab-cakes",
+    "name": "Crab Cakes",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Crab",
+        "amount": 2
+      },
+      {
+        "name": "Dill",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn for 600t"
+    ],
+    "sellValue": 490,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-crab-cakes.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crab_Cakes"
+  },
+  {
+    "slug": "cranberry-juice",
+    "name": "Cranberry Juice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cranberry",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Cranberry"
+    ],
+    "sellValue": 135,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-cranberry-juice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Juice"
+  },
+  {
+    "slug": "cranberry-orange-scone",
+    "name": "Cranberry Orange Scone",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cranberry",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Orange",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 36,
+    "stars": 4,
+    "stationLevel": 2,
+    "howToGet": [
+      "Ryis' Request for Cranberries"
+    ],
+    "sellValue": 480,
+    "health": 128,
+    "stamina": 128,
+    "mana": null,
+    "icon": "/icons/recipe-cranberry-orange-scone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Orange_Scone"
+  },
+  {
+    "slug": "crayfish-etouffee",
+    "name": "Crayfish Etouffee",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Crayfish",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t",
+      "Wooden Treasure Box"
+    ],
+    "sellValue": 240,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-crayfish-etouffee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crayfish_Etouffee"
+  },
+  {
+    "slug": "crispy-fried-earthshroom",
+    "name": "Crispy Fried Earthshroom",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Earthshroom",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 250,
+    "health": 66,
+    "stamina": 66,
+    "mana": null,
+    "icon": "/icons/recipe-crispy-fried-earthshroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crispy_Fried_Earthshroom"
+  },
+  {
+    "slug": "crunchy-chickpeas",
+    "name": "Crunchy Chickpeas",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chickpea",
+        "amount": 1
+      },
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Upper Mines (requires Taste Maker Skill)"
+    ],
+    "sellValue": 60,
+    "health": 16,
+    "stamina": 16,
+    "mana": null,
+    "icon": "/icons/recipe-crunchy-chickpeas.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crunchy_Chickpeas"
+  },
+  {
+    "slug": "crystal",
+    "name": "Crystal",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 8
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-crystal.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal"
+  },
+  {
+    "slug": "crystal-berry-pie",
+    "name": "Crystal Berry Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Crystal Berries",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Ship a Crystal Berry"
+    ],
+    "sellValue": 390,
+    "health": 94,
+    "stamina": 94,
+    "mana": null,
+    "icon": "/icons/recipe-crystal-berry-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berry_Pie"
+  },
+  {
+    "slug": "cucumber-salad",
+    "name": "Cucumber Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Dill",
+        "amount": 1
+      },
+      {
+        "name": "Sesame",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Cucumber"
+    ],
+    "sellValue": 115,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-cucumber-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber_Salad"
+  },
+  {
+    "slug": "cucumber-sandwich",
+    "name": "Cucumber Sandwich",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Ancient Ruins (requires Taste Maker Skill)"
+    ],
+    "sellValue": 490,
+    "health": 170,
+    "stamina": 170,
+    "mana": null,
+    "icon": "/icons/recipe-cucumber-sandwich.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber_Sandwich"
+  },
+  {
+    "slug": "deep-sea-soup",
+    "name": "Deep Sea Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Jade Dulse",
+        "amount": 1
+      },
+      {
+        "name": "Mines Mussels",
+        "amount": 1
+      },
+      {
+        "name": "Underseaweed",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Donate Jade Dulse to The Museum"
+    ],
+    "sellValue": 105,
+    "health": 52,
+    "stamina": 52,
+    "mana": null,
+    "icon": "/icons/recipe-deep-sea-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deep_Sea_Soup"
+  },
+  {
+    "slug": "deluxe-curry",
+    "name": "Deluxe Curry",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Curry Powder",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Shrimp",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 24,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 370,
+    "health": 106,
+    "stamina": 106,
+    "mana": null,
+    "icon": "/icons/recipe-deluxe-curry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Curry"
+  },
+  {
+    "slug": "deluxe-large-animal-feed",
+    "name": "Deluxe Large Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Acorn",
+        "amount": 1
+      },
+      {
+        "name": "Hay",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-deluxe-large-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Large_Animal_Feed"
+  },
+  {
+    "slug": "deluxe-small-animal-feed",
+    "name": "Deluxe Small Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Acorn",
+        "amount": 1
+      },
+      {
+        "name": "Grass Seed",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-deluxe-small-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Small_Animal_Feed"
+  },
+  {
+    "slug": "deviled-eggs",
+    "name": "Deviled Eggs",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Horseradish",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Chicken Statue 10 Offering"
+    ],
+    "sellValue": 160,
+    "health": 32,
+    "stamina": 32,
+    "mana": null,
+    "icon": "/icons/recipe-deviled-eggs.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deviled_Eggs"
+  },
+  {
+    "slug": "diamond",
+    "name": "Diamond",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 35
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 70,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-diamond.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Diamond"
+  },
+  {
+    "slug": "dog-treat",
+    "name": "Dog Treat",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Trout",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 50,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dog-treat.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dog_Treat"
+  },
+  {
+    "slug": "dragon-forged-core",
+    "name": "Dragon-Forged Core",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Ancient Firefly",
+        "amount": 1
+      },
+      {
+        "name": "Medium Essence Stone",
+        "amount": 1
+      },
+      {
+        "name": "Mistril Ingot",
+        "amount": 1
+      },
+      {
+        "name": "Monster Core",
+        "amount": 5
+      },
+      {
+        "name": "Pink Diamond",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1020,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dragon-forged-core.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Core"
+  },
+  {
+    "slug": "dragon-forged-fang",
+    "name": "Dragon-Forged Fang",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Medium Essence Stone",
+        "amount": 1
+      },
+      {
+        "name": "Monster Fang",
+        "amount": 5
+      },
+      {
+        "name": "Void Herb",
+        "amount": 5
+      },
+      {
+        "name": "Void Stone",
+        "amount": 5
+      },
+      {
+        "name": "Written Root",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 640,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dragon-forged-fang.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Fang"
+  },
+  {
+    "slug": "dragon-forged-horn",
+    "name": "Dragon-Forged Horn",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Medium Essence Stone",
+        "amount": 1
+      },
+      {
+        "name": "Monster Horn",
+        "amount": 5
+      },
+      {
+        "name": "Void Pearl",
+        "amount": 5
+      },
+      {
+        "name": "Void Powder",
+        "amount": 5
+      },
+      {
+        "name": "Void Snail",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 680,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dragon-forged-horn.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Horn"
+  },
+  {
+    "slug": "dragon-forged-powder",
+    "name": "Dragon-Forged Powder",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Medium Essence Stone",
+        "amount": 1
+      },
+      {
+        "name": "Luminescent Crab",
+        "amount": 1
+      },
+      {
+        "name": "Mistril Ingot",
+        "amount": 1
+      },
+      {
+        "name": "Monster Powder",
+        "amount": 5
+      },
+      {
+        "name": "Pink Diamond",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1050,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dragon-forged-powder.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Powder"
+  },
+  {
+    "slug": "dragon-forged-sword",
+    "name": "Dragon-Forged Sword",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Void Herb",
+        "amount": 5
+      },
+      {
+        "name": "Void Pearl",
+        "amount": 5
+      },
+      {
+        "name": "Void Powder",
+        "amount": 5
+      },
+      {
+        "name": "Void Stone",
+        "amount": 5
+      },
+      {
+        "name": "Voidite",
+        "amount": 50
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 0,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-dragon-forged-sword.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Sword"
+  },
+  {
+    "slug": "dried-squid",
+    "name": "Dried Squid",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      },
+      {
+        "name": "Squid",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 60,
+    "health": 22,
+    "stamina": 22,
+    "mana": null,
+    "icon": "/icons/recipe-dried-squid.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dried_Squid"
+  },
+  {
+    "slug": "duck-mayonnaise",
+    "name": "Duck Mayonnaise",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Duck Egg",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 70,
+    "health": 3,
+    "stamina": 3,
+    "mana": null,
+    "icon": "/icons/recipe-duck-mayonnaise.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Duck_Mayonnaise"
+  },
+  {
+    "slug": "emerald",
+    "name": "Emerald",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 30
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 60,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-emerald.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Emerald"
+  },
+  {
+    "slug": "engagement-ring",
+    "name": "Engagement Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "amount": 2
+      },
+      {
+        "name": "Dragon-Forged Core",
+        "amount": 1
+      },
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      },
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [
+      "Engagement Ring Recipe Scroll from Elsie"
+    ],
+    "sellValue": 3930,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-engagement-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Engagement_Ring"
+  },
+  {
+    "slug": "fish-skewers",
+    "name": "Fish Skewers",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Pike",
+        "amount": 1
+      },
+      {
+        "name": "Smallmouth Bass",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 6,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Wooden Treasure Box",
+      "Tackle Shop"
+    ],
+    "sellValue": 85,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-fish-skewers.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Skewers"
+  },
+  {
+    "slug": "fish-stew",
+    "name": "Fish Stew",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Red Snapper",
+        "amount": 1
+      },
+      {
+        "name": "Smallmouth Bass",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Copper Treasure Box"
+    ],
+    "sellValue": 105,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-fish-stew.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Stew"
+  },
+  {
+    "slug": "fish-tacos",
+    "name": "Fish Tacos",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Cod",
+        "amount": 1
+      },
+      {
+        "name": "Corn",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 34,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 600t"
+    ],
+    "sellValue": 450,
+    "health": 124,
+    "stamina": 124,
+    "mana": null,
+    "icon": "/icons/recipe-fish-tacos.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Tacos"
+  },
+  {
+    "slug": "flour",
+    "name": "Flour",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Wheat",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 175,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-flour.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flour"
+  },
+  {
+    "slug": "fried-rice",
+    "name": "Fried Rice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "amount": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Peas",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Lava Caves (requires Taste Maker Skill)",
+      "Wishing Well 500t Wish"
+    ],
+    "sellValue": 570,
+    "health": 174,
+    "stamina": 174,
+    "mana": null,
+    "icon": "/icons/recipe-fried-rice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fried_Rice"
+  },
+  {
+    "slug": "garlic-bread",
+    "name": "Garlic Bread",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Garlic",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Reina's Request for Garlic"
+    ],
+    "sellValue": 340,
+    "health": 80,
+    "stamina": 80,
+    "mana": null,
+    "icon": "/icons/recipe-garlic-bread.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic_Bread"
+  },
+  {
+    "slug": "gazpacho",
+    "name": "Gazpacho",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Basil",
+        "amount": 1
+      },
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      },
+      {
+        "name": "Watermelon",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 26,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn (After Upgrade) for 400t"
+    ],
+    "sellValue": 450,
+    "health": 116,
+    "stamina": 116,
+    "mana": null,
+    "icon": "/icons/recipe-gazpacho.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gazpacho"
+  },
+  {
+    "slug": "giant-essence-stone",
+    "name": "Giant Essence Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Essence",
+        "amount": 200
+      },
+      {
+        "name": "Stone",
+        "amount": 80
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 640,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-giant-essence-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Essence_Stone"
+  },
+  {
+    "slug": "glass",
+    "name": "Glass",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 8
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-glass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Glass"
+  },
+  {
+    "slug": "glowberry-cookies",
+    "name": "Glowberry Cookies",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Glowberry",
+        "amount": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Ship a Glowberry"
+    ],
+    "sellValue": 510,
+    "health": 104,
+    "stamina": 104,
+    "mana": null,
+    "icon": "/icons/recipe-glowberry-cookies.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Glowberry_Cookies"
+  },
+  {
+    "slug": "gold-armor",
+    "name": "Gold Armor",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 24,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1215,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-armor.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Armor"
+  },
+  {
+    "slug": "gold-axe",
+    "name": "Gold Axe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-axe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Axe"
+  },
+  {
+    "slug": "gold-fishing-rod",
+    "name": "Gold Fishing Rod",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-fishing-rod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Fishing_Rod"
+  },
+  {
+    "slug": "gold-greaves",
+    "name": "Gold Greaves",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 24,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1215,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-greaves.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Greaves"
+  },
+  {
+    "slug": "gold-helmet",
+    "name": "Gold Helmet",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 24,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1215,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-helmet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Helmet"
+  },
+  {
+    "slug": "gold-hoe",
+    "name": "Gold Hoe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-hoe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Hoe"
+  },
+  {
+    "slug": "gold-ingot",
+    "name": "Gold Ingot",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ore",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 6,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 275,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-ingot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot"
+  },
+  {
+    "slug": "gold-legplates",
+    "name": "Gold Legplates",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 24,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1215,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-legplates.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Legplates"
+  },
+  {
+    "slug": "gold-net",
+    "name": "Gold Net",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-net.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Net"
+  },
+  {
+    "slug": "gold-pickaxe",
+    "name": "Gold Pickaxe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-pickaxe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Pickaxe"
+  },
+  {
+    "slug": "gold-ring",
+    "name": "Gold Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 24,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1215,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ring"
+  },
+  {
+    "slug": "gold-shovel",
+    "name": "Gold Shovel",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-shovel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Shovel"
+  },
+  {
+    "slug": "gold-sword",
+    "name": "Gold Sword",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 20,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-sword.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Sword"
+  },
+  {
+    "slug": "gold-watering-can",
+    "name": "Gold Watering Can",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1200,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-gold-watering-can.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Watering_Can"
+  },
+  {
+    "slug": "golden-butter",
+    "name": "Golden Butter",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Golden Milk",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 260,
+    "health": 12,
+    "stamina": 12,
+    "mana": null,
+    "icon": "/icons/recipe-golden-butter.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Butter"
+  },
+  {
+    "slug": "golden-cheese",
+    "name": "Golden Cheese",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Golden Milk",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 260,
+    "health": 12,
+    "stamina": 12,
+    "mana": null,
+    "icon": "/icons/recipe-golden-cheese.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cheese"
+  },
+  {
+    "slug": "golden-cheesecake",
+    "name": "Golden Cheesecake",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 2
+      },
+      {
+        "name": "Golden Butter",
+        "amount": 2
+      },
+      {
+        "name": "Golden Cheese",
+        "amount": 2
+      },
+      {
+        "name": "Golden Egg",
+        "amount": 2
+      },
+      {
+        "name": "Golden Milk",
+        "amount": 2
+      },
+      {
+        "name": "Sugar",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Animal Festival from The Souvenir Stall for 800t"
+    ],
+    "sellValue": 2530,
+    "health": 218,
+    "stamina": 218,
+    "mana": null,
+    "icon": "/icons/recipe-golden-cheesecake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cheesecake"
+  },
+  {
+    "slug": "golden-cookies",
+    "name": "Golden Cookies",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chocolate",
+        "amount": 2
+      },
+      {
+        "name": "Flour",
+        "amount": 2
+      },
+      {
+        "name": "Golden Butter",
+        "amount": 2
+      },
+      {
+        "name": "Golden Egg",
+        "amount": 2
+      },
+      {
+        "name": "Golden Milk",
+        "amount": 2
+      },
+      {
+        "name": "Sugar",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Animal Festival from The Souvenir Stall for 800t"
+    ],
+    "sellValue": 2110,
+    "health": 208,
+    "stamina": 208,
+    "mana": null,
+    "icon": "/icons/recipe-golden-cookies.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cookies"
+  },
+  {
+    "slug": "golden-duck-mayonnaise",
+    "name": "Golden Duck Mayonnaise",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Golden Duck Egg",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 200,
+    "health": 5,
+    "stamina": 5,
+    "mana": null,
+    "icon": "/icons/recipe-golden-duck-mayonnaise.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Duck_Mayonnaise"
+  },
+  {
+    "slug": "golden-mayonnaise",
+    "name": "Golden Mayonnaise",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Golden Egg",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 140,
+    "health": 5,
+    "stamina": 5,
+    "mana": null,
+    "icon": "/icons/recipe-golden-mayonnaise.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Mayonnaise"
+  },
+  {
+    "slug": "grape-juice",
+    "name": "Grape Juice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Wild Grapes",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 25,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-grape-juice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grape_Juice"
+  },
+  {
+    "slug": "grass-seed",
+    "name": "Grass Seed",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 5,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-grass-seed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grass_Seed"
+  },
+  {
+    "slug": "grass-starter",
+    "name": "Grass Starter",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Grass Seed",
+        "amount": 2
+      },
+      {
+        "name": "Sod",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-grass-starter.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grass_Starter"
+  },
+  {
+    "slug": "green-tea",
+    "name": "Green Tea",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Tea",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 145,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-green-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Green_Tea"
+  },
+  {
+    "slug": "grilled-cheese",
+    "name": "Grilled Cheese",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 470,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-grilled-cheese.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Cheese"
+  },
+  {
+    "slug": "grilled-corn",
+    "name": "Grilled Corn",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Corn",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Corn"
+    ],
+    "sellValue": 135,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-grilled-corn.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Corn"
+  },
+  {
+    "slug": "grilled-eel-rice-bowl",
+    "name": "Grilled Eel Rice Bowl",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Freshwater Eel",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "March's Request for Freshwater Eel"
+    ],
+    "sellValue": 420,
+    "health": 90,
+    "stamina": 90,
+    "mana": null,
+    "icon": "/icons/recipe-grilled-eel-rice-bowl.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Eel_Rice_Bowl"
+  },
+  {
+    "slug": "hard-boiled-egg",
+    "name": "Hard Boiled Egg",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Eiland's Request for Eggs"
+    ],
+    "sellValue": 22,
+    "health": 10,
+    "stamina": 10,
+    "mana": null,
+    "icon": "/icons/recipe-hard-boiled-egg.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hard_Boiled_Egg"
+  },
+  {
+    "slug": "hard-wood",
+    "name": "Hard Wood",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-hard-wood.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hard_Wood"
+  },
+  {
+    "slug": "harvest-plate",
+    "name": "Harvest Plate",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": 1
+      },
+      {
+        "name": "Cranberry",
+        "amount": 1
+      },
+      {
+        "name": "Onion",
+        "amount": 1
+      },
+      {
+        "name": "Pumpkin",
+        "amount": 1
+      },
+      {
+        "name": "Rosemary",
+        "amount": 1
+      },
+      {
+        "name": "Sweet Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Harvest Festival for 800t"
+    ],
+    "sellValue": 760,
+    "health": 222,
+    "stamina": 222,
+    "mana": null,
+    "icon": "/icons/recipe-harvest-plate.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Harvest_Plate"
+  },
+  {
+    "slug": "herb-butter-pasta",
+    "name": "Herb Butter Pasta",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Noodles",
+        "amount": 1
+      },
+      {
+        "name": "Oregano",
+        "amount": 1
+      },
+      {
+        "name": "Thyme",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn (After Upgrade) for 400t"
+    ],
+    "sellValue": 300,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-herb-butter-pasta.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Herb_Butter_Pasta"
+  },
+  {
+    "slug": "herb-salad",
+    "name": "Herb Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Basil",
+        "amount": 1
+      },
+      {
+        "name": "Dill",
+        "amount": 1
+      },
+      {
+        "name": "Oregano",
+        "amount": 1
+      },
+      {
+        "name": "Sage",
+        "amount": 1
+      },
+      {
+        "name": "Thyme",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Deep Earth (requires Taste Maker Skill)"
+    ],
+    "sellValue": 185,
+    "health": 100,
+    "stamina": 100,
+    "mana": null,
+    "icon": "/icons/recipe-herb-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Herb_Salad"
+  },
+  {
+    "slug": "horseradish-salmon",
+    "name": "Horseradish Salmon",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Horseradish",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Salmon",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": 3,
+    "stationLevel": 1,
+    "howToGet": [
+      "Terithia's Request for Ingredients"
+    ],
+    "sellValue": 330,
+    "health": 80,
+    "stamina": 80,
+    "mana": null,
+    "icon": "/icons/recipe-horseradish-salmon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Horseradish_Salmon"
+  },
+  {
+    "slug": "hot-chocolate",
+    "name": "Hot Chocolate",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chocolate",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Wintergreen Berry",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 400t"
+    ],
+    "sellValue": 300,
+    "health": 86,
+    "stamina": 86,
+    "mana": null,
+    "icon": "/icons/recipe-hot-chocolate.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hot_Chocolate"
+  },
+  {
+    "slug": "ice-cream-sundae",
+    "name": "Ice Cream Sundae",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Chocolate",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Ice Block",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 38,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 800t"
+    ],
+    "sellValue": 660,
+    "health": 178,
+    "stamina": 178,
+    "mana": null,
+    "icon": "/icons/recipe-ice-cream-sundae.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ice_Cream_Sundae"
+  },
+  {
+    "slug": "iced-coffee",
+    "name": "Iced Coffee",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Coffee",
+        "amount": 1
+      },
+      {
+        "name": "Ice Block",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 300t"
+    ],
+    "sellValue": 105,
+    "health": 10,
+    "stamina": 10,
+    "mana": null,
+    "icon": "/icons/recipe-iced-coffee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iced_Coffee"
+  },
+  {
+    "slug": "incredibly-hot-pot",
+    "name": "Incredibly Hot Pot",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Ash Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Earthshroom",
+        "amount": 1
+      },
+      {
+        "name": "Flame Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Hot Potato",
+        "amount": 1
+      },
+      {
+        "name": "Lava Chestnuts",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Lava Caves (requires Taste Maker Skill)"
+    ],
+    "sellValue": 230,
+    "health": 152,
+    "stamina": 152,
+    "mana": null,
+    "icon": "/icons/recipe-incredibly-hot-pot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Incredibly_Hot_Pot"
+  },
+  {
+    "slug": "iron-armor",
+    "name": "Iron Armor",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 12,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-armor.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Armor"
+  },
+  {
+    "slug": "iron-axe",
+    "name": "Iron Axe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-axe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Axe"
+  },
+  {
+    "slug": "iron-fishing-rod",
+    "name": "Iron Fishing Rod",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-fishing-rod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fishing_Rod"
+  },
+  {
+    "slug": "iron-greaves",
+    "name": "Iron Greaves",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 12,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-greaves.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Greaves"
+  },
+  {
+    "slug": "iron-helmet",
+    "name": "Iron Helmet",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 12,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-helmet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Helmet"
+  },
+  {
+    "slug": "iron-hoe",
+    "name": "Iron Hoe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-hoe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Hoe"
+  },
+  {
+    "slug": "iron-ingot",
+    "name": "Iron Ingot",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ore",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 125,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-ingot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot"
+  },
+  {
+    "slug": "iron-legplates",
+    "name": "Iron Legplates",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 12,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-legplates.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Legplates"
+  },
+  {
+    "slug": "iron-net",
+    "name": "Iron Net",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-net.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Net"
+  },
+  {
+    "slug": "iron-pickaxe",
+    "name": "Iron Pickaxe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-pickaxe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Pickaxe"
+  },
+  {
+    "slug": "iron-ring",
+    "name": "Iron Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 12,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ring"
+  },
+  {
+    "slug": "iron-shovel",
+    "name": "Iron Shovel",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-shovel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Shovel"
+  },
+  {
+    "slug": "iron-sword",
+    "name": "Iron Sword",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 14,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-sword.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Sword"
+  },
+  {
+    "slug": "iron-watering-can",
+    "name": "Iron Watering Can",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 725,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-iron-watering-can.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Watering_Can"
+  },
+  {
+    "slug": "jam-sandwich",
+    "name": "Jam Sandwich",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Wild Berry Jam",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 280,
+    "health": 65,
+    "stamina": 65,
+    "mana": null,
+    "icon": "/icons/recipe-jam-sandwich.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jam_Sandwich"
+  },
+  {
+    "slug": "jasmine-tea",
+    "name": "Jasmine Tea",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Jasmine",
+        "amount": 1
+      },
+      {
+        "name": "Tea",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 185,
+    "health": 34,
+    "stamina": 34,
+    "mana": null,
+    "icon": "/icons/recipe-jasmine-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine_Tea"
+  },
+  {
+    "slug": "large-essence-stone",
+    "name": "Large Essence Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Essence",
+        "amount": 100
+      },
+      {
+        "name": "Stone",
+        "amount": 40
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 320,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-large-essence-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Large_Essence_Stone"
+  },
+  {
+    "slug": "latte",
+    "name": "Latte",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Coffee",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 95,
+    "health": 28,
+    "stamina": 28,
+    "mana": null,
+    "icon": "/icons/recipe-latte.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Latte"
+  },
+  {
+    "slug": "lemon-cake",
+    "name": "Lemon Cake",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 18,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 360,
+    "health": 92,
+    "stamina": 92,
+    "mana": null,
+    "icon": "/icons/recipe-lemon-cake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Cake"
+  },
+  {
+    "slug": "lemon-pie",
+    "name": "Lemon Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 400,
+    "health": 110,
+    "stamina": 110,
+    "mana": null,
+    "icon": "/icons/recipe-lemon-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Pie"
+  },
+  {
+    "slug": "lemonade",
+    "name": "Lemonade",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 160,
+    "health": 48,
+    "stamina": 48,
+    "mana": null,
+    "icon": "/icons/recipe-lemonade.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lemonade"
+  },
+  {
+    "slug": "loaded-baked-potato",
+    "name": "Loaded Baked Potato",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Hayden's Request for Baked Potato"
+    ],
+    "sellValue": 320,
+    "health": 94,
+    "stamina": 94,
+    "mana": null,
+    "icon": "/icons/recipe-loaded-baked-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Loaded_Baked_Potato"
+  },
+  {
+    "slug": "lobster-roll",
+    "name": "Lobster Roll",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Lobster",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 38,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Golden Treasure Box"
+    ],
+    "sellValue": 470,
+    "health": 150,
+    "stamina": 150,
+    "mana": null,
+    "icon": "/icons/recipe-lobster-roll.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lobster_Roll"
+  },
+  {
+    "slug": "mackerel-sashimi",
+    "name": "Mackerel Sashimi",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Mackerel",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Tackle Shop for 150t"
+    ],
+    "sellValue": 50,
+    "health": 16,
+    "stamina": 16,
+    "mana": null,
+    "icon": "/icons/recipe-mackerel-sashimi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mackerel_Sashimi"
+  },
+  {
+    "slug": "marmalade",
+    "name": "Marmalade",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Elsie's Request for an Orange"
+    ],
+    "sellValue": 160,
+    "health": 48,
+    "stamina": 48,
+    "mana": null,
+    "icon": "/icons/recipe-marmalade.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Marmalade"
+  },
+  {
+    "slug": "mayonnaise",
+    "name": "Mayonnaise",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 90,
+    "health": 3,
+    "stamina": 3,
+    "mana": null,
+    "icon": "/icons/recipe-mayonnaise.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mayonnaise"
+  },
+  {
+    "slug": "medium-essence-stone",
+    "name": "Medium Essence Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Essence",
+        "amount": 50
+      },
+      {
+        "name": "Stone",
+        "amount": 20
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 160,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-medium-essence-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Medium_Essence_Stone"
+  },
+  {
+    "slug": "miners-mushroom-stew",
+    "name": "Miner's Mushroom Stew",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cave Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Upper Mines Mushroom",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Donate an Upper Mines Mushroom to The Museum"
+    ],
+    "sellValue": 35,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-miners-mushroom-stew.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Miner's_Mushroom_Stew"
+  },
+  {
+    "slug": "mistril-armor",
+    "name": "Mistril Armor",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1460,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-armor.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Armor"
+  },
+  {
+    "slug": "mistril-axe",
+    "name": "Mistril Axe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-axe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Axe"
+  },
+  {
+    "slug": "mistril-fishing-rod",
+    "name": "Mistril Fishing Rod",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-fishing-rod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Fishing_Rod"
+  },
+  {
+    "slug": "mistril-greaves",
+    "name": "Mistril Greaves",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1460,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-greaves.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Greaves"
+  },
+  {
+    "slug": "mistril-helmet",
+    "name": "Mistril Helmet",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1460,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-helmet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Helmet"
+  },
+  {
+    "slug": "mistril-hoe",
+    "name": "Mistril Hoe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-hoe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Hoe"
+  },
+  {
+    "slug": "mistril-ingot",
+    "name": "Mistril Ingot",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ore",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 330,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-ingot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot"
+  },
+  {
+    "slug": "mistril-legplates",
+    "name": "Mistril Legplates",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1460,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-legplates.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Legplates"
+  },
+  {
+    "slug": "mistril-net",
+    "name": "Mistril Net",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-net.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Net"
+  },
+  {
+    "slug": "mistril-pickaxe",
+    "name": "Mistril Pickaxe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-pickaxe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Pickaxe"
+  },
+  {
+    "slug": "mistril-ring",
+    "name": "Mistril Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1460,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ring"
+  },
+  {
+    "slug": "mistril-shovel",
+    "name": "Mistril Shovel",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-shovel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Shovel"
+  },
+  {
+    "slug": "mistril-watering-can",
+    "name": "Mistril Watering Can",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Mistril Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 1450,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-mistril-watering-can.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Watering_Can"
+  },
+  {
+    "slug": "mocha",
+    "name": "Mocha",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chocolate",
+        "amount": 1
+      },
+      {
+        "name": "Coffee",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 300t"
+    ],
+    "sellValue": 210,
+    "health": 66,
+    "stamina": 66,
+    "mana": null,
+    "icon": "/icons/recipe-mocha.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mocha"
+  },
+  {
+    "slug": "monster-cookie",
+    "name": "Monster Cookie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Monster Core",
+        "amount": 1
+      },
+      {
+        "name": "Monster Powder",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Upper Mines (requires Taste Maker Skill)"
+    ],
+    "sellValue": 155,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-monster-cookie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Monster_Cookie"
+  },
+  {
+    "slug": "monster-mash",
+    "name": "Monster Mash",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Monster Fang",
+        "amount": 1
+      },
+      {
+        "name": "Monster Horn",
+        "amount": 1
+      },
+      {
+        "name": "Monster Powder",
+        "amount": 1
+      },
+      {
+        "name": "Monster Shell",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 90,
+    "health": 76,
+    "stamina": 76,
+    "mana": null,
+    "icon": "/icons/recipe-monster-mash.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+  },
+  {
+    "slug": "mont-blanc",
+    "name": "Mont Blanc",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Chestnut",
+        "amount": 4
+      },
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn for 800t"
+    ],
+    "sellValue": 630,
+    "health": 136,
+    "stamina": 136,
+    "mana": null,
+    "icon": "/icons/recipe-mont-blanc.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mont_Blanc"
+  },
+  {
+    "slug": "moon-fruit-cake",
+    "name": "Moon Fruit Cake",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Honey",
+        "amount": 1
+      },
+      {
+        "name": "Moon Fruit",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Juniper's Important Request for a Moon Fruit"
+    ],
+    "sellValue": 330,
+    "health": 98,
+    "stamina": 98,
+    "mana": null,
+    "icon": "/icons/recipe-moon-fruit-cake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit_Cake"
+  },
+  {
+    "slug": "mushroom-rice",
+    "name": "Mushroom Rice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Morel Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 260,
+    "health": 64,
+    "stamina": 64,
+    "mana": null,
+    "icon": "/icons/recipe-mushroom-rice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Rice"
+  },
+  {
+    "slug": "mushroom-steak-dinner",
+    "name": "Mushroom Steak Dinner",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Beet",
+        "amount": 1
+      },
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cauliflower",
+        "amount": 1
+      },
+      {
+        "name": "Oyster Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 36,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 600t"
+    ],
+    "sellValue": 320,
+    "health": 128,
+    "stamina": 128,
+    "mana": null,
+    "icon": "/icons/recipe-mushroom-steak-dinner.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Steak_Dinner"
+  },
+  {
+    "slug": "noodles",
+    "name": "Noodles",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 150t"
+    ],
+    "sellValue": 190,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-noodles.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Noodles"
+  },
+  {
+    "slug": "oak-sapling",
+    "name": "Oak Sapling",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Acorn",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 10,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-oak-sapling.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Oak_Sapling"
+  },
+  {
+    "slug": "obsidian",
+    "name": "Obsidian",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 8
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 15,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-obsidian.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Obsidian"
+  },
+  {
+    "slug": "omelet",
+    "name": "Omelet",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Chicken Statue 10 Offering"
+    ],
+    "sellValue": 280,
+    "health": 72,
+    "stamina": 72,
+    "mana": null,
+    "icon": "/icons/recipe-omelet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Omelet"
+  },
+  {
+    "slug": "onion-soup",
+    "name": "Onion Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Onion",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship an Onion"
+    ],
+    "sellValue": 300,
+    "health": 70,
+    "stamina": 70,
+    "mana": null,
+    "icon": "/icons/recipe-onion-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Onion_Soup"
+  },
+  {
+    "slug": "orange-juice",
+    "name": "Orange Juice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship an Orange"
+    ],
+    "sellValue": 50,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-orange-juice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Orange_Juice"
+  },
+  {
+    "slug": "pan-fried-bream",
+    "name": "Pan-fried Bream",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bream",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 150t"
+    ],
+    "sellValue": 80,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-pan-fried-bream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Bream"
+  },
+  {
+    "slug": "pan-fried-salmon",
+    "name": "Pan-fried Salmon",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Salmon",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Wooden Treasure Box",
+      "Tackle Shop"
+    ],
+    "sellValue": 75,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-pan-fried-salmon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Salmon"
+  },
+  {
+    "slug": "pan-fried-snapper",
+    "name": "Pan-fried Snapper",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Red Snapper",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Wooden Treasure Box",
+      "Tackle Shop"
+    ],
+    "sellValue": 80,
+    "health": 24,
+    "stamina": 24,
+    "mana": null,
+    "icon": "/icons/recipe-pan-fried-snapper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Snapper"
+  },
+  {
+    "slug": "paper",
+    "name": "Paper",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Fiber",
+        "amount": 5
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 20,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-paper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Paper"
+  },
+  {
+    "slug": "peaches-and-cream",
+    "name": "Peaches and Cream",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Peach",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Peach"
+    ],
+    "sellValue": 210,
+    "health": 70,
+    "stamina": 70,
+    "mana": null,
+    "icon": "/icons/recipe-peaches-and-cream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Peaches_and_Cream"
+  },
+  {
+    "slug": "peat",
+    "name": "Peat",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 5,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-peat.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Peat"
+  },
+  {
+    "slug": "perch-risotto",
+    "name": "Perch Risotto",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Garlic",
+        "amount": 1
+      },
+      {
+        "name": "Perch",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Rosemary",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 34,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Errol's Request for Perch"
+    ],
+    "sellValue": 460,
+    "health": 132,
+    "stamina": 132,
+    "mana": null,
+    "icon": "/icons/recipe-perch-risotto.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Perch_Risotto"
+  },
+  {
+    "slug": "pine-sapling",
+    "name": "Pine Sapling",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Pinecone",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 10,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-pine-sapling.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pine_Sapling"
+  },
+  {
+    "slug": "pineshroom-toast",
+    "name": "Pineshroom Toast",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Pineshroom",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Adeline's Request for Pineshrooms"
+    ],
+    "sellValue": 360,
+    "health": 80,
+    "stamina": 80,
+    "mana": null,
+    "icon": "/icons/recipe-pineshroom-toast.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom_Toast"
+  },
+  {
+    "slug": "pizza",
+    "name": "Pizza",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "5The Ancient Ruins (requires Taste Maker Skill)"
+    ],
+    "sellValue": 440,
+    "health": 84,
+    "stamina": 84,
+    "mana": null,
+    "icon": "/icons/recipe-pizza.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pizza"
+  },
+  {
+    "slug": "poached-pear",
+    "name": "Poached Pear",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "amount": 1
+      },
+      {
+        "name": "Pear",
+        "amount": 1
+      },
+      {
+        "name": "Red Wine",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Pear"
+    ],
+    "sellValue": 165,
+    "health": 88,
+    "stamina": 88,
+    "mana": null,
+    "icon": "/icons/recipe-poached-pear.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Poached_Pear"
+  },
+  {
+    "slug": "pomegranate-juice",
+    "name": "Pomegranate Juice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Pomegranate",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 50,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-pomegranate-juice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Juice"
+  },
+  {
+    "slug": "pomegranate-sorbet",
+    "name": "Pomegranate Sorbet",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Ice Block",
+        "amount": 1
+      },
+      {
+        "name": "Pomegranate",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Pomegranate"
+    ],
+    "sellValue": 170,
+    "health": 78,
+    "stamina": 78,
+    "mana": null,
+    "icon": "/icons/recipe-pomegranate-sorbet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Sorbet"
+  },
+  {
+    "slug": "potato-soup",
+    "name": "Potato Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 260,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-potato-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Potato_Soup"
+  },
+  {
+    "slug": "pudding",
+    "name": "Pudding",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 2
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Chicken Statue 10 Offering"
+    ],
+    "sellValue": 200,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-pudding.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pudding"
+  },
+  {
+    "slug": "pumpkin-pie",
+    "name": "Pumpkin Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Pumpkin",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 38,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 600t",
+      "Harvest Festival for 600t"
+    ],
+    "sellValue": 640,
+    "health": 140,
+    "stamina": 140,
+    "mana": null,
+    "icon": "/icons/recipe-pumpkin-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Pie"
+  },
+  {
+    "slug": "pumpkin-stew",
+    "name": "Pumpkin Stew",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Onion",
+        "amount": 1
+      },
+      {
+        "name": "Pumpkin",
+        "amount": 1
+      },
+      {
+        "name": "Rosemary",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Ship a Pumpkin"
+    ],
+    "sellValue": 460,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-pumpkin-stew.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Stew"
+  },
+  {
+    "slug": "quality-large-animal-feed",
+    "name": "Quality Large Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Hay",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 10,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-quality-large-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Quality_Large_Animal_Feed"
+  },
+  {
+    "slug": "quality-small-animal-feed",
+    "name": "Quality Small Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Grass Seed",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 10,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-quality-small-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Quality_Small_Animal_Feed"
+  },
+  {
+    "slug": "quiche",
+    "name": "Quiche",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Chicken Statue 10 Offering"
+    ],
+    "sellValue": 270,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-quiche.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Quiche"
+  },
+  {
+    "slug": "red-snapper-sushi",
+    "name": "Red Snapper Sushi",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Red Snapper",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 150t"
+    ],
+    "sellValue": 240,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-red-snapper-sushi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper_Sushi"
+  },
+  {
+    "slug": "refined-stone",
+    "name": "Refined Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 22,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-refined-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Refined_Stone"
+  },
+  {
+    "slug": "rice",
+    "name": "Rice",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Rice Stalk",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 175,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-rice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rice"
+  },
+  {
+    "slug": "rice-ball",
+    "name": "Rice Ball",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 240,
+    "health": 64,
+    "stamina": 64,
+    "mana": null,
+    "icon": "/icons/recipe-rice-ball.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rice_Ball"
+  },
+  {
+    "slug": "roasted-cauliflower",
+    "name": "Roasted Cauliflower",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Cauliflower"
+    ],
+    "sellValue": 80,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-roasted-cauliflower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Cauliflower"
+  },
+  {
+    "slug": "roasted-chestnuts",
+    "name": "Roasted Chestnuts",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chestnut",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Hemlock's Request for Chestnuts"
+    ],
+    "sellValue": 30,
+    "health": 10,
+    "stamina": 10,
+    "mana": null,
+    "icon": "/icons/recipe-roasted-chestnuts.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Chestnuts"
+  },
+  {
+    "slug": "roasted-rice-tea",
+    "name": "Roasted Rice Tea",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Green Tea",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 6,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Saturday Market at Darcy's Stall for 150t"
+    ],
+    "sellValue": 350,
+    "health": 45,
+    "stamina": 40,
+    "mana": null,
+    "icon": "/icons/recipe-roasted-rice-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Rice_Tea"
+  },
+  {
+    "slug": "roasted-sweet-potato",
+    "name": "Roasted Sweet Potato",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Sweet Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Sweet Potato"
+    ],
+    "sellValue": 40,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-roasted-sweet-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Sweet_Potato"
+  },
+  {
+    "slug": "rose-tea",
+    "name": "Rose Tea",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rose",
+        "amount": 1
+      },
+      {
+        "name": "Tea",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship Tea"
+    ],
+    "sellValue": 170,
+    "health": 34,
+    "stamina": 34,
+    "mana": null,
+    "icon": "/icons/recipe-rose-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rose_Tea"
+  },
+  {
+    "slug": "rosehip-jam",
+    "name": "Rosehip Jam",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rose Hip",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Valen's Request for Rose Hips"
+    ],
+    "sellValue": 130,
+    "health": 34,
+    "stamina": 34,
+    "mana": null,
+    "icon": "/icons/recipe-rosehip-jam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rosehip_Jam"
+  },
+  {
+    "slug": "rosemary-garlic-noodles",
+    "name": "Rosemary Garlic Noodles",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Garlic",
+        "amount": 1
+      },
+      {
+        "name": "Noodles",
+        "amount": 1
+      },
+      {
+        "name": "Rosemary",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 400,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-rosemary-garlic-noodles.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary_Garlic_Noodles"
+  },
+  {
+    "slug": "ruby",
+    "name": "Ruby",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 22
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 45,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-ruby.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ruby"
+  },
+  {
+    "slug": "salmon-sashimi",
+    "name": "Salmon Sashimi",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Tackle Shop for 150t"
+    ],
+    "sellValue": 40,
+    "health": 16,
+    "stamina": 16,
+    "mana": null,
+    "icon": "/icons/recipe-salmon-sashimi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Salmon_Sashimi"
+  },
+  {
+    "slug": "salted-watermelon",
+    "name": "Salted Watermelon",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      },
+      {
+        "name": "Watermelon",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Watermelon"
+    ],
+    "sellValue": 220,
+    "health": 42,
+    "stamina": 42,
+    "mana": null,
+    "icon": "/icons/recipe-salted-watermelon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Salted_Watermelon"
+  },
+  {
+    "slug": "sapphire",
+    "name": "Sapphire",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 25
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 50,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-sapphire.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sapphire"
+  },
+  {
+    "slug": "sauteed-snow-peas",
+    "name": "Sauteed Snow Peas",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Snow Peas",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Snow Pea"
+    ],
+    "sellValue": 140,
+    "health": 34,
+    "stamina": 34,
+    "mana": null,
+    "icon": "/icons/recipe-sauteed-snow-peas.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sauteed_Snow_Peas"
+  },
+  {
+    "slug": "sea-bream-rice",
+    "name": "Sea Bream Rice",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cave Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Earthshroom",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Sea Bream",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 36,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Terithia's Request for Earthshroom"
+    ],
+    "sellValue": 350,
+    "health": 116,
+    "stamina": 116,
+    "mana": null,
+    "icon": "/icons/recipe-sea-bream-rice.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream_Rice"
+  },
+  {
+    "slug": "seafood-boil",
+    "name": "Seafood Boil",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Corn",
+        "amount": 1
+      },
+      {
+        "name": "Crab",
+        "amount": 2
+      },
+      {
+        "name": "Crayfish",
+        "amount": 2
+      },
+      {
+        "name": "Hot Potato",
+        "amount": 1
+      },
+      {
+        "name": "Mines Mussels",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 800t"
+    ],
+    "sellValue": 590,
+    "health": 150,
+    "stamina": 150,
+    "mana": null,
+    "icon": "/icons/recipe-seafood-boil.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Boil"
+  },
+  {
+    "slug": "seafood-snow-pea-noodles",
+    "name": "Seafood Snow Pea Noodles",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bonito",
+        "amount": 1
+      },
+      {
+        "name": "Herring",
+        "amount": 1
+      },
+      {
+        "name": "King Crab",
+        "amount": 1
+      },
+      {
+        "name": "Noodles",
+        "amount": 1
+      },
+      {
+        "name": "Snow Peas",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn (After Upgrade) for 800t"
+    ],
+    "sellValue": 620,
+    "health": 238,
+    "stamina": 238,
+    "mana": null,
+    "icon": "/icons/recipe-seafood-snow-pea-noodles.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Snow_Pea_Noodles"
+  },
+  {
+    "slug": "seaweed-salad",
+    "name": "Seaweed Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 3
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 10,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Valen's Request for Seaweed"
+    ],
+    "sellValue": 120,
+    "health": 42,
+    "stamina": 42,
+    "mana": null,
+    "icon": "/icons/recipe-seaweed-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Seaweed_Salad"
+  },
+  {
+    "slug": "sesame-broccoli",
+    "name": "Sesame Broccoli",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": 1
+      },
+      {
+        "name": "Sesame",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Vera's Request for Sesame"
+    ],
+    "sellValue": 115,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-sesame-broccoli.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Broccoli"
+  },
+  {
+    "slug": "sesame-tuna-bowl",
+    "name": "Sesame Tuna Bowl",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Sesame",
+        "amount": 1
+      },
+      {
+        "name": "Tuna",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Golden Treasure Box"
+    ],
+    "sellValue": 340,
+    "health": 98,
+    "stamina": 98,
+    "mana": null,
+    "icon": "/icons/recipe-sesame-tuna-bowl.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Tuna_Bowl"
+  },
+  {
+    "slug": "shard-mass",
+    "name": "Shard Mass",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 15
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 10,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-shard-mass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shard_Mass"
+  },
+  {
+    "slug": "shards",
+    "name": "Shards",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 5,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-shards.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shards"
+  },
+  {
+    "slug": "silver-armor",
+    "name": "Silver Armor",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 18,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-armor.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Armor"
+  },
+  {
+    "slug": "silver-axe",
+    "name": "Silver Axe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-axe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Axe"
+  },
+  {
+    "slug": "silver-fishing-rod",
+    "name": "Silver Fishing Rod",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-fishing-rod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Fishing_Rod"
+  },
+  {
+    "slug": "silver-greaves",
+    "name": "Silver Greaves",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 18,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-greaves.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Greaves"
+  },
+  {
+    "slug": "silver-helmet",
+    "name": "Silver Helmet",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 18,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-helmet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Helmet"
+  },
+  {
+    "slug": "silver-hoe",
+    "name": "Silver Hoe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-hoe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Hoe"
+  },
+  {
+    "slug": "silver-ingot",
+    "name": "Silver Ingot",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ore",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 220,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-ingot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot"
+  },
+  {
+    "slug": "silver-legplates",
+    "name": "Silver Legplates",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 18,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-legplates.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Legplates"
+  },
+  {
+    "slug": "silver-net",
+    "name": "Silver Net",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-net.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Net"
+  },
+  {
+    "slug": "silver-pickaxe",
+    "name": "Silver Pickaxe",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-pickaxe.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Pickaxe"
+  },
+  {
+    "slug": "silver-ring",
+    "name": "Silver Ring",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 18,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-ring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ring"
+  },
+  {
+    "slug": "silver-shovel",
+    "name": "Silver Shovel",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-shovel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Shovel"
+  },
+  {
+    "slug": "silver-sword",
+    "name": "Silver Sword",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 20,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-sword.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Sword"
+  },
+  {
+    "slug": "silver-watering-can",
+    "name": "Silver Watering Can",
+    "type": "Blacksmithing",
+    "ingredients": [
+      {
+        "name": "Silver Ingot",
+        "amount": 4
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 16,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 970,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-silver-watering-can.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Watering_Can"
+  },
+  {
+    "slug": "simmered-daikon",
+    "name": "Simmered Daikon",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Daikon Radish",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 8,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Daikon Radish"
+    ],
+    "sellValue": 230,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-simmered-daikon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Simmered_Daikon"
+  },
+  {
+    "slug": "sliced-turnip",
+    "name": "Sliced Turnip",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Turnip",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Turnip"
+    ],
+    "sellValue": 40,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-sliced-turnip.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sliced_Turnip"
+  },
+  {
+    "slug": "small-essence-stone",
+    "name": "Small Essence Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Essence",
+        "amount": 25
+      },
+      {
+        "name": "Stone",
+        "amount": 10
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 80,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-small-essence-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Small_Essence_Stone"
+  },
+  {
+    "slug": "smoked-trout-soup",
+    "name": "Smoked Trout Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Trout",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Terithia's Request for Trout"
+    ],
+    "sellValue": 85,
+    "health": 28,
+    "stamina": 28,
+    "mana": null,
+    "icon": "/icons/recipe-smoked-trout-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Smoked_Trout_Soup"
+  },
+  {
+    "slug": "sod",
+    "name": "Sod",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 5,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-sod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sod"
+  },
+  {
+    "slug": "spell-fruit-parfait",
+    "name": "Spell Fruit Parfait",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Crystal Berries",
+        "amount": 1
+      },
+      {
+        "name": "Golden Milk",
+        "amount": 1
+      },
+      {
+        "name": "Lava Chestnuts",
+        "amount": 1
+      },
+      {
+        "name": "Spell Fruit",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Sweetroot",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Ancient Ruins (requires Taste Maker Skill)"
+    ],
+    "sellValue": 460,
+    "health": 238,
+    "stamina": 238,
+    "mana": null,
+    "icon": "/icons/recipe-spell-fruit-parfait.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spell_Fruit_Parfait"
+  },
+  {
+    "slug": "spicy-cheddar-biscuit",
+    "name": "Spicy Cheddar Biscuit",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Wishing Well 500t Wish",
+      "Saturday Market at Darcy's Stall for 400t"
+    ],
+    "sellValue": 510,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-spicy-cheddar-biscuit.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Cheddar_Biscuit"
+  },
+  {
+    "slug": "spicy-corn",
+    "name": "Spicy Corn",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Corn",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "5The Ancient Ruins (requires Taste Maker Skill)"
+    ],
+    "sellValue": 330,
+    "health": 74,
+    "stamina": 74,
+    "mana": null,
+    "icon": "/icons/recipe-spicy-corn.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Corn"
+  },
+  {
+    "slug": "spicy-crab-sushi",
+    "name": "Spicy Crab Sushi",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Crab",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 22,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Lava Caves (requires Taste Maker Skill)",
+      "Golden Treasure Box"
+    ],
+    "sellValue": 360,
+    "health": 116,
+    "stamina": 116,
+    "mana": null,
+    "icon": "/icons/recipe-spicy-crab-sushi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Crab_Sushi"
+  },
+  {
+    "slug": "spicy-water-chestnuts",
+    "name": "Spicy Water Chestnuts",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 6,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Chili Pepper"
+    ],
+    "sellValue": 90,
+    "health": 40,
+    "stamina": 40,
+    "mana": null,
+    "icon": "/icons/recipe-spicy-water-chestnuts.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Water_Chestnuts"
+  },
+  {
+    "slug": "spirit-mushroom-tea",
+    "name": "Spirit Mushroom Tea",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Spirit Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Tea",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 16,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Spirit mushroom"
+    ],
+    "sellValue": 185,
+    "health": 54,
+    "stamina": 54,
+    "mana": null,
+    "icon": "/icons/recipe-spirit-mushroom-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom_Tea"
+  },
+  {
+    "slug": "spring-galette",
+    "name": "Spring Galette",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Fiddlehead",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Morel Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn for 800t"
+    ],
+    "sellValue": 540,
+    "health": 150,
+    "stamina": 150,
+    "mana": null,
+    "icon": "/icons/recipe-spring-galette.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spring_Galette"
+  },
+  {
+    "slug": "spring-salad",
+    "name": "Spring Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Fennel",
+        "amount": 1
+      },
+      {
+        "name": "Fiddlehead",
+        "amount": 1
+      },
+      {
+        "name": "Nettle",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 8,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Celine's Request for Fennel"
+    ],
+    "sellValue": 80,
+    "health": 46,
+    "stamina": 46,
+    "mana": null,
+    "icon": "/icons/recipe-spring-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spring_Salad"
+  },
+  {
+    "slug": "steamed-broccoli",
+    "name": "Steamed Broccoli",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Broccoli"
+    ],
+    "sellValue": 80,
+    "health": 30,
+    "stamina": 30,
+    "mana": null,
+    "icon": "/icons/recipe-steamed-broccoli.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Steamed_Broccoli"
+  },
+  {
+    "slug": "strawberries-and-cream",
+    "name": "Strawberries and Cream",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Strawberry",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 4,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Eiland's Request for a Strawberry"
+    ],
+    "sellValue": 180,
+    "health": 36,
+    "stamina": 36,
+    "mana": null,
+    "icon": "/icons/recipe-strawberries-and-cream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberries_and_Cream"
+  },
+  {
+    "slug": "strawberry-shortcake",
+    "name": "Strawberry Shortcake",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Strawberry",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Eiland's Request for a Strawberry"
+    ],
+    "sellValue": 520,
+    "health": 106,
+    "stamina": 106,
+    "mana": null,
+    "icon": "/icons/recipe-strawberry-shortcake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberry_Shortcake"
+  },
+  {
+    "slug": "sugar",
+    "name": "Sugar",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Sugar Cane",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 100,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-sugar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sugar"
+  },
+  {
+    "slug": "summer-salad",
+    "name": "Summer Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "amount": 1
+      },
+      {
+        "name": "Corn",
+        "amount": 1
+      },
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 28,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Lava Caves (requires Taste Maker Skill)",
+      "Silver Treasure Box"
+    ],
+    "sellValue": 430,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-summer-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Summer_Salad"
+  },
+  {
+    "slug": "sushi-platter",
+    "name": "Sushi Platter",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Mackerel",
+        "amount": 1
+      },
+      {
+        "name": "Rice",
+        "amount": 1
+      },
+      {
+        "name": "Salmon",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      },
+      {
+        "name": "Tuna",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "Golden Treasure Box"
+    ],
+    "sellValue": 440,
+    "health": 144,
+    "stamina": 144,
+    "mana": null,
+    "icon": "/icons/recipe-sushi-platter.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sushi_Platter"
+  },
+  {
+    "slug": "sweet-potato-pie",
+    "name": "Sweet Potato Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Sweet Potato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "The Inn for 300t"
+    ],
+    "sellValue": 360,
+    "health": 78,
+    "stamina": 78,
+    "mana": null,
+    "icon": "/icons/recipe-sweet-potato-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato_Pie"
+  },
+  {
+    "slug": "sweet-sesame-balls",
+    "name": "Sweet Sesame Balls",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Sesame",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Inn for 400t"
+    ],
+    "sellValue": 400,
+    "health": 90,
+    "stamina": 90,
+    "mana": null,
+    "icon": "/icons/recipe-sweet-sesame-balls.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Sesame_Balls"
+  },
+  {
+    "slug": "tea-with-lemon",
+    "name": "Tea with Lemon",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Tea",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Adeline's Request for a Lemon",
+      "Saturday Market at Darcy's Stall for 300t"
+    ],
+    "sellValue": 320,
+    "health": 84,
+    "stamina": 84,
+    "mana": null,
+    "icon": "/icons/recipe-tea-with-lemon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tea_with_Lemon"
+  },
+  {
+    "slug": "tide-salad",
+    "name": "Tide Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Jade Dulse",
+        "amount": 1
+      },
+      {
+        "name": "Sea Grapes",
+        "amount": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "amount": 1
+      },
+      {
+        "name": "Underseaweed",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 20,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Tide Caverns (requires Taste Maker Skill)"
+    ],
+    "sellValue": 150,
+    "health": 76,
+    "stamina": 76,
+    "mana": null,
+    "icon": "/icons/recipe-tide-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tide_Salad"
+  },
+  {
+    "slug": "tiny-essence-stone",
+    "name": "Tiny Essence Stone",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Essence",
+        "amount": 5
+      },
+      {
+        "name": "Stone",
+        "amount": 5
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 20,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-tiny-essence-stone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tiny_Essence_Stone"
+  },
+  {
+    "slug": "toasted-sunflower-seeds",
+    "name": "Toasted Sunflower Seeds",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Rock Salt",
+        "amount": 1
+      },
+      {
+        "name": "Sunflower",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Sunflower"
+    ],
+    "sellValue": 95,
+    "health": 52,
+    "stamina": 52,
+    "mana": null,
+    "icon": "/icons/recipe-toasted-sunflower-seeds.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Toasted_Sunflower_Seeds"
+  },
+  {
+    "slug": "tomato-soup",
+    "name": "Tomato Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Basil",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Ship a Tomato"
+    ],
+    "sellValue": 220,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-tomato-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tomato_Soup"
+  },
+  {
+    "slug": "trail-mix",
+    "name": "Trail Mix",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Water Chestnut",
+        "amount": 2
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 12,
+    "health": 12,
+    "stamina": 12,
+    "mana": null,
+    "icon": "/icons/recipe-trail-mix.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Trail_Mix"
+  },
+  {
+    "slug": "tuna-sashimi",
+    "name": "Tuna Sashimi",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": 1,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 40,
+    "health": 16,
+    "stamina": 16,
+    "mana": null,
+    "icon": "/icons/recipe-tuna-sashimi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tuna_Sashimi"
+  },
+  {
+    "slug": "turnip-and-cabbage-salad",
+    "name": "Turnip and Cabbage Salad",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Turnip",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 2,
+    "howToGet": [
+      "1The Upper Mines (requires Taste Maker Skill)"
+    ],
+    "sellValue": 280,
+    "health": 74,
+    "stamina": 74,
+    "mana": null,
+    "icon": "/icons/recipe-turnip-and-cabbage-salad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Cabbage_Salad"
+  },
+  {
+    "slug": "turnip-and-potato-gratin",
+    "name": "Turnip and Potato Gratin",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Turnip",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 26,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "The Deep Earth (requires Taste Maker Skill)"
+    ],
+    "sellValue": 350,
+    "health": 106,
+    "stamina": 106,
+    "mana": null,
+    "icon": "/icons/recipe-turnip-and-potato-gratin.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Potato_Gratin"
+  },
+  {
+    "slug": "ultimate-large-animal-feed",
+    "name": "Ultimate Large Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Acorn",
+        "amount": 1
+      },
+      {
+        "name": "Hay",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 30,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-ultimate-large-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ultimate_Large_Animal_Feed"
+  },
+  {
+    "slug": "ultimate-small-animal-feed",
+    "name": "Ultimate Small Animal Feed",
+    "type": "Milling",
+    "ingredients": [
+      {
+        "name": "Acorn",
+        "amount": 1
+      },
+      {
+        "name": "Grass Seed",
+        "amount": 1
+      },
+      {
+        "name": "Seaweed",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 30,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-ultimate-small-animal-feed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ultimate_Small_Animal_Feed"
+  },
+  {
+    "slug": "vegetable-pot-pie",
+    "name": "Vegetable Pot Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Peas",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Turnip",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 38,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Deep Earth (requires Taste Maker Skill)"
+    ],
+    "sellValue": 630,
+    "health": 192,
+    "stamina": 192,
+    "mana": null,
+    "icon": "/icons/recipe-vegetable-pot-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Pot_Pie"
+  },
+  {
+    "slug": "vegetable-quiche",
+    "name": "Vegetable Quiche",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "amount": 1
+      },
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Wild Leek",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 50,
+    "skillLevel": 30,
+    "stars": 4,
+    "stationLevel": 3,
+    "howToGet": [
+      "Chicken Statue 10 Offering"
+    ],
+    "sellValue": 400,
+    "health": 120,
+    "stamina": 120,
+    "mana": null,
+    "icon": "/icons/recipe-vegetable-quiche.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Quiche"
+  },
+  {
+    "slug": "vegetable-soup",
+    "name": "Vegetable Soup",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Basil",
+        "amount": 1
+      },
+      {
+        "name": "Potato",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 16,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Important Quest \"Jo's Cooking Class\""
+    ],
+    "sellValue": 260,
+    "health": 80,
+    "stamina": 80,
+    "mana": null,
+    "icon": "/icons/recipe-vegetable-soup.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Soup"
+  },
+  {
+    "slug": "veggie-sub-sandwich",
+    "name": "Veggie Sub Sandwich",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "amount": 1
+      },
+      {
+        "name": "Cheese",
+        "amount": 1
+      },
+      {
+        "name": "Cucumber",
+        "amount": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "amount": 1
+      },
+      {
+        "name": "Tomato",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 100,
+    "skillLevel": 40,
+    "stars": 5,
+    "stationLevel": 3,
+    "howToGet": [
+      "The Inn for t"
+    ],
+    "sellValue": 730,
+    "health": 246,
+    "stamina": 246,
+    "mana": null,
+    "icon": "/icons/recipe-veggie-sub-sandwich.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Veggie_Sub_Sandwich"
+  },
+  {
+    "slug": "water-chestnut-fritters",
+    "name": "Water Chestnut Fritters",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Oil",
+        "amount": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Juniper's Request for Water Chestnuts"
+    ],
+    "sellValue": 240,
+    "health": 56,
+    "stamina": 56,
+    "mana": null,
+    "icon": "/icons/recipe-water-chestnut-fritters.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut_Fritters"
+  },
+  {
+    "slug": "wild-berry-jam",
+    "name": "Wild Berry Jam",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 20,
+    "skillLevel": 2,
+    "stars": 1,
+    "stationLevel": 1,
+    "howToGet": [
+      "Available From Start"
+    ],
+    "sellValue": 115,
+    "health": 18,
+    "stamina": 18,
+    "mana": null,
+    "icon": "/icons/recipe-wild-berry-jam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Jam"
+  },
+  {
+    "slug": "wild-berry-pie",
+    "name": "Wild Berry Pie",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Reina's Request for Berries"
+    ],
+    "sellValue": 320,
+    "health": 60,
+    "stamina": 60,
+    "mana": null,
+    "icon": "/icons/recipe-wild-berry-pie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Pie"
+  },
+  {
+    "slug": "wild-berry-scone",
+    "name": "Wild Berry Scone",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Wild Berries",
+        "amount": 6
+      }
+    ],
+    "timeMinutes": 30,
+    "skillLevel": 12,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Elsie's Request for Wild Berries"
+    ],
+    "sellValue": 250,
+    "health": 52,
+    "stamina": 52,
+    "mana": null,
+    "icon": "/icons/recipe-wild-berry-scone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Scone"
+  },
+  {
+    "slug": "winter-stew",
+    "name": "Winter Stew",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Burdock Root",
+        "amount": 1
+      },
+      {
+        "name": "Daikon Radish",
+        "amount": 1
+      },
+      {
+        "name": "Oyster Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "amount": 1
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 24,
+    "stars": 3,
+    "stationLevel": 2,
+    "howToGet": [
+      "Vera's Request for a Daikon Radish"
+    ],
+    "sellValue": 310,
+    "health": 106,
+    "stamina": 106,
+    "mana": null,
+    "icon": "/icons/recipe-winter-stew.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Winter_Stew"
+  },
+  {
+    "slug": "wintergreen-ice-cream",
+    "name": "Wintergreen Ice Cream",
+    "type": "Cooking",
+    "ingredients": [
+      {
+        "name": "Ice Block",
+        "amount": 1
+      },
+      {
+        "name": "Milk",
+        "amount": 1
+      },
+      {
+        "name": "Sugar",
+        "amount": 1
+      },
+      {
+        "name": "Wintergreen Berry",
+        "amount": 8
+      }
+    ],
+    "timeMinutes": 40,
+    "skillLevel": 14,
+    "stars": 2,
+    "stationLevel": 1,
+    "howToGet": [
+      "Josephine's Request for Ice"
+    ],
+    "sellValue": 210,
+    "health": 66,
+    "stamina": 66,
+    "mana": null,
+    "icon": "/icons/recipe-wintergreen-ice-cream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Ice_Cream"
+  },
+  {
+    "slug": "wood",
+    "name": "Wood",
+    "type": "Refinery",
+    "ingredients": [
+      {
+        "name": "Stone",
+        "amount": 2
+      }
+    ],
+    "timeMinutes": 10,
+    "skillLevel": null,
+    "stars": null,
+    "stationLevel": null,
+    "howToGet": [],
+    "sellValue": 2,
+    "health": null,
+    "stamina": null,
+    "mana": null,
+    "icon": "/icons/recipe-wood.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wood"
+  }
+]

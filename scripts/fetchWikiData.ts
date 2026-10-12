@@ -51,6 +51,7 @@ async function cargo(params: Record<string, string>): Promise<Row[]> {
 function clean(raw: string | undefined): string {
   if (!raw) return '';
   return raw
+    .replace(/<span style="display:\s*none">[^<]*<\/span>/gi, '') // hidden sort keys
     .replace(/\[\[File:[^\]]*\]\]/gi, '')
     .replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, '$1')
     .replace(/\[\[([^\]]*)\]\]/g, '$1')
@@ -60,6 +61,8 @@ function clean(raw: string | undefined): string {
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/[ \t]+/g, ' ')
+    .replace(/\( /g, '(')
+    .replace(/ \)/g, ')')
     .split('\n')
     .map((s) => s.trim())
     .filter(Boolean)
@@ -68,7 +71,14 @@ function clean(raw: string | undefined): string {
 
 /** Splits a cleaned multi-value field (newline/comma separated), de-duplicated. */
 function list(raw: string | undefined): string[] {
-  return [...new Set(clean(raw).split(/[\n,]/).map((s) => s.trim()).filter(Boolean))];
+  const parts = clean(raw).split(/[\n,]/).map((s) => s.trim()).filter(Boolean);
+  // A line like "(floors 61-79)" qualifies the entry before it.
+  const merged: string[] = [];
+  for (const p of parts) {
+    if (p.startsWith('(') && merged.length) merged[merged.length - 1] += ` ${p}`;
+    else merged.push(p);
+  }
+  return [...new Set(merged)];
 }
 
 function seasons(raw: string | undefined): Season[] {
@@ -263,6 +273,88 @@ async function fetchCrops(): Promise<unknown[]> {
   return dedupe(out);
 }
 
+async function fetchForage(): Promise<unknown[]> {
+  console.log('Forageables…');
+  const rows = await cargo({
+    tables: 'Items',
+    fields:
+      'itemName=name,season,location__full=location,sources__full=sources,sellValue,icon,tags__full=tags,_pageName=page',
+    where: 'tags HOLDS "Forageable"',
+  });
+  const out = [];
+  for (const r of rows) {
+    const name = clean(r.name);
+    const slug = slugify(name);
+    out.push({
+      slug,
+      name,
+      seasons: seasons(r.season),
+      locations: list(r.location),
+      sources: list(r.sources),
+      tags: list(r.tags).filter((t) => t !== 'Forageable'),
+      sellValue: num(r.sellValue),
+      icon: await downloadIcon(iconFile(r.icon), `forage-${slug}`),
+      source: sourceUrl(r.page || name),
+    });
+  }
+  return dedupe(out);
+}
+
+const CRAFT_TYPES: Record<string, string> = {
+  Food: 'Cooking',
+  Blacksmith: 'Blacksmithing',
+  Milling: 'Milling',
+  Refinery: 'Refinery',
+};
+
+async function fetchRecipes(): Promise<unknown[]> {
+  console.log('Recipes…');
+  const rows = await cargo({
+    tables: 'Recipes,Items',
+    join_on: 'Recipes.itemName=Items.itemName',
+    fields:
+      'Recipes.itemName=name,Recipes.time=time,Recipes.craftType=craftType,Recipes.skillLevel=skillLevel,Recipes.stars=stars,' +
+      'Recipes.workbenchLevel=workbenchLevel,Recipes.recipeSource__full=recipeSource,' +
+      'Items.sellValue=sellValue,Items.health=health,Items.stamina=stamina,Items.mana=mana,Items.icon=icon,Recipes._pageName=page',
+  });
+  const ingredientRows = await cargo({ tables: 'Ingredients', fields: 'resultItem,ingredient,amount' });
+  const ingredients = new Map<string, { name: string; amount: number }[]>();
+  for (const i of ingredientRows) {
+    const key = clean(i.resultItem);
+    const name = clean(i.ingredient);
+    if (!key || !name) continue;
+    const listFor = ingredients.get(key) ?? [];
+    if (!listFor.some((x) => x.name === name)) listFor.push({ name, amount: num(i.amount) ?? 1 });
+    ingredients.set(key, listFor);
+  }
+
+  const out = [];
+  for (const r of rows) {
+    const name = clean(r.name);
+    const type = CRAFT_TYPES[clean(r.craftType)];
+    if (!name || !type) continue;
+    const slug = slugify(name);
+    out.push({
+      slug,
+      name,
+      type,
+      ingredients: ingredients.get(name) ?? [],
+      timeMinutes: num(r.time),
+      skillLevel: num(r.skillLevel),
+      stars: num(r.stars),
+      stationLevel: num(r.workbenchLevel),
+      howToGet: list(r.recipeSource),
+      sellValue: num(r.sellValue),
+      health: num(r.health),
+      stamina: num(r.stamina),
+      mana: num(r.mana),
+      icon: await downloadIcon(iconFile(r.icon), `recipe-${slug}`),
+      source: sourceUrl(r.page || name),
+    });
+  }
+  return dedupe(out);
+}
+
 function dedupe<T extends { slug: string; name: string }>(items: T[]): T[] {
   const seen = new Map<string, T>();
   for (const i of items) if (i.slug && !seen.has(i.slug)) seen.set(i.slug, i);
@@ -277,6 +369,8 @@ async function main(): Promise<void> {
     fish: await fetchFish(),
     bugs: await fetchBugs(),
     crops: await fetchCrops(),
+    forage: await fetchForage(),
+    recipes: await fetchRecipes(),
   };
   for (const [name, data] of Object.entries(datasets)) {
     await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');

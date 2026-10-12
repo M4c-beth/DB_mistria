@@ -1,0 +1,2050 @@
+[
+  {
+    "slug": "acorn",
+    "name": "Acorn",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [],
+    "sources": [
+      "Shaking Oak trees",
+      "Balor's Wagon for 25t"
+    ],
+    "tags": [
+      "Junk Item"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-acorn.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Acorn"
+  },
+  {
+    "slug": "ash-mushroom",
+    "name": "Ash Mushroom",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves (floors 61-79)"
+    ],
+    "sources": [
+      "Foraging in The Lava Caves"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 10,
+    "icon": "/icons/forage-ash-mushroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ash_Mushroom"
+  },
+  {
+    "slug": "basil",
+    "name": "Basil",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-basil.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Basil"
+  },
+  {
+    "slug": "bell-berry",
+    "name": "Bell Berry",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging in The Deep Woods",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-bell-berry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry"
+  },
+  {
+    "slug": "blackberry",
+    "name": "Blackberry",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Eastern Road",
+      "The Narrows",
+      "The Summit",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 25t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-blackberry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blackberry"
+  },
+  {
+    "slug": "blue-conch-shell",
+    "name": "Blue Conch Shell",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 80t",
+      "Possible Beach Date Reward"
+    ],
+    "tags": [],
+    "sellValue": 20,
+    "icon": "/icons/forage-blue-conch-shell.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blue_Conch_Shell"
+  },
+  {
+    "slug": "blueberry",
+    "name": "Blueberry",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon for 25t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-blueberry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blueberry"
+  },
+  {
+    "slug": "breath-of-flame",
+    "name": "Breath of Flame",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves (floors 61-79)"
+    ],
+    "sources": [
+      "Foraging in The Lava Caves"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 45,
+    "icon": "/icons/forage-breath-of-flame.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Breath_of_Flame"
+  },
+  {
+    "slug": "breath-of-spring",
+    "name": "Breath of Spring",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "sources": [
+      "Most actions during respective Season"
+    ],
+    "tags": [
+      "Quest Item",
+      "Flower"
+    ],
+    "sellValue": null,
+    "icon": "/icons/forage-breath-of-spring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Breath_of_Spring"
+  },
+  {
+    "slug": "burdock-root",
+    "name": "Burdock Root",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Mistria",
+      "The Eastern Road",
+      "The Narrows (north)"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-burdock-root.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Burdock_Root"
+  },
+  {
+    "slug": "catmint",
+    "name": "Catmint",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Narrows"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-catmint.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Catmint"
+  },
+  {
+    "slug": "cattail-fluff",
+    "name": "Cattail Fluff",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon for 25t",
+      "Carpenter (requires Steady Supplies Skill) for 25t"
+    ],
+    "tags": [
+      "Junk Item"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-cattail-fluff.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cattail_Fluff"
+  },
+  {
+    "slug": "chestnut",
+    "name": "Chestnut",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "The Beach",
+      "Sweetwater Farm",
+      "The Narrows"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 60t"
+    ],
+    "tags": [],
+    "sellValue": 15,
+    "icon": "/icons/forage-chestnut.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chestnut"
+  },
+  {
+    "slug": "chickpea",
+    "name": "Chickpea",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Narrows",
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-chickpea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea"
+  },
+  {
+    "slug": "chirping-fern",
+    "name": "Chirping Fern",
+    "seasons": [],
+    "locations": [
+      "The Ancient Ruins (floors 81-99)"
+    ],
+    "sources": [
+      "Foraging in The Ancient Ruins"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 60,
+    "icon": "/icons/forage-chirping-fern.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chirping_Fern"
+  },
+  {
+    "slug": "coconut",
+    "name": "Coconut",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging at The Beach",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [],
+    "sellValue": 30,
+    "icon": "/icons/forage-coconut.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut"
+  },
+  {
+    "slug": "cosmos",
+    "name": "Cosmos",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-cosmos.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cosmos"
+  },
+  {
+    "slug": "crocus",
+    "name": "Crocus",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "Sweetwater Farm",
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 40t"
+    ],
+    "tags": [
+      "Flower"
+    ],
+    "sellValue": 10,
+    "icon": "/icons/forage-crocus.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crocus"
+  },
+  {
+    "slug": "crystal-berries",
+    "name": "Crystal Berries",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth (floors 41-59)"
+    ],
+    "sources": [
+      "Foraging in The Deep Earth"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-crystal-berries.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berries"
+  },
+  {
+    "slug": "crystal-rose",
+    "name": "Crystal Rose",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth (floors 41-59)"
+    ],
+    "sources": [
+      "Foraging in The Deep Earth"
+    ],
+    "tags": [
+      "Mines Forageable",
+      "Flower"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-crystal-rose.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Rose"
+  },
+  {
+    "slug": "daffodil",
+    "name": "Daffodil",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Narrows"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Balor's Wagon for 100t",
+      "Celine's Request for Gardening Materials"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 25,
+    "icon": "/icons/forage-daffodil.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Daffodil"
+  },
+  {
+    "slug": "daisy",
+    "name": "Daisy",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Narrows",
+      "The Western Ruins",
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 60t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 15,
+    "icon": "/icons/forage-daisy.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Daisy"
+  },
+  {
+    "slug": "dandelion",
+    "name": "Dandelion",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Mistria",
+      "The Narrows",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 40t"
+    ],
+    "tags": [
+      "Flower"
+    ],
+    "sellValue": 10,
+    "icon": "/icons/forage-dandelion.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dandelion"
+  },
+  {
+    "slug": "dill",
+    "name": "Dill",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Narrows",
+      "The Beach",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-dill.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dill"
+  },
+  {
+    "slug": "earthshroom",
+    "name": "Earthshroom",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth (floors 41-59)"
+    ],
+    "sources": [
+      "Foraging in The Deep Earth"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-earthshroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Earthshroom"
+  },
+  {
+    "slug": "essence-blossom",
+    "name": "Essence Blossom",
+    "seasons": [],
+    "locations": [
+      "The Ancient Ruins (floors 81-99)"
+    ],
+    "sources": [
+      "Foraging in The Ancient Ruins"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 55,
+    "icon": "/icons/forage-essence-blossom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Essence_Blossom"
+  },
+  {
+    "slug": "ethereal-grass",
+    "name": "Ethereal Grass",
+    "seasons": [],
+    "locations": [
+      "The Ancient Ruins (floors 81-99)"
+    ],
+    "sources": [
+      "Foraging in The Ancient Ruins"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 55,
+    "icon": "/icons/forage-ethereal-grass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ethereal_Grass"
+  },
+  {
+    "slug": "fennel",
+    "name": "Fennel",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Narrows",
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 80t"
+    ],
+    "tags": [],
+    "sellValue": 20,
+    "icon": "/icons/forage-fennel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fennel"
+  },
+  {
+    "slug": "fiddlehead",
+    "name": "Fiddlehead",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Narrows",
+      "Sweetwater Farm",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-fiddlehead.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fiddlehead"
+  },
+  {
+    "slug": "flame-pepper",
+    "name": "Flame Pepper",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves (floors 61-79)"
+    ],
+    "sources": [
+      "Foraging in The Lava Caves"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-flame-pepper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flame_Pepper"
+  },
+  {
+    "slug": "fog-orchid",
+    "name": "Fog Orchid",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 160t"
+    ],
+    "tags": [
+      "Flower"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-fog-orchid.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fog_Orchid"
+  },
+  {
+    "slug": "frost-lily",
+    "name": "Frost Lily",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "The Beach",
+      "The Narrows"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 25,
+    "icon": "/icons/forage-frost-lily.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Lily"
+  },
+  {
+    "slug": "garlic",
+    "name": "Garlic",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "The Eastern Road (in the ruins)"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-garlic.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
+  },
+  {
+    "slug": "glowberry",
+    "name": "Glowberry",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Mistria",
+      "Sweetwater Farm",
+      "The Eastern Road",
+      "The Narrows",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 25t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-glowberry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Glowberry"
+  },
+  {
+    "slug": "heather",
+    "name": "Heather",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Mistria",
+      "The Beach",
+      "The Narrows"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 120t",
+      "Possible Park Date Reward"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-heather.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Heather"
+  },
+  {
+    "slug": "holly",
+    "name": "Holly",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 80t"
+    ],
+    "tags": [],
+    "sellValue": 20,
+    "icon": "/icons/forage-holly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Holly"
+  },
+  {
+    "slug": "horseradish",
+    "name": "Horseradish",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Eastern Road",
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [],
+    "sellValue": 30,
+    "icon": "/icons/forage-horseradish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Horseradish"
+  },
+  {
+    "slug": "hot-potato",
+    "name": "Hot Potato",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves (floors 61-79)"
+    ],
+    "sources": [
+      "Foraging in The Lava Caves"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-hot-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hot_Potato"
+  },
+  {
+    "slug": "hydrangea",
+    "name": "Hydrangea",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Flower"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-hydrangea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hydrangea"
+  },
+  {
+    "slug": "ice-block",
+    "name": "Ice Block",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Eastern Road",
+      "The Narrows",
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon for 25t"
+    ],
+    "tags": [],
+    "sellValue": 5,
+    "icon": "/icons/forage-ice-block.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ice_Block"
+  },
+  {
+    "slug": "iris",
+    "name": "Iris",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Beach",
+      "The Narrows",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-iris.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iris"
+  },
+  {
+    "slug": "jade-dulse",
+    "name": "Jade Dulse",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns (floors 21-39)"
+    ],
+    "sources": [
+      "Foraging in The Tide Caverns"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-jade-dulse.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jade_Dulse"
+  },
+  {
+    "slug": "jasmine",
+    "name": "Jasmine",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 140t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-jasmine.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
+  },
+  {
+    "slug": "lava-chestnuts",
+    "name": "Lava Chestnuts",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "4The Lava Caves (floors 61-79)"
+    ],
+    "sources": [
+      "Foraging in 4The Lava Caves"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 45,
+    "icon": "/icons/forage-lava-chestnuts.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Chestnuts"
+  },
+  {
+    "slug": "lilac",
+    "name": "Lilac",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Balor's Wagon for 140t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-lilac.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lilac"
+  },
+  {
+    "slug": "marigold",
+    "name": "Marigold",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Western Ruins",
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 160t",
+      "Birthday gift from CaldarusCategory:Pages with spoilers"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-marigold.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Marigold"
+  },
+  {
+    "slug": "middlemist",
+    "name": "Middlemist",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "No set spawn area",
+      "rarely spawn anywhere in the overworld."
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 300t"
+    ],
+    "tags": [
+      "Flower"
+    ],
+    "sellValue": 100,
+    "icon": "/icons/forage-middlemist.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Middlemist"
+  },
+  {
+    "slug": "mines-mussels",
+    "name": "Mines Mussels",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns (floors 21-39)"
+    ],
+    "sources": [
+      "Foraging in The Tide Caverns"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-mines-mussels.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mines_Mussels"
+  },
+  {
+    "slug": "moon-fruit",
+    "name": "Moon Fruit",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "near the Wishing Well",
+      "Sweetwater Farm",
+      "The Beach"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 140t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-moon-fruit.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit"
+  },
+  {
+    "slug": "morel-mushroom",
+    "name": "Morel Mushroom",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "No set spawn area",
+      "rarely spawn anywhere in the overworld."
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-morel-mushroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Morel_Mushroom"
+  },
+  {
+    "slug": "narrows-moss",
+    "name": "Narrows Moss",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines (floors 1-19)"
+    ],
+    "sources": [
+      "Foraging in The Upper Mines"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-narrows-moss.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Narrows_Moss"
+  },
+  {
+    "slug": "nettle",
+    "name": "Nettle",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Eastern Road",
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-nettle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Nettle"
+  },
+  {
+    "slug": "night-queen",
+    "name": "Night Queen",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "No set spawn area",
+      "rarely spawn anywhere in the overworld."
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 300t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-night-queen.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Night_Queen"
+  },
+  {
+    "slug": "oregano",
+    "name": "Oregano",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Mistria"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-oregano.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Oregano"
+  },
+  {
+    "slug": "oyster-mushroom",
+    "name": "Oyster Mushroom",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "Mistria",
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-oyster-mushroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Oyster_Mushroom"
+  },
+  {
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [],
+    "sources": [
+      "Shaking Pine trees",
+      "Balor's Wagon for 25t"
+    ],
+    "tags": [
+      "Junk Item"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-pinecone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pinecone"
+  },
+  {
+    "slug": "pineshroom",
+    "name": "Pineshroom",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-pineshroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom"
+  },
+  {
+    "slug": "pink-scallop-shell",
+    "name": "Pink Scallop Shell",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 60t",
+      "Possible Beach Date Reward"
+    ],
+    "tags": [],
+    "sellValue": 20,
+    "icon": "/icons/forage-pink-scallop-shell.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pink_Scallop_Shell"
+  },
+  {
+    "slug": "plum-blossom",
+    "name": "Plum Blossom",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Western Ruins (requires Story Quest \"Breaking The Final Seal\" to be completed)</smal"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-plum-blossom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Plum_Blossom"
+  },
+  {
+    "slug": "poinsettia",
+    "name": "Poinsettia",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Beach",
+      "The Narrows",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Balor's Wagon for 120t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-poinsettia.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Poinsettia"
+  },
+  {
+    "slug": "queen-berry",
+    "name": "Queen Berry",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "sources": [
+      "Most actions during respective Season"
+    ],
+    "tags": [
+      "Quest Item",
+      "Berry"
+    ],
+    "sellValue": null,
+    "icon": "/icons/forage-queen-berry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Queen_Berry"
+  },
+  {
+    "slug": "rockroot",
+    "name": "Rockroot",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth (floors 41-59)"
+    ],
+    "sources": [
+      "Foraging in The Deep Earth"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-rockroot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rockroot"
+  },
+  {
+    "slug": "rose",
+    "name": "Rose",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Manor's Gardens (grows on the bushes near the gazebo)"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 80t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Flower"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-rose.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rose"
+  },
+  {
+    "slug": "rose-hip",
+    "name": "Rose Hip",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Manor's Gardens (grows on the bushes near the gazebo)"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 80t"
+    ],
+    "tags": [
+      "Bush Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-rose-hip.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rose_Hip"
+  },
+  {
+    "slug": "rosemary",
+    "name": "Rosemary",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-rosemary.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary"
+  },
+  {
+    "slug": "sage",
+    "name": "Sage",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Narrows",
+      "The Beach"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-sage.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sage"
+  },
+  {
+    "slug": "sand-dollar",
+    "name": "Sand Dollar",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 100t",
+      "Possible Beach Date Reward"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-sand-dollar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Dollar"
+  },
+  {
+    "slug": "sea-grapes",
+    "name": "Sea Grapes",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns (floors 21-39)"
+    ],
+    "sources": [
+      "Foraging in The Tide Caverns"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 35,
+    "icon": "/icons/forage-sea-grapes.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Grapes"
+  },
+  {
+    "slug": "sesame",
+    "name": "Sesame",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [],
+    "sellValue": 30,
+    "icon": "/icons/forage-sesame.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame"
+  },
+  {
+    "slug": "shadow-flower",
+    "name": "Shadow Flower",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines (floors 1-19)"
+    ],
+    "sources": [
+      "Foraging in The Upper Mines"
+    ],
+    "tags": [
+      "Mines Forageable",
+      "Flower"
+    ],
+    "sellValue": 50,
+    "icon": "/icons/forage-shadow-flower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Flower"
+  },
+  {
+    "slug": "shale-grass",
+    "name": "Shale Grass",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth (floors 41-59)"
+    ],
+    "sources": [
+      "Foraging in The Deep Earth"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 10,
+    "icon": "/icons/forage-shale-grass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shale_Grass"
+  },
+  {
+    "slug": "snapdragon",
+    "name": "Snapdragon",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Western Ruins"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging in the Western Ruins",
+      "Pet Job \"Collect Forageables\" (Winter only)",
+      "Balor's Wagon (conditional) for 160t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-snapdragon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snapdragon"
+  },
+  {
+    "slug": "snowdrop-anemone",
+    "name": "Snowdrop Anemone",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Western Ruins",
+      "The Beach (requires Story Quest \"Repair the Beach Bridge\"Category:Pages with spoilers to be completed)"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 160t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-snowdrop-anemone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snowdrop_Anemone"
+  },
+  {
+    "slug": "spell-fruit",
+    "name": "Spell Fruit",
+    "seasons": [],
+    "locations": [
+      "The Ancient Ruins (floors 81-99)"
+    ],
+    "sources": [
+      "Foraging in The Ancient Ruins"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 45,
+    "icon": "/icons/forage-spell-fruit.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spell_Fruit"
+  },
+  {
+    "slug": "spirit-mushroom",
+    "name": "Spirit Mushroom",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging in The Deep Woods",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [],
+    "sellValue": 35,
+    "icon": "/icons/forage-spirit-mushroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom"
+  },
+  {
+    "slug": "spirula-shell",
+    "name": "Spirula Shell",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "sources": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 120t",
+      "Possible Beach Date Reward"
+    ],
+    "tags": [],
+    "sellValue": 30,
+    "icon": "/icons/forage-spirula-shell.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Spirula_Shell"
+  },
+  {
+    "slug": "sweetroot",
+    "name": "Sweetroot",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines (floors 1-19)"
+    ],
+    "sources": [
+      "Foraging in The Upper Mines"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-sweetroot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweetroot"
+  },
+  {
+    "slug": "temple-flower",
+    "name": "Temple Flower",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging in The Deep Woods",
+      "Farming",
+      "Balor's Wagon (conditional) for 100t",
+      "Possible Park Date Reward"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 25,
+    "icon": "/icons/forage-temple-flower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Temple_Flower"
+  },
+  {
+    "slug": "thorn-vine",
+    "name": "Thorn Vine",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging in The Deep Woods",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-thorn-vine.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Thorn_Vine"
+  },
+  {
+    "slug": "thyme",
+    "name": "Thyme",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Summer only)",
+      "Balor's Wagon (conditional) for 120t"
+    ],
+    "tags": [
+      "Crop"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-thyme.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
+  },
+  {
+    "slug": "tide-lettuce",
+    "name": "Tide Lettuce",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns (floors 21-39)"
+    ],
+    "sources": [
+      "Foraging in The Tide Caverns"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-tide-lettuce.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tide_Lettuce"
+  },
+  {
+    "slug": "tulip",
+    "name": "Tulip",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "The Eastern Road",
+      "The Narrows",
+      "Sweetwater Farm"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 120t",
+      "Celine's Request for Gardening Materials"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-tulip.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tulip"
+  },
+  {
+    "slug": "underseaweed",
+    "name": "Underseaweed",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns (floors 21-39)"
+    ],
+    "sources": [
+      "Foraging in The Tide Caverns"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-underseaweed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Underseaweed"
+  },
+  {
+    "slug": "upper-mines-mushroom",
+    "name": "Upper Mines Mushroom",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines (floors 1-19)"
+    ],
+    "sources": [
+      "Foraging in The Upper Mines"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 20,
+    "icon": "/icons/forage-upper-mines-mushroom.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Upper_Mines_Mushroom"
+  },
+  {
+    "slug": "viola",
+    "name": "Viola",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Farming",
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Fall only)",
+      "Balor's Wagon (conditional) for 160t"
+    ],
+    "tags": [
+      "Crop",
+      "Flower"
+    ],
+    "sellValue": 40,
+    "icon": "/icons/forage-viola.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Viola"
+  },
+  {
+    "slug": "void-herb",
+    "name": "Void Herb",
+    "seasons": [],
+    "locations": [
+      "Any Floor Without a Seal (floors 1-19",
+      "21-39",
+      "41-59",
+      "61-79",
+      "81-99)"
+    ],
+    "sources": [
+      "Foraging (Requires Void Sight)"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 30,
+    "icon": "/icons/forage-void-herb.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Void_Herb"
+  },
+  {
+    "slug": "walnut",
+    "name": "Walnut",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging in The Deep Woods",
+      "Balor's Wagon (conditional) for 100t"
+    ],
+    "tags": [],
+    "sellValue": 25,
+    "icon": "/icons/forage-walnut.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Walnut"
+  },
+  {
+    "slug": "water-chestnut",
+    "name": "Water Chestnut",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "The Narrows (along the water's edge near Errol's Cabin)"
+    ],
+    "sources": [
+      "Foraging in The Narrows",
+      "Balor's Wagon for 25t"
+    ],
+    "tags": [],
+    "sellValue": 5,
+    "icon": "/icons/forage-water-chestnut.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut"
+  },
+  {
+    "slug": "wild-berries",
+    "name": "Wild Berries",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Mistria",
+      "The Narrows",
+      "Sweetwater Farm",
+      "The Beach",
+      "The Eastern Road",
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon for 15t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 1,
+    "icon": "/icons/forage-wild-berries.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berries"
+  },
+  {
+    "slug": "wild-grapes",
+    "name": "Wild Grapes",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "The Narrows"
+    ],
+    "sources": [
+      "Foraging in The Narrows",
+      "Balor's Wagon (conditional) for 15t"
+    ],
+    "tags": [
+      "Bush Forageable"
+    ],
+    "sellValue": 25,
+    "icon": "/icons/forage-wild-grapes.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Grapes"
+  },
+  {
+    "slug": "wild-leek",
+    "name": "Wild Leek",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Mistria",
+      "The Narrows",
+      "The Eastern Road"
+    ],
+    "sources": [
+      "Foraging",
+      "Pet Job \"Collect Forageables\" (Spring only)",
+      "Balor's Wagon for 60t"
+    ],
+    "tags": [],
+    "sellValue": 15,
+    "icon": "/icons/forage-wild-leek.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Leek"
+  },
+  {
+    "slug": "wintergreen-berry",
+    "name": "Wintergreen Berry",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "The Narrows",
+      "The Western Ruins",
+      "The Deep Woods"
+    ],
+    "sources": [
+      "Foraging",
+      "Balor's Wagon (conditional) for 25t"
+    ],
+    "tags": [
+      "Bush Forageable",
+      "Berry"
+    ],
+    "sellValue": 5,
+    "icon": "/icons/forage-wintergreen-berry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Berry"
+  },
+  {
+    "slug": "written-root",
+    "name": "Written Root",
+    "seasons": [],
+    "locations": [
+      "The Ancient Ruins (floors 81-99)"
+    ],
+    "sources": [
+      "Foraging in The Ancient Ruins"
+    ],
+    "tags": [
+      "Mines Forageable"
+    ],
+    "sellValue": 50,
+    "icon": "/icons/forage-written-root.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Written_Root"
+  }
+]
