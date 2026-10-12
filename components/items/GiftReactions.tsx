@@ -4,6 +4,7 @@ import type { GiftTier } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
 import { TIER_ICON, TIER_LABEL, TIER_STYLE } from '@/components/ui/GiftBadge';
 import { Sprite } from '@/components/ui/Sprite';
+import { SpoilerHide } from '@/components/spoiler/SpoilerHide';
 
 // Dislikes are mostly villagers' default reaction, so they're summarised last and collapsed.
 const SHOWN: GiftTier[] = ['love', 'like', 'neutral', 'hate'];
@@ -52,15 +53,17 @@ function VillagerChips({ tier, villagers }: { tier: GiftTier; villagers: Reactio
   return (
     <ul className="flex flex-wrap gap-2">
       {villagers.map((v) => (
-        <li key={v.slug}>
-          <Link
-            href={`/villagers/${v.slug}/`}
-            className={cn('flex items-center gap-2 rounded-md border py-1 pl-1 pr-3 text-sm font-medium hover:underline', TIER_STYLE[tier])}
-          >
-            <Sprite src={v.portrait} alt="" size={20} />
-            {v.name}
-          </Link>
-        </li>
+        <SpoilerHide key={v.slug} spoiler={v.spoiler}>
+          <li>
+            <Link
+              href={`/villagers/${v.slug}/`}
+              className={cn('flex items-center gap-2 rounded-md border py-1 pl-1 pr-3 text-sm font-medium hover:underline', TIER_STYLE[tier])}
+            >
+              <Sprite src={v.portrait} alt="" size={20} />
+              {v.name}
+            </Link>
+          </li>
+        </SpoilerHide>
       ))}
     </ul>
   );

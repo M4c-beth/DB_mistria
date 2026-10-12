@@ -17,6 +17,9 @@ import {
 import { useFilterStore } from '@/lib/store/filterStore';
 import { useGuideStore } from '@/lib/store/guideStore';
 import { cn } from '@/lib/utils';
+import { spoilerPlainText } from '@/lib/spoiler';
+import { useHideSpoilers } from '@/lib/store/settingsStore';
+import { SpoilerHiddenNote } from '@/components/spoiler/SpoilerHide';
 import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { SEASON_ICON } from '@/components/ui/SeasonTag';
@@ -54,6 +57,7 @@ interface Row {
   seasons: Season[];
   icon: string | null;
   source: string;
+  spoiler: boolean;
   locations?: string[];
 }
 
@@ -70,6 +74,8 @@ function Table<T extends Row>({ kind, rows, columns, fixedSeason }: TableProps<T
   const setFilter = useFilterStore((s) => s.setFilter);
   const reset = useFilterStore((s) => s.reset);
   const addMany = useGuideStore((s) => s.addMany);
+  const hideSpoilers = useHideSpoilers();
+  const visibleRows = useMemo(() => (hideSpoilers ? rows.filter((r) => !r.spoiler) : rows), [rows, hideSpoilers]);
 
   // Seed filters from ?q= / ?season= links (search results, season pages).
   useEffect(() => {
@@ -87,24 +93,25 @@ function Table<T extends Row>({ kind, rows, columns, fixedSeason }: TableProps<T
   const location = fixedSeason ? null : stored.location;
 
   const locations = useMemo(
-    () => [...new Set(rows.flatMap((r) => r.locations ?? []))].sort(),
-    [rows],
+    () => [...new Set(visibleRows.flatMap((r) => r.locations ?? []))].sort(),
+    [visibleRows],
   );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return rows.filter(
+    return visibleRows.filter(
       (r) =>
         (!q || r.name.toLowerCase().includes(q)) &&
         (!season || r.seasons.includes(season)) &&
         (!location || (r.locations ?? []).includes(location)),
     );
-  }, [rows, query, season, location]);
+  }, [visibleRows, query, season, location]);
 
   const hasFilters = !fixedSeason && (query || season || location);
 
   return (
     <div className="space-y-4">
+      <SpoilerHiddenNote count={rows.length - visibleRows.length} noun={NOUN[kind]} />
       {!fixedSeason && (
         <div className="space-y-3">
           <div className="relative">
@@ -142,7 +149,7 @@ function Table<T extends Row>({ kind, rows, columns, fixedSeason }: TableProps<T
                 <option value="">All locations</option>
                 {locations.map((l) => (
                   <option key={l} value={l}>
-                    {l}
+                    {spoilerPlainText(l, hideSpoilers ? '(spoiler)' : undefined)}
                   </option>
                 ))}
               </select>
@@ -159,7 +166,7 @@ function Table<T extends Row>({ kind, rows, columns, fixedSeason }: TableProps<T
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="text-sm text-stone-600" aria-live="polite">
           Showing <span className="font-semibold tabular-nums text-stone-800">{filtered.length}</span> of{' '}
-          <span className="tabular-nums">{rows.length}</span> {NOUN[kind]}
+          <span className="tabular-nums">{visibleRows.length}</span> {NOUN[kind]}
         </p>
         {filtered.length > 0 && (
           <button

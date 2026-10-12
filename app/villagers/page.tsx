@@ -3,6 +3,7 @@ import { getVillagers } from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { VillagerCard } from '@/components/villagers/VillagerCard';
+import { SpoilerHiddenNote, SpoilerHide } from '@/components/spoiler/SpoilerHide';
 
 export const metadata: Metadata = {
   title: 'Villagers',
@@ -17,11 +18,16 @@ export default function VillagersPage(): React.JSX.Element {
       <PageHeader title="Villagers">
         Birthdays and gift preferences for all {villagers.length} residents of Mistria. Pick someone to see their full gift guide.
       </PageHeader>
+      <div className="mb-4">
+        <SpoilerHiddenNote count={villagers.filter((v) => v.spoiler).length} noun="villagers" />
+      </div>
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {villagers.map((v) => (
-          <li key={v.slug}>
-            <VillagerCard villager={v} />
-          </li>
+          <SpoilerHide key={v.slug} spoiler={v.spoiler}>
+            <li>
+              <VillagerCard villager={v} />
+            </li>
+          </SpoilerHide>
         ))}
       </ul>
     </>

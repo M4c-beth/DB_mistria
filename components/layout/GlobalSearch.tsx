@@ -5,11 +5,13 @@ import { useRouter } from 'next/navigation';
 import { useId, useMemo, useRef, useState } from 'react';
 import { Search } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useHideSpoilers } from '@/lib/store/settingsStore';
 
 export interface SearchItem {
   name: string;
   kind: string;
   href: string;
+  spoiler: boolean;
 }
 
 const MAX_RESULTS = 8;
@@ -21,14 +23,16 @@ export function GlobalSearch({ index }: { index: SearchItem[] }): React.JSX.Elem
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const blurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hideSpoilers = useHideSpoilers();
 
   const results = useMemo((): SearchItem[] => {
     const q = query.trim().toLowerCase();
     if (!q) return [];
-    const starts = index.filter((i) => i.name.toLowerCase().startsWith(q));
-    const contains = index.filter((i) => !i.name.toLowerCase().startsWith(q) && i.name.toLowerCase().includes(q));
+    const pool = hideSpoilers ? index.filter((i) => !i.spoiler) : index;
+    const starts = pool.filter((i) => i.name.toLowerCase().startsWith(q));
+    const contains = pool.filter((i) => !i.name.toLowerCase().startsWith(q) && i.name.toLowerCase().includes(q));
     return [...starts, ...contains].slice(0, MAX_RESULTS);
-  }, [index, query]);
+  }, [index, query, hideSpoilers]);
 
   const go = (item: SearchItem): void => {
     setOpen(false);

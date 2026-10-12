@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
-import { getRecipes } from '@/lib/data';
+import { getRecipes, getSpoilerNames } from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { RecipeTable } from '@/components/recipes/RecipeTable';
@@ -19,7 +19,7 @@ export default function RecipesPage(): React.JSX.Element {
         Cooking, milling, refinery and blacksmithing recipes. Search by an ingredient to see what you can make with it.
       </PageHeader>
       <Suspense fallback={<TableSkeleton />}>
-        <RecipeTable recipes={getRecipes()} />
+        <RecipeTable recipes={getRecipes()} spoilerNames={getSpoilerNames()} />
       </Suspense>
     </>
   );

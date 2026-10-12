@@ -5,6 +5,7 @@ import type { Bug, Crop, Fish, Forage } from '@/lib/data/schemas';
 import { formatGold } from '@/lib/utils';
 import { SeasonTags } from '@/components/ui/SeasonTag';
 import { Tooltip } from '@/components/ui/Tooltip';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 export interface Column<T> {
   header: string;
@@ -18,14 +19,17 @@ const lines = (items: string[]): React.ReactNode =>
   items.length ? (
     <span className="flex flex-col">
       {items.map((i) => (
-        <span key={i}>{i}</span>
+        <span key={i}>
+          <SpoilerText text={i} />
+        </span>
       ))}
     </span>
   ) : (
     <span className="text-stone-400">—</span>
   );
 
-const text = (v: string | null): React.ReactNode => v ?? <span className="text-stone-400">—</span>;
+const text = (v: string | null): React.ReactNode =>
+  v === null ? <span className="text-stone-400">—</span> : <SpoilerText text={v} />;
 
 export const FISH_COLUMNS: Column<Fish>[] = [
   { header: 'Seasons', cell: (r) => <SeasonTags seasons={r.seasons} /> },

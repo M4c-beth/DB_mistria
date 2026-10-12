@@ -7,28 +7,36 @@ import { ListPlus, Search } from 'lucide-react';
 import { RECIPE_TYPES, type Recipe, type RecipeType } from '@/lib/data/schemas';
 import { useGuideStore } from '@/lib/store/guideStore';
 import { cn, formatGold } from '@/lib/utils';
+import { markSpoiler } from '@/lib/spoiler';
+import { useHideSpoilers } from '@/lib/store/settingsStore';
+import { SpoilerHiddenNote } from '@/components/spoiler/SpoilerHide';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Sprite } from '@/components/ui/Sprite';
 
-export function RecipeTable({ recipes }: { recipes: Recipe[] }): React.JSX.Element {
+export function RecipeTable({ recipes, spoilerNames }: { recipes: Recipe[]; spoilerNames: string[] }): React.JSX.Element {
   const params = useSearchParams();
   const initialType = RECIPE_TYPES.find((t) => t.toLowerCase() === params.get('type'));
   const [query, setQuery] = useState('');
   const [type, setType] = useState<RecipeType | null>(initialType ?? null);
   const addMany = useGuideStore((s) => s.addMany);
+  const hideSpoilers = useHideSpoilers();
+  const spoilerSet = useMemo(() => new Set(spoilerNames), [spoilerNames]);
+  const visible = useMemo(() => (hideSpoilers ? recipes.filter((r) => !r.spoiler) : recipes), [recipes, hideSpoilers]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return recipes.filter(
+    return visible.filter(
       (r) =>
         (!type || r.type === type) &&
         (!q || r.name.toLowerCase().includes(q) || r.ingredients.some((i) => i.name.toLowerCase().includes(q))),
     );
-  }, [recipes, query, type]);
+  }, [visible, query, type]);
 
   return (
     <div className="space-y-4">
+      <SpoilerHiddenNote count={recipes.length - visible.length} noun="recipes" />
       <div className="relative">
         <Search aria-hidden className="pointer-events-none absolute left-3 top-1/2 size-5 -translate-y-1/2 text-stone-400" />
         <input
@@ -63,7 +71,7 @@ export function RecipeTable({ recipes }: { recipes: Recipe[] }): React.JSX.Eleme
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="text-sm text-stone-600" aria-live="polite">
           Showing <span className="font-semibold tabular-nums text-stone-800">{filtered.length}</span> of{' '}
-          <span className="tabular-nums">{recipes.length}</span> recipes
+          <span className="tabular-nums">{visible.length}</span> recipes
         </p>
         {filtered.length > 0 && (
           <button
@@ -108,7 +116,12 @@ export function RecipeTable({ recipes }: { recipes: Recipe[] }): React.JSX.Eleme
                     </div>
                   </td>
                   <td className="px-3 py-2 text-stone-600">
-                    {r.ingredients.map((i) => `${i.name} ×${i.amount}`).join(', ')}
+                    {r.ingredients.map((i, n) => (
+                      <span key={i.name}>
+                        {n > 0 && ', '}
+                        <SpoilerText text={markSpoiler(i.name, spoilerSet.has(i.name))} /> ×{i.amount}
+                      </span>
+                    ))}
                   </td>
                   <td className="hidden px-3 py-2 lg:table-cell">{r.type}</td>
                   <td className="hidden px-3 py-2 text-right font-mono tabular-nums lg:table-cell">

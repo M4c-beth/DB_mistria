@@ -2,6 +2,7 @@ import { ExternalLink } from 'lucide-react';
 import type { GuideKind } from '@/lib/data/schemas';
 import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { Sprite } from '@/components/ui/Sprite';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 export interface ItemStat {
   label: string;
@@ -31,7 +32,9 @@ export function ItemHero({ kind, slug, name, icon, subtitle, stats, source }: Pr
           {stats.map((s) => (
             <div key={s.label}>
               <dt className="text-stone-600">{s.label}</dt>
-              <dd className="font-semibold tabular-nums">{s.value}</dd>
+              <dd className="font-semibold tabular-nums">
+                {typeof s.value === 'string' ? <SpoilerText text={s.value} /> : s.value}
+              </dd>
             </div>
           ))}
         </dl>

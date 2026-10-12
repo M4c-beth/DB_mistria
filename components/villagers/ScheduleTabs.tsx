@@ -4,6 +4,7 @@ import { useId, useRef, useState } from 'react';
 import { MapPin } from 'lucide-react';
 import type { Schedule } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 /** One tab per wiki schedule section (seasons, rainy days, Friday nights). */
 export function ScheduleTabs({ schedule }: { schedule: Schedule }): React.JSX.Element {
@@ -72,7 +73,7 @@ export function ScheduleTabs({ schedule }: { schedule: Schedule }): React.JSX.El
                       <td className="px-3 py-1.5">
                         <span className="inline-flex items-start gap-1">
                           <MapPin aria-hidden className="mt-0.5 size-3.5 shrink-0 text-stone-400" />
-                          {s.place}
+                          <SpoilerText text={s.place} />
                         </span>
                       </td>
                     </tr>

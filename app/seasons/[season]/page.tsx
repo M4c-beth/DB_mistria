@@ -11,6 +11,8 @@ import { CollectionTable } from '@/components/collections/CollectionTable';
 import { SEASON_ICON, SEASON_STYLE } from '@/components/ui/SeasonTag';
 import { Sprite } from '@/components/ui/Sprite';
 import { TableSkeleton } from '@/components/ui/TableSkeleton';
+import { SpoilerHide } from '@/components/spoiler/SpoilerHide';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 interface Params {
   params: Promise<{ season: string }>;
@@ -87,18 +89,22 @@ export default async function SeasonPage({ params }: Params): Promise<React.JSX.
           </h2>
           <ul className="flex flex-wrap gap-3">
             {birthdays.map((v) => (
-              <li key={v.slug}>
-                <Link
-                  href={`/villagers/${v.slug}/`}
-                  className="card flex items-center gap-3 p-2 pr-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
-                >
-                  <Sprite src={v.portrait} alt="" size={36} />
-                  <span>
-                    <span className="block font-semibold">{v.name}</span>
-                    <span className="block text-xs tabular-nums text-stone-600">{v.birthday}</span>
-                  </span>
-                </Link>
-              </li>
+              <SpoilerHide key={v.slug} spoiler={v.spoiler}>
+                <li>
+                  <Link
+                    href={`/villagers/${v.slug}/`}
+                    className="card flex items-center gap-3 p-2 pr-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+                  >
+                    <Sprite src={v.portrait} alt="" size={36} />
+                    <span>
+                      <span className="block font-semibold">{v.name}</span>
+                      <span className="block text-xs tabular-nums text-stone-600">
+                        <SpoilerText text={v.birthday ?? ''} />
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              </SpoilerHide>
             ))}
           </ul>
         </section>

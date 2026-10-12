@@ -32,6 +32,8 @@ export const VillagerSchema = z
         banned: z.array(z.string()),
       })
       .strict(),
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -48,6 +50,8 @@ export const FishSchema = z
     method: z.object({ rod: z.boolean(), diving: z.boolean() }).strict(),
     sellValue: z.number().int().nullable(),
     icon: iconPath,
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -64,6 +68,8 @@ export const BugSchema = z
     spawnCondition: z.string().nullable(),
     sellValue: z.number().int().nullable(),
     icon: iconPath,
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -78,6 +84,8 @@ export const CropSchema = z
     regrowDays: z.number().int().nullable(),
     sellValue: z.number().int().nullable(),
     icon: iconPath,
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -92,6 +100,8 @@ export const ForageSchema = z
     tags: z.array(z.string()),
     sellValue: z.number().int().nullable(),
     icon: iconPath,
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -115,6 +125,8 @@ export const RecipeSchema = z
     stamina: z.number().int().nullable(),
     mana: z.number().int().nullable(),
     icon: iconPath,
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -137,6 +149,8 @@ export const ScheduleSchema = z
         })
         .strict(),
     ),
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();
@@ -147,6 +161,8 @@ export const QuestsSchema = z
     tables: z.array(
       z.object({ title: z.string().min(1), headers: z.array(z.string()), rows: z.array(z.array(z.string())) }).strict(),
     ),
+    /** Page carries a spoiler banner on the wiki. */
+    spoiler: z.boolean(),
     source: sourceUrl,
   })
   .strict();

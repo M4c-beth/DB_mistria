@@ -1,5 +1,6 @@
 import type { Quests } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 /** Quest tables shown with the wiki's own columns; the first column (quest name) is emphasised. */
 export function QuestTables({ quests }: { quests: Quests }): React.JSX.Element {
@@ -39,7 +40,7 @@ export function QuestTables({ quests }: { quests: Quests }): React.JSX.Element {
                             h === 'Description' && 'min-w-[16rem] text-stone-600',
                           )}
                         >
-                          {row[ci] || <span className="text-stone-400">—</span>}
+                          {row[ci] ? <SpoilerText text={row[ci]} /> : <span className="text-stone-400">—</span>}
                         </td>
                       );
                     })}

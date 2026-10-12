@@ -5,6 +5,8 @@ import { getGiftReactions, getIngredientTree, getRecipe, getRecipes, getRecipesU
 import { formatGold } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { GiftReactions } from '@/components/items/GiftReactions';
+import { SpoilerGate } from '@/components/spoiler/SpoilerGate';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 import { ItemHero, type ItemStat } from '@/components/items/ItemHero';
 import { UsedInRecipes } from '@/components/items/UsedInRecipes';
 import { IngredientTree } from '@/components/recipes/IngredientTree';
@@ -59,31 +61,35 @@ export default async function RecipeDetailPage({ params }: Params): Promise<Reac
   return (
     <>
       <Breadcrumbs items={[{ label: 'Recipes', href: '/recipes/' }, { label: r.name }]} />
-      <ItemHero kind="recipes" slug={r.slug} name={r.name} icon={r.icon} subtitle={`${r.type} recipe`} source={r.source} stats={stats} />
+      <SpoilerGate spoiler={r.spoiler} label="This page">
+        <ItemHero kind="recipes" slug={r.slug} name={r.name} icon={r.icon} subtitle={`${r.type} recipe`} source={r.source} stats={stats} />
 
-      <div className="mb-8 grid gap-6 lg:grid-cols-2">
-        <section aria-labelledby="ingredients" className="card p-5">
-          <h2 id="ingredients" className="mb-4 text-2xl">
-            Ingredients
-          </h2>
-          <IngredientTree nodes={getIngredientTree(r)} />
-        </section>
-        {r.howToGet.length > 0 && (
-          <section aria-labelledby="unlock" className="card p-5">
-            <h2 id="unlock" className="mb-4 text-2xl">
-              How to get the recipe
+        <div className="mb-8 grid gap-6 lg:grid-cols-2">
+          <section aria-labelledby="ingredients" className="card p-5">
+            <h2 id="ingredients" className="mb-4 text-2xl">
+              Ingredients
             </h2>
-            <ul className="list-inside list-disc space-y-1 text-sm">
-              {r.howToGet.map((s) => (
-                <li key={s}>{s}</li>
-              ))}
-            </ul>
+            <IngredientTree nodes={getIngredientTree(r)} />
           </section>
-        )}
-      </div>
+          {r.howToGet.length > 0 && (
+            <section aria-labelledby="unlock" className="card p-5">
+              <h2 id="unlock" className="mb-4 text-2xl">
+                How to get the recipe
+              </h2>
+              <ul className="list-inside list-disc space-y-1 text-sm">
+                {r.howToGet.map((s) => (
+                  <li key={s}>
+                    <SpoilerText text={s} />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
 
-      <UsedInRecipes itemName={r.name} recipes={getRecipesUsing(r.name)} />
-      <GiftReactions itemName={r.name} reactions={getGiftReactions(r.name)} />
+        <UsedInRecipes itemName={r.name} recipes={getRecipesUsing(r.name)} />
+        <GiftReactions itemName={r.name} reactions={getGiftReactions(r.name)} />
+      </SpoilerGate>
     </>
   );
 }

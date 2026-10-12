@@ -8,6 +8,7 @@ import forageJson from '@/data/forage.json';
 import recipesJson from '@/data/recipes.json';
 import schedulesJson from '@/data/schedules.json';
 import questsJson from '@/data/quests.json';
+import spoilersJson from '@/data/spoilers.json';
 import metaJson from '@/data/meta.json';
 import {
   GIFT_TIERS,
@@ -32,6 +33,7 @@ import {
   type Season,
   type Villager,
 } from './schemas';
+import { spoilerPlainText } from '@/lib/spoiler';
 
 // Parsed once at build time; a malformed record fails the build instead of shipping.
 const villagers: Villager[] = z.array(VillagerSchema).parse(villagersJson);
@@ -43,6 +45,11 @@ const recipes: Recipe[] = z.array(RecipeSchema).parse(recipesJson);
 const schedules: Record<string, Schedule> = z.record(z.string(), ScheduleSchema).parse(schedulesJson);
 const quests: Record<string, Quests> = z.record(z.string(), QuestsSchema).parse(questsJson);
 const meta: DataMeta = MetaSchema.parse(metaJson);
+const spoilerNames = new Set(z.array(z.string()).parse(spoilersJson));
+
+/** Item or character whose wiki page is marked as a spoiler (used for names inside gift lists etc.). */
+export const isSpoilerName = (name: string): boolean => spoilerNames.has(name);
+export const getSpoilerNames = (): string[] => [...spoilerNames];
 
 export const getVillagers = (): Villager[] => villagers;
 export const getVillager = (slug: string): Villager | undefined => villagers.find((v) => v.slug === slug);
@@ -84,6 +91,7 @@ export interface IngredientNode {
   name: string;
   amount: number;
   href: string | undefined;
+  spoiler: boolean;
   /** Set when this ingredient is itself crafted: what one craft of it takes, as the wiki lists it. */
   craft?: { type: Recipe['type']; ingredients: IngredientNode[] };
 }
@@ -98,7 +106,12 @@ export function getIngredientTree(recipe: Recipe): IngredientNode[] {
   const build = (r: Recipe, path: Set<string>): IngredientNode[] =>
     r.ingredients.map((ing): IngredientNode => {
       const sub = byName.get(ing.name);
-      const node: IngredientNode = { name: ing.name, amount: ing.amount, href: itemHrefs.get(ing.name) };
+      const node: IngredientNode = {
+        name: ing.name,
+        amount: ing.amount,
+        href: itemHrefs.get(ing.name),
+        spoiler: spoilerNames.has(ing.name),
+      };
       if (sub && !path.has(sub.name) && path.size < 6) {
         node.craft = { type: sub.type, ingredients: build(sub, new Set(path).add(sub.name)) };
       }
@@ -125,27 +138,28 @@ export const getItemHref = (name: string): string | undefined => itemHrefs.get(n
 
 export function getBirthdaysInSeason(season: Season): Villager[] {
   return villagers
-    .filter((v) => v.birthday?.startsWith(season))
+    .filter((v) => v.birthday && spoilerPlainText(v.birthday).startsWith(season))
     .sort((a, b) => birthdayDay(a) - birthdayDay(b));
 }
 
 function birthdayDay(v: Villager): number {
-  return Number.parseInt(v.birthday?.split(' ')[1] ?? '', 10) || 0;
+  return Number.parseInt(spoilerPlainText(v.birthday ?? '').split(' ')[1] ?? '', 10) || 0;
 }
 
 export interface SearchEntry {
   name: string;
   kind: 'Villager' | 'Fish' | 'Bug' | 'Crop' | 'Forage' | 'Recipe';
   href: string;
+  spoiler: boolean;
 }
 
 export function getSearchIndex(): SearchEntry[] {
   return [
-    ...villagers.map((v): SearchEntry => ({ name: v.name, kind: 'Villager', href: `/villagers/${v.slug}/` })),
-    ...fish.map((f): SearchEntry => ({ name: f.name, kind: 'Fish', href: `/fish/${f.slug}/` })),
-    ...bugs.map((b): SearchEntry => ({ name: b.name, kind: 'Bug', href: `/bugs/${b.slug}/` })),
-    ...crops.map((c): SearchEntry => ({ name: c.name, kind: 'Crop', href: `/crops/${c.slug}/` })),
-    ...forage.map((f): SearchEntry => ({ name: f.name, kind: 'Forage', href: `/forage/${f.slug}/` })),
-    ...recipes.map((r): SearchEntry => ({ name: r.name, kind: 'Recipe', href: `/recipes/${r.slug}/` })),
+    ...villagers.map((v): SearchEntry => ({ name: v.name, kind: 'Villager', href: `/villagers/${v.slug}/`, spoiler: v.spoiler })),
+    ...fish.map((f): SearchEntry => ({ name: f.name, kind: 'Fish', href: `/fish/${f.slug}/`, spoiler: f.spoiler })),
+    ...bugs.map((b): SearchEntry => ({ name: b.name, kind: 'Bug', href: `/bugs/${b.slug}/`, spoiler: b.spoiler })),
+    ...crops.map((c): SearchEntry => ({ name: c.name, kind: 'Crop', href: `/crops/${c.slug}/`, spoiler: c.spoiler })),
+    ...forage.map((f): SearchEntry => ({ name: f.name, kind: 'Forage', href: `/forage/${f.slug}/`, spoiler: f.spoiler })),
+    ...recipes.map((r): SearchEntry => ({ name: r.name, kind: 'Recipe', href: `/recipes/${r.slug}/`, spoiler: r.spoiler })),
   ];
 }

@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { Cake, Heart } from 'lucide-react';
 import type { Villager } from '@/lib/data/schemas';
 import { Sprite } from '@/components/ui/Sprite';
+import { isSpoilerName } from '@/lib/data';
+import { markSpoiler } from '@/lib/spoiler';
+import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 export function VillagerCard({ villager }: { villager: Villager }): React.JSX.Element {
   const loves = villager.gifts.love.slice(0, 3);
@@ -13,10 +16,14 @@ export function VillagerCard({ villager }: { villager: Villager }): React.JSX.El
       <Sprite src={villager.portrait} alt="" size={72} className="rounded-lg" />
       <div className="min-w-0 flex-1">
         <h2 className="truncate text-lg group-hover:text-mistria-green-ink">{villager.name}</h2>
-        {villager.occupation && <p className="truncate text-sm text-stone-600">{villager.occupation}</p>}
+        {villager.occupation && (
+          <p className="truncate text-sm text-stone-600">
+            <SpoilerText text={villager.occupation} />
+          </p>
+        )}
         {villager.birthday && (
           <p className="mt-1 flex items-center gap-1 text-xs text-stone-600">
-            <Cake aria-hidden className="size-3.5" /> {villager.birthday}
+            <Cake aria-hidden className="size-3.5" /> <SpoilerText text={villager.birthday} />
           </p>
         )}
         {loves.length > 0 && (
@@ -24,7 +31,12 @@ export function VillagerCard({ villager }: { villager: Villager }): React.JSX.El
             <Heart aria-hidden className="mt-0.5 size-3.5 shrink-0" />
             <span className="line-clamp-2">
               <span className="sr-only">Loves: </span>
-              {loves.join(', ')}
+              {loves.map((g, i) => (
+                <span key={g}>
+                  {i > 0 && ', '}
+                  <SpoilerText text={markSpoiler(g, isSpoilerName(g))} />
+                </span>
+              ))}
               {villager.gifts.love.length > 3 && ` +${villager.gifts.love.length - 3} more`}
             </span>
           </p>

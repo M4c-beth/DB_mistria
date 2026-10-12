@@ -4,6 +4,7 @@ import { getCrop, getCrops, getGiftReactions, getRecipesUsing } from '@/lib/data
 import { formatGold } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { GiftReactions } from '@/components/items/GiftReactions';
+import { SpoilerGate } from '@/components/spoiler/SpoilerGate';
 import { ItemHero } from '@/components/items/ItemHero';
 import { UsedInRecipes } from '@/components/items/UsedInRecipes';
 import { SeasonTags } from '@/components/ui/SeasonTag';
@@ -33,23 +34,25 @@ export default async function CropDetailPage({ params }: Params): Promise<React.
   return (
     <>
       <Breadcrumbs items={[{ label: 'Crops', href: '/crops/' }, { label: c.name }]} />
-      <ItemHero
-        kind="crops"
-        slug={c.slug}
-        name={c.name}
-        icon={c.icon}
-        subtitle="Crop"
-        source={c.source}
-        stats={[
-          { label: 'Seasons', value: <SeasonTags seasons={c.seasons} /> },
-          { label: 'Seed', value: c.seed ?? '—' },
-          { label: 'Grows in', value: c.growthDays === null ? '—' : `${c.growthDays} days` },
-          { label: 'Regrows', value: c.regrowDays ? `Every ${c.regrowDays} days` : 'No' },
-          { label: 'Sell price', value: formatGold(c.sellValue) },
-        ]}
-      />
-      <UsedInRecipes itemName={c.name} recipes={getRecipesUsing(c.name)} />
-      <GiftReactions itemName={c.name} reactions={getGiftReactions(c.name)} />
+      <SpoilerGate spoiler={c.spoiler} label="This page">
+        <ItemHero
+          kind="crops"
+          slug={c.slug}
+          name={c.name}
+          icon={c.icon}
+          subtitle="Crop"
+          source={c.source}
+          stats={[
+            { label: 'Seasons', value: <SeasonTags seasons={c.seasons} /> },
+            { label: 'Seed', value: c.seed ?? '—' },
+            { label: 'Grows in', value: c.growthDays === null ? '—' : `${c.growthDays} days` },
+            { label: 'Regrows', value: c.regrowDays ? `Every ${c.regrowDays} days` : 'No' },
+            { label: 'Sell price', value: formatGold(c.sellValue) },
+          ]}
+        />
+        <UsedInRecipes itemName={c.name} recipes={getRecipesUsing(c.name)} />
+        <GiftReactions itemName={c.name} reactions={getGiftReactions(c.name)} />
+      </SpoilerGate>
     </>
   );
 }
