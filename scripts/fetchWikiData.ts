@@ -521,6 +521,33 @@ async function fetchVillagerDetails(villagers: { slug: string; source: string }[
   return { schedules, quests };
 }
 
+/**
+ * Icon for every item named in a villager's gift lists. Reuses icons already downloaded for
+ * fish/bugs/crops/forage/recipes and fetches the rest (gems, drinks, animal treats…) from Items.
+ */
+async function fetchGiftItemIcons(
+  villagers: { gifts: Record<string, string[]> }[],
+  datasets: { name: string; icon: string | null }[][],
+): Promise<Record<string, string | null>> {
+  console.log('Gift item icons…');
+  const known = new Map<string, string>();
+  for (const list of datasets) for (const item of list) if (item.icon && !known.has(item.name)) known.set(item.name, item.icon);
+
+  const names = [...new Set(villagers.flatMap((v) => Object.values(v.gifts).flat()))].sort();
+  const missing = names.filter((n) => !known.has(n));
+  const itemIcons = new Map<string, string | null>();
+  for (const r of await cargo({ tables: 'Items', fields: 'itemName=name,icon' })) {
+    const name = clean(r.name);
+    if (missing.includes(name) && !itemIcons.has(name)) itemIcons.set(name, iconFile(r.icon));
+  }
+
+  const out: Record<string, string | null> = {};
+  for (const name of names) {
+    out[name] = known.get(name) ?? (await downloadIcon(itemIcons.get(name) ?? null, `item-${slugify(name)}`));
+  }
+  return out;
+}
+
 function dedupe<T extends { slug: string; name: string }>(items: T[]): T[] {
   const seen = new Map<string, T>();
   for (const i of items) if (i.slug && !seen.has(i.slug)) seen.set(i.slug, i);
@@ -543,6 +570,13 @@ async function main(): Promise<void> {
     await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');
     console.log(`  ${name}: ${data.length}`);
   }
+  const { villagers, ...items } = datasets as unknown as {
+    villagers: { gifts: Record<string, string[]> }[];
+  } & Record<string, { name: string; icon: string | null }[]>;
+  const giftIcons = await fetchGiftItemIcons(villagers, Object.values(items));
+  await writeFile(path.join(DATA_DIR, 'itemIcons.json'), JSON.stringify(giftIcons, null, 2) + '\n');
+  console.log(`  gift item icons: ${Object.values(giftIcons).filter(Boolean).length}/${Object.keys(giftIcons).length}`);
+
   const spoilerNames = [...spoilerPages].filter((t) => !t.includes('/')).sort();
   await writeFile(path.join(DATA_DIR, 'spoilers.json'), JSON.stringify(spoilerNames, null, 2) + '\n');
   console.log(`  spoiler pages: ${spoilerNames.length}`);
