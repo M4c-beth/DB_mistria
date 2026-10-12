@@ -11,6 +11,7 @@ import {
   type Fish,
   type Forage,
   type GuideKind,
+  type MuseumSet,
   type Quests,
   type Recipe,
   type Schedule,
@@ -34,6 +35,9 @@ interface Props {
   recipes: Recipe[];
   schedules: Record<string, Schedule>;
   quests: Record<string, Quests>;
+  museumSets: MuseumSet[];
+  /** Item name -> icon path for gift and museum items. */
+  itemIcons: Record<string, string | null>;
   spoilerNames: string[];
   meta: DataMeta;
 }
@@ -53,6 +57,7 @@ const GROUPS: { kind: GuideKind; label: string; browse: string }[] = [
   { kind: 'crops', label: 'Crops', browse: '/crops/' },
   { kind: 'forage', label: 'Forageables', browse: '/forage/' },
   { kind: 'recipes', label: 'Recipes', browse: '/recipes/' },
+  { kind: 'museum', label: 'Museum sets', browse: '/museum/' },
 ];
 
 export function GuideBuilder({
@@ -64,6 +69,8 @@ export function GuideBuilder({
   recipes,
   schedules,
   quests,
+  museumSets,
+  itemIcons,
   spoilerNames,
   meta,
 }: Props): React.JSX.Element {
@@ -91,8 +98,9 @@ export function GuideBuilder({
       crops: pick('crops', crops),
       forage: pick('forage', forage),
       recipes: pick('recipes', recipes),
+      museum: pick('museum', museumSets),
     };
-  }, [entries, villagers, fish, bugs, crops, forage, recipes]);
+  }, [entries, villagers, fish, bugs, crops, forage, recipes, museumSets]);
 
   const listed: Record<GuideKind, Listed[]> = {
     villager: selected.villager.map((v) => ({ kind: 'villager', slug: v.slug, name: v.name, icon: v.portrait, spoiler: v.spoiler })),
@@ -101,6 +109,13 @@ export function GuideBuilder({
     crops: selected.crops.map((c) => ({ kind: 'crops', slug: c.slug, name: c.name, icon: c.icon, spoiler: c.spoiler })),
     forage: selected.forage.map((f) => ({ kind: 'forage', slug: f.slug, name: f.name, icon: f.icon, spoiler: f.spoiler })),
     recipes: selected.recipes.map((r) => ({ kind: 'recipes', slug: r.slug, name: r.name, icon: r.icon, spoiler: r.spoiler })),
+    museum: selected.museum.map((s) => ({
+      kind: 'museum',
+      slug: s.slug,
+      name: `${s.name} (${s.wing})`,
+      icon: itemIcons[s.items[0]?.name ?? ''] ?? null,
+      spoiler: false,
+    })),
   };
   const total = Object.values(listed).reduce((n, l) => n + l.length, 0);
   const all = Object.values(listed).flat();
@@ -110,10 +125,19 @@ export function GuideBuilder({
     setBusy(true);
     setError(null);
     try {
-      const { generateGuidePdf } = await import('@/lib/pdf/generateGuidePdf');
+      const [{ generateGuidePdf }, { loadImages }] = await Promise.all([
+        import('@/lib/pdf/generateGuidePdf'),
+        import('@/lib/pdf/loadImages'),
+      ]);
+      const tiers = GIFT_TIERS.filter((t) => options.giftTiers.includes(t));
+      const images = await loadImages([
+        ...selected.villager.flatMap((v) => [v.portrait, ...tiers.flatMap((t) => v.gifts[t].map((g) => itemIcons[g]))]),
+        ...[selected.fish, selected.bugs, selected.crops, selected.forage, selected.recipes].flat().map((i) => i.icon),
+        ...selected.museum.flatMap((s) => s.items.map((i) => itemIcons[i.name])),
+      ]);
       generateGuidePdf({
         title: options.title.trim() || 'My Mistria Guide',
-        giftTiers: GIFT_TIERS.filter((t) => options.giftTiers.includes(t)),
+        giftTiers: tiers,
         groupBySeason: options.groupBySeason,
         schedules: options.includeSchedules ? schedules : {},
         quests: options.includeQuests ? quests : {},
@@ -125,6 +149,9 @@ export function GuideBuilder({
         crops: selected.crops,
         forage: selected.forage,
         recipes: selected.recipes,
+        museumSets: selected.museum,
+        itemIcons,
+        images,
         meta,
       });
     } catch {

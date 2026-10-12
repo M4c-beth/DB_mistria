@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import {
+  getAllItemIcons,
   getAllQuests,
   getAllSchedules,
   getBugs,
@@ -7,6 +8,7 @@ import {
   getDataMeta,
   getFish,
   getForage,
+  getMuseumSets,
   getRecipes,
   getSpoilerNames,
   getVillagers,
@@ -17,7 +19,7 @@ import { GuideBuilder } from '@/components/guide/GuideBuilder';
 
 export const metadata: Metadata = {
   title: 'My Guide',
-  description: 'Pick the villagers, fish, bugs, crops, forageables and recipes you care about and download them as a PDF.',
+  description: 'Pick the villagers, fish, bugs, crops, forageables, recipes and museum sets you care about and download them as a PDF.',
 };
 
 export default function GuidePage(): React.JSX.Element {
@@ -37,6 +39,8 @@ export default function GuidePage(): React.JSX.Element {
         recipes={getRecipes()}
         schedules={getAllSchedules()}
         quests={getAllQuests()}
+        museumSets={getMuseumSets()}
+        itemIcons={getAllItemIcons()}
         spoilerNames={getSpoilerNames()}
         meta={getDataMeta()}
       />
