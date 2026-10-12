@@ -1,4 +1,4 @@
-import { Bug, CalendarDays, CookingPot, FileDown, Fish, House, Leaf, Sprout, Users, type LucideIcon } from 'lucide-react';
+import { Bug, CalendarDays, CookingPot, FileDown, Fish, House, Landmark, Leaf, Sprout, Users, type LucideIcon } from 'lucide-react';
 
 export interface NavItem {
   href: string;
@@ -19,6 +19,7 @@ export const NAV_ITEMS: NavItem[] = [
   { href: '/crops/', label: 'Crops', icon: Sprout, match: '/crops' },
   { href: '/forage/', label: 'Forageables', icon: Leaf, match: '/forage' },
   { href: '/recipes/', label: 'Recipes', icon: CookingPot, match: '/recipes', mobileTab: true },
+  { href: '/museum/', label: 'Museum', icon: Landmark, match: '/museum' },
   { href: '/guide/', label: 'My Guide', icon: FileDown, match: '/guide', mobileTab: true },
 ];
 

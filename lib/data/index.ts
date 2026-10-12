@@ -10,6 +10,7 @@ import schedulesJson from '@/data/schedules.json';
 import questsJson from '@/data/quests.json';
 import spoilersJson from '@/data/spoilers.json';
 import itemIconsJson from '@/data/itemIcons.json';
+import museumJson from '@/data/museum.json';
 import metaJson from '@/data/meta.json';
 import {
   GIFT_TIERS,
@@ -19,6 +20,7 @@ import {
   ForageSchema,
   ItemIconsSchema,
   MetaSchema,
+  MuseumSchema,
   QuestsSchema,
   ScheduleSchema,
   RecipeSchema,
@@ -29,6 +31,8 @@ import {
   type Fish,
   type Forage,
   type GiftTier,
+  type MuseumSet,
+  type MuseumWing,
   type Quests,
   type Schedule,
   type Recipe,
@@ -48,6 +52,8 @@ const schedules: Record<string, Schedule> = z.record(z.string(), ScheduleSchema)
 const quests: Record<string, Quests> = z.record(z.string(), QuestsSchema).parse(questsJson);
 const meta: DataMeta = MetaSchema.parse(metaJson);
 const itemIcons: Record<string, string | null> = ItemIconsSchema.parse(itemIconsJson);
+const museum: MuseumWing[] = MuseumSchema.parse(museumJson);
+const museumSets: MuseumSet[] = museum.flatMap((w) => w.sets.map((s) => ({ ...s, wing: w.name })));
 const spoilerNames = new Set(z.array(z.string()).parse(spoilersJson));
 
 /** Item or character whose wiki page is marked as a spoiler (used for names inside gift lists etc.). */
@@ -56,6 +62,7 @@ export const getSpoilerNames = (): string[] => [...spoilerNames];
 
 /** Icon for an item named in a gift list, if the wiki has one. */
 export const getItemIcon = (name: string): string | null => itemIcons[name] ?? null;
+export const getAllItemIcons = (): Record<string, string | null> => itemIcons;
 
 export const getVillagers = (): Villager[] => villagers;
 export const getVillager = (slug: string): Villager | undefined => villagers.find((v) => v.slug === slug);
@@ -71,6 +78,8 @@ export const getForageable = (slug: string): Forage | undefined => forage.find((
 export const getRecipe = (slug: string): Recipe | undefined => recipes.find((r) => r.slug === slug);
 export const getSchedule = (villagerSlug: string): Schedule | undefined => schedules[villagerSlug];
 export const getQuests = (villagerSlug: string): Quests | undefined => quests[villagerSlug];
+export const getMuseum = (): MuseumWing[] => museum;
+export const getMuseumSets = (): MuseumSet[] => museumSets;
 export const getAllSchedules = (): Record<string, Schedule> => schedules;
 export const getAllQuests = (): Record<string, Quests> => quests;
 export const getDataMeta = (): DataMeta => meta;

@@ -131,7 +131,35 @@ export const RecipeSchema = z
   })
   .strict();
 
-/** Item name -> icon for everything that appears in a gift list. */
+export const MuseumSchema = z.array(
+  z
+    .object({
+      slug,
+      name: z.string().min(1),
+      source: sourceUrl,
+      sets: z.array(
+        z
+          .object({
+            slug,
+            name: z.string().min(1),
+            items: z.array(
+              z
+                .object({
+                  name: z.string().min(1),
+                  location: z.string().nullable(),
+                  rarity: z.string().nullable(),
+                  spoiler: z.boolean(),
+                })
+                .strict(),
+            ),
+          })
+          .strict(),
+      ),
+    })
+    .strict(),
+);
+
+/** Item name -> icon for everything that appears in a gift list or museum set. */
 export const ItemIconsSchema = z.record(z.string(), iconPath);
 
 export const ScheduleSchema = z
@@ -186,9 +214,11 @@ export type Forage = z.infer<typeof ForageSchema>;
 export type Recipe = z.infer<typeof RecipeSchema>;
 export type Schedule = z.infer<typeof ScheduleSchema>;
 export type Quests = z.infer<typeof QuestsSchema>;
+export type MuseumWing = z.infer<typeof MuseumSchema>[number];
+export type MuseumSet = MuseumWing['sets'][number] & { wing: string };
 export type DataMeta = z.infer<typeof MetaSchema>;
 
 /** Seasonal item lists that share the filterable table. Doubles as the URL segment. */
 export type CollectionKind = 'fish' | 'bugs' | 'crops' | 'forage';
-export type GuideKind = 'villager' | 'recipes' | CollectionKind;
-export const GUIDE_KINDS: readonly GuideKind[] = ['villager', 'fish', 'bugs', 'crops', 'forage', 'recipes'];
+export type GuideKind = 'villager' | 'recipes' | 'museum' | CollectionKind;
+export const GUIDE_KINDS: readonly GuideKind[] = ['villager', 'fish', 'bugs', 'crops', 'forage', 'recipes', 'museum'];

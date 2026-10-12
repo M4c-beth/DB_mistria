@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { ArrowRight, Bug, CookingPot, FileDown, Fish, Leaf, Sprout, Users } from 'lucide-react';
-import { getBugs, getCrops, getFish, getForage, getRecipes, getVillagers } from '@/lib/data';
+import { ArrowRight, Bug, CookingPot, FileDown, Fish, Landmark, Leaf, Sprout, Users } from 'lucide-react';
+import { getBugs, getCrops, getFish, getForage, getMuseumSets, getRecipes, getVillagers } from '@/lib/data';
 import { SEASONS } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
 import { SEASON_ICON, SEASON_STYLE } from '@/components/ui/SeasonTag';
@@ -13,6 +13,7 @@ export default function HomePage(): React.JSX.Element {
     { href: '/crops/', label: 'Crops', count: getCrops().length, icon: Sprout, blurb: 'Growth times, regrowth and profits by season.' },
     { href: '/forage/', label: 'Forageables', count: getForage().length, icon: Leaf, blurb: 'Wild goods to gather in town and the mines.' },
     { href: '/recipes/', label: 'Recipes', count: getRecipes().length, icon: CookingPot, blurb: 'Ingredients and unlocks for cooking and crafting.' },
+    { href: '/museum/', label: 'Museum sets', count: getMuseumSets().length, icon: Landmark, blurb: 'Every donation set, with a printable checklist.' },
   ];
 
   return (
