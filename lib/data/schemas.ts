@@ -82,6 +82,43 @@ export const CropSchema = z
   })
   .strict();
 
+export const ForageSchema = z
+  .object({
+    slug,
+    name: z.string().min(1),
+    seasons: z.array(SeasonSchema),
+    locations: z.array(z.string()),
+    sources: z.array(z.string()),
+    tags: z.array(z.string()),
+    sellValue: z.number().int().nullable(),
+    icon: iconPath,
+    source: sourceUrl,
+  })
+  .strict();
+
+export const RECIPE_TYPES = ['Cooking', 'Milling', 'Refinery', 'Blacksmithing'] as const;
+export type RecipeType = (typeof RECIPE_TYPES)[number];
+
+export const RecipeSchema = z
+  .object({
+    slug,
+    name: z.string().min(1),
+    type: z.enum(RECIPE_TYPES),
+    ingredients: z.array(z.object({ name: z.string().min(1), amount: z.number().int().positive() }).strict()),
+    timeMinutes: z.number().int().nullable(),
+    skillLevel: z.number().int().nullable(),
+    stars: z.number().int().nullable(),
+    stationLevel: z.number().int().nullable(),
+    howToGet: z.array(z.string()),
+    sellValue: z.number().int().nullable(),
+    health: z.number().int().nullable(),
+    stamina: z.number().int().nullable(),
+    mana: z.number().int().nullable(),
+    icon: iconPath,
+    source: sourceUrl,
+  })
+  .strict();
+
 export const MetaSchema = z
   .object({
     source: z.url(),
@@ -94,7 +131,11 @@ export type Villager = z.infer<typeof VillagerSchema>;
 export type Fish = z.infer<typeof FishSchema>;
 export type Bug = z.infer<typeof BugSchema>;
 export type Crop = z.infer<typeof CropSchema>;
+export type Forage = z.infer<typeof ForageSchema>;
+export type Recipe = z.infer<typeof RecipeSchema>;
 export type DataMeta = z.infer<typeof MetaSchema>;
 
-export type CollectionKind = 'fish' | 'bugs' | 'crops';
-export type GuideKind = 'villager' | CollectionKind;
+/** Seasonal item lists that share the filterable table. Doubles as the URL segment. */
+export type CollectionKind = 'fish' | 'bugs' | 'crops' | 'forage';
+export type GuideKind = 'villager' | 'recipes' | CollectionKind;
+export const GUIDE_KINDS: readonly GuideKind[] = ['villager', 'fish', 'bugs', 'crops', 'forage', 'recipes'];

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getCrop, getCrops, getGiftReactions } from '@/lib/data';
+import { getCrop, getCrops, getGiftReactions, getRecipesUsing } from '@/lib/data';
 import { formatGold } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { GiftReactions } from '@/components/items/GiftReactions';
 import { ItemHero } from '@/components/items/ItemHero';
+import { UsedInRecipes } from '@/components/items/UsedInRecipes';
 import { SeasonTags } from '@/components/ui/SeasonTag';
 
 interface Params {
@@ -47,6 +48,7 @@ export default async function CropDetailPage({ params }: Params): Promise<React.
           { label: 'Sell price', value: formatGold(c.sellValue) },
         ]}
       />
+      <UsedInRecipes itemName={c.name} recipes={getRecipesUsing(c.name)} />
       <GiftReactions itemName={c.name} reactions={getGiftReactions(c.name)} />
     </>
   );

@@ -1,7 +1,7 @@
 'use client';
 
 import { Info } from 'lucide-react';
-import type { Bug, Crop, Fish } from '@/lib/data/schemas';
+import type { Bug, Crop, Fish, Forage } from '@/lib/data/schemas';
 import { formatGold } from '@/lib/utils';
 import { SeasonTags } from '@/components/ui/SeasonTag';
 import { Tooltip } from '@/components/ui/Tooltip';
@@ -72,5 +72,12 @@ export const CROP_COLUMNS: Column<Crop>[] = [
       ),
   },
   { header: 'Regrows', cell: (r) => (r.regrowDays ? `${r.regrowDays} days` : 'No'), numeric: true, secondary: true },
+  { header: 'Sell', cell: (r) => formatGold(r.sellValue), numeric: true },
+];
+
+export const FORAGE_COLUMNS: Column<Forage>[] = [
+  { header: 'Seasons', cell: (r) => <SeasonTags seasons={r.seasons} /> },
+  { header: 'Location', cell: (r) => lines(r.locations) },
+  { header: 'How to get', cell: (r) => lines(r.sources), secondary: true },
   { header: 'Sell', cell: (r) => formatGold(r.sellValue), numeric: true },
 ];

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { create } from 'zustand';
 import { createJSONStorage, persist, type StateStorage } from 'zustand/middleware';
-import { GIFT_TIERS, type GiftTier, type GuideKind } from '@/lib/data/schemas';
+import { GIFT_TIERS, GUIDE_KINDS, type GiftTier, type GuideKind } from '@/lib/data/schemas';
 
 export interface GuideEntry {
   kind: GuideKind;
@@ -53,7 +53,7 @@ const safeStorage: StateStorage = {
   },
 };
 
-const KINDS: readonly GuideKind[] = ['villager', 'fish', 'bugs', 'crops'];
+const KINDS = GUIDE_KINDS;
 
 function isGuideEntry(x: unknown): x is GuideEntry {
   if (typeof x !== 'object' || x === null) return false;

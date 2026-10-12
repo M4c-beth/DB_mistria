@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getBug, getBugs, getGiftReactions } from '@/lib/data';
+import { getBug, getBugs, getGiftReactions, getRecipesUsing } from '@/lib/data';
 import { formatGold } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { GiftReactions } from '@/components/items/GiftReactions';
 import { ItemHero } from '@/components/items/ItemHero';
+import { UsedInRecipes } from '@/components/items/UsedInRecipes';
 import { SeasonTags } from '@/components/ui/SeasonTag';
 
 interface Params {
@@ -49,6 +50,7 @@ export default async function BugDetailPage({ params }: Params): Promise<React.J
           { label: 'Sell price', value: formatGold(b.sellValue) },
         ]}
       />
+      <UsedInRecipes itemName={b.name} recipes={getRecipesUsing(b.name)} />
       <GiftReactions itemName={b.name} reactions={getGiftReactions(b.name)} />
     </>
   );

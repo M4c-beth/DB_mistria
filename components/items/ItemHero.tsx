@@ -1,5 +1,5 @@
 import { ExternalLink } from 'lucide-react';
-import type { CollectionKind } from '@/lib/data/schemas';
+import type { GuideKind } from '@/lib/data/schemas';
 import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { Sprite } from '@/components/ui/Sprite';
 
@@ -9,7 +9,7 @@ export interface ItemStat {
 }
 
 interface Props {
-  kind: CollectionKind;
+  kind: GuideKind;
   slug: string;
   name: string;
   icon: string | null;

@@ -4,19 +4,25 @@ import villagersJson from '@/data/villagers.json';
 import fishJson from '@/data/fish.json';
 import bugsJson from '@/data/bugs.json';
 import cropsJson from '@/data/crops.json';
+import forageJson from '@/data/forage.json';
+import recipesJson from '@/data/recipes.json';
 import metaJson from '@/data/meta.json';
 import {
   GIFT_TIERS,
-  type GiftTier,
   BugSchema,
   CropSchema,
   FishSchema,
+  ForageSchema,
   MetaSchema,
+  RecipeSchema,
   VillagerSchema,
   type Bug,
   type Crop,
   type DataMeta,
   type Fish,
+  type Forage,
+  type GiftTier,
+  type Recipe,
   type Season,
   type Villager,
 } from './schemas';
@@ -26,6 +32,8 @@ const villagers: Villager[] = z.array(VillagerSchema).parse(villagersJson);
 const fish: Fish[] = z.array(FishSchema).parse(fishJson);
 const bugs: Bug[] = z.array(BugSchema).parse(bugsJson);
 const crops: Crop[] = z.array(CropSchema).parse(cropsJson);
+const forage: Forage[] = z.array(ForageSchema).parse(forageJson);
+const recipes: Recipe[] = z.array(RecipeSchema).parse(recipesJson);
 const meta: DataMeta = MetaSchema.parse(metaJson);
 
 export const getVillagers = (): Villager[] => villagers;
@@ -33,9 +41,13 @@ export const getVillager = (slug: string): Villager | undefined => villagers.fin
 export const getFish = (): Fish[] => fish;
 export const getBugs = (): Bug[] => bugs;
 export const getCrops = (): Crop[] => crops;
+export const getForage = (): Forage[] => forage;
+export const getRecipes = (): Recipe[] => recipes;
 export const getFishBySlug = (slug: string): Fish | undefined => fish.find((f) => f.slug === slug);
 export const getBug = (slug: string): Bug | undefined => bugs.find((b) => b.slug === slug);
 export const getCrop = (slug: string): Crop | undefined => crops.find((c) => c.slug === slug);
+export const getForageable = (slug: string): Forage | undefined => forage.find((f) => f.slug === slug);
+export const getRecipe = (slug: string): Recipe | undefined => recipes.find((r) => r.slug === slug);
 export const getDataMeta = (): DataMeta => meta;
 
 export type GiftReactions = Record<GiftTier, Villager[]>;
@@ -51,6 +63,54 @@ export function getGiftReactions(itemName: string): GiftReactions {
   return out;
 }
 
+/** Recipes that take the given item as an ingredient. */
+export function getRecipesUsing(itemName: string): Recipe[] {
+  return recipes.filter((r) => r.ingredients.some((i) => i.name === itemName));
+}
+
+export interface IngredientNode {
+  name: string;
+  amount: number;
+  href: string | undefined;
+  /** Set when this ingredient is itself crafted: what one craft of it takes, as the wiki lists it. */
+  craft?: { type: Recipe['type']; ingredients: IngredientNode[] };
+}
+
+/**
+ * Recipe tree: ingredients, expanded where an ingredient has its own recipe (e.g. Flour from Milling).
+ * Amounts are per craft as listed on the wiki. We don't multiply them out because the wiki data
+ * doesn't say how many items a craft produces.
+ */
+export function getIngredientTree(recipe: Recipe): IngredientNode[] {
+  const byName = new Map(recipes.map((r) => [r.name, r]));
+  const build = (r: Recipe, path: Set<string>): IngredientNode[] =>
+    r.ingredients.map((ing): IngredientNode => {
+      const sub = byName.get(ing.name);
+      const node: IngredientNode = { name: ing.name, amount: ing.amount, href: itemHrefs.get(ing.name) };
+      if (sub && !path.has(sub.name) && path.size < 6) {
+        node.craft = { type: sub.type, ingredients: build(sub, new Set(path).add(sub.name)) };
+      }
+      return node;
+    });
+  return build(recipe, new Set([recipe.name]));
+}
+
+// Item name -> page on this site. Earlier entries win when a name appears twice
+// (e.g. Basil is both a crop and a forageable).
+const itemHrefs = new Map<string, string>();
+for (const [list, base] of [
+  [crops, 'crops'],
+  [fish, 'fish'],
+  [bugs, 'bugs'],
+  [forage, 'forage'],
+  [recipes, 'recipes'],
+] as const) {
+  for (const item of list) if (!itemHrefs.has(item.name)) itemHrefs.set(item.name, `/${base}/${item.slug}/`);
+}
+
+/** Link to an item's page on this site, if we have one. */
+export const getItemHref = (name: string): string | undefined => itemHrefs.get(name);
+
 export function getBirthdaysInSeason(season: Season): Villager[] {
   return villagers
     .filter((v) => v.birthday?.startsWith(season))
@@ -63,7 +123,7 @@ function birthdayDay(v: Villager): number {
 
 export interface SearchEntry {
   name: string;
-  kind: 'Villager' | 'Fish' | 'Bug' | 'Crop';
+  kind: 'Villager' | 'Fish' | 'Bug' | 'Crop' | 'Forage' | 'Recipe';
   href: string;
 }
 
@@ -73,5 +133,7 @@ export function getSearchIndex(): SearchEntry[] {
     ...fish.map((f): SearchEntry => ({ name: f.name, kind: 'Fish', href: `/fish/${f.slug}/` })),
     ...bugs.map((b): SearchEntry => ({ name: b.name, kind: 'Bug', href: `/bugs/${b.slug}/` })),
     ...crops.map((c): SearchEntry => ({ name: c.name, kind: 'Crop', href: `/crops/${c.slug}/` })),
+    ...forage.map((f): SearchEntry => ({ name: f.name, kind: 'Forage', href: `/forage/${f.slug}/` })),
+    ...recipes.map((r): SearchEntry => ({ name: r.name, kind: 'Recipe', href: `/recipes/${r.slug}/` })),
   ];
 }

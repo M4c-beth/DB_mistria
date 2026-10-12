@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getFish, getFishBySlug, getGiftReactions } from '@/lib/data';
+import { getFish, getFishBySlug, getGiftReactions, getRecipesUsing } from '@/lib/data';
 import { formatGold } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { GiftReactions } from '@/components/items/GiftReactions';
 import { ItemHero } from '@/components/items/ItemHero';
+import { UsedInRecipes } from '@/components/items/UsedInRecipes';
 import { SeasonTags } from '@/components/ui/SeasonTag';
 
 interface Params {
@@ -50,6 +51,7 @@ export default async function FishDetailPage({ params }: Params): Promise<React.
           { label: 'Sell price', value: formatGold(f.sellValue) },
         ]}
       />
+      <UsedInRecipes itemName={f.name} recipes={getRecipesUsing(f.name)} />
       <GiftReactions itemName={f.name} reactions={getGiftReactions(f.name)} />
     </>
   );

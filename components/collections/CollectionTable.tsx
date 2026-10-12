@@ -4,7 +4,16 @@ import Link from 'next/link';
 import { useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { ListPlus, Search, X } from 'lucide-react';
-import { SEASONS, SeasonSchema, type Bug, type CollectionKind, type Crop, type Fish, type Season } from '@/lib/data/schemas';
+import {
+  SEASONS,
+  SeasonSchema,
+  type Bug,
+  type CollectionKind,
+  type Crop,
+  type Fish,
+  type Forage,
+  type Season,
+} from '@/lib/data/schemas';
 import { useFilterStore } from '@/lib/store/filterStore';
 import { useGuideStore } from '@/lib/store/guideStore';
 import { cn } from '@/lib/utils';
@@ -12,14 +21,15 @@ import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { SEASON_ICON } from '@/components/ui/SeasonTag';
 import { Sprite } from '@/components/ui/Sprite';
-import { BUG_COLUMNS, CROP_COLUMNS, FISH_COLUMNS, type Column } from './columns';
+import { BUG_COLUMNS, CROP_COLUMNS, FISH_COLUMNS, FORAGE_COLUMNS, type Column } from './columns';
 
 type Props =
   | { kind: 'fish'; rows: Fish[]; season?: Season }
   | { kind: 'bugs'; rows: Bug[]; season?: Season }
-  | { kind: 'crops'; rows: Crop[]; season?: Season };
+  | { kind: 'crops'; rows: Crop[]; season?: Season }
+  | { kind: 'forage'; rows: Forage[]; season?: Season };
 
-const NOUN: Record<CollectionKind, string> = { fish: 'fish', bugs: 'bugs', crops: 'crops' };
+const NOUN: Record<CollectionKind, string> = { fish: 'fish', bugs: 'bugs', crops: 'crops', forage: 'forageables' };
 
 /**
  * Searchable, filterable table. When `season` is given the season filter is fixed
@@ -33,6 +43,8 @@ export function CollectionTable(props: Props): React.JSX.Element {
       return <Table kind="bugs" rows={props.rows} columns={BUG_COLUMNS} fixedSeason={props.season} />;
     case 'crops':
       return <Table kind="crops" rows={props.rows} columns={CROP_COLUMNS} fixedSeason={props.season} />;
+    case 'forage':
+      return <Table kind="forage" rows={props.rows} columns={FORAGE_COLUMNS} fixedSeason={props.season} />;
   }
 }
 

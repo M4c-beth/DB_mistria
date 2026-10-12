@@ -18,7 +18,7 @@ interface FilterState {
 const empty = (): CollectionFilters => ({ query: '', season: null, location: null });
 
 export const useFilterStore = create<FilterState>()((set) => ({
-  filters: { fish: empty(), bugs: empty(), crops: empty() },
+  filters: { fish: empty(), bugs: empty(), crops: empty(), forage: empty() },
   setFilter: (kind, patch) =>
     set((s) => ({ filters: { ...s.filters, [kind]: { ...s.filters[kind], ...patch } } })),
   reset: (kind) => set((s) => ({ filters: { ...s.filters, [kind]: empty() } })),
