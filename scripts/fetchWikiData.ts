@@ -521,19 +521,61 @@ async function fetchVillagerDetails(villagers: { slug: string; source: string }[
   return { schedules, quests };
 }
 
+const MUSEUM_WINGS = ['Archaeology Wing', 'Fish Wing', 'Flora Wing', 'Insects Wing'];
+
+interface MuseumWingData {
+  slug: string;
+  name: string;
+  source: string;
+  sets: { slug: string; name: string; items: { name: string; location: string | null; rarity: string | null; spoiler: boolean }[] }[];
+}
+
+/** Museum wings -> donation sets -> items, from each wing page's set tables. */
+async function fetchMuseum(): Promise<MuseumWingData[]> {
+  console.log('Museum…');
+  const wings: MuseumWingData[] = [];
+  for (const wing of MUSEUM_WINGS) {
+    const root = await pageHtml(wing);
+    if (!root) continue;
+    const sets: MuseumWingData['sets'] = [];
+    for (const { h3, table } of tablesWithHeadings(root)) {
+      if (!h3) continue;
+      const { headers, rows } = tableGrid(table);
+      const col = (label: string): number => headers.findIndex((h) => h.toLowerCase() === label);
+      const [nameCol, locationCol, rarityCol] = [col('name'), col('location'), col('rarity')];
+      if (nameCol === -1) continue;
+      const items = rows
+        .filter((r) => r[nameCol])
+        .map((r) => {
+          const raw = r[nameCol]!;
+          const name = raw.split(SPOILER_OPEN).join('').split(SPOILER_CLOSE).join('').trim();
+          return {
+            name,
+            location: (locationCol >= 0 && r[locationCol]) || null,
+            rarity: (rarityCol >= 0 && r[rarityCol]) || null,
+            spoiler: raw.includes(SPOILER_OPEN) || isSpoilerPage(name),
+          };
+        });
+      if (items.length) sets.push({ slug: slugify(`${wing} ${h3}`), name: h3, items });
+    }
+    wings.push({ slug: slugify(wing), name: wing, source: sourceUrl(wing), sets });
+  }
+  return wings;
+}
+
 /**
- * Icon for every item named in a villager's gift lists. Reuses icons already downloaded for
- * fish/bugs/crops/forage/recipes and fetches the rest (gems, drinks, animal treats…) from Items.
+ * Icon for every item named in gift lists or museum sets. Reuses icons already downloaded for
+ * fish/bugs/crops/forage/recipes and fetches the rest (gems, drinks, artifacts…) from Items.
  */
-async function fetchGiftItemIcons(
-  villagers: { gifts: Record<string, string[]> }[],
+async function fetchItemIcons(
+  itemNames: string[],
   datasets: { name: string; icon: string | null }[][],
 ): Promise<Record<string, string | null>> {
-  console.log('Gift item icons…');
+  console.log('Item icons…');
   const known = new Map<string, string>();
   for (const list of datasets) for (const item of list) if (item.icon && !known.has(item.name)) known.set(item.name, item.icon);
 
-  const names = [...new Set(villagers.flatMap((v) => Object.values(v.gifts).flat()))].sort();
+  const names = [...new Set(itemNames)].sort();
   const missing = names.filter((n) => !known.has(n));
   const itemIcons = new Map<string, string | null>();
   for (const r of await cargo({ tables: 'Items', fields: 'itemName=name,icon' })) {
@@ -573,9 +615,15 @@ async function main(): Promise<void> {
   const { villagers, ...items } = datasets as unknown as {
     villagers: { gifts: Record<string, string[]> }[];
   } & Record<string, { name: string; icon: string | null }[]>;
-  const giftIcons = await fetchGiftItemIcons(villagers, Object.values(items));
-  await writeFile(path.join(DATA_DIR, 'itemIcons.json'), JSON.stringify(giftIcons, null, 2) + '\n');
-  console.log(`  gift item icons: ${Object.values(giftIcons).filter(Boolean).length}/${Object.keys(giftIcons).length}`);
+  const museum = await fetchMuseum();
+  await writeFile(path.join(DATA_DIR, 'museum.json'), JSON.stringify(museum, null, 2) + '\n');
+  console.log(`  museum: ${museum.length} wings, ${museum.flatMap((w) => w.sets).length} sets`);
+
+  const giftNames = villagers.flatMap((v) => Object.values(v.gifts).flat());
+  const museumNames = museum.flatMap((w) => w.sets.flatMap((st) => st.items.map((i) => String(i.name))));
+  const itemIcons = await fetchItemIcons([...giftNames, ...museumNames], Object.values(items));
+  await writeFile(path.join(DATA_DIR, 'itemIcons.json'), JSON.stringify(itemIcons, null, 2) + '\n');
+  console.log(`  item icons: ${Object.values(itemIcons).filter(Boolean).length}/${Object.keys(itemIcons).length}`);
 
   const spoilerNames = [...spoilerPages].filter((t) => !t.includes('/')).sort();
   await writeFile(path.join(DATA_DIR, 'spoilers.json'), JSON.stringify(spoilerNames, null, 2) + '\n');

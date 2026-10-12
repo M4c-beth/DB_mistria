@@ -1,0 +1,2976 @@
+[
+  {
+    "slug": "archaeology-wing",
+    "name": "Archaeology Wing",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Archaeology_Wing",
+    "sets": [
+      {
+        "slug": "archaeology-wing-dig-site-material-set",
+        "name": "Dig Site Material Set",
+        "items": [
+          {
+            "name": "Clay",
+            "location": "Mining\nDiving\nBalor's Wagon for 50t\nCarpenter for 50t\nRefining",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Peat",
+            "location": "Mining\nRefining\nCarpenter (requires Steady Supplies Skill) for 50t",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Shard Mass",
+            "location": "Dig Spots\nBalor's Wagon for 80t\nRefining",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Shards",
+            "location": "Dig Spots\nBalor's Wagon for 50t\nRefining",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Sod",
+            "location": "Archaeology\nMining\nCarpenter (requires Steady Supplies Skill) for 50t\nRefining",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-prehistoric-artifact-set",
+        "name": "Prehistoric Artifact Set",
+        "items": [
+          {
+            "name": "Amber Trapped Insect",
+            "location": "The Beach",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Fossilized Egg",
+            "location": "The Beach",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Meteorite",
+            "location": "The Beach",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Tiny Dinosaur Skeleton",
+            "location": "The Beach",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Trilobite Fossil",
+            "location": "The Beach",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-ancient-artifact-set",
+        "name": "Ancient Artifact Set",
+        "items": [
+          {
+            "name": "Ancient Crystal Goblet",
+            "location": "The Western Ruins",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Ancient Gold Coin",
+            "location": "The Western Ruins",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Ancient Horn Circlet",
+            "location": "The Western Ruins",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Ancient Royal Scepter",
+            "location": "The Western Ruins",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Ancient Stone Lantern",
+            "location": "The Western Ruins",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-alda-artifact-set",
+        "name": "Alda Artifact Set",
+        "items": [
+          {
+            "name": "Alda Bronze Sword",
+            "location": "Sweetwater Farm",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Alda Clay Pot",
+            "location": "Sweetwater Farm",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Alda Feather Pendant",
+            "location": "Sweetwater Farm",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Alda Gem Bracelet",
+            "location": "Sweetwater Farm",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Alda Mural Tablet",
+            "location": "Sweetwater Farm",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-caldosian-artifact-set",
+        "name": "Caldosian Artifact Set",
+        "items": [
+          {
+            "name": "Caldosian Breastplate",
+            "location": "The Eastern Road",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Caldosian Drinking Horn",
+            "location": "The Eastern Road",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Caldosian Emperor Bust",
+            "location": "The Eastern Road",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Caldosian Sword",
+            "location": "The Eastern Road",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Statuette of Caldarus",
+            "location": "The Eastern Road",
+            "rarity": "Legendary",
+            "spoiler": true
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-aldarian-artifact-set",
+        "name": "Aldarian Artifact Set",
+        "items": [
+          {
+            "name": "Aldarian Gauntlet",
+            "location": "The Narrows",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Aldarian Sword",
+            "location": "The Narrows",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Aldarian War Banner",
+            "location": "The Narrows",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Family Crest Pendant",
+            "location": "The Narrows",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Lost Crown of Aldaria",
+            "location": "The Narrows",
+            "rarity": "Legendary",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-oopart-artifact-set",
+        "name": "Oopart Artifact Set",
+        "items": [
+          {
+            "name": "Black Tablet",
+            "location": "Dig Spots (requires Well Placed Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Completely Wrong Map",
+            "location": "Dig Spots (requires Well Placed Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Muttering Cube",
+            "location": "Dig Spots (requires Well Placed Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Unknown Dragon Statuette",
+            "location": "Dig Spots (requires Well Placed Skill)",
+            "rarity": "Uncommon",
+            "spoiler": true
+          },
+          {
+            "name": "Weightless Stone",
+            "location": "Dig Spots (requires Well Placed Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-aquatic-artifact-set",
+        "name": "Aquatic Artifact Set",
+        "items": [
+          {
+            "name": "Coin Lump",
+            "location": "Found whilst Fishing (requires Aquatic Antiquities Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Giant Fish Scale",
+            "location": "Found whilst Fishing (requires Aquatic Antiquities Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rubber Fish",
+            "location": "Found whilst Fishing (requires Aquatic Antiquities Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rusted Treasure Chest",
+            "location": "Found whilst Fishing (requires Aquatic Antiquities Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Water Sphere",
+            "location": "Found whilst Fishing (requires Aquatic Antiquities Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-sunken-artifact-set",
+        "name": "Sunken Artifact Set",
+        "items": [
+          {
+            "name": "Criminal Confession",
+            "location": "Found whilst Diving (requires Sunken Secrets Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Mermaid's Comb",
+            "location": "Found whilst Diving (requires Sunken Secrets Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rainbow Seaweed",
+            "location": "Found whilst Diving (requires Sunken Secrets Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rock with a Hole",
+            "location": "Found whilst Diving (requires Sunken Secrets Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rusted Shield",
+            "location": "Found whilst Diving (requires Sunken Secrets Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-deep-woods-artifact-set",
+        "name": "Deep Woods Artifact Set",
+        "items": [
+          {
+            "name": "Crystal Apple",
+            "location": "The Deep Woods",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Fossilized Mandrake Root",
+            "location": "The Deep Woods",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Gathering Basket",
+            "location": "The Deep Woods",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Metal Leaf",
+            "location": "The Deep Woods",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Petrified Wood",
+            "location": "The Deep Woods",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-fish-trap-artifact-set",
+        "name": "Fish Trap Artifact Set",
+        "items": [
+          {
+            "name": "Clay Amphora",
+            "location": "Fish Trap",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Message in a Bottle",
+            "location": "Fish Trap",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Porcelain Figure",
+            "location": "Fish Trap",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Sea Glass",
+            "location": "Fish Trap",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Worn Pendant",
+            "location": "Fish Trap",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-buried-artifact-set",
+        "name": "Buried Artifact Set",
+        "items": [
+          {
+            "name": "Diamond-Backed Mirror",
+            "location": "The Mines",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Flint Arrowhead",
+            "location": "The Mines",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Obsidian Blade",
+            "location": "The Mines",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Shortcut Scroll",
+            "location": "The Mines",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Stone Horse",
+            "location": "The Mines",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-upper-mines-artifact-set",
+        "name": "Upper Mines Artifact Set",
+        "items": [
+          {
+            "name": "Miner's Helmet",
+            "location": "The Upper Mines (floors 1-19)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Miner's Pickaxe",
+            "location": "The Upper Mines (floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Miner's Rucksack",
+            "location": "The Upper Mines (floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Miner's Slab",
+            "location": "The Upper Mines (floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Tin Lunchbox",
+            "location": "The Upper Mines (floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-tide-cavern-artifact-set",
+        "name": "Tide Cavern Artifact Set",
+        "items": [
+          {
+            "name": "Crab Statue",
+            "location": "The Tide Caverns (floors 21-39)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Dense Water",
+            "location": "The Tide Caverns (floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Starlight Coral",
+            "location": "The Tide Caverns (floors 21-39)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Stone Shell",
+            "location": "The Tide Caverns (floors 21-39)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Tidestone",
+            "location": "The Tide Caverns (floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-deep-earth-artifact-set",
+        "name": "Deep Earth Artifact Set",
+        "items": [
+          {
+            "name": "Earth-infused Stone",
+            "location": "The Deep Earth (floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Faceted Rock Gem",
+            "location": "The Deep Earth (floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Really Round Rock",
+            "location": "The Deep Earth (floors 41-59)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Rock Statue",
+            "location": "The Deep Earth (floors 41-59)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Seriously Square Stone",
+            "location": "The Deep Earth (floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-lava-caves-artifact-set",
+        "name": "Lava Caves Artifact Set",
+        "items": [
+          {
+            "name": "Fire Crystal",
+            "location": "The Lava Caves (floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Rainbow Geode",
+            "location": "The Lava Caves (floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Red Obsidian",
+            "location": "The Lava Caves (floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Tiny Volcano",
+            "location": "The Lava Caves (floors 61-79)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Warm Rock",
+            "location": "The Lava Caves (floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-dragon-artifact-set",
+        "name": "Dragon Artifact Set",
+        "items": [
+          {
+            "name": "Dragon Claw",
+            "location": "The Ancient Ruins (floors 81-99)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Dragon-Forged Bracelet",
+            "location": "The Ancient Ruins (floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Dragon Pact Tablet",
+            "location": "The Ancient Ruins (floors 81-99)",
+            "rarity": "Legendary",
+            "spoiler": true
+          },
+          {
+            "name": "Dragon Scale",
+            "location": "The Ancient Ruins (floors 81-99)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Hardened Essence",
+            "location": "The Ancient Ruins (floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-ritual-artifact-set",
+        "name": "Ritual Artifact Set",
+        "items": [
+          {
+            "name": "Ritual Beads",
+            "location": "Ritual Chambers in The Mines (requires Lost to History Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Ritual Chalice",
+            "location": "Ritual Chambers in The Mines (requires Lost to History Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Ritual Incense Burner",
+            "location": "Ritual Chambers in The Mines (requires Lost to History Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Ritual Scepter",
+            "location": "Ritual Chambers in The Mines (requires Lost to History Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Ritual Tablet",
+            "location": "Ritual Chambers in The Mines (requires Lost to History Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-mist-artifact-set",
+        "name": "Mist Artifact Set",
+        "items": [
+          {
+            "name": "Mist Crystal",
+            "location": "Mist Spots (requires Mist Sight Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Mist Flute",
+            "location": "Mist Spots (requires Mist Sight Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Mist Scroll",
+            "location": "Mist Spots (requires Mist Sight Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Misty Black Mirror",
+            "location": "Mist Spots (requires Mist Sight Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Misty Feather Quill",
+            "location": "Mist Spots (requires Mist Sight Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-vintage-farm-tools-artifact-set",
+        "name": "Vintage Farm Tools Artifact Set",
+        "items": [
+          {
+            "name": "Vintage Brush",
+            "location": "The Farm\n(requires Former Farmers Skill)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Vintage Cow Bell",
+            "location": "The Farm\n(requires Former Farmers Skill)",
+            "rarity": "Legendary",
+            "spoiler": false
+          },
+          {
+            "name": "Vintage Hammer",
+            "location": "The Farm\n(requires Former Farmers Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Vintage Sickle",
+            "location": "The Farm\n(requires Former Farmers Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Vintage Watering Can",
+            "location": "The Farm\n(requires Former Farmers Skill)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-metals-of-mistria-artifact-set",
+        "name": "Metals Of Mistria Artifact Set",
+        "items": [
+          {
+            "name": "Perfect Copper Ore",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Gold Ore",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Iron Ore",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Mistril Ore",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Silver Ore",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "archaeology-wing-gems-of-mistria-artifact-set",
+        "name": "Gems Of Mistria Artifact Set",
+        "items": [
+          {
+            "name": "Perfect Diamond",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Emerald",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Pink Diamond",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Ruby",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Perfect Sapphire",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fish-wing",
+    "name": "Fish Wing",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Wing",
+    "sets": [
+      {
+        "slug": "fish-wing-multi-season-fish-set",
+        "name": "Multi-Season Fish Set",
+        "items": [
+          {
+            "name": "Koi",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Pike",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Pollock",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Smallmouth Bass",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Trout",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-spring-river-fish-set",
+        "name": "Spring River Fish Set",
+        "items": [
+          {
+            "name": "Bluegill",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Carp",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Chub",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Paddlefish",
+            "location": "River",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Walleye",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-spring-pond-fish-set",
+        "name": "Spring Pond Fish Set",
+        "items": [
+          {
+            "name": "Angel Fish",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Barb",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Brown Trout",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Crucian Carp",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Goldfish",
+            "location": "Pond",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-spring-ocean-fish-set",
+        "name": "Spring Ocean Fish Set",
+        "items": [
+          {
+            "name": "Anchovy",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Lobster",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Mackerel",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Ocean Sunfish",
+            "location": "Ocean",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Shrimp",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-summer-river-fish-set",
+        "name": "Summer River Fish Set",
+        "items": [
+          {
+            "name": "Bream",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Loach",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Minnow",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sweetfish",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Tarpon",
+            "location": "River",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-summer-pond-fish-set",
+        "name": "Summer Pond Fish Set",
+        "items": [
+          {
+            "name": "Brown Bullhead",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Giant Koi",
+            "location": "Pond",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Golden Shiner",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Lake Chub",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sauger",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-summer-ocean-fish-set",
+        "name": "Summer Ocean Fish Set",
+        "items": [
+          {
+            "name": "Char",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Crab",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Dart",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Grouper",
+            "location": "Ocean",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Stingray",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-fall-river-fish-set",
+        "name": "Fall River Fish Set",
+        "items": [
+          {
+            "name": "Grayling",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Lamprey",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Perch",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Razorback",
+            "location": "River",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Shad",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-fall-pond-fish-set",
+        "name": "Fall Pond Fish Set",
+        "items": [
+          {
+            "name": "Bluefish",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Killifish",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Rainbow Trout",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Striped Bass",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "White Perch",
+            "location": "Pond",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-fall-ocean-fish-set",
+        "name": "Fall Ocean Fish Set",
+        "items": [
+          {
+            "name": "Butterfish",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Halibut",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Mullet",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Saury",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Shark",
+            "location": "Ocean",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-winter-river-fish-set",
+        "name": "Winter River Fish Set",
+        "items": [
+          {
+            "name": "Bowfish",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Dace",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Freshwater Eel",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Herring",
+            "location": "River",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Shadow Bass",
+            "location": "River",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-winter-pond-fish-set",
+        "name": "Winter Pond Fish Set",
+        "items": [
+          {
+            "name": "Alligator Gar",
+            "location": "Pond",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Burbot",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Flathead Catfish",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Giant Tilapia",
+            "location": "Pond",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Tilapia",
+            "location": "Pond",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-winter-ocean-fish-set",
+        "name": "Winter Ocean Fish Set",
+        "items": [
+          {
+            "name": "Horse Mackerel",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "King Crab",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Oarfish",
+            "location": "Ocean",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Sand Lance",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sea Bass",
+            "location": "Ocean",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-fish-bait-set",
+        "name": "Fish Bait Set",
+        "items": [
+          {
+            "name": "Massive Minnow",
+            "location": "Any Fishing Location\n(requires use of Fish Bait)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Copper Rockfish",
+            "location": "Any Fishing Location\n(requires use of Fish Bait)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Iron Fish",
+            "location": "Any Fishing Location\n(requires use of Fish Bait)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Silver Squid",
+            "location": "Any Fishing Location\n(requires use of Fish Bait)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Golden Eel",
+            "location": "Any Fishing Location\n(requires use of Fish Bait)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-fish-trap-set",
+        "name": "Fish Trap Set",
+        "items": [
+          {
+            "name": "Blue Crab",
+            "location": "Fish Trap",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sea Urchin",
+            "location": "Fish Trap",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Bait Thief",
+            "location": "Fish Trap",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Hake",
+            "location": "Fish Trap",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Amberjack",
+            "location": "Fish Trap",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-deep-woods-fish-set",
+        "name": "Deep Woods Fish Set",
+        "items": [
+          {
+            "name": "Sunny",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Forest Perch",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Silver Redhorse",
+            "location": "The Deep Woods",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Lake Trout",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Muskie",
+            "location": "The Deep Woods",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-upper-mines-fish-set",
+        "name": "Upper Mines Fish Set",
+        "items": [
+          {
+            "name": "Cave Eel",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Cave Shark",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Cave Shrimp",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Rock Guppy",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Stone Loach",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-tide-caverns-fish-set",
+        "name": "Tide Caverns Fish Set",
+        "items": [
+          {
+            "name": "Archerfish",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Mini-Whale Shark",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Sapphire Betta",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Transparent Jellyfish",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Water Balloon Fish",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-deep-earth-fish-set",
+        "name": "Deep Earth Fish Set",
+        "items": [
+          {
+            "name": "Earth Eel",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Emerald Horned Charger",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Pebble Minnow",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Rockbiter",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Shardfin",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-lava-caves-fish-set",
+        "name": "Lava Caves Fish Set",
+        "items": [
+          {
+            "name": "Armored Bass",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Candelabra Seadragon",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Firesail Fish",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Lava Piranha",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sulfur Crab",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-ruins-fish-set",
+        "name": "Ruins Fish Set",
+        "items": [
+          {
+            "name": "Winged Shrimp",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Gazer",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Luminescent Crab",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Giant Jellyfish",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Coelacanth",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "fish-wing-legendary-fish-set",
+        "name": "Legendary Fish Set",
+        "items": [
+          {
+            "name": "Cherry Fish",
+            "location": "Pond",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Leaf Fish",
+            "location": "River",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Lightning Fish",
+            "location": "River",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Snow Fish",
+            "location": "Ocean",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "flora-wing",
+    "name": "Flora Wing",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flora_Wing",
+    "sets": [
+      {
+        "slug": "flora-wing-spring-crop",
+        "name": "Spring Crop",
+        "items": [
+          {
+            "name": "Cabbage",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Cherry",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Potato",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Strawberry",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Turnip",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-spring-flower",
+        "name": "Spring Flower",
+        "items": [
+          {
+            "name": "Daffodil",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Dandelion",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Lilac",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Snowdrop Anemone",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Tulip",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-spring-forage",
+        "name": "Spring Forage",
+        "items": [
+          {
+            "name": "Fennel",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Fiddlehead",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Morel Mushroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Nettle",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Wild Leek",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-summer-crop",
+        "name": "Summer Crop",
+        "items": [
+          {
+            "name": "Chili Pepper",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Corn",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Cucumber",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Tomato",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Watermelon",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-summer-flower",
+        "name": "Summer Flower",
+        "items": [
+          {
+            "name": "Catmint",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Cosmos",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Daisy",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Iris",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Marigold",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-summer-forage",
+        "name": "Summer Forage",
+        "items": [
+          {
+            "name": "Basil",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Dill",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Oregano",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Sage",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Thyme",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-fall-crop",
+        "name": "Fall Crop",
+        "items": [
+          {
+            "name": "Apple",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Broccoli",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Cranberry",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Pumpkin",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Sweet Potato",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-fall-flower",
+        "name": "Fall Flower",
+        "items": [
+          {
+            "name": "Celosia",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Chrysanthemum",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Fog Orchid",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Heather",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Viola",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-fall-forage",
+        "name": "Fall Forage",
+        "items": [
+          {
+            "name": "Chestnut",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Garlic",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Horseradish",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Moon Fruit",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Rosemary",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-winter-crop",
+        "name": "Winter Crop",
+        "items": [
+          {
+            "name": "Beet",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Cauliflower",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Daikon Radish",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Pomegranate",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Snow Peas",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-winter-flower",
+        "name": "Winter Flower",
+        "items": [
+          {
+            "name": "Crocus",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Frost Lily",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Jasmine",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Poinsettia",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Snapdragon",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-winter-forage",
+        "name": "Winter Forage",
+        "items": [
+          {
+            "name": "Burdock Root",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Holly",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Oyster Mushroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Pineshroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Rose Hip",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          {
+            "name": "Thorn Vine",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Spirit Mushroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Temple Flower",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Walnut",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Bell Berry",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          {
+            "name": "Narrows Moss",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Red Toadstool",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Shadow Flower",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Sweetroot",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Upper Mines Mushroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-tide-caverns",
+        "name": "Tide Caverns",
+        "items": [
+          {
+            "name": "Jade Dulse",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Mines Mussels",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Sea Grapes",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Tide Lettuce",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Underseaweed",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          {
+            "name": "Crystal Berries",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Crystal Rose",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Earthshroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Rockroot",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Shale Grass",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          {
+            "name": "Ash Mushroom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Breath of Flame",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Flame Pepper",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Hot Potato",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Lava Chestnuts",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-ruins",
+        "name": "Ruins",
+        "items": [
+          {
+            "name": "Chirping Fern",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Essence Blossom",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Ethereal Grass",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Spell Fruit",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Written Root",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "flora-wing-void-forage",
+        "name": "Void Forage",
+        "items": [
+          {
+            "name": "Void Herb",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Void Pearl",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Void Powder",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Void Stone",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Voidite",
+            "location": null,
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "insects-wing",
+    "name": "Insects Wing",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Insects_Wing",
+    "sets": [
+      {
+        "slug": "insects-wing-multi-season",
+        "name": "Multi-Season",
+        "items": [
+          {
+            "name": "Ant",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Bumblebee",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Fuzzy Moth",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Hummingbird Hawk Moth",
+            "location": "Overworld",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Praying Mantis",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-spring",
+        "name": "Spring",
+        "items": [
+          {
+            "name": "Butterfly",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Caterpillar",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Ladybug",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Luna Moth",
+            "location": "Overworld",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Roly Poly",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-summer",
+        "name": "Summer",
+        "items": [
+          {
+            "name": "Cicada",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Cricket",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Dragonfly",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Firefly",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Sand Bug",
+            "location": "The Beach",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-fall",
+        "name": "Fall",
+        "items": [
+          {
+            "name": "Cicada Nymph",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Inchworm",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Monarch Butterfly",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Tiger Swallowtail Butterfly",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Walking Leaf",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-winter",
+        "name": "Winter",
+        "items": [
+          {
+            "name": "Brightbulb Moth",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Crystal Caterpillar",
+            "location": "Overworld",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Frost Flutter Butterfly",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Walking Stick",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Winterpillar",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-bee",
+        "name": "Bee",
+        "items": [
+          {
+            "name": "Big Bee",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Flower Bee",
+            "location": "Overworld",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Fur Bee",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Moonlight Bee",
+            "location": "Overworld",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Sweet Bee",
+            "location": "Overworld",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-bug-pheromone",
+        "name": "Bug Pheromone",
+        "items": [
+          {
+            "name": "Ant Queen",
+            "location": "Overworld\n(requires use of Bug Pheromones)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Biggest Beetle",
+            "location": "Overworld\n(requires use of Bug Pheromones)",
+            "rarity": "Very Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Queen's Birdwing",
+            "location": "Overworld\n(requires use of Bug Pheromones)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Saint Mantis",
+            "location": "Overworld\n(requires use of Bug Pheromones)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Sunset Moth",
+            "location": "Overworld\n(requires use of Bug Pheromones)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-rare",
+        "name": "Rare",
+        "items": [
+          {
+            "name": "Jewel Beetle",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Lightning Dragonfly",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Magma Beetle",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Mistmoth",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Orchid Mantis",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-legendary",
+        "name": "Legendary",
+        "items": [
+          {
+            "name": "Fairy Bee",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Flower Crown Beetle",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Snowball Beetle",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Speedy Snail",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Strobe Firefly",
+            "location": "Overworld",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          {
+            "name": "Copper Nugget Beetle",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Lantern Moth",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Mine Cricket",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Tunnel Millipede",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Worm",
+            "location": "The Upper Mines\n(floors 1-19)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-tide-caverns",
+        "name": "Tide Caverns",
+        "items": [
+          {
+            "name": "Coral Mantis",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Hermit Snail",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Puddle Spider",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Sea Scarab",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Waterfly",
+            "location": "The Tide Caverns\n(floors 21-39)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          {
+            "name": "Crystal Wing Moth",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Crystalline Cricket",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Deep Earthworm",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Gem Shard Caterpillar",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Rock Roach",
+            "location": "The Deep Earth\n(floors 41-59)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          {
+            "name": "Fire Wasp",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Cooktop Beetle",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Lava Snail",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Smoke Moth",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Diamond Beetle",
+            "location": "The Lava Caves\n(floors 61-79)",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-ruins",
+        "name": "Ruins",
+        "items": [
+          {
+            "name": "Ancient Firefly",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Giant Worm",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Hidden Beetle",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Rare",
+            "spoiler": false
+          },
+          {
+            "name": "Parchment Moth",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Void Snail",
+            "location": "The Ancient Ruins\n(floors 81-99)",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-grass",
+        "name": "Grass",
+        "items": [
+          {
+            "name": "Grasshopper",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Icehopper",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Leafhopper",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Petalhopper",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Strawhopper",
+            "location": "Overworld",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-beach",
+        "name": "Beach",
+        "items": [
+          {
+            "name": "Beach Hopper",
+            "location": "The Beach",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Hermit Crab",
+            "location": "The Beach",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Relic Crab",
+            "location": "The Beach",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Surf Beetle",
+            "location": "The Beach",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Waterbug",
+            "location": "The Beach",
+            "rarity": "Common",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          {
+            "name": "Windleaf Butterfly",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Mote Firefly",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Loam Caterpillar",
+            "location": "The Deep Woods",
+            "rarity": "Uncommon",
+            "spoiler": false
+          },
+          {
+            "name": "Dragon Horn Beetle",
+            "location": "The Deep Woods",
+            "rarity": "Common",
+            "spoiler": false
+          },
+          {
+            "name": "Singing Katydid",
+            "location": "The Deep Woods",
+            "rarity": "Rare",
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-honey",
+        "name": "Honey",
+        "items": [
+          {
+            "name": "Honey",
+            "location": "Apiary",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Premium Honey",
+            "location": "Apiary",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Deluxe Honey",
+            "location": "Apiary",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Legendary Honey",
+            "location": "Apiary",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Honeycomb",
+            "location": "Apiary",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      },
+      {
+        "slug": "insects-wing-terrarium",
+        "name": "Terrarium",
+        "items": [
+          {
+            "name": "Uncommon Bug Pheromones",
+            "location": "Terrarium",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Rare Bug Pheromones",
+            "location": "Terrarium",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Legendary Bug Pheromones",
+            "location": "Terrarium",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Uncommon Fish Bait",
+            "location": "Terrarium",
+            "rarity": null,
+            "spoiler": false
+          },
+          {
+            "name": "Rare Fish Bait",
+            "location": "Terrarium",
+            "rarity": null,
+            "spoiler": false
+          }
+        ]
+      }
+    ]
+  }
+]
