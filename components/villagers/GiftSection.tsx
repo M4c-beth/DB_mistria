@@ -1,7 +1,7 @@
 import type { GiftTier } from '@/lib/data/schemas';
 import { GiftBadge, TIER_ICON, TIER_LABEL } from '@/components/ui/GiftBadge';
 import { cn } from '@/lib/utils';
-import { isSpoilerName } from '@/lib/data';
+import { getItemIcon, isSpoilerName } from '@/lib/data';
 import { markSpoiler } from '@/lib/spoiler';
 import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
@@ -28,7 +28,7 @@ export function GiftSection({ tier, items, collapsible = false }: Props): React.
       <ul className="flex flex-wrap gap-2">
         {items.map((item) => (
           <li key={item}>
-            <GiftBadge tier={tier}>
+            <GiftBadge tier={tier} icon={getItemIcon(item)} spoiler={isSpoilerName(item)}>
               <SpoilerText text={markSpoiler(item, isSpoilerName(item))} />
             </GiftBadge>
           </li>

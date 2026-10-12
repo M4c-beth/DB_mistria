@@ -9,6 +9,7 @@ import recipesJson from '@/data/recipes.json';
 import schedulesJson from '@/data/schedules.json';
 import questsJson from '@/data/quests.json';
 import spoilersJson from '@/data/spoilers.json';
+import itemIconsJson from '@/data/itemIcons.json';
 import metaJson from '@/data/meta.json';
 import {
   GIFT_TIERS,
@@ -16,6 +17,7 @@ import {
   CropSchema,
   FishSchema,
   ForageSchema,
+  ItemIconsSchema,
   MetaSchema,
   QuestsSchema,
   ScheduleSchema,
@@ -45,11 +47,15 @@ const recipes: Recipe[] = z.array(RecipeSchema).parse(recipesJson);
 const schedules: Record<string, Schedule> = z.record(z.string(), ScheduleSchema).parse(schedulesJson);
 const quests: Record<string, Quests> = z.record(z.string(), QuestsSchema).parse(questsJson);
 const meta: DataMeta = MetaSchema.parse(metaJson);
+const itemIcons: Record<string, string | null> = ItemIconsSchema.parse(itemIconsJson);
 const spoilerNames = new Set(z.array(z.string()).parse(spoilersJson));
 
 /** Item or character whose wiki page is marked as a spoiler (used for names inside gift lists etc.). */
 export const isSpoilerName = (name: string): boolean => spoilerNames.has(name);
 export const getSpoilerNames = (): string[] => [...spoilerNames];
+
+/** Icon for an item named in a gift list, if the wiki has one. */
+export const getItemIcon = (name: string): string | null => itemIcons[name] ?? null;
 
 export const getVillagers = (): Villager[] => villagers;
 export const getVillager = (slug: string): Villager | undefined => villagers.find((v) => v.slug === slug);

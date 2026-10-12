@@ -1,6 +1,8 @@
-import { Ban, Heart, Leaf, Minus, ThumbsDown, ThumbsUp } from 'lucide-react';
+import Image from 'next/image';
+import { Ban, Heart, Minus, ThumbsDown, ThumbsUp } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { assetPath, cn } from '@/lib/utils';
+import { SpoilerHide } from '@/components/spoiler/SpoilerHide';
 import type { GiftTier } from '@/lib/data/schemas';
 
 export const TIER_LABEL: Record<GiftTier, string> = {
@@ -27,12 +29,24 @@ export const TIER_ICON: Record<GiftTier, LucideIcon> = {
   hate: Ban,
 };
 
-export function GiftBadge({ tier, children }: { tier: GiftTier; children: React.ReactNode }): React.JSX.Element {
+interface GiftBadgeProps {
+  tier: GiftTier;
+  /** Item sprite; hidden along with the name when the item is a spoiler. */
+  icon?: string | null;
+  spoiler?: boolean;
+  children: React.ReactNode;
+}
+
+export function GiftBadge({ tier, icon = null, spoiler = false, children }: GiftBadgeProps): React.JSX.Element {
   return (
     <span
-      className={cn('inline-flex items-center gap-1 rounded-md border px-2 py-1 text-sm font-medium', TIER_STYLE[tier])}
+      className={cn('inline-flex items-center gap-1.5 rounded-md border py-1 pl-1.5 pr-2 text-sm font-medium', TIER_STYLE[tier])}
     >
-      {tier === 'love' && <Leaf aria-hidden className="size-3.5" />}
+      {icon && (
+        <SpoilerHide spoiler={spoiler}>
+          <Image src={assetPath(icon)} alt="" width={20} height={20} className="pixelated size-5 object-contain" />
+        </SpoilerHide>
+      )}
       {children}
     </span>
   );

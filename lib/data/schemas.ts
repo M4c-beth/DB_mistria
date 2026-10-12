@@ -131,6 +131,9 @@ export const RecipeSchema = z
   })
   .strict();
 
+/** Item name -> icon for everything that appears in a gift list. */
+export const ItemIconsSchema = z.record(z.string(), iconPath);
+
 export const ScheduleSchema = z
   .object({
     sections: z.array(
