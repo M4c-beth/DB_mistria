@@ -572,20 +572,23 @@ async function fetchItemIcons(
   datasets: { name: string; icon: string | null }[][],
 ): Promise<Record<string, string | null>> {
   console.log('Item icons…');
+  // Keys are lower-cased: gift lists don't always match the item page's capitalisation
+  // ("Rock With A Hole" vs "Rock with a Hole").
+  const key = (name: string): string => name.toLowerCase();
   const known = new Map<string, string>();
-  for (const list of datasets) for (const item of list) if (item.icon && !known.has(item.name)) known.set(item.name, item.icon);
+  for (const list of datasets) for (const item of list) if (item.icon && !known.has(key(item.name))) known.set(key(item.name), item.icon);
 
   const names = [...new Set(itemNames)].sort();
-  const missing = names.filter((n) => !known.has(n));
+  const missing = new Set(names.map(key).filter((k) => !known.has(k)));
   const itemIcons = new Map<string, string | null>();
   for (const r of await cargo({ tables: 'Items', fields: 'itemName=name,icon' })) {
-    const name = clean(r.name);
-    if (missing.includes(name) && !itemIcons.has(name)) itemIcons.set(name, iconFile(r.icon));
+    const k = key(clean(r.name));
+    if (missing.has(k) && !itemIcons.has(k)) itemIcons.set(k, iconFile(r.icon));
   }
 
   const out: Record<string, string | null> = {};
   for (const name of names) {
-    out[name] = known.get(name) ?? (await downloadIcon(itemIcons.get(name) ?? null, `item-${slugify(name)}`));
+    out[name] = known.get(key(name)) ?? (await downloadIcon(itemIcons.get(key(name)) ?? null, `item-${slugify(name)}`));
   }
   return out;
 }
