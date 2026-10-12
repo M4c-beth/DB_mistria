@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { ArrowRight, Bug, FileDown, Fish, Sprout, Users } from 'lucide-react';
-import { getBugs, getCrops, getFish, getVillagers } from '@/lib/data';
+import { ArrowRight, Bug, CookingPot, FileDown, Fish, Leaf, Sprout, Users } from 'lucide-react';
+import { getBugs, getCrops, getFish, getForage, getRecipes, getVillagers } from '@/lib/data';
 import { SEASONS } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
 import { SEASON_ICON, SEASON_STYLE } from '@/components/ui/SeasonTag';
@@ -11,6 +11,8 @@ export default function HomePage(): React.JSX.Element {
     { href: '/fish/', label: 'Fish', count: getFish().length, icon: Fish, blurb: 'Seasons, locations, weather and sell prices.' },
     { href: '/bugs/', label: 'Bugs', count: getBugs().length, icon: Bug, blurb: 'When and where every critter shows up.' },
     { href: '/crops/', label: 'Crops', count: getCrops().length, icon: Sprout, blurb: 'Growth times, regrowth and profits by season.' },
+    { href: '/forage/', label: 'Forageables', count: getForage().length, icon: Leaf, blurb: 'Wild goods to gather in town and the mines.' },
+    { href: '/recipes/', label: 'Recipes', count: getRecipes().length, icon: CookingPot, blurb: 'Ingredients and unlocks for cooking and crafting.' },
   ];
 
   return (
@@ -64,7 +66,7 @@ export default function HomePage(): React.JSX.Element {
         <h2 id="browse-heading" className="mb-4 text-2xl">
           Browse the almanac
         </h2>
-        <ul className="grid gap-4 sm:grid-cols-2">
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {sections.map(({ href, label, count, icon: Icon, blurb }) => (
             <li key={href}>
               <Link href={href} className="card group flex items-start gap-4 p-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">

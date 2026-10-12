@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Cake } from 'lucide-react';
-import { getBirthdaysInSeason, getBugs, getCrops, getFish } from '@/lib/data';
+import { getBirthdaysInSeason, getBugs, getCrops, getFish, getForage } from '@/lib/data';
 import { SEASONS, type Season } from '@/lib/data/schemas';
 import { cn } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -29,7 +29,7 @@ function toSeason(slug: string): Season | undefined {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const season = toSeason((await params).season);
   return season
-    ? { title: `${season} Guide`, description: `Fish, bugs and crops available in ${season}, plus villager birthdays.` }
+    ? { title: `${season} Guide`, description: `Fish, bugs, crops and forageables available in ${season}, plus villager birthdays.` }
     : {};
 }
 
@@ -40,6 +40,7 @@ export default async function SeasonPage({ params }: Params): Promise<React.JSX.
   const fish = getFish().filter((f) => f.seasons.includes(season));
   const bugs = getBugs().filter((b) => b.seasons.includes(season));
   const crops = getCrops().filter((c) => c.seasons.includes(season));
+  const forage = getForage().filter((f) => f.seasons.includes(season));
   const birthdays = getBirthdaysInSeason(season);
   const Icon = SEASON_ICON[season];
 
@@ -73,7 +74,8 @@ export default async function SeasonPage({ params }: Params): Promise<React.JSX.
         <div>
           <h1 className="text-3xl md:text-4xl">{season}</h1>
           <p className="text-stone-600">
-            {fish.length} fish · {bugs.length} bugs · {crops.length} crops · {birthdays.length} birthdays
+            {fish.length} fish · {bugs.length} bugs · {crops.length} crops · {forage.length} forageables ·{' '}
+            {birthdays.length} birthdays
           </p>
         </div>
       </div>
@@ -110,6 +112,9 @@ export default async function SeasonPage({ params }: Params): Promise<React.JSX.
       </SeasonSection>
       <SeasonSection id="crops" title="Crops to plant">
         <CollectionTable kind="crops" rows={crops} season={season} />
+      </SeasonSection>
+      <SeasonSection id="forage" title="Forageables to gather">
+        <CollectionTable kind="forage" rows={forage} season={season} />
       </SeasonSection>
     </>
   );
