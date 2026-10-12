@@ -236,15 +236,20 @@ export function GuideBuilder({
       <aside className="card space-y-5 bg-amber-50/70 p-5 lg:sticky lg:top-20" aria-label="PDF options">
         <div>
           <label htmlFor="guide-title" className="mb-1 block text-sm font-semibold">
-            PDF title
+            Title of your guide
           </label>
           <input
             id="guide-title"
             value={options.title}
             maxLength={80}
+            placeholder="My Mistria Guide"
+            aria-describedby="guide-title-hint"
             onChange={(e) => setOptions({ title: e.target.value })}
-            className="h-10 w-full rounded-md border border-stone-300 bg-white/80 px-3 text-sm"
+            className="h-10 w-full rounded-md border border-stone-300 bg-white/80 px-3 text-sm placeholder:text-stone-400"
           />
+          <p id="guide-title-hint" className="mt-1 text-xs text-stone-600">
+            Shown at the top of the PDF and used as the file name. Leave it empty for &ldquo;My Mistria Guide&rdquo;.
+          </p>
         </div>
 
         <fieldset>

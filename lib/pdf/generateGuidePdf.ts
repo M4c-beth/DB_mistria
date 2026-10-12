@@ -233,12 +233,10 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   };
 
   // Title block
-  doc.setFillColor(...COLOR.parchment).rect(0, 0, pageWidth, 90, 'F');
+  doc.setFillColor(...COLOR.parchment).rect(0, 0, pageWidth, 76, 'F');
   doc.setFont('helvetica', 'bold').setFontSize(24).setTextColor(...COLOR.wood);
-  doc.text(pdfSafe(input.title) || 'My Mistria Guide', MARGIN, 50);
-  doc.setFont('helvetica', 'normal').setFontSize(10).setTextColor(...COLOR.muted);
-  doc.text(`Fields of Mistria  -  made ${new Date().toLocaleDateString('en-US', { dateStyle: 'medium' })}`, MARGIN, 70);
-  y = 120;
+  doc.text(pdfSafe(input.title.trim()) || 'My Mistria Guide', MARGIN, 47, { maxWidth: pageWidth - MARGIN * 2 });
+  y = 106;
 
   const villagers = keep(input.villagers);
   if (villagers.length) {
