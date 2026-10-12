@@ -1,6 +1,16 @@
 import { jsPDF } from 'jspdf';
 import { autoTable, type RowInput } from 'jspdf-autotable';
-import { SEASONS, type Bug, type Crop, type Fish, type GiftTier, type Season, type Villager } from '@/lib/data/schemas';
+import {
+  SEASONS,
+  type Bug,
+  type Crop,
+  type Fish,
+  type Forage,
+  type GiftTier,
+  type Recipe,
+  type Season,
+  type Villager,
+} from '@/lib/data/schemas';
 
 export interface GuidePdfInput {
   title: string;
@@ -10,6 +20,8 @@ export interface GuidePdfInput {
   fish: Fish[];
   bugs: Bug[];
   crops: Crop[];
+  forage: Forage[];
+  recipes: Recipe[];
   meta: { source: string; license: string; fetchedAt: string };
 }
 
@@ -160,6 +172,28 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
     (c) => [c.name, seasonsText(c.seasons), c.growthDays?.toString() ?? '-', c.regrowDays?.toString() ?? 'No', gold(c.sellValue)],
     { 2: { halign: 'right' }, 3: { halign: 'right' }, 4: { halign: 'right' } },
   );
+  section(
+    'Forageables',
+    input.forage,
+    ['Name', 'Seasons', 'Location', 'Sell'],
+    (f) => [f.name, seasonsText(f.seasons), f.locations.join(', ') || f.sources.join(', '), gold(f.sellValue)],
+    { 3: { halign: 'right' } },
+  );
+
+  // Recipes aren't seasonal, so they're one table regardless of grouping.
+  if (input.recipes.length) {
+    heading('Recipes', 18, 12);
+    table(
+      ['Name', 'Type', 'Ingredients', 'Sell'],
+      input.recipes.map((r) => [
+        r.name,
+        r.type,
+        r.ingredients.map((i) => `${i.name} x${i.amount}`).join(', '),
+        gold(r.sellValue),
+      ]),
+      { 0: { cellWidth: 110 }, 1: { cellWidth: 70 }, 3: { halign: 'right' } },
+    );
+  }
 
   // Footer with attribution (CC BY-SA) and page numbers on every page.
   const pages = doc.getNumberOfPages();

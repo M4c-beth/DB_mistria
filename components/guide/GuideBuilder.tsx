@@ -9,7 +9,9 @@ import {
   type Crop,
   type DataMeta,
   type Fish,
+  type Forage,
   type GuideKind,
+  type Recipe,
   type Villager,
 } from '@/lib/data/schemas';
 import { useGuideHydrated, useGuideStore } from '@/lib/store/guideStore';
@@ -23,6 +25,8 @@ interface Props {
   fish: Fish[];
   bugs: Bug[];
   crops: Crop[];
+  forage: Forage[];
+  recipes: Recipe[];
   meta: DataMeta;
 }
 
@@ -38,9 +42,11 @@ const GROUPS: { kind: GuideKind; label: string; browse: string }[] = [
   { kind: 'fish', label: 'Fish', browse: '/fish/' },
   { kind: 'bugs', label: 'Bugs', browse: '/bugs/' },
   { kind: 'crops', label: 'Crops', browse: '/crops/' },
+  { kind: 'forage', label: 'Forageables', browse: '/forage/' },
+  { kind: 'recipes', label: 'Recipes', browse: '/recipes/' },
 ];
 
-export function GuideBuilder({ villagers, fish, bugs, crops, meta }: Props): React.JSX.Element {
+export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, meta }: Props): React.JSX.Element {
   const hydrated = useGuideHydrated();
   const entries = useGuideStore((s) => s.entries);
   const options = useGuideStore((s) => s.options);
@@ -62,14 +68,18 @@ export function GuideBuilder({ villagers, fish, bugs, crops, meta }: Props): Rea
       fish: pick('fish', fish),
       bugs: pick('bugs', bugs),
       crops: pick('crops', crops),
+      forage: pick('forage', forage),
+      recipes: pick('recipes', recipes),
     };
-  }, [entries, villagers, fish, bugs, crops]);
+  }, [entries, villagers, fish, bugs, crops, forage, recipes]);
 
   const listed: Record<GuideKind, Listed[]> = {
     villager: selected.villager.map((v) => ({ kind: 'villager', slug: v.slug, name: v.name, icon: v.portrait })),
     fish: selected.fish.map((f) => ({ kind: 'fish', slug: f.slug, name: f.name, icon: f.icon })),
     bugs: selected.bugs.map((b) => ({ kind: 'bugs', slug: b.slug, name: b.name, icon: b.icon })),
     crops: selected.crops.map((c) => ({ kind: 'crops', slug: c.slug, name: c.name, icon: c.icon })),
+    forage: selected.forage.map((f) => ({ kind: 'forage', slug: f.slug, name: f.name, icon: f.icon })),
+    recipes: selected.recipes.map((r) => ({ kind: 'recipes', slug: r.slug, name: r.name, icon: r.icon })),
   };
   const total = Object.values(listed).reduce((n, l) => n + l.length, 0);
 
@@ -86,6 +96,8 @@ export function GuideBuilder({ villagers, fish, bugs, crops, meta }: Props): Rea
         fish: selected.fish,
         bugs: selected.bugs,
         crops: selected.crops,
+        forage: selected.forage,
+        recipes: selected.recipes,
         meta,
       });
     } catch {
@@ -210,7 +222,7 @@ export function GuideBuilder({ villagers, fish, bugs, crops, meta }: Props): Rea
             className="size-5 accent-[#3F6630]"
           />
           <span>
-            <span className="font-semibold">Group fish, bugs &amp; crops by season</span>
+            <span className="font-semibold">Group seasonal items by season</span>
             <span className="block text-xs text-stone-600">Year-round items appear under every season.</span>
           </span>
         </label>

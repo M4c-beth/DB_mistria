@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { getBugs, getCrops, getDataMeta, getFish, getVillagers } from '@/lib/data';
+import { getBugs, getCrops, getDataMeta, getFish, getForage, getRecipes, getVillagers } from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { GuideBuilder } from '@/components/guide/GuideBuilder';
 
 export const metadata: Metadata = {
   title: 'My Guide',
-  description: 'Pick the villagers, fish, bugs and crops you care about and download them as a PDF.',
+  description: 'Pick the villagers, fish, bugs, crops, forageables and recipes you care about and download them as a PDF.',
 };
 
 export default function GuidePage(): React.JSX.Element {
@@ -17,7 +17,15 @@ export default function GuidePage(): React.JSX.Element {
         Everything you&apos;ve added is listed here. Choose what to include, then download your PDF. It&apos;s generated in your
         browser and saved only on this device.
       </PageHeader>
-      <GuideBuilder villagers={getVillagers()} fish={getFish()} bugs={getBugs()} crops={getCrops()} meta={getDataMeta()} />
+      <GuideBuilder
+        villagers={getVillagers()}
+        fish={getFish()}
+        bugs={getBugs()}
+        crops={getCrops()}
+        forage={getForage()}
+        recipes={getRecipes()}
+        meta={getDataMeta()}
+      />
     </>
   );
 }
