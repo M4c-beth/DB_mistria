@@ -6,6 +6,8 @@ import bugsJson from '@/data/bugs.json';
 import cropsJson from '@/data/crops.json';
 import metaJson from '@/data/meta.json';
 import {
+  GIFT_TIERS,
+  type GiftTier,
   BugSchema,
   CropSchema,
   FishSchema,
@@ -31,7 +33,23 @@ export const getVillager = (slug: string): Villager | undefined => villagers.fin
 export const getFish = (): Fish[] => fish;
 export const getBugs = (): Bug[] => bugs;
 export const getCrops = (): Crop[] => crops;
+export const getFishBySlug = (slug: string): Fish | undefined => fish.find((f) => f.slug === slug);
+export const getBug = (slug: string): Bug | undefined => bugs.find((b) => b.slug === slug);
+export const getCrop = (slug: string): Crop | undefined => crops.find((c) => c.slug === slug);
 export const getDataMeta = (): DataMeta => meta;
+
+export type GiftReactions = Record<GiftTier, Villager[]>;
+
+/** Which villagers love / like / … a given item (reverse of each villager's gift lists). */
+export function getGiftReactions(itemName: string): GiftReactions {
+  const out: GiftReactions = { love: [], like: [], neutral: [], dislike: [], hate: [] };
+  for (const v of villagers) {
+    for (const tier of GIFT_TIERS) {
+      if (v.gifts[tier].includes(itemName)) out[tier].push(v);
+    }
+  }
+  return out;
+}
 
 export function getBirthdaysInSeason(season: Season): Villager[] {
   return villagers
@@ -50,11 +68,10 @@ export interface SearchEntry {
 }
 
 export function getSearchIndex(): SearchEntry[] {
-  const q = (name: string): string => `?q=${encodeURIComponent(name)}`;
   return [
     ...villagers.map((v): SearchEntry => ({ name: v.name, kind: 'Villager', href: `/villagers/${v.slug}/` })),
-    ...fish.map((f): SearchEntry => ({ name: f.name, kind: 'Fish', href: `/fish/${q(f.name)}` })),
-    ...bugs.map((b): SearchEntry => ({ name: b.name, kind: 'Bug', href: `/bugs/${q(b.name)}` })),
-    ...crops.map((c): SearchEntry => ({ name: c.name, kind: 'Crop', href: `/crops/${q(c.name)}` })),
+    ...fish.map((f): SearchEntry => ({ name: f.name, kind: 'Fish', href: `/fish/${f.slug}/` })),
+    ...bugs.map((b): SearchEntry => ({ name: b.name, kind: 'Bug', href: `/bugs/${b.slug}/` })),
+    ...crops.map((c): SearchEntry => ({ name: c.name, kind: 'Crop', href: `/crops/${c.slug}/` })),
   ];
 }

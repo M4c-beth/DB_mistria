@@ -1,0 +1,55 @@
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { getBug, getBugs, getGiftReactions } from '@/lib/data';
+import { formatGold } from '@/lib/utils';
+import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { GiftReactions } from '@/components/items/GiftReactions';
+import { ItemHero } from '@/components/items/ItemHero';
+import { SeasonTags } from '@/components/ui/SeasonTag';
+
+interface Params {
+  params: Promise<{ slug: string }>;
+}
+
+export const dynamicParams = false;
+
+export function generateStaticParams(): { slug: string }[] {
+  return getBugs().map((b) => ({ slug: b.slug }));
+}
+
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const b = getBug((await params).slug);
+  if (!b) return {};
+  return {
+    title: `${b.name} (Bug)`,
+    description: `Where and when to catch ${b.name} in Fields of Mistria: ${b.seasons.join(', ') || 'unknown season'}, ${b.locations.join(', ') || 'unknown location'}.`,
+  };
+}
+
+export default async function BugDetailPage({ params }: Params): Promise<React.JSX.Element> {
+  const b = getBug((await params).slug);
+  if (!b) notFound();
+  return (
+    <>
+      <Breadcrumbs items={[{ label: 'Bugs', href: '/bugs/' }, { label: b.name }]} />
+      <ItemHero
+        kind="bugs"
+        slug={b.slug}
+        name={b.name}
+        icon={b.icon}
+        subtitle="Bug"
+        source={b.source}
+        stats={[
+          { label: 'Seasons', value: <SeasonTags seasons={b.seasons} /> },
+          { label: 'Location', value: b.locations.join(', ') || '—' },
+          { label: 'Time', value: b.time ?? '—' },
+          { label: 'Weather', value: b.weather.join(', ') || '—' },
+          { label: 'Rarity', value: b.rarity ?? '—' },
+          { label: 'Needs to spawn', value: b.spawnCondition ?? 'Nothing special' },
+          { label: 'Sell price', value: formatGold(b.sellValue) },
+        ]}
+      />
+      <GiftReactions itemName={b.name} reactions={getGiftReactions(b.name)} />
+    </>
+  );
+}

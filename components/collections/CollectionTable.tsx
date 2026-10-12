@@ -1,8 +1,9 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { ExternalLink, ListPlus, Search, X } from 'lucide-react';
+import { ListPlus, Search, X } from 'lucide-react';
 import { SEASONS, SeasonSchema, type Bug, type CollectionKind, type Crop, type Fish, type Season } from '@/lib/data/schemas';
 import { useFilterStore } from '@/lib/store/filterStore';
 import { useGuideStore } from '@/lib/store/guideStore';
@@ -189,15 +190,12 @@ function Table<T extends Row>({ kind, rows, columns, fixedSeason }: TableProps<T
                   <td className="px-3 py-2">
                     <div className="flex items-center gap-2">
                       <Sprite src={r.icon} alt="" size={28} />
-                      <a
-                        href={r.source}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group inline-flex items-center gap-1 font-semibold text-stone-800 hover:text-mistria-blue-ink hover:underline"
+                      <Link
+                        href={`/${kind}/${r.slug}/`}
+                        className="font-semibold text-stone-800 hover:text-mistria-blue-ink hover:underline"
                       >
                         {r.name}
-                        <ExternalLink aria-label="(opens wiki)" className="size-3 text-stone-400 group-hover:text-mistria-blue-ink" />
-                      </a>
+                      </Link>
                     </div>
                   </td>
                   {columns.map((c) => (
