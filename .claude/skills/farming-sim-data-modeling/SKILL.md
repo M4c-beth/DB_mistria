@@ -1,3 +1,8 @@
+---
+name: farming-sim-data-modeling
+description: Standard patterns for farming-sim database schemas and TypeScript types — polymorphic Items (crop/fish/etc.), villager gift-preference matrix with category overrides, and season/time enums. Use when designing or changing the Prisma schema, seed data, or data interfaces.
+---
+
 # Skill: Farming Sim Data Modeling
 
 When designing database schemas or TypeScript interfaces for a farming sim, use the following standardized patterns:

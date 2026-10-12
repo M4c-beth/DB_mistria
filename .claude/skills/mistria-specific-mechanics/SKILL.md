@@ -1,3 +1,8 @@
+---
+name: mistria-specific-mechanics
+description: Fields of Mistria game mechanics the site must support — weather, animal husbandry, mining/forage node respawns, cooking/crafting recipe trees — plus key villagers and common user lookups. Use when building features, pages, search, or filters for game content.
+---
+
 # Skill: Fields of Mistria Specific Mechanics
 
 When building features for Fields of Mistria, keep these game-specific mechanics in mind:
