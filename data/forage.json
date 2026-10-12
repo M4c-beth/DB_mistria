@@ -18,6 +18,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-acorn.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Acorn"
   },
   {
@@ -40,6 +41,7 @@
     ],
     "sellValue": 10,
     "icon": "/icons/forage-ash-mushroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ash_Mushroom"
   },
   {
@@ -62,6 +64,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-basil.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Basil"
   },
   {
@@ -86,6 +89,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-bell-berry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry"
   },
   {
@@ -111,6 +115,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-blackberry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blackberry"
   },
   {
@@ -133,6 +138,7 @@
     "tags": [],
     "sellValue": 20,
     "icon": "/icons/forage-blue-conch-shell.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blue_Conch_Shell"
   },
   {
@@ -155,6 +161,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-blueberry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blueberry"
   },
   {
@@ -177,6 +184,7 @@
     ],
     "sellValue": 45,
     "icon": "/icons/forage-breath-of-flame.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Breath_of_Flame"
   },
   {
@@ -197,6 +205,7 @@
     ],
     "sellValue": null,
     "icon": "/icons/forage-breath-of-spring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Breath_of_Spring"
   },
   {
@@ -221,6 +230,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-burdock-root.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Burdock_Root"
   },
   {
@@ -244,6 +254,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-catmint.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Catmint"
   },
   {
@@ -267,6 +278,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-cattail-fluff.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cattail_Fluff"
   },
   {
@@ -288,6 +300,7 @@
     "tags": [],
     "sellValue": 15,
     "icon": "/icons/forage-chestnut.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chestnut"
   },
   {
@@ -312,6 +325,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-chickpea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea"
   },
   {
@@ -329,6 +343,7 @@
     ],
     "sellValue": 60,
     "icon": "/icons/forage-chirping-fern.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chirping_Fern"
   },
   {
@@ -347,6 +362,7 @@
     "tags": [],
     "sellValue": 30,
     "icon": "/icons/forage-coconut.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut"
   },
   {
@@ -370,6 +386,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-cosmos.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cosmos"
   },
   {
@@ -393,6 +410,7 @@
     ],
     "sellValue": 10,
     "icon": "/icons/forage-crocus.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crocus"
   },
   {
@@ -415,6 +433,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-crystal-berries.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berries"
   },
   {
@@ -438,6 +457,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-crystal-rose.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Rose"
   },
   {
@@ -462,6 +482,7 @@
     ],
     "sellValue": 25,
     "icon": "/icons/forage-daffodil.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Daffodil"
   },
   {
@@ -488,6 +509,7 @@
     ],
     "sellValue": 15,
     "icon": "/icons/forage-daisy.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Daisy"
   },
   {
@@ -511,6 +533,7 @@
     ],
     "sellValue": 10,
     "icon": "/icons/forage-dandelion.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dandelion"
   },
   {
@@ -535,6 +558,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-dill.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dill"
   },
   {
@@ -557,6 +581,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-earthshroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Earthshroom"
   },
   {
@@ -574,6 +599,7 @@
     ],
     "sellValue": 55,
     "icon": "/icons/forage-essence-blossom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Essence_Blossom"
   },
   {
@@ -591,6 +617,7 @@
     ],
     "sellValue": 55,
     "icon": "/icons/forage-ethereal-grass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ethereal_Grass"
   },
   {
@@ -611,6 +638,7 @@
     "tags": [],
     "sellValue": 20,
     "icon": "/icons/forage-fennel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fennel"
   },
   {
@@ -632,6 +660,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-fiddlehead.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fiddlehead"
   },
   {
@@ -654,6 +683,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-flame-pepper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Flame_Pepper"
   },
   {
@@ -676,6 +706,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-fog-orchid.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fog_Orchid"
   },
   {
@@ -701,6 +732,7 @@
     ],
     "sellValue": 25,
     "icon": "/icons/forage-frost-lily.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Lily"
   },
   {
@@ -723,6 +755,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-garlic.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
   },
   {
@@ -748,6 +781,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-glowberry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Glowberry"
   },
   {
@@ -774,6 +808,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-heather.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Heather"
   },
   {
@@ -794,6 +829,7 @@
     "tags": [],
     "sellValue": 20,
     "icon": "/icons/forage-holly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Holly"
   },
   {
@@ -815,6 +851,7 @@
     "tags": [],
     "sellValue": 30,
     "icon": "/icons/forage-horseradish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Horseradish"
   },
   {
@@ -837,6 +874,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-hot-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hot_Potato"
   },
   {
@@ -859,6 +897,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-hydrangea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hydrangea"
   },
   {
@@ -881,6 +920,7 @@
     "tags": [],
     "sellValue": 5,
     "icon": "/icons/forage-ice-block.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ice_Block"
   },
   {
@@ -906,6 +946,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-iris.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iris"
   },
   {
@@ -928,6 +969,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-jade-dulse.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jade_Dulse"
   },
   {
@@ -952,6 +994,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-jasmine.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
   },
   {
@@ -974,6 +1017,7 @@
     ],
     "sellValue": 45,
     "icon": "/icons/forage-lava-chestnuts.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Chestnuts"
   },
   {
@@ -997,6 +1041,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-lilac.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lilac"
   },
   {
@@ -1014,7 +1059,7 @@
       "Foraging",
       "Pet Job \"Collect Forageables\" (Summer only)",
       "Balor's Wagon (conditional) for 160t",
-      "Birthday gift from CaldarusCategory:Pages with spoilers"
+      "Birthday gift from {{spoiler}}Caldarus{{/spoiler}}"
     ],
     "tags": [
       "Crop",
@@ -1022,6 +1067,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-marigold.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Marigold"
   },
   {
@@ -1044,6 +1090,7 @@
     ],
     "sellValue": 100,
     "icon": "/icons/forage-middlemist.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Middlemist"
   },
   {
@@ -1066,6 +1113,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-mines-mussels.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mines_Mussels"
   },
   {
@@ -1091,6 +1139,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-moon-fruit.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit"
   },
   {
@@ -1111,6 +1160,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-morel-mushroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Morel_Mushroom"
   },
   {
@@ -1133,6 +1183,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-narrows-moss.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Narrows_Moss"
   },
   {
@@ -1154,6 +1205,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-nettle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Nettle"
   },
   {
@@ -1178,6 +1230,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-night-queen.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Night_Queen"
   },
   {
@@ -1200,6 +1253,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-oregano.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Oregano"
   },
   {
@@ -1221,6 +1275,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-oyster-mushroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Oyster_Mushroom"
   },
   {
@@ -1242,6 +1297,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-pinecone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pinecone"
   },
   {
@@ -1261,6 +1317,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-pineshroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom"
   },
   {
@@ -1283,6 +1340,7 @@
     "tags": [],
     "sellValue": 20,
     "icon": "/icons/forage-pink-scallop-shell.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pink_Scallop_Shell"
   },
   {
@@ -1292,7 +1350,7 @@
       "Winter"
     ],
     "locations": [
-      "The Western Ruins (requires Story Quest \"Breaking The Final Seal\" to be completed)</smal"
+      "The Western Ruins (requires Story Quest {{spoiler}} \"Breaking The Final Seal\"{{/spoiler}} to be completed)"
     ],
     "sources": [
       "Foraging",
@@ -1303,6 +1361,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-plum-blossom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Plum_Blossom"
   },
   {
@@ -1327,6 +1386,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-poinsettia.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Poinsettia"
   },
   {
@@ -1347,6 +1407,7 @@
     ],
     "sellValue": null,
     "icon": "/icons/forage-queen-berry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Queen_Berry"
   },
   {
@@ -1369,6 +1430,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-rockroot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rockroot"
   },
   {
@@ -1390,6 +1452,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-rose.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rose"
   },
   {
@@ -1410,6 +1473,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-rose-hip.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rose_Hip"
   },
   {
@@ -1432,6 +1496,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-rosemary.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary"
   },
   {
@@ -1455,6 +1520,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-sage.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sage"
   },
   {
@@ -1477,6 +1543,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-sand-dollar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Dollar"
   },
   {
@@ -1499,6 +1566,7 @@
     ],
     "sellValue": 35,
     "icon": "/icons/forage-sea-grapes.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Grapes"
   },
   {
@@ -1518,6 +1586,7 @@
     "tags": [],
     "sellValue": 30,
     "icon": "/icons/forage-sesame.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame"
   },
   {
@@ -1541,6 +1610,7 @@
     ],
     "sellValue": 50,
     "icon": "/icons/forage-shadow-flower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Flower"
   },
   {
@@ -1563,6 +1633,7 @@
     ],
     "sellValue": 10,
     "icon": "/icons/forage-shale-grass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shale_Grass"
   },
   {
@@ -1586,6 +1657,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-snapdragon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snapdragon"
   },
   {
@@ -1596,7 +1668,7 @@
     ],
     "locations": [
       "The Western Ruins",
-      "The Beach (requires Story Quest \"Repair the Beach Bridge\"Category:Pages with spoilers to be completed)"
+      "The Beach (requires Story Quest {{spoiler}} \"Repair the Beach Bridge\"{{/spoiler}} to be completed)"
     ],
     "sources": [
       "Farming",
@@ -1610,6 +1682,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-snowdrop-anemone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snowdrop_Anemone"
   },
   {
@@ -1627,6 +1700,7 @@
     ],
     "sellValue": 45,
     "icon": "/icons/forage-spell-fruit.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spell_Fruit"
   },
   {
@@ -1648,6 +1722,7 @@
     "tags": [],
     "sellValue": 35,
     "icon": "/icons/forage-spirit-mushroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom"
   },
   {
@@ -1670,6 +1745,7 @@
     "tags": [],
     "sellValue": 30,
     "icon": "/icons/forage-spirula-shell.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spirula_Shell"
   },
   {
@@ -1692,6 +1768,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-sweetroot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweetroot"
   },
   {
@@ -1718,6 +1795,7 @@
     ],
     "sellValue": 25,
     "icon": "/icons/forage-temple-flower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Temple_Flower"
   },
   {
@@ -1739,6 +1817,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-thorn-vine.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Thorn_Vine"
   },
   {
@@ -1761,6 +1840,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-thyme.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
   },
   {
@@ -1783,6 +1863,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-tide-lettuce.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tide_Lettuce"
   },
   {
@@ -1809,6 +1890,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-tulip.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tulip"
   },
   {
@@ -1831,6 +1913,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-underseaweed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Underseaweed"
   },
   {
@@ -1853,6 +1936,7 @@
     ],
     "sellValue": 20,
     "icon": "/icons/forage-upper-mines-mushroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Upper_Mines_Mushroom"
   },
   {
@@ -1876,6 +1960,7 @@
     ],
     "sellValue": 40,
     "icon": "/icons/forage-viola.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Viola"
   },
   {
@@ -1897,6 +1982,7 @@
     ],
     "sellValue": 30,
     "icon": "/icons/forage-void-herb.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Void_Herb"
   },
   {
@@ -1918,6 +2004,7 @@
     "tags": [],
     "sellValue": 25,
     "icon": "/icons/forage-walnut.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Walnut"
   },
   {
@@ -1938,6 +2025,7 @@
     "tags": [],
     "sellValue": 5,
     "icon": "/icons/forage-water-chestnut.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut"
   },
   {
@@ -1964,6 +2052,7 @@
     ],
     "sellValue": 1,
     "icon": "/icons/forage-wild-berries.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berries"
   },
   {
@@ -1984,6 +2073,7 @@
     ],
     "sellValue": 25,
     "icon": "/icons/forage-wild-grapes.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Grapes"
   },
   {
@@ -2005,6 +2095,7 @@
     "tags": [],
     "sellValue": 15,
     "icon": "/icons/forage-wild-leek.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Leek"
   },
   {
@@ -2028,6 +2119,7 @@
     ],
     "sellValue": 5,
     "icon": "/icons/forage-wintergreen-berry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Berry"
   },
   {
@@ -2045,6 +2137,7 @@
     ],
     "sellValue": 50,
     "icon": "/icons/forage-written-root.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Written_Root"
   }
 ]

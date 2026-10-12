@@ -121,6 +121,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Adeline%2FQuests"
   },
   "balor": {
@@ -244,6 +245,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Balor%2FQuests"
   },
   "caldarus": {
@@ -263,7 +265,7 @@
           [
             "Life in This Form",
             "Caldarus asked me to join him at his temple for a meal. What could he want to speak about?",
-            "Letter from Caldarus",
+            "Letter from {{spoiler}}Caldarus{{/spoiler}}",
             "(8 Hearts)",
             "",
             "The Temple",
@@ -284,48 +286,49 @@
           [
             "Request for a Dog Treat",
             "I'd like to request a Dog Treat for the Bathhouse owner.",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Dog Treat (1)",
             "510t\n20 Renown"
           ],
           [
             "Request for Fried Rice",
             "I had some Fried Rice at the Inn which I found to be quite enjoyable! I would like to request more from another chef to see how it differs.",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Fried Rice (1)",
             "750t\n20 Renown"
           ],
           [
             "Request for a Lobster",
             "It's quite the walk to the ocean from my home. I'd like to request a Lobster from an angler.",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Lobster (1)",
             "445t\n20 Renown"
           ],
           [
             "Request for Monster Mash",
             "I would like to request a dish called \"Monster Mash\". My own attempts at creating it have been less than successful.",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Monster Mash (1)",
             "1,000t\n20 Renown"
           ],
           [
             "Request for a Pumpkin Pie",
             "Could I request a fresh Pumpkin Pie?",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Pumpkin Pie (1)",
             "670t\n20 Renown"
           ],
           [
             "Request for a Sushi Platter",
             "May I request a Sushi Platter?",
-            "Have Met Seridia",
+            "Have Met {{spoiler}}Seridia{{/spoiler}}",
             "Sushi Platter (1)",
             "800t\n20 Renown"
           ]
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Caldarus%2FQuests"
   },
   "celine": {
@@ -435,6 +438,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Celine%2FQuests"
   },
   "darcy": {
@@ -524,6 +528,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Darcy%2FQuests"
   },
   "dell": {
@@ -597,6 +602,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dell%2FQuests"
   },
   "dozy": {
@@ -621,6 +627,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dozy%2FQuests"
   },
   "eiland": {
@@ -751,6 +758,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Eiland%2FQuests"
   },
   "elsie": {
@@ -840,6 +848,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Elsie%2FQuests"
   },
   "errol": {
@@ -943,6 +952,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Errol%2FQuests"
   },
   "hayden": {
@@ -1080,6 +1090,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hayden%2FQuests"
   },
   "hemlock": {
@@ -1183,6 +1194,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hemlock%2FQuests"
   },
   "holt": {
@@ -1263,6 +1275,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Holt%2FQuests"
   },
   "josephine": {
@@ -1380,6 +1393,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Josephine%2FQuests"
   },
   "juniper": {
@@ -1567,6 +1581,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Juniper%2FQuests"
   },
   "landen": {
@@ -1633,6 +1648,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Landen%2FQuests"
   },
   "louis": {
@@ -1685,6 +1701,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Louis%2FQuests"
   },
   "luc": {
@@ -1767,6 +1784,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Luc%2FQuests"
   },
   "maple": {
@@ -1826,6 +1844,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Maple%2FQuests"
   },
   "march": {
@@ -1947,6 +1966,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/March%2FQuests"
   },
   "merri": {
@@ -1999,6 +2019,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Merri%2FQuests"
   },
   "nora": {
@@ -2095,6 +2116,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Nora%2FQuests"
   },
   "olric": {
@@ -2177,6 +2199,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Olric%2FQuests"
   },
   "priestess": {
@@ -2195,19 +2218,19 @@
         "rows": [
           [
             "Your Heart Desires",
-            "Seridia asked me to meet her at her temple to discuss something privately. Does she want me to pay homage again?",
-            "Letter from Seridia",
+            "{{spoiler}}Seridia{{/spoiler}} asked me to meet her at {{spoiler}}her temple{{/spoiler}} to discuss something privately. Does she want me to pay homage again?",
+            "Letter from {{spoiler}}Seridia{{/spoiler}}",
             "(8 Hearts)",
             "Completion of The Mines' Questline",
-            "Seridia's Temple",
+            "{{spoiler}}Seridia's Temple{{/spoiler}}",
             ""
           ],
           [
             "A Craving",
-            "Seridia said she's been craving an Ice Cream Sundae. Anything to help her out!",
-            "Seridia",
+            "{{spoiler}}Seridia{{/spoiler}} said she's been craving an Ice Cream Sundae. Anything to help her out!",
+            "{{spoiler}}Seridia{{/spoiler}}",
             "(10 Hearts)",
-            "Seridia is pregnant",
+            "{{spoiler}}Seridia{{/spoiler}} is pregnant",
             "The Farm"
           ]
         ]
@@ -2281,6 +2304,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Priestess%2FQuests"
   },
   "reina": {
@@ -2433,6 +2457,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Reina%2FQuests"
   },
   "ryis": {
@@ -2555,6 +2580,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ryis%2FQuests"
   },
   "taliferro": {
@@ -2609,7 +2635,7 @@
           [
             "Request for Beet Soup",
             "If there was someone... who had made an exceptional Beet Soup, and was so inclined to make more... I'd be willing to pay handsomely.",
-            "Completed: Cooking Challenge \"Beet Soup Challenge\"\nCurrent Day: Saturday",
+            "Completed: Cooking Challenge {{spoiler}}\"Beet Soup Challenge\"{{/spoiler}}\nCurrent Day: Saturday",
             "Beet Soup (1)",
             "650t\n20 Renown"
           ],
@@ -2726,6 +2752,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Taliferro%2FQuests"
   },
   "terithia": {
@@ -2822,6 +2849,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Terithia%2FQuests"
   },
   "valen": {
@@ -2953,6 +2981,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Valen%2FQuests"
   },
   "vera": {
@@ -3005,6 +3034,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Vera%2FQuests"
   },
   "wheedle": {
@@ -3050,6 +3080,7 @@
         ]
       }
     ],
+    "spoiler": true,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wheedle%2FQuests"
   }
 }

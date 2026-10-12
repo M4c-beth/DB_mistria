@@ -966,6 +966,7 @@
         ]
       }
     ],
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Adeline%2FSchedule"
   },
   "celine": {
@@ -1863,6 +1864,7 @@
         ]
       }
     ],
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Celine%2FSchedule"
   },
   "march": {
@@ -2428,6 +2430,7 @@
         ]
       }
     ],
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/March%2FSchedule"
   }
 }

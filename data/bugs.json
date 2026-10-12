@@ -19,6 +19,7 @@
     "spawnCondition": null,
     "sellValue": 40,
     "icon": "/icons/bug-ancient-firefly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Firefly"
   },
   {
@@ -43,6 +44,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-ant.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ant"
   },
   {
@@ -65,6 +67,7 @@
     "spawnCondition": "Common Bug Pheromones",
     "sellValue": 30,
     "icon": "/icons/bug-ant-queen.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ant_Queen"
   },
   {
@@ -87,6 +90,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-beach-hopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Beach_Hopper"
   },
   {
@@ -109,6 +113,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-big-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Big_Bee"
   },
   {
@@ -131,6 +136,7 @@
     "spawnCondition": "Legendary Bug Pheromones",
     "sellValue": 120,
     "icon": "/icons/bug-biggest-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Biggest_Beetle"
   },
   {
@@ -150,6 +156,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-brightbulb-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Brightbulb_Moth"
   },
   {
@@ -172,6 +179,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-bumblebee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bumblebee"
   },
   {
@@ -192,6 +200,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Butterfly"
   },
   {
@@ -214,6 +223,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 10,
     "icon": "/icons/bug-caterpillar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Caterpillar"
   },
   {
@@ -233,6 +243,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-chillipede.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chillipede"
   },
   {
@@ -252,6 +263,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 10,
     "icon": "/icons/bug-cicada.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cicada"
   },
   {
@@ -271,6 +283,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-cicada-nymph.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cicada_Nymph"
   },
   {
@@ -293,6 +306,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-cooktop-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cooktop_Beetle"
   },
   {
@@ -315,6 +329,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-copper-nugget-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Nugget_Beetle"
   },
   {
@@ -337,6 +352,7 @@
     "spawnCondition": null,
     "sellValue": 35,
     "icon": "/icons/bug-coral-mantis.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coral_Mantis"
   },
   {
@@ -356,6 +372,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-cricket.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cricket"
   },
   {
@@ -376,6 +393,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 20,
     "icon": "/icons/bug-crystal-caterpillar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Caterpillar"
   },
   {
@@ -398,6 +416,7 @@
     "spawnCondition": null,
     "sellValue": 50,
     "icon": "/icons/bug-crystal-wing-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Wing_Moth"
   },
   {
@@ -420,6 +439,7 @@
     "spawnCondition": null,
     "sellValue": 25,
     "icon": "/icons/bug-crystalline-cricket.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystalline_Cricket"
   },
   {
@@ -442,6 +462,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 25,
     "icon": "/icons/bug-deep-earthworm.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deep_Earthworm"
   },
   {
@@ -464,6 +485,7 @@
     "spawnCondition": null,
     "sellValue": 80,
     "icon": "/icons/bug-diamond-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Diamond_Beetle"
   },
   {
@@ -486,6 +508,7 @@
     "spawnCondition": null,
     "sellValue": 40,
     "icon": "/icons/bug-dragon-horn-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Horn_Beetle"
   },
   {
@@ -507,6 +530,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-dragonfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragonfly"
   },
   {
@@ -527,6 +551,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-fairy-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fairy_Bee"
   },
   {
@@ -549,6 +574,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-fire-wasp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fire_Wasp"
   },
   {
@@ -568,6 +594,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-firefly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Firefly"
   },
   {
@@ -591,6 +618,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-flower-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Flower_Bee"
   },
   {
@@ -611,6 +639,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-flower-crown-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Flower_Crown_Beetle"
   },
   {
@@ -630,6 +659,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-frost-flutter-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Flutter_Butterfly"
   },
   {
@@ -649,6 +679,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-fur-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fur_Bee"
   },
   {
@@ -672,6 +703,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-fuzzy-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fuzzy_Moth"
   },
   {
@@ -694,6 +726,7 @@
     "spawnCondition": null,
     "sellValue": 40,
     "icon": "/icons/bug-gem-shard-caterpillar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gem_Shard_Caterpillar"
   },
   {
@@ -716,6 +749,7 @@
     "spawnCondition": null,
     "sellValue": 50,
     "icon": "/icons/bug-giant-worm.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Worm"
   },
   {
@@ -738,6 +772,7 @@
     "spawnCondition": "Additional spawns when cutting grass",
     "sellValue": 10,
     "icon": "/icons/bug-grasshopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grasshopper"
   },
   {
@@ -760,6 +795,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-hermit-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Crab"
   },
   {
@@ -782,6 +818,7 @@
     "spawnCondition": null,
     "sellValue": 35,
     "icon": "/icons/bug-hermit-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Snail"
   },
   {
@@ -804,6 +841,7 @@
     "spawnCondition": null,
     "sellValue": 90,
     "icon": "/icons/bug-hidden-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hidden_Beetle"
   },
   {
@@ -825,6 +863,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-hummingbird-hawk-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hummingbird_Hawk_Moth"
   },
   {
@@ -844,6 +883,7 @@
     "spawnCondition": "Additional spawns when cutting grass",
     "sellValue": 10,
     "icon": "/icons/bug-icehopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Icehopper"
   },
   {
@@ -863,6 +903,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-inchworm.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Inchworm"
   },
   {
@@ -882,6 +923,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-jewel-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jewel_Beetle"
   },
   {
@@ -904,6 +946,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-ladybug.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ladybug"
   },
   {
@@ -926,6 +969,7 @@
     "spawnCondition": "Spawns near light sources",
     "sellValue": 15,
     "icon": "/icons/bug-lantern-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lantern_Moth"
   },
   {
@@ -948,6 +992,7 @@
     "spawnCondition": null,
     "sellValue": 45,
     "icon": "/icons/bug-lava-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Snail"
   },
   {
@@ -967,6 +1012,7 @@
     "spawnCondition": "Additional spawns when cutting grass",
     "sellValue": 10,
     "icon": "/icons/bug-leafhopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Leafhopper"
   },
   {
@@ -992,6 +1038,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-lightning-dragonfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Dragonfly"
   },
   {
@@ -1014,6 +1061,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 35,
     "icon": "/icons/bug-loam-caterpillar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Loam_Caterpillar"
   },
   {
@@ -1034,6 +1082,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-luna-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Luna_Moth"
   },
   {
@@ -1053,6 +1102,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-magma-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Magma_Beetle"
   },
   {
@@ -1075,6 +1125,7 @@
     "spawnCondition": null,
     "sellValue": 35,
     "icon": "/icons/bug-mine-cricket.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mine_Cricket"
   },
   {
@@ -1095,6 +1146,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-mistmoth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistmoth"
   },
   {
@@ -1115,6 +1167,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-monarch-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Monarch_Butterfly"
   },
   {
@@ -1138,6 +1191,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-moonlight-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Moonlight_Bee"
   },
   {
@@ -1161,6 +1215,7 @@
     "spawnCondition": null,
     "sellValue": 25,
     "icon": "/icons/bug-mote-firefly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mote_Firefly"
   },
   {
@@ -1183,6 +1238,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-orchid-mantis.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Orchid_Mantis"
   },
   {
@@ -1205,6 +1261,7 @@
     "spawnCondition": null,
     "sellValue": 80,
     "icon": "/icons/bug-parchment-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Parchment_Moth"
   },
   {
@@ -1224,6 +1281,7 @@
     "spawnCondition": "Additional spawns when breaking grass",
     "sellValue": 10,
     "icon": "/icons/bug-petalhopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Petalhopper"
   },
   {
@@ -1243,6 +1301,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-polar-fly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Polar_Fly"
   },
   {
@@ -1270,6 +1329,7 @@
     "spawnCondition": "On water",
     "sellValue": 15,
     "icon": "/icons/bug-pond-skater.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pond_Skater"
   },
   {
@@ -1292,6 +1352,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-praying-mantis.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Praying_Mantis"
   },
   {
@@ -1314,6 +1375,7 @@
     "spawnCondition": null,
     "sellValue": 45,
     "icon": "/icons/bug-puddle-spider.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Puddle_Spider"
   },
   {
@@ -1336,6 +1398,7 @@
     "spawnCondition": "Rare Bug Pheromones",
     "sellValue": 90,
     "icon": "/icons/bug-queens-birdwing.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Queen's_Birdwing"
   },
   {
@@ -1358,6 +1421,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-question-mark-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Question_Mark_Butterfly"
   },
   {
@@ -1371,6 +1435,7 @@
     "spawnCondition": null,
     "sellValue": null,
     "icon": "/icons/bug-raindrop-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Raindrop_Beetle"
   },
   {
@@ -1392,6 +1457,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-redhead-worm.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Redhead_Worm"
   },
   {
@@ -1414,6 +1480,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-relic-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Relic_Crab"
   },
   {
@@ -1435,6 +1502,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-rhinoceros-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rhinoceros_Beetle"
   },
   {
@@ -1457,6 +1525,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 25,
     "icon": "/icons/bug-rock-roach.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Roach"
   },
   {
@@ -1476,6 +1545,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-roly-poly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roly_Poly"
   },
   {
@@ -1498,6 +1568,7 @@
     "spawnCondition": "Uncommon Bug Pheromones",
     "sellValue": 60,
     "icon": "/icons/bug-saint-mantis.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Saint_Mantis"
   },
   {
@@ -1520,6 +1591,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-sand-bug.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Bug"
   },
   {
@@ -1542,6 +1614,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 20,
     "icon": "/icons/bug-sea-scarab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Scarab"
   },
   {
@@ -1564,6 +1637,7 @@
     "spawnCondition": null,
     "sellValue": 70,
     "icon": "/icons/bug-singing-katydid.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Singing_Katydid"
   },
   {
@@ -1586,6 +1660,7 @@
     "spawnCondition": null,
     "sellValue": 40,
     "icon": "/icons/bug-smoke-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Smoke_Moth"
   },
   {
@@ -1605,6 +1680,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snail"
   },
   {
@@ -1624,6 +1700,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-snowball-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snowball_Beetle"
   },
   {
@@ -1643,6 +1720,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-snug-bug.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snug_Bug"
   },
   {
@@ -1667,6 +1745,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-speedy-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Speedy_Snail"
   },
   {
@@ -1686,6 +1765,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-strawhopper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Strawhopper"
   },
   {
@@ -1705,6 +1785,7 @@
     "spawnCondition": null,
     "sellValue": 30,
     "icon": "/icons/bug-strobe-firefly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Strobe_Firefly"
   },
   {
@@ -1727,6 +1808,7 @@
     "spawnCondition": "Common Bug Pheromones",
     "sellValue": 35,
     "icon": "/icons/bug-sunset-moth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sunset_Moth"
   },
   {
@@ -1749,6 +1831,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-surf-beetle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Surf_Beetle"
   },
   {
@@ -1772,6 +1855,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-sweet-bee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Bee"
   },
   {
@@ -1792,6 +1876,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-tiger-swallowtail-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tiger_Swallowtail_Butterfly"
   },
   {
@@ -1814,6 +1899,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-tunnel-millipede.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tunnel_Millipede"
   },
   {
@@ -1836,6 +1922,7 @@
     "spawnCondition": null,
     "sellValue": 40,
     "icon": "/icons/bug-void-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Void_Snail"
   },
   {
@@ -1855,6 +1942,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 15,
     "icon": "/icons/bug-walking-leaf.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Walking_Leaf"
   },
   {
@@ -1874,6 +1962,7 @@
     "spawnCondition": null,
     "sellValue": 15,
     "icon": "/icons/bug-walking-stick.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Walking_Stick"
   },
   {
@@ -1896,6 +1985,7 @@
     "spawnCondition": null,
     "sellValue": 10,
     "icon": "/icons/bug-waterbug.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Waterbug"
   },
   {
@@ -1918,6 +2008,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-waterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Waterfly"
   },
   {
@@ -1941,6 +2032,7 @@
     "spawnCondition": null,
     "sellValue": 20,
     "icon": "/icons/bug-windleaf-butterfly.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Windleaf_Butterfly"
   },
   {
@@ -1960,6 +2052,7 @@
     "spawnCondition": "Additional spawns in trees",
     "sellValue": 10,
     "icon": "/icons/bug-winterpillar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Winterpillar"
   },
   {
@@ -1982,6 +2075,7 @@
     "spawnCondition": "Breaking rocks",
     "sellValue": 15,
     "icon": "/icons/bug-worm.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Worm"
   }
 ]

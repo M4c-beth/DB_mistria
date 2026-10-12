@@ -10,6 +10,7 @@
     "regrowDays": 3,
     "sellValue": 45,
     "icon": "/icons/crop-apple.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Apple"
   },
   {
@@ -23,6 +24,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-basil.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Basil"
   },
   {
@@ -36,6 +38,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-beet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Beet"
   },
   {
@@ -49,6 +52,7 @@
     "regrowDays": null,
     "sellValue": 75,
     "icon": "/icons/crop-broccoli.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Broccoli"
   },
   {
@@ -62,6 +66,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-burdock-root.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Burdock_Root"
   },
   {
@@ -75,6 +80,7 @@
     "regrowDays": null,
     "sellValue": 180,
     "icon": "/icons/crop-cabbage.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cabbage"
   },
   {
@@ -88,6 +94,7 @@
     "regrowDays": null,
     "sellValue": 80,
     "icon": "/icons/crop-carrot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Carrot"
   },
   {
@@ -101,6 +108,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-catmint.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Catmint"
   },
   {
@@ -114,6 +122,7 @@
     "regrowDays": null,
     "sellValue": 75,
     "icon": "/icons/crop-cauliflower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower"
   },
   {
@@ -127,6 +136,7 @@
     "regrowDays": null,
     "sellValue": 25,
     "icon": "/icons/crop-celosia.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Celosia"
   },
   {
@@ -140,6 +150,7 @@
     "regrowDays": 3,
     "sellValue": 45,
     "icon": "/icons/crop-cherry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry"
   },
   {
@@ -153,6 +164,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-chickpea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea"
   },
   {
@@ -166,6 +178,7 @@
     "regrowDays": null,
     "sellValue": 75,
     "icon": "/icons/crop-chili-pepper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chili_Pepper"
   },
   {
@@ -179,6 +192,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-chrysanthemum.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chrysanthemum"
   },
   {
@@ -192,6 +206,7 @@
     "regrowDays": 3,
     "sellValue": 125,
     "icon": "/icons/crop-corn.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Corn"
   },
   {
@@ -205,6 +220,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-cosmos.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cosmos"
   },
   {
@@ -218,6 +234,7 @@
     "regrowDays": 3,
     "sellValue": 125,
     "icon": "/icons/crop-cranberry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry"
   },
   {
@@ -231,6 +248,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-cucumber.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber"
   },
   {
@@ -244,6 +262,7 @@
     "regrowDays": null,
     "sellValue": 25,
     "icon": "/icons/crop-daffodil.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Daffodil"
   },
   {
@@ -257,6 +276,7 @@
     "regrowDays": null,
     "sellValue": 180,
     "icon": "/icons/crop-daikon-radish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Daikon_Radish"
   },
   {
@@ -270,6 +290,7 @@
     "regrowDays": null,
     "sellValue": 15,
     "icon": "/icons/crop-daisy.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Daisy"
   },
   {
@@ -283,6 +304,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-dill.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dill"
   },
   {
@@ -296,6 +318,7 @@
     "regrowDays": null,
     "sellValue": 25,
     "icon": "/icons/crop-frost-lily.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Lily"
   },
   {
@@ -309,6 +332,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-garlic.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
   },
   {
@@ -322,6 +346,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-heather.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Heather"
   },
   {
@@ -335,6 +360,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-iris.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iris"
   },
   {
@@ -348,6 +374,7 @@
     "regrowDays": 3,
     "sellValue": 35,
     "icon": "/icons/crop-jasmine.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
   },
   {
@@ -361,6 +388,7 @@
     "regrowDays": 3,
     "sellValue": 35,
     "icon": "/icons/crop-lilac.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lilac"
   },
   {
@@ -374,6 +402,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-marigold.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Marigold"
   },
   {
@@ -387,6 +416,7 @@
     "regrowDays": 3,
     "sellValue": 35,
     "icon": "/icons/crop-moon-fruit.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit"
   },
   {
@@ -400,6 +430,7 @@
     "regrowDays": null,
     "sellValue": 35,
     "icon": "/icons/crop-night-queen.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Night_Queen"
   },
   {
@@ -413,6 +444,7 @@
     "regrowDays": 3,
     "sellValue": 135,
     "icon": "/icons/crop-onion.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Onion"
   },
   {
@@ -426,6 +458,7 @@
     "regrowDays": 3,
     "sellValue": 45,
     "icon": "/icons/crop-orange.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Orange"
   },
   {
@@ -439,6 +472,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-oregano.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Oregano"
   },
   {
@@ -452,6 +486,7 @@
     "regrowDays": 3,
     "sellValue": 135,
     "icon": "/icons/crop-peas.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Peas"
   },
   {
@@ -465,6 +500,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-poinsettia.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Poinsettia"
   },
   {
@@ -478,6 +514,7 @@
     "regrowDays": 3,
     "sellValue": 45,
     "icon": "/icons/crop-pomegranate.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate"
   },
   {
@@ -491,6 +528,7 @@
     "regrowDays": null,
     "sellValue": 75,
     "icon": "/icons/crop-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Potato"
   },
   {
@@ -504,6 +542,7 @@
     "regrowDays": null,
     "sellValue": 180,
     "icon": "/icons/crop-pumpkin.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin"
   },
   {
@@ -517,6 +556,7 @@
     "regrowDays": 3,
     "sellValue": 150,
     "icon": "/icons/crop-rice-stalk.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rice_Stalk"
   },
   {
@@ -530,6 +570,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-rosemary.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary"
   },
   {
@@ -543,6 +584,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-sage.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sage"
   },
   {
@@ -556,6 +598,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-snapdragon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snapdragon"
   },
   {
@@ -569,6 +612,7 @@
     "regrowDays": 3,
     "sellValue": 125,
     "icon": "/icons/crop-snow-peas.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snow_Peas"
   },
   {
@@ -582,6 +626,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-snowdrop-anemone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snowdrop_Anemone"
   },
   {
@@ -595,6 +640,7 @@
     "regrowDays": 3,
     "sellValue": 125,
     "icon": "/icons/crop-strawberry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberry"
   },
   {
@@ -608,6 +654,7 @@
     "regrowDays": null,
     "sellValue": 80,
     "icon": "/icons/crop-sugar-cane.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sugar_Cane"
   },
   {
@@ -621,6 +668,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-sunflower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sunflower"
   },
   {
@@ -634,6 +682,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-sweet-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato"
   },
   {
@@ -647,6 +696,7 @@
     "regrowDays": 3,
     "sellValue": 135,
     "icon": "/icons/crop-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tea"
   },
   {
@@ -663,6 +713,7 @@
     "regrowDays": 3,
     "sellValue": 25,
     "icon": "/icons/crop-temple-flower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Temple_Flower"
   },
   {
@@ -676,6 +727,7 @@
     "regrowDays": 3,
     "sellValue": 30,
     "icon": "/icons/crop-thyme.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
   },
   {
@@ -689,6 +741,7 @@
     "regrowDays": 3,
     "sellValue": 125,
     "icon": "/icons/crop-tomato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tomato"
   },
   {
@@ -702,6 +755,7 @@
     "regrowDays": null,
     "sellValue": 30,
     "icon": "/icons/crop-tulip.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tulip"
   },
   {
@@ -715,6 +769,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-turnip.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip"
   },
   {
@@ -728,6 +783,7 @@
     "regrowDays": null,
     "sellValue": 40,
     "icon": "/icons/crop-viola.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Viola"
   },
   {
@@ -741,6 +797,7 @@
     "regrowDays": null,
     "sellValue": 180,
     "icon": "/icons/crop-watermelon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Watermelon"
   },
   {
@@ -754,6 +811,7 @@
     "regrowDays": 3,
     "sellValue": 150,
     "icon": "/icons/crop-wheat.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wheat"
   }
 ]

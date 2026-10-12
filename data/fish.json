@@ -19,6 +19,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-alligator-gar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Alligator_Gar"
   },
   {
@@ -44,6 +45,7 @@
     },
     "sellValue": 200,
     "icon": "/icons/fish-amberjack.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Amberjack"
   },
   {
@@ -66,6 +68,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-anchovy.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Anchovy"
   },
   {
@@ -88,6 +91,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-angel-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Angel_Fish"
   },
   {
@@ -113,6 +117,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-archerfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Archerfish"
   },
   {
@@ -138,6 +143,7 @@
     },
     "sellValue": 65,
     "icon": "/icons/fish-armored-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Armored_Bass"
   },
   {
@@ -163,6 +169,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-bait-thief.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bait_Thief"
   },
   {
@@ -185,6 +192,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-barb.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Barb"
   },
   {
@@ -210,6 +218,7 @@
     },
     "sellValue": 60,
     "icon": "/icons/fish-blue-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blue_Crab"
   },
   {
@@ -235,6 +244,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-bluefish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bluefish"
   },
   {
@@ -257,6 +267,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-bluegill.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bluegill"
   },
   {
@@ -280,6 +291,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-bonito.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bonito"
   },
   {
@@ -302,6 +314,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-bowfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bowfish"
   },
   {
@@ -324,6 +337,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-bream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bream"
   },
   {
@@ -346,6 +360,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-brown-bullhead.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Brown_Bullhead"
   },
   {
@@ -368,6 +383,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-brown-trout.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Brown_Trout"
   },
   {
@@ -396,6 +412,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-bullfrog.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bullfrog"
   },
   {
@@ -419,6 +436,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-burbot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Burbot"
   },
   {
@@ -441,6 +459,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-butterfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Butterfish"
   },
   {
@@ -466,6 +485,7 @@
     },
     "sellValue": 60,
     "icon": "/icons/fish-candelabra-seadragon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Candelabra_Seadragon"
   },
   {
@@ -488,6 +508,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-carp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Carp"
   },
   {
@@ -513,6 +534,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-catfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Catfish"
   },
   {
@@ -538,6 +560,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-cave-eel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Eel"
   },
   {
@@ -563,6 +586,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-cave-shark.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shark"
   },
   {
@@ -588,6 +612,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-cave-shrimp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shrimp"
   },
   {
@@ -610,6 +635,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-char.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Char"
   },
   {
@@ -632,6 +658,7 @@
     },
     "sellValue": 500,
     "icon": "/icons/fish-cherry-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Fish"
   },
   {
@@ -654,6 +681,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-chub.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chub"
   },
   {
@@ -677,6 +705,7 @@
     },
     "sellValue": 75,
     "icon": "/icons/fish-chum.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chum"
   },
   {
@@ -702,6 +731,7 @@
     },
     "sellValue": 20,
     "icon": "/icons/fish-clam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Clam"
   },
   {
@@ -725,6 +755,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-cod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cod"
   },
   {
@@ -750,6 +781,7 @@
     },
     "sellValue": 140,
     "icon": "/icons/fish-coelacanth.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coelacanth"
   },
   {
@@ -775,6 +807,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-copper-rockfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Rockfish"
   },
   {
@@ -797,6 +830,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crab"
   },
   {
@@ -822,6 +856,7 @@
     },
     "sellValue": 25,
     "icon": "/icons/fish-crayfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crayfish"
   },
   {
@@ -844,6 +879,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-crucian-carp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crucian_Carp"
   },
   {
@@ -867,6 +903,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-dace.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dace"
   },
   {
@@ -889,6 +926,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-dart.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dart"
   },
   {
@@ -914,6 +952,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-earth-eel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Earth_Eel"
   },
   {
@@ -939,6 +978,7 @@
     },
     "sellValue": 125,
     "icon": "/icons/fish-emerald-horned-charger.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Emerald_Horned_Charger"
   },
   {
@@ -964,6 +1004,7 @@
     },
     "sellValue": 130,
     "icon": "/icons/fish-firesail-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Firesail_Fish"
   },
   {
@@ -986,6 +1027,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-flathead-catfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Flathead_Catfish"
   },
   {
@@ -1014,6 +1056,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-forest-perch.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Forest_Perch"
   },
   {
@@ -1036,6 +1079,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-freshwater-eel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Eel"
   },
   {
@@ -1061,6 +1105,7 @@
     },
     "sellValue": 25,
     "icon": "/icons/fish-freshwater-oyster.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Oyster"
   },
   {
@@ -1084,6 +1129,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-frog.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Frog"
   },
   {
@@ -1107,6 +1153,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-gar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gar"
   },
   {
@@ -1132,6 +1179,7 @@
     },
     "sellValue": 110,
     "icon": "/icons/fish-gazer.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gazer"
   },
   {
@@ -1157,6 +1205,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-giant-jellyfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Jellyfish"
   },
   {
@@ -1179,6 +1228,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-giant-koi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Koi"
   },
   {
@@ -1201,6 +1251,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-giant-tilapia.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Tilapia"
   },
   {
@@ -1226,6 +1277,7 @@
     },
     "sellValue": 70,
     "icon": "/icons/fish-goby.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Goby"
   },
   {
@@ -1251,6 +1303,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-golden-eel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Eel"
   },
   {
@@ -1273,6 +1326,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-golden-shiner.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Shiner"
   },
   {
@@ -1295,6 +1349,7 @@
     },
     "sellValue": 120,
     "icon": "/icons/fish-goldfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Goldfish"
   },
   {
@@ -1320,6 +1375,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-grayling.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grayling"
   },
   {
@@ -1342,6 +1398,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-grouper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grouper"
   },
   {
@@ -1367,6 +1424,7 @@
     },
     "sellValue": 120,
     "icon": "/icons/fish-hake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hake"
   },
   {
@@ -1392,6 +1450,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-halibut.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Halibut"
   },
   {
@@ -1414,6 +1473,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-herring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Herring"
   },
   {
@@ -1436,6 +1496,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-horse-mackerel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Horse_Mackerel"
   },
   {
@@ -1461,6 +1522,7 @@
     },
     "sellValue": 65,
     "icon": "/icons/fish-iron-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fish"
   },
   {
@@ -1484,6 +1546,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-jellyfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jellyfish"
   },
   {
@@ -1506,6 +1569,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-killifish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Killifish"
   },
   {
@@ -1529,6 +1593,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-king-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/King_Crab"
   },
   {
@@ -1554,6 +1619,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-koi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Koi"
   },
   {
@@ -1576,6 +1642,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-lake-chub.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lake_Chub"
   },
   {
@@ -1601,6 +1668,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-lake-trout.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lake_Trout"
   },
   {
@@ -1623,6 +1691,7 @@
     },
     "sellValue": 70,
     "icon": "/icons/fish-lamprey.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lamprey"
   },
   {
@@ -1648,6 +1717,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-lava-piranha.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Piranha"
   },
   {
@@ -1670,6 +1740,7 @@
     },
     "sellValue": 500,
     "icon": "/icons/fish-leaf-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Leaf_Fish"
   },
   {
@@ -1693,6 +1764,7 @@
     },
     "sellValue": 500,
     "icon": "/icons/fish-lightning-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Fish"
   },
   {
@@ -1715,6 +1787,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-loach.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Loach"
   },
   {
@@ -1737,6 +1810,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-lobster.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lobster"
   },
   {
@@ -1762,6 +1836,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-luminescent-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Luminescent_Crab"
   },
   {
@@ -1786,6 +1861,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-mackerel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mackerel"
   },
   {
@@ -1811,6 +1887,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-massive-minnow.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Massive_Minnow"
   },
   {
@@ -1836,6 +1913,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-mini-whale-shark.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mini-Whale_Shark"
   },
   {
@@ -1858,6 +1936,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-minnow.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Minnow"
   },
   {
@@ -1880,6 +1959,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-mullet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mullet"
   },
   {
@@ -1905,6 +1985,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-muskie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Muskie"
   },
   {
@@ -1930,6 +2011,7 @@
     },
     "sellValue": 25,
     "icon": "/icons/fish-newt.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Newt"
   },
   {
@@ -1952,6 +2034,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-oarfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Oarfish"
   },
   {
@@ -1974,6 +2057,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-ocean-sunfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ocean_Sunfish"
   },
   {
@@ -1997,6 +2081,7 @@
     },
     "sellValue": 70,
     "icon": "/icons/fish-octopus.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Octopus"
   },
   {
@@ -2019,6 +2104,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-paddlefish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Paddlefish"
   },
   {
@@ -2044,6 +2130,7 @@
     },
     "sellValue": 20,
     "icon": "/icons/fish-paper-pondshell.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Paper_Pondshell"
   },
   {
@@ -2069,6 +2156,7 @@
     },
     "sellValue": 25,
     "icon": "/icons/fish-pearl-clam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pearl_Clam"
   },
   {
@@ -2094,6 +2182,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-pebble-minnow.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pebble_Minnow"
   },
   {
@@ -2118,6 +2207,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-perch.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Perch"
   },
   {
@@ -2143,6 +2233,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-pike.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pike"
   },
   {
@@ -2168,6 +2259,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-pollock.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pollock"
   },
   {
@@ -2193,6 +2285,7 @@
     },
     "sellValue": 25,
     "icon": "/icons/fish-pond-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pond_Snail"
   },
   {
@@ -2216,6 +2309,7 @@
     },
     "sellValue": 90,
     "icon": "/icons/fish-puffer-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Puffer_Fish"
   },
   {
@@ -2238,6 +2332,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-rainbow-trout.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rainbow_Trout"
   },
   {
@@ -2260,6 +2355,7 @@
     },
     "sellValue": 160,
     "icon": "/icons/fish-razorback.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Razorback"
   },
   {
@@ -2283,6 +2379,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-red-snapper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper"
   },
   {
@@ -2308,6 +2405,7 @@
     },
     "sellValue": 20,
     "icon": "/icons/fish-river-snail.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/River_Snail"
   },
   {
@@ -2333,6 +2431,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-roach.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roach"
   },
   {
@@ -2356,6 +2455,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-rock-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Bass"
   },
   {
@@ -2381,6 +2481,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-rock-guppy.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Guppy"
   },
   {
@@ -2406,6 +2507,7 @@
     },
     "sellValue": 55,
     "icon": "/icons/fish-rockbiter.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rockbiter"
   },
   {
@@ -2429,6 +2531,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-salmon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Salmon"
   },
   {
@@ -2451,6 +2554,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-sand-lance.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Lance"
   },
   {
@@ -2476,6 +2580,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-sapphire-betta.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sapphire_Betta"
   },
   {
@@ -2501,6 +2606,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-sardine.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sardine"
   },
   {
@@ -2523,6 +2629,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-sauger.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sauger"
   },
   {
@@ -2545,6 +2652,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-saury.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Saury"
   },
   {
@@ -2567,6 +2675,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-sea-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bass"
   },
   {
@@ -2590,6 +2699,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-sea-bream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream"
   },
   {
@@ -2615,6 +2725,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-sea-urchin.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Urchin"
   },
   {
@@ -2640,6 +2751,7 @@
     },
     "sellValue": 15,
     "icon": "/icons/fish-seaweed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Seaweed"
   },
   {
@@ -2662,6 +2774,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-shad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shad"
   },
   {
@@ -2684,6 +2797,7 @@
     },
     "sellValue": 140,
     "icon": "/icons/fish-shadow-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Bass"
   },
   {
@@ -2709,6 +2823,7 @@
     },
     "sellValue": 55,
     "icon": "/icons/fish-shardfin.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shardfin"
   },
   {
@@ -2731,6 +2846,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-shark.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shark"
   },
   {
@@ -2753,6 +2869,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-shrimp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shrimp"
   },
   {
@@ -2778,6 +2895,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-silver-redhorse.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Redhorse"
   },
   {
@@ -2803,6 +2921,7 @@
     },
     "sellValue": 75,
     "icon": "/icons/fish-silver-squid.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Squid"
   },
   {
@@ -2828,6 +2947,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-smallmouth-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Smallmouth_Bass"
   },
   {
@@ -2851,6 +2971,7 @@
     },
     "sellValue": 60,
     "icon": "/icons/fish-snakehead.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snakehead"
   },
   {
@@ -2874,6 +2995,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-snapping-turtle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snapping_Turtle"
   },
   {
@@ -2896,6 +3018,7 @@
     },
     "sellValue": 500,
     "icon": "/icons/fish-snow-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Snow_Fish"
   },
   {
@@ -2921,6 +3044,7 @@
     },
     "sellValue": 30,
     "icon": "/icons/fish-squid.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Squid"
   },
   {
@@ -2943,6 +3067,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-stingray.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Stingray"
   },
   {
@@ -2968,6 +3093,7 @@
     },
     "sellValue": 35,
     "icon": "/icons/fish-stone-loach.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Stone_Loach"
   },
   {
@@ -2990,6 +3116,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-striped-bass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Striped_Bass"
   },
   {
@@ -3013,6 +3140,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-sturgeon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sturgeon"
   },
   {
@@ -3038,6 +3166,7 @@
     },
     "sellValue": 60,
     "icon": "/icons/fish-sulfur-crab.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sulfur_Crab"
   },
   {
@@ -3066,6 +3195,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-sunny.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sunny"
   },
   {
@@ -3088,6 +3218,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-sweetfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweetfish"
   },
   {
@@ -3111,6 +3242,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-swordfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Swordfish"
   },
   {
@@ -3133,6 +3265,7 @@
     },
     "sellValue": 100,
     "icon": "/icons/fish-tarpon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tarpon"
   },
   {
@@ -3158,6 +3291,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-tetra.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tetra"
   },
   {
@@ -3180,6 +3314,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-tilapia.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tilapia"
   },
   {
@@ -3205,6 +3340,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-transparent-jellyfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Transparent_Jellyfish"
   },
   {
@@ -3230,6 +3366,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-trout.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Trout"
   },
   {
@@ -3255,6 +3392,7 @@
     },
     "sellValue": 40,
     "icon": "/icons/fish-tuna.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tuna"
   },
   {
@@ -3280,6 +3418,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-turtle.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Turtle"
   },
   {
@@ -3304,6 +3443,7 @@
     },
     "sellValue": 45,
     "icon": "/icons/fish-walleye.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Walleye"
   },
   {
@@ -3329,6 +3469,7 @@
     },
     "sellValue": 50,
     "icon": "/icons/fish-water-balloon-fish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Balloon_Fish"
   },
   {
@@ -3351,6 +3492,7 @@
     },
     "sellValue": 120,
     "icon": "/icons/fish-white-perch.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/White_Perch"
   },
   {
@@ -3376,6 +3518,7 @@
     },
     "sellValue": 80,
     "icon": "/icons/fish-winged-shrimp.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Winged_Shrimp"
   }
 ]

@@ -41,6 +41,7 @@
     "stamina": 188,
     "mana": null,
     "icon": "/icons/recipe-apple-honey-curry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Honey_Curry"
   },
   {
@@ -65,6 +66,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-apple-juice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Juice"
   },
   {
@@ -97,6 +99,7 @@
     "stamina": 92,
     "mana": null,
     "icon": "/icons/recipe-apple-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Apple_Pie"
   },
   {
@@ -121,6 +124,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-baked-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Baked_Potato"
   },
   {
@@ -145,6 +149,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-baked-sweetroot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Baked_Sweetroot"
   },
   {
@@ -169,6 +174,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-beet-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Beet_Salad"
   },
   {
@@ -213,6 +219,7 @@
     "stamina": 230,
     "mana": null,
     "icon": "/icons/recipe-beet-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Beet_Soup"
   },
   {
@@ -249,6 +256,7 @@
     "stamina": 106,
     "mana": null,
     "icon": "/icons/recipe-bell-berry-bakewell-tart.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry_Bakewell_Tart"
   },
   {
@@ -277,6 +285,7 @@
     "stamina": 16,
     "mana": null,
     "icon": "/icons/recipe-berries-and-cream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Berries_and_Cream"
   },
   {
@@ -313,6 +322,7 @@
     "stamina": 100,
     "mana": null,
     "icon": "/icons/recipe-berry-bowl.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Berry_Bowl"
   },
   {
@@ -341,6 +351,7 @@
     "stamina": 22,
     "mana": null,
     "icon": "/icons/recipe-blackberry-jam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blackberry_Jam"
   },
   {
@@ -369,6 +380,7 @@
     "stamina": 22,
     "mana": null,
     "icon": "/icons/recipe-blueberry-jam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Blueberry_Jam"
   },
   {
@@ -401,6 +413,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-braised-burdock.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Braised_Burdock"
   },
   {
@@ -425,6 +438,7 @@
     "stamina": 36,
     "mana": null,
     "icon": "/icons/recipe-braised-carrots.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Braised_Carrots"
   },
   {
@@ -449,6 +463,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-bread.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Bread"
   },
   {
@@ -481,6 +496,7 @@
     "stamina": 64,
     "mana": null,
     "icon": "/icons/recipe-breaded-catfish.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Breaded_Catfish"
   },
   {
@@ -513,6 +529,7 @@
     "stamina": 74,
     "mana": null,
     "icon": "/icons/recipe-broccoli-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Broccoli_Salad"
   },
   {
@@ -535,6 +552,7 @@
     "stamina": 6,
     "mana": null,
     "icon": "/icons/recipe-butter.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Butter"
   },
   {
@@ -563,6 +581,7 @@
     "stamina": 48,
     "mana": null,
     "icon": "/icons/recipe-buttered-peas.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Buttered_Peas"
   },
   {
@@ -591,6 +610,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-cabbage-slaw.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cabbage_Slaw"
   },
   {
@@ -619,6 +639,7 @@
     "stamina": 48,
     "mana": null,
     "icon": "/icons/recipe-candied-lemon-peel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Lemon_Peel"
   },
   {
@@ -647,6 +668,7 @@
     "stamina": 42,
     "mana": null,
     "icon": "/icons/recipe-candied-strawberries.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Strawberries"
   },
   {
@@ -675,6 +697,7 @@
     "stamina": 36,
     "mana": null,
     "icon": "/icons/recipe-candied-walnuts.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Candied_Walnuts"
   },
   {
@@ -704,6 +727,7 @@
     "stamina": 22,
     "mana": null,
     "icon": "/icons/recipe-canned-sardines.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Canned_Sardines"
   },
   {
@@ -732,6 +756,7 @@
     "stamina": 36,
     "mana": null,
     "icon": "/icons/recipe-caramel-candy.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Caramel_Candy"
   },
   {
@@ -760,6 +785,7 @@
     "stamina": 42,
     "mana": null,
     "icon": "/icons/recipe-caramelized-moon-fruit.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Caramelized_Moon_Fruit"
   },
   {
@@ -782,6 +808,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-cat-treat.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cat_Treat"
   },
   {
@@ -818,6 +845,7 @@
     "stamina": 110,
     "mana": null,
     "icon": "/icons/recipe-cauliflower-curry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower_Curry"
   },
   {
@@ -840,6 +868,7 @@
     "stamina": 6,
     "mana": null,
     "icon": "/icons/recipe-cheese.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cheese"
   },
   {
@@ -868,6 +897,7 @@
     "stamina": 48,
     "mana": null,
     "icon": "/icons/recipe-cherry-cobbler.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Cobbler"
   },
   {
@@ -900,6 +930,7 @@
     "stamina": 66,
     "mana": null,
     "icon": "/icons/recipe-cherry-smoothie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Smoothie"
   },
   {
@@ -932,6 +963,7 @@
     "stamina": 92,
     "mana": null,
     "icon": "/icons/recipe-cherry-tart.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Tart"
   },
   {
@@ -964,6 +996,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-chickpea-curry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea_Curry"
   },
   {
@@ -1005,6 +1038,7 @@
     "stamina": 256,
     "mana": null,
     "icon": "/icons/recipe-chili-coconut-curry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chili_Coconut_Curry"
   },
   {
@@ -1041,6 +1075,7 @@
     "stamina": 110,
     "mana": null,
     "icon": "/icons/recipe-chocolate-cake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Chocolate_Cake"
   },
   {
@@ -1073,6 +1108,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-clam-chowder.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Clam_Chowder"
   },
   {
@@ -1095,6 +1131,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-clay.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Clay"
   },
   {
@@ -1135,6 +1172,7 @@
     "stamina": 150,
     "mana": null,
     "icon": "/icons/recipe-coconut-cream-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut_Cream_Pie"
   },
   {
@@ -1159,6 +1197,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-coconut-milk.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coconut_Milk"
   },
   {
@@ -1191,6 +1230,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-cod-with-thyme.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cod_with_Thyme"
   },
   {
@@ -1213,6 +1253,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-armor.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Armor"
   },
   {
@@ -1235,6 +1276,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-axe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Axe"
   },
   {
@@ -1257,6 +1299,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-fishing-rod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Fishing_Rod"
   },
   {
@@ -1279,6 +1322,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-greaves.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Greaves"
   },
   {
@@ -1301,6 +1345,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-helmet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Helmet"
   },
   {
@@ -1323,6 +1368,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-hoe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Hoe"
   },
   {
@@ -1345,6 +1391,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-ingot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot"
   },
   {
@@ -1367,6 +1414,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-legplates.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Legplates"
   },
   {
@@ -1389,6 +1437,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-net.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Net"
   },
   {
@@ -1411,6 +1460,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-pickaxe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Pickaxe"
   },
   {
@@ -1433,6 +1483,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ring"
   },
   {
@@ -1455,6 +1506,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-shovel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Shovel"
   },
   {
@@ -1477,6 +1529,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-sword.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Sword"
   },
   {
@@ -1499,6 +1552,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-copper-watering-can.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Watering_Can"
   },
   {
@@ -1521,6 +1575,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-coral.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Coral"
   },
   {
@@ -1561,6 +1616,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-crab-cakes.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crab_Cakes"
   },
   {
@@ -1585,6 +1641,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-cranberry-juice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Juice"
   },
   {
@@ -1621,6 +1678,7 @@
     "stamina": 128,
     "mana": null,
     "icon": "/icons/recipe-cranberry-orange-scone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Orange_Scone"
   },
   {
@@ -1654,6 +1712,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-crayfish-etouffee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crayfish_Etouffee"
   },
   {
@@ -1686,6 +1745,7 @@
     "stamina": 66,
     "mana": null,
     "icon": "/icons/recipe-crispy-fried-earthshroom.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crispy_Fried_Earthshroom"
   },
   {
@@ -1714,6 +1774,7 @@
     "stamina": 16,
     "mana": null,
     "icon": "/icons/recipe-crunchy-chickpeas.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crunchy_Chickpeas"
   },
   {
@@ -1736,6 +1797,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-crystal.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal"
   },
   {
@@ -1772,6 +1834,7 @@
     "stamina": 94,
     "mana": null,
     "icon": "/icons/recipe-crystal-berry-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berry_Pie"
   },
   {
@@ -1804,6 +1867,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-cucumber-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber_Salad"
   },
   {
@@ -1840,6 +1904,7 @@
     "stamina": 170,
     "mana": null,
     "icon": "/icons/recipe-cucumber-sandwich.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber_Sandwich"
   },
   {
@@ -1872,6 +1937,7 @@
     "stamina": 52,
     "mana": null,
     "icon": "/icons/recipe-deep-sea-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deep_Sea_Soup"
   },
   {
@@ -1908,6 +1974,7 @@
     "stamina": 106,
     "mana": null,
     "icon": "/icons/recipe-deluxe-curry.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Curry"
   },
   {
@@ -1938,6 +2005,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-deluxe-large-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Large_Animal_Feed"
   },
   {
@@ -1968,6 +2036,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-deluxe-small-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Small_Animal_Feed"
   },
   {
@@ -2000,6 +2069,7 @@
     "stamina": 32,
     "mana": null,
     "icon": "/icons/recipe-deviled-eggs.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Deviled_Eggs"
   },
   {
@@ -2022,6 +2092,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-diamond.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Diamond"
   },
   {
@@ -2044,6 +2115,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dog-treat.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dog_Treat"
   },
   {
@@ -2082,6 +2154,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dragon-forged-core.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Core"
   },
   {
@@ -2120,6 +2193,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dragon-forged-fang.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Fang"
   },
   {
@@ -2158,6 +2232,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dragon-forged-horn.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Horn"
   },
   {
@@ -2196,6 +2271,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dragon-forged-powder.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Powder"
   },
   {
@@ -2234,6 +2310,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-dragon-forged-sword.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Sword"
   },
   {
@@ -2262,6 +2339,7 @@
     "stamina": 22,
     "mana": null,
     "icon": "/icons/recipe-dried-squid.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Dried_Squid"
   },
   {
@@ -2284,6 +2362,7 @@
     "stamina": 3,
     "mana": null,
     "icon": "/icons/recipe-duck-mayonnaise.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Duck_Mayonnaise"
   },
   {
@@ -2306,6 +2385,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-emerald.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Emerald"
   },
   {
@@ -2342,6 +2422,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-engagement-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Engagement_Ring"
   },
   {
@@ -2371,6 +2452,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-fish-skewers.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Skewers"
   },
   {
@@ -2403,6 +2485,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-fish-stew.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Stew"
   },
   {
@@ -2443,6 +2526,7 @@
     "stamina": 124,
     "mana": null,
     "icon": "/icons/recipe-fish-tacos.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fish_Tacos"
   },
   {
@@ -2465,6 +2549,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-flour.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Flour"
   },
   {
@@ -2510,6 +2595,7 @@
     "stamina": 174,
     "mana": null,
     "icon": "/icons/recipe-fried-rice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Fried_Rice"
   },
   {
@@ -2542,6 +2628,7 @@
     "stamina": 80,
     "mana": null,
     "icon": "/icons/recipe-garlic-bread.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic_Bread"
   },
   {
@@ -2578,6 +2665,7 @@
     "stamina": 116,
     "mana": null,
     "icon": "/icons/recipe-gazpacho.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gazpacho"
   },
   {
@@ -2604,6 +2692,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-giant-essence-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Essence_Stone"
   },
   {
@@ -2626,6 +2715,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-glass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Glass"
   },
   {
@@ -2666,6 +2756,7 @@
     "stamina": 104,
     "mana": null,
     "icon": "/icons/recipe-glowberry-cookies.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Glowberry_Cookies"
   },
   {
@@ -2688,6 +2779,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-armor.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Armor"
   },
   {
@@ -2710,6 +2802,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-axe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Axe"
   },
   {
@@ -2732,6 +2825,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-fishing-rod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Fishing_Rod"
   },
   {
@@ -2754,6 +2848,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-greaves.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Greaves"
   },
   {
@@ -2776,6 +2871,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-helmet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Helmet"
   },
   {
@@ -2798,6 +2894,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-hoe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Hoe"
   },
   {
@@ -2820,6 +2917,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-ingot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot"
   },
   {
@@ -2842,6 +2940,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-legplates.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Legplates"
   },
   {
@@ -2864,6 +2963,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-net.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Net"
   },
   {
@@ -2886,6 +2986,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-pickaxe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Pickaxe"
   },
   {
@@ -2908,6 +3009,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ring"
   },
   {
@@ -2930,6 +3032,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-shovel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Shovel"
   },
   {
@@ -2952,6 +3055,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-sword.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Sword"
   },
   {
@@ -2974,6 +3078,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-gold-watering-can.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Gold_Watering_Can"
   },
   {
@@ -2996,6 +3101,7 @@
     "stamina": 12,
     "mana": null,
     "icon": "/icons/recipe-golden-butter.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Butter"
   },
   {
@@ -3018,6 +3124,7 @@
     "stamina": 12,
     "mana": null,
     "icon": "/icons/recipe-golden-cheese.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cheese"
   },
   {
@@ -3062,6 +3169,7 @@
     "stamina": 218,
     "mana": null,
     "icon": "/icons/recipe-golden-cheesecake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cheesecake"
   },
   {
@@ -3106,6 +3214,7 @@
     "stamina": 208,
     "mana": null,
     "icon": "/icons/recipe-golden-cookies.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cookies"
   },
   {
@@ -3128,6 +3237,7 @@
     "stamina": 5,
     "mana": null,
     "icon": "/icons/recipe-golden-duck-mayonnaise.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Duck_Mayonnaise"
   },
   {
@@ -3150,6 +3260,7 @@
     "stamina": 5,
     "mana": null,
     "icon": "/icons/recipe-golden-mayonnaise.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Mayonnaise"
   },
   {
@@ -3174,6 +3285,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-grape-juice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grape_Juice"
   },
   {
@@ -3196,6 +3308,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-grass-seed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grass_Seed"
   },
   {
@@ -3222,6 +3335,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-grass-starter.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grass_Starter"
   },
   {
@@ -3246,6 +3360,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-green-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Green_Tea"
   },
   {
@@ -3282,6 +3397,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-grilled-cheese.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Cheese"
   },
   {
@@ -3306,6 +3422,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-grilled-corn.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Corn"
   },
   {
@@ -3342,6 +3459,7 @@
     "stamina": 90,
     "mana": null,
     "icon": "/icons/recipe-grilled-eel-rice-bowl.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Eel_Rice_Bowl"
   },
   {
@@ -3366,6 +3484,7 @@
     "stamina": 10,
     "mana": null,
     "icon": "/icons/recipe-hard-boiled-egg.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hard_Boiled_Egg"
   },
   {
@@ -3388,6 +3507,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-hard-wood.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hard_Wood"
   },
   {
@@ -3432,6 +3552,7 @@
     "stamina": 222,
     "mana": null,
     "icon": "/icons/recipe-harvest-plate.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Harvest_Plate"
   },
   {
@@ -3468,6 +3589,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-herb-butter-pasta.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Herb_Butter_Pasta"
   },
   {
@@ -3508,6 +3630,7 @@
     "stamina": 100,
     "mana": null,
     "icon": "/icons/recipe-herb-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Herb_Salad"
   },
   {
@@ -3544,6 +3667,7 @@
     "stamina": 80,
     "mana": null,
     "icon": "/icons/recipe-horseradish-salmon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Horseradish_Salmon"
   },
   {
@@ -3580,6 +3704,7 @@
     "stamina": 86,
     "mana": null,
     "icon": "/icons/recipe-hot-chocolate.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Hot_Chocolate"
   },
   {
@@ -3624,6 +3749,7 @@
     "stamina": 178,
     "mana": null,
     "icon": "/icons/recipe-ice-cream-sundae.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ice_Cream_Sundae"
   },
   {
@@ -3656,6 +3782,7 @@
     "stamina": 10,
     "mana": null,
     "icon": "/icons/recipe-iced-coffee.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iced_Coffee"
   },
   {
@@ -3696,6 +3823,7 @@
     "stamina": 152,
     "mana": null,
     "icon": "/icons/recipe-incredibly-hot-pot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Incredibly_Hot_Pot"
   },
   {
@@ -3718,6 +3846,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-armor.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Armor"
   },
   {
@@ -3740,6 +3869,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-axe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Axe"
   },
   {
@@ -3762,6 +3892,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-fishing-rod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fishing_Rod"
   },
   {
@@ -3784,6 +3915,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-greaves.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Greaves"
   },
   {
@@ -3806,6 +3938,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-helmet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Helmet"
   },
   {
@@ -3828,6 +3961,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-hoe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Hoe"
   },
   {
@@ -3850,6 +3984,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-ingot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot"
   },
   {
@@ -3872,6 +4007,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-legplates.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Legplates"
   },
   {
@@ -3894,6 +4030,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-net.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Net"
   },
   {
@@ -3916,6 +4053,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-pickaxe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Pickaxe"
   },
   {
@@ -3938,6 +4076,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ring"
   },
   {
@@ -3960,6 +4099,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-shovel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Shovel"
   },
   {
@@ -3982,6 +4122,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-sword.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Sword"
   },
   {
@@ -4004,6 +4145,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-iron-watering-can.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Watering_Can"
   },
   {
@@ -4032,6 +4174,7 @@
     "stamina": 65,
     "mana": null,
     "icon": "/icons/recipe-jam-sandwich.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jam_Sandwich"
   },
   {
@@ -4060,6 +4203,7 @@
     "stamina": 34,
     "mana": null,
     "icon": "/icons/recipe-jasmine-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine_Tea"
   },
   {
@@ -4086,6 +4230,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-large-essence-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Large_Essence_Stone"
   },
   {
@@ -4114,6 +4259,7 @@
     "stamina": 28,
     "mana": null,
     "icon": "/icons/recipe-latte.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Latte"
   },
   {
@@ -4146,6 +4292,7 @@
     "stamina": 92,
     "mana": null,
     "icon": "/icons/recipe-lemon-cake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Cake"
   },
   {
@@ -4182,6 +4329,7 @@
     "stamina": 110,
     "mana": null,
     "icon": "/icons/recipe-lemon-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Pie"
   },
   {
@@ -4210,6 +4358,7 @@
     "stamina": 48,
     "mana": null,
     "icon": "/icons/recipe-lemonade.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lemonade"
   },
   {
@@ -4246,6 +4395,7 @@
     "stamina": 94,
     "mana": null,
     "icon": "/icons/recipe-loaded-baked-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Loaded_Baked_Potato"
   },
   {
@@ -4286,6 +4436,7 @@
     "stamina": 150,
     "mana": null,
     "icon": "/icons/recipe-lobster-roll.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Lobster_Roll"
   },
   {
@@ -4310,6 +4461,7 @@
     "stamina": 16,
     "mana": null,
     "icon": "/icons/recipe-mackerel-sashimi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mackerel_Sashimi"
   },
   {
@@ -4338,6 +4490,7 @@
     "stamina": 48,
     "mana": null,
     "icon": "/icons/recipe-marmalade.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Marmalade"
   },
   {
@@ -4360,6 +4513,7 @@
     "stamina": 3,
     "mana": null,
     "icon": "/icons/recipe-mayonnaise.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mayonnaise"
   },
   {
@@ -4386,6 +4540,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-medium-essence-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Medium_Essence_Stone"
   },
   {
@@ -4414,6 +4569,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-miners-mushroom-stew.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Miner's_Mushroom_Stew"
   },
   {
@@ -4436,6 +4592,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-armor.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Armor"
   },
   {
@@ -4458,6 +4615,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-axe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Axe"
   },
   {
@@ -4480,6 +4638,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-fishing-rod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Fishing_Rod"
   },
   {
@@ -4502,6 +4661,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-greaves.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Greaves"
   },
   {
@@ -4524,6 +4684,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-helmet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Helmet"
   },
   {
@@ -4546,6 +4707,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-hoe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Hoe"
   },
   {
@@ -4568,6 +4730,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-ingot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot"
   },
   {
@@ -4590,6 +4753,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-legplates.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Legplates"
   },
   {
@@ -4612,6 +4776,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-net.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Net"
   },
   {
@@ -4634,6 +4799,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-pickaxe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Pickaxe"
   },
   {
@@ -4656,6 +4822,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ring"
   },
   {
@@ -4678,6 +4845,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-shovel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Shovel"
   },
   {
@@ -4700,6 +4868,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-mistril-watering-can.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Watering_Can"
   },
   {
@@ -4732,6 +4901,7 @@
     "stamina": 66,
     "mana": null,
     "icon": "/icons/recipe-mocha.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mocha"
   },
   {
@@ -4764,6 +4934,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-monster-cookie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Monster_Cookie"
   },
   {
@@ -4800,6 +4971,7 @@
     "stamina": 76,
     "mana": null,
     "icon": "/icons/recipe-monster-mash.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
   },
   {
@@ -4844,6 +5016,7 @@
     "stamina": 136,
     "mana": null,
     "icon": "/icons/recipe-mont-blanc.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mont_Blanc"
   },
   {
@@ -4880,6 +5053,7 @@
     "stamina": 98,
     "mana": null,
     "icon": "/icons/recipe-moon-fruit-cake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit_Cake"
   },
   {
@@ -4912,6 +5086,7 @@
     "stamina": 64,
     "mana": null,
     "icon": "/icons/recipe-mushroom-rice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Rice"
   },
   {
@@ -4952,6 +5127,7 @@
     "stamina": 128,
     "mana": null,
     "icon": "/icons/recipe-mushroom-steak-dinner.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Steak_Dinner"
   },
   {
@@ -4976,6 +5152,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-noodles.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Noodles"
   },
   {
@@ -4998,6 +5175,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-oak-sapling.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Oak_Sapling"
   },
   {
@@ -5020,6 +5198,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-obsidian.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Obsidian"
   },
   {
@@ -5056,6 +5235,7 @@
     "stamina": 72,
     "mana": null,
     "icon": "/icons/recipe-omelet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Omelet"
   },
   {
@@ -5088,6 +5268,7 @@
     "stamina": 70,
     "mana": null,
     "icon": "/icons/recipe-onion-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Onion_Soup"
   },
   {
@@ -5112,6 +5293,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-orange-juice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Orange_Juice"
   },
   {
@@ -5140,6 +5322,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-pan-fried-bream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Bream"
   },
   {
@@ -5169,6 +5352,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-pan-fried-salmon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Salmon"
   },
   {
@@ -5198,6 +5382,7 @@
     "stamina": 24,
     "mana": null,
     "icon": "/icons/recipe-pan-fried-snapper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Snapper"
   },
   {
@@ -5220,6 +5405,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-paper.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Paper"
   },
   {
@@ -5252,6 +5438,7 @@
     "stamina": 70,
     "mana": null,
     "icon": "/icons/recipe-peaches-and-cream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Peaches_and_Cream"
   },
   {
@@ -5274,6 +5461,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-peat.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Peat"
   },
   {
@@ -5314,6 +5502,7 @@
     "stamina": 132,
     "mana": null,
     "icon": "/icons/recipe-perch-risotto.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Perch_Risotto"
   },
   {
@@ -5336,6 +5525,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-pine-sapling.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pine_Sapling"
   },
   {
@@ -5368,6 +5558,7 @@
     "stamina": 80,
     "mana": null,
     "icon": "/icons/recipe-pineshroom-toast.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom_Toast"
   },
   {
@@ -5400,6 +5591,7 @@
     "stamina": 84,
     "mana": null,
     "icon": "/icons/recipe-pizza.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pizza"
   },
   {
@@ -5432,6 +5624,7 @@
     "stamina": 88,
     "mana": null,
     "icon": "/icons/recipe-poached-pear.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Poached_Pear"
   },
   {
@@ -5456,6 +5649,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-pomegranate-juice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Juice"
   },
   {
@@ -5488,6 +5682,7 @@
     "stamina": 78,
     "mana": null,
     "icon": "/icons/recipe-pomegranate-sorbet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Sorbet"
   },
   {
@@ -5520,6 +5715,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-potato-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Potato_Soup"
   },
   {
@@ -5552,6 +5748,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-pudding.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pudding"
   },
   {
@@ -5593,6 +5790,7 @@
     "stamina": 140,
     "mana": null,
     "icon": "/icons/recipe-pumpkin-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Pie"
   },
   {
@@ -5629,6 +5827,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-pumpkin-stew.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Stew"
   },
   {
@@ -5655,6 +5854,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-quality-large-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Quality_Large_Animal_Feed"
   },
   {
@@ -5681,6 +5881,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-quality-small-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Quality_Small_Animal_Feed"
   },
   {
@@ -5713,6 +5914,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-quiche.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Quiche"
   },
   {
@@ -5741,6 +5943,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-red-snapper-sushi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper_Sushi"
   },
   {
@@ -5763,6 +5966,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-refined-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Refined_Stone"
   },
   {
@@ -5785,6 +5989,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-rice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rice"
   },
   {
@@ -5817,6 +6022,7 @@
     "stamina": 64,
     "mana": null,
     "icon": "/icons/recipe-rice-ball.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rice_Ball"
   },
   {
@@ -5841,6 +6047,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-roasted-cauliflower.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Cauliflower"
   },
   {
@@ -5865,6 +6072,7 @@
     "stamina": 10,
     "mana": null,
     "icon": "/icons/recipe-roasted-chestnuts.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Chestnuts"
   },
   {
@@ -5893,6 +6101,7 @@
     "stamina": 40,
     "mana": null,
     "icon": "/icons/recipe-roasted-rice-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Rice_Tea"
   },
   {
@@ -5917,6 +6126,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-roasted-sweet-potato.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Sweet_Potato"
   },
   {
@@ -5945,6 +6155,7 @@
     "stamina": 34,
     "mana": null,
     "icon": "/icons/recipe-rose-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rose_Tea"
   },
   {
@@ -5973,6 +6184,7 @@
     "stamina": 34,
     "mana": null,
     "icon": "/icons/recipe-rosehip-jam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rosehip_Jam"
   },
   {
@@ -6009,6 +6221,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-rosemary-garlic-noodles.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary_Garlic_Noodles"
   },
   {
@@ -6031,6 +6244,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-ruby.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ruby"
   },
   {
@@ -6055,6 +6269,7 @@
     "stamina": 16,
     "mana": null,
     "icon": "/icons/recipe-salmon-sashimi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Salmon_Sashimi"
   },
   {
@@ -6083,6 +6298,7 @@
     "stamina": 42,
     "mana": null,
     "icon": "/icons/recipe-salted-watermelon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Salted_Watermelon"
   },
   {
@@ -6105,6 +6321,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-sapphire.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sapphire"
   },
   {
@@ -6133,6 +6350,7 @@
     "stamina": 34,
     "mana": null,
     "icon": "/icons/recipe-sauteed-snow-peas.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sauteed_Snow_Peas"
   },
   {
@@ -6173,6 +6391,7 @@
     "stamina": 116,
     "mana": null,
     "icon": "/icons/recipe-sea-bream-rice.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream_Rice"
   },
   {
@@ -6217,6 +6436,7 @@
     "stamina": 150,
     "mana": null,
     "icon": "/icons/recipe-seafood-boil.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Boil"
   },
   {
@@ -6261,6 +6481,7 @@
     "stamina": 238,
     "mana": null,
     "icon": "/icons/recipe-seafood-snow-pea-noodles.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Snow_Pea_Noodles"
   },
   {
@@ -6293,6 +6514,7 @@
     "stamina": 42,
     "mana": null,
     "icon": "/icons/recipe-seaweed-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Seaweed_Salad"
   },
   {
@@ -6321,6 +6543,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-sesame-broccoli.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Broccoli"
   },
   {
@@ -6357,6 +6580,7 @@
     "stamina": 98,
     "mana": null,
     "icon": "/icons/recipe-sesame-tuna-bowl.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Tuna_Bowl"
   },
   {
@@ -6379,6 +6603,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-shard-mass.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shard_Mass"
   },
   {
@@ -6401,6 +6626,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-shards.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Shards"
   },
   {
@@ -6423,6 +6649,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-armor.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Armor"
   },
   {
@@ -6445,6 +6672,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-axe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Axe"
   },
   {
@@ -6467,6 +6695,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-fishing-rod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Fishing_Rod"
   },
   {
@@ -6489,6 +6718,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-greaves.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Greaves"
   },
   {
@@ -6511,6 +6741,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-helmet.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Helmet"
   },
   {
@@ -6533,6 +6764,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-hoe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Hoe"
   },
   {
@@ -6555,6 +6787,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-ingot.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot"
   },
   {
@@ -6577,6 +6810,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-legplates.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Legplates"
   },
   {
@@ -6599,6 +6833,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-net.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Net"
   },
   {
@@ -6621,6 +6856,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-pickaxe.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Pickaxe"
   },
   {
@@ -6643,6 +6879,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-ring.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ring"
   },
   {
@@ -6665,6 +6902,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-shovel.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Shovel"
   },
   {
@@ -6687,6 +6925,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-sword.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Sword"
   },
   {
@@ -6709,6 +6948,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-silver-watering-can.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Watering_Can"
   },
   {
@@ -6737,6 +6977,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-simmered-daikon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Simmered_Daikon"
   },
   {
@@ -6761,6 +7002,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-sliced-turnip.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sliced_Turnip"
   },
   {
@@ -6787,6 +7029,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-small-essence-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Small_Essence_Stone"
   },
   {
@@ -6815,6 +7058,7 @@
     "stamina": 28,
     "mana": null,
     "icon": "/icons/recipe-smoked-trout-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Smoked_Trout_Soup"
   },
   {
@@ -6837,6 +7081,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-sod.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sod"
   },
   {
@@ -6881,6 +7126,7 @@
     "stamina": 238,
     "mana": null,
     "icon": "/icons/recipe-spell-fruit-parfait.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spell_Fruit_Parfait"
   },
   {
@@ -6918,6 +7164,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-spicy-cheddar-biscuit.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Cheddar_Biscuit"
   },
   {
@@ -6950,6 +7197,7 @@
     "stamina": 74,
     "mana": null,
     "icon": "/icons/recipe-spicy-corn.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Corn"
   },
   {
@@ -6987,6 +7235,7 @@
     "stamina": 116,
     "mana": null,
     "icon": "/icons/recipe-spicy-crab-sushi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Crab_Sushi"
   },
   {
@@ -7015,6 +7264,7 @@
     "stamina": 40,
     "mana": null,
     "icon": "/icons/recipe-spicy-water-chestnuts.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Water_Chestnuts"
   },
   {
@@ -7043,6 +7293,7 @@
     "stamina": 54,
     "mana": null,
     "icon": "/icons/recipe-spirit-mushroom-tea.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom_Tea"
   },
   {
@@ -7087,6 +7338,7 @@
     "stamina": 150,
     "mana": null,
     "icon": "/icons/recipe-spring-galette.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spring_Galette"
   },
   {
@@ -7119,6 +7371,7 @@
     "stamina": 46,
     "mana": null,
     "icon": "/icons/recipe-spring-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Spring_Salad"
   },
   {
@@ -7143,6 +7396,7 @@
     "stamina": 30,
     "mana": null,
     "icon": "/icons/recipe-steamed-broccoli.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Steamed_Broccoli"
   },
   {
@@ -7171,6 +7425,7 @@
     "stamina": 36,
     "mana": null,
     "icon": "/icons/recipe-strawberries-and-cream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberries_and_Cream"
   },
   {
@@ -7207,6 +7462,7 @@
     "stamina": 106,
     "mana": null,
     "icon": "/icons/recipe-strawberry-shortcake.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberry_Shortcake"
   },
   {
@@ -7229,6 +7485,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-sugar.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sugar"
   },
   {
@@ -7266,6 +7523,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-summer-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Summer_Salad"
   },
   {
@@ -7310,6 +7568,7 @@
     "stamina": 144,
     "mana": null,
     "icon": "/icons/recipe-sushi-platter.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sushi_Platter"
   },
   {
@@ -7342,6 +7601,7 @@
     "stamina": 78,
     "mana": null,
     "icon": "/icons/recipe-sweet-potato-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato_Pie"
   },
   {
@@ -7378,6 +7638,7 @@
     "stamina": 90,
     "mana": null,
     "icon": "/icons/recipe-sweet-sesame-balls.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Sesame_Balls"
   },
   {
@@ -7411,6 +7672,7 @@
     "stamina": 84,
     "mana": null,
     "icon": "/icons/recipe-tea-with-lemon.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tea_with_Lemon"
   },
   {
@@ -7447,6 +7709,7 @@
     "stamina": 76,
     "mana": null,
     "icon": "/icons/recipe-tide-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tide_Salad"
   },
   {
@@ -7473,6 +7736,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-tiny-essence-stone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tiny_Essence_Stone"
   },
   {
@@ -7505,6 +7769,7 @@
     "stamina": 52,
     "mana": null,
     "icon": "/icons/recipe-toasted-sunflower-seeds.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Toasted_Sunflower_Seeds"
   },
   {
@@ -7537,6 +7802,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-tomato-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tomato_Soup"
   },
   {
@@ -7565,6 +7831,7 @@
     "stamina": 12,
     "mana": null,
     "icon": "/icons/recipe-trail-mix.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Trail_Mix"
   },
   {
@@ -7589,6 +7856,7 @@
     "stamina": 16,
     "mana": null,
     "icon": "/icons/recipe-tuna-sashimi.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Tuna_Sashimi"
   },
   {
@@ -7621,6 +7889,7 @@
     "stamina": 74,
     "mana": null,
     "icon": "/icons/recipe-turnip-and-cabbage-salad.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Cabbage_Salad"
   },
   {
@@ -7657,6 +7926,7 @@
     "stamina": 106,
     "mana": null,
     "icon": "/icons/recipe-turnip-and-potato-gratin.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Potato_Gratin"
   },
   {
@@ -7691,6 +7961,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-ultimate-large-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ultimate_Large_Animal_Feed"
   },
   {
@@ -7725,6 +7996,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-ultimate-small-animal-feed.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Ultimate_Small_Animal_Feed"
   },
   {
@@ -7765,6 +8037,7 @@
     "stamina": 192,
     "mana": null,
     "icon": "/icons/recipe-vegetable-pot-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Pot_Pie"
   },
   {
@@ -7805,6 +8078,7 @@
     "stamina": 120,
     "mana": null,
     "icon": "/icons/recipe-vegetable-quiche.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Quiche"
   },
   {
@@ -7830,13 +8104,14 @@
     "stars": 2,
     "stationLevel": 1,
     "howToGet": [
-      "Important Quest \"Jo's Cooking Class\""
+      "Important Quest {{spoiler}}\"Jo's Cooking Class\"{{/spoiler}}"
     ],
     "sellValue": 260,
     "health": 80,
     "stamina": 80,
     "mana": null,
     "icon": "/icons/recipe-vegetable-soup.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Soup"
   },
   {
@@ -7881,6 +8156,7 @@
     "stamina": 246,
     "mana": null,
     "icon": "/icons/recipe-veggie-sub-sandwich.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Veggie_Sub_Sandwich"
   },
   {
@@ -7913,6 +8189,7 @@
     "stamina": 56,
     "mana": null,
     "icon": "/icons/recipe-water-chestnut-fritters.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut_Fritters"
   },
   {
@@ -7941,6 +8218,7 @@
     "stamina": 18,
     "mana": null,
     "icon": "/icons/recipe-wild-berry-jam.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Jam"
   },
   {
@@ -7973,6 +8251,7 @@
     "stamina": 60,
     "mana": null,
     "icon": "/icons/recipe-wild-berry-pie.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Pie"
   },
   {
@@ -8005,6 +8284,7 @@
     "stamina": 52,
     "mana": null,
     "icon": "/icons/recipe-wild-berry-scone.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Scone"
   },
   {
@@ -8041,6 +8321,7 @@
     "stamina": 106,
     "mana": null,
     "icon": "/icons/recipe-winter-stew.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Winter_Stew"
   },
   {
@@ -8077,6 +8358,7 @@
     "stamina": 66,
     "mana": null,
     "icon": "/icons/recipe-wintergreen-ice-cream.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Ice_Cream"
   },
   {
@@ -8099,6 +8381,7 @@
     "stamina": null,
     "mana": null,
     "icon": "/icons/recipe-wood.png",
+    "spoiler": false,
     "source": "https://fieldsofmistria.wiki.gg/wiki/Wood"
   }
 ]

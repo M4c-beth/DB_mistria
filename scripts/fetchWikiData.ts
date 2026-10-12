@@ -48,10 +48,39 @@ async function cargo(params: Record<string, string>): Promise<Row[]> {
   }
 }
 
+// Inline spoilers are kept but wrapped in these markers so the site can blur them.
+const SPOILER_OPEN = '{{spoiler}}';
+const SPOILER_CLOSE = '{{/spoiler}}';
+
+/** Wiki pages that carry a "Spoiler warning" banner or SpoilerTag; filled before anything else is fetched. */
+const spoilerPages = new Set<string>();
+const isSpoilerPage = (page: string): boolean => spoilerPages.has(page);
+
+async function fetchSpoilerPages(): Promise<void> {
+  console.log('Spoiler-flagged pages…');
+  for (const template of ['Template:Spoiler warning', 'Template:SpoilerTag']) {
+    let cont: string | undefined;
+    do {
+      const json = (await api({
+        action: 'query',
+        list: 'embeddedin',
+        eititle: template,
+        einamespace: '0',
+        eilimit: '500',
+        ...(cont ? { eicontinue: cont } : {}),
+      })) as { query?: { embeddedin?: { title: string }[] }; continue?: { eicontinue?: string } };
+      for (const p of json.query?.embeddedin ?? []) spoilerPages.add(p.title);
+      cont = json.continue?.eicontinue;
+    } while (cont);
+  }
+}
+
 /** Strips wiki markup down to plain text. */
 function clean(raw: string | undefined): string {
   if (!raw) return '';
   return raw
+    .replace(/\[\[Category:[^\]]*\]\]/gi, '')
+    .replace(/<span class="spoiler-content[^"]*"[^>]*><span>([\s\S]*?)<\/span><\/span>/gi, SPOILER_OPEN + '$1' + SPOILER_CLOSE)
     .replace(/<span style="display:\s*none">[^<]*<\/span>/gi, '') // hidden sort keys
     .replace(/\[\[File:[^\]]*\]\]/gi, '')
     .replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, '$1')
@@ -59,6 +88,7 @@ function clean(raw: string | undefined): string {
     .replace(/'''?/g, '')
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]+>/g, '')
+    .replace(/<\/?[a-z]*$/i, '') // tag cut off where the wiki truncated a long field
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/[ \t]+/g, ' ')
@@ -178,6 +208,7 @@ async function fetchVillagers(): Promise<unknown[]> {
       species: clean(c.species) || null,
       portrait: await downloadIcon(`${c.page} Portrait.png`, `villager-${slug}`),
       gifts,
+      spoiler: isSpoilerPage(c.page),
       source: sourceUrl(c.page),
     });
   }
@@ -208,6 +239,7 @@ async function fetchFish(): Promise<unknown[]> {
       method: { rod: r.fishing === '1', diving: r.diving === '1' },
       sellValue: num(r.sellValue),
       icon: await downloadIcon(iconFile(r.icon), `fish-${slug}`),
+      spoiler: isSpoilerPage(r.page || name),
       source: sourceUrl(r.page || name),
     });
   }
@@ -240,6 +272,7 @@ async function fetchBugs(): Promise<unknown[]> {
       spawnCondition: clean(r.spawnCondition) || null,
       sellValue: num(r.sellValue),
       icon: await downloadIcon(iconFile(r.icon), `bug-${slug}`),
+      spoiler: isSpoilerPage(r.page || name),
       source: sourceUrl(r.page || name),
     });
   }
@@ -268,6 +301,7 @@ async function fetchCrops(): Promise<unknown[]> {
       regrowDays: num(r.regrowTime),
       sellValue: num(r.sellValue),
       icon: await downloadIcon(iconFile(r.icon), `crop-${slug}`),
+      spoiler: isSpoilerPage(r.page || name),
       source: sourceUrl(r.page || name),
     });
   }
@@ -295,6 +329,7 @@ async function fetchForage(): Promise<unknown[]> {
       tags: list(r.tags).filter((t) => t !== 'Forageable'),
       sellValue: num(r.sellValue),
       icon: await downloadIcon(iconFile(r.icon), `forage-${slug}`),
+      spoiler: isSpoilerPage(r.page || name),
       source: sourceUrl(r.page || name),
     });
   }
@@ -350,6 +385,7 @@ async function fetchRecipes(): Promise<unknown[]> {
       stamina: num(r.stamina),
       mana: num(r.mana),
       icon: await downloadIcon(iconFile(r.icon), `recipe-${slug}`),
+      spoiler: isSpoilerPage(r.page || name),
       source: sourceUrl(r.page || name),
     });
   }
@@ -372,6 +408,9 @@ function visibleText(el: HTMLElement): string {
   const copy = parseHtml(el.outerHTML);
   for (const hidden of copy.querySelectorAll('[style*="display:none"], [style*="display: none"], sup.reference, .mw-editsection')) {
     hidden.remove();
+  }
+  for (const spoiler of copy.querySelectorAll('.spoiler-content')) {
+    spoiler.set_content(SPOILER_OPEN + spoiler.innerHTML + SPOILER_CLOSE);
   }
   const html = copy.innerHTML.replace(/<br\s*\/?>|<\/(li|p|div|dd|dt)>/gi, '\n');
   return parseHtml(html)
@@ -448,7 +487,9 @@ async function fetchVillagerSchedule(page: string): Promise<unknown | null> {
     if (!section) sections.push((section = { title: h2, days: [] }));
     section.days.push({ day: h3 ?? h2, condition: h4, stops });
   }
-  return sections.length ? { sections, source: sourceUrl(`${page}/Schedule`) } : null;
+  return sections.length
+    ? { sections, spoiler: isSpoilerPage(`${page}/Schedule`), source: sourceUrl(`${page}/Schedule`) }
+    : null;
 }
 
 async function fetchVillagerQuests(page: string): Promise<unknown | null> {
@@ -460,7 +501,7 @@ async function fetchVillagerQuests(page: string): Promise<unknown | null> {
       return { title: h2, headers: headers.map((h, i) => h || (i === 0 ? 'Name' : '')), rows };
     })
     .filter((t) => t.title && t.rows.length);
-  return tables.length ? { tables, source: sourceUrl(`${page}/Quests`) } : null;
+  return tables.length ? { tables, spoiler: isSpoilerPage(`${page}/Quests`), source: sourceUrl(`${page}/Quests`) } : null;
 }
 
 async function fetchVillagerDetails(villagers: { slug: string; source: string }[]): Promise<{
@@ -489,6 +530,7 @@ function dedupe<T extends { slug: string; name: string }>(items: T[]): T[] {
 async function main(): Promise<void> {
   await mkdir(DATA_DIR, { recursive: true });
   await mkdir(ICON_DIR, { recursive: true });
+  await fetchSpoilerPages();
   const datasets = {
     villagers: await fetchVillagers(),
     fish: await fetchFish(),
@@ -501,6 +543,9 @@ async function main(): Promise<void> {
     await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');
     console.log(`  ${name}: ${data.length}`);
   }
+  const spoilerNames = [...spoilerPages].filter((t) => !t.includes('/')).sort();
+  await writeFile(path.join(DATA_DIR, 'spoilers.json'), JSON.stringify(spoilerNames, null, 2) + '\n');
+  console.log(`  spoiler pages: ${spoilerNames.length}`);
   const details = await fetchVillagerDetails(datasets.villagers as { slug: string; source: string }[]);
   for (const [name, data] of Object.entries(details)) {
     await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');
