@@ -1,0 +1,3381 @@
+[
+  {
+    "slug": "alligator-gar",
+    "name": "Alligator Gar",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-alligator-gar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Alligator_Gar"
+  },
+  {
+    "slug": "amberjack",
+    "name": "Amberjack",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Fish Trap"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 200,
+    "icon": "/icons/fish-amberjack.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Amberjack"
+  },
+  {
+    "slug": "anchovy",
+    "name": "Anchovy",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-anchovy.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Anchovy"
+  },
+  {
+    "slug": "angel-fish",
+    "name": "Angel Fish",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-angel-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Angel_Fish"
+  },
+  {
+    "slug": "archerfish",
+    "name": "Archerfish",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-archerfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Archerfish"
+  },
+  {
+    "slug": "armored-bass",
+    "name": "Armored Bass",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Lava Caves"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 65,
+    "icon": "/icons/fish-armored-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Armored_Bass"
+  },
+  {
+    "slug": "bait-thief",
+    "name": "Bait Thief",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Fish Trap"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-bait-thief.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bait_Thief"
+  },
+  {
+    "slug": "barb",
+    "name": "Barb",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-barb.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Barb"
+  },
+  {
+    "slug": "blue-crab",
+    "name": "Blue Crab",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Fish Trap"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 60,
+    "icon": "/icons/fish-blue-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Blue_Crab"
+  },
+  {
+    "slug": "bluefish",
+    "name": "Bluefish",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-bluefish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bluefish"
+  },
+  {
+    "slug": "bluegill",
+    "name": "Bluegill",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-bluegill.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bluegill"
+  },
+  {
+    "slug": "bonito",
+    "name": "Bonito",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-bonito.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bonito"
+  },
+  {
+    "slug": "bowfish",
+    "name": "Bowfish",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-bowfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bowfish"
+  },
+  {
+    "slug": "bream",
+    "name": "Bream",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-bream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bream"
+  },
+  {
+    "slug": "brown-bullhead",
+    "name": "Brown Bullhead",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-brown-bullhead.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Brown_Bullhead"
+  },
+  {
+    "slug": "brown-trout",
+    "name": "Brown Trout",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-brown-trout.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Brown_Trout"
+  },
+  {
+    "slug": "bullfrog",
+    "name": "Bullfrog",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-bullfrog.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bullfrog"
+  },
+  {
+    "slug": "burbot",
+    "name": "Burbot",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-burbot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Burbot"
+  },
+  {
+    "slug": "butterfish",
+    "name": "Butterfish",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-butterfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Butterfish"
+  },
+  {
+    "slug": "candelabra-seadragon",
+    "name": "Candelabra Seadragon",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Lava Caves"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 60,
+    "icon": "/icons/fish-candelabra-seadragon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Candelabra_Seadragon"
+  },
+  {
+    "slug": "carp",
+    "name": "Carp",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-carp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Carp"
+  },
+  {
+    "slug": "catfish",
+    "name": "Catfish",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-catfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Catfish"
+  },
+  {
+    "slug": "cave-eel",
+    "name": "Cave Eel",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-cave-eel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Eel"
+  },
+  {
+    "slug": "cave-shark",
+    "name": "Cave Shark",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-cave-shark.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shark"
+  },
+  {
+    "slug": "cave-shrimp",
+    "name": "Cave Shrimp",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-cave-shrimp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shrimp"
+  },
+  {
+    "slug": "char",
+    "name": "Char",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-char.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Char"
+  },
+  {
+    "slug": "cherry-fish",
+    "name": "Cherry Fish",
+    "rarity": "Legendary",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Wind"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 500,
+    "icon": "/icons/fish-cherry-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Fish"
+  },
+  {
+    "slug": "chub",
+    "name": "Chub",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-chub.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chub"
+  },
+  {
+    "slug": "chum",
+    "name": "Chum",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 75,
+    "icon": "/icons/fish-chum.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chum"
+  },
+  {
+    "slug": "clam",
+    "name": "Clam",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 20,
+    "icon": "/icons/fish-clam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Clam"
+  },
+  {
+    "slug": "cod",
+    "name": "Cod",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-cod.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cod"
+  },
+  {
+    "slug": "coelacanth",
+    "name": "Coelacanth",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ancient Ruins"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 140,
+    "icon": "/icons/fish-coelacanth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coelacanth"
+  },
+  {
+    "slug": "copper-rockfish",
+    "name": "Copper Rockfish",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-copper-rockfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Rockfish"
+  },
+  {
+    "slug": "crab",
+    "name": "Crab",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crab"
+  },
+  {
+    "slug": "crayfish",
+    "name": "Crayfish",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 25,
+    "icon": "/icons/fish-crayfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crayfish"
+  },
+  {
+    "slug": "crucian-carp",
+    "name": "Crucian Carp",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-crucian-carp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crucian_Carp"
+  },
+  {
+    "slug": "dace",
+    "name": "Dace",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-dace.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dace"
+  },
+  {
+    "slug": "dart",
+    "name": "Dart",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-dart.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dart"
+  },
+  {
+    "slug": "earth-eel",
+    "name": "Earth Eel",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-earth-eel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Earth_Eel"
+  },
+  {
+    "slug": "emerald-horned-charger",
+    "name": "Emerald Horned Charger",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 125,
+    "icon": "/icons/fish-emerald-horned-charger.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Emerald_Horned_Charger"
+  },
+  {
+    "slug": "firesail-fish",
+    "name": "Firesail Fish",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Lava Caves"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 130,
+    "icon": "/icons/fish-firesail-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Firesail_Fish"
+  },
+  {
+    "slug": "flathead-catfish",
+    "name": "Flathead Catfish",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-flathead-catfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flathead_Catfish"
+  },
+  {
+    "slug": "forest-perch",
+    "name": "Forest Perch",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Deep Woods"
+    ],
+    "weather": [
+      "Rain",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-forest-perch.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Forest_Perch"
+  },
+  {
+    "slug": "freshwater-eel",
+    "name": "Freshwater Eel",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-freshwater-eel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Eel"
+  },
+  {
+    "slug": "freshwater-oyster",
+    "name": "Freshwater Oyster",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 25,
+    "icon": "/icons/fish-freshwater-oyster.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Oyster"
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-frog.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Frog"
+  },
+  {
+    "slug": "gar",
+    "name": "Gar",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-gar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gar"
+  },
+  {
+    "slug": "gazer",
+    "name": "Gazer",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ancient Ruins"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 110,
+    "icon": "/icons/fish-gazer.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gazer"
+  },
+  {
+    "slug": "giant-jellyfish",
+    "name": "Giant Jellyfish",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ancient Ruins"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-giant-jellyfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Jellyfish"
+  },
+  {
+    "slug": "giant-koi",
+    "name": "Giant Koi",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-giant-koi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Koi"
+  },
+  {
+    "slug": "giant-tilapia",
+    "name": "Giant Tilapia",
+    "rarity": "Uncommon",
+    "size": "Giant",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-giant-tilapia.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Tilapia"
+  },
+  {
+    "slug": "goby",
+    "name": "Goby",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 70,
+    "icon": "/icons/fish-goby.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Goby"
+  },
+  {
+    "slug": "golden-eel",
+    "name": "Golden Eel",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-golden-eel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Eel"
+  },
+  {
+    "slug": "golden-shiner",
+    "name": "Golden Shiner",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-golden-shiner.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Golden_Shiner"
+  },
+  {
+    "slug": "goldfish",
+    "name": "Goldfish",
+    "rarity": "Rare",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 120,
+    "icon": "/icons/fish-goldfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Goldfish"
+  },
+  {
+    "slug": "grayling",
+    "name": "Grayling",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-grayling.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grayling"
+  },
+  {
+    "slug": "grouper",
+    "name": "Grouper",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-grouper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grouper"
+  },
+  {
+    "slug": "hake",
+    "name": "Hake",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Fish Trap"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 120,
+    "icon": "/icons/fish-hake.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hake"
+  },
+  {
+    "slug": "halibut",
+    "name": "Halibut",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-halibut.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Halibut"
+  },
+  {
+    "slug": "herring",
+    "name": "Herring",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-herring.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Herring"
+  },
+  {
+    "slug": "horse-mackerel",
+    "name": "Horse Mackerel",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-horse-mackerel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Horse_Mackerel"
+  },
+  {
+    "slug": "iron-fish",
+    "name": "Iron Fish",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 65,
+    "icon": "/icons/fish-iron-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fish"
+  },
+  {
+    "slug": "jellyfish",
+    "name": "Jellyfish",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-jellyfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jellyfish"
+  },
+  {
+    "slug": "killifish",
+    "name": "Killifish",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-killifish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Killifish"
+  },
+  {
+    "slug": "king-crab",
+    "name": "King Crab",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-king-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/King_Crab"
+  },
+  {
+    "slug": "koi",
+    "name": "Koi",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-koi.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Koi"
+  },
+  {
+    "slug": "lake-chub",
+    "name": "Lake Chub",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-lake-chub.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lake_Chub"
+  },
+  {
+    "slug": "lake-trout",
+    "name": "Lake Trout",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-lake-trout.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lake_Trout"
+  },
+  {
+    "slug": "lamprey",
+    "name": "Lamprey",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 70,
+    "icon": "/icons/fish-lamprey.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lamprey"
+  },
+  {
+    "slug": "lava-piranha",
+    "name": "Lava Piranha",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Lava Caves"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-lava-piranha.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Piranha"
+  },
+  {
+    "slug": "leaf-fish",
+    "name": "Leaf Fish",
+    "rarity": "Legendary",
+    "size": "Small",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Wind"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 500,
+    "icon": "/icons/fish-leaf-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Leaf_Fish"
+  },
+  {
+    "slug": "lightning-fish",
+    "name": "Lightning Fish",
+    "rarity": "Legendary",
+    "size": "Medium",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Storm",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 500,
+    "icon": "/icons/fish-lightning-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Fish"
+  },
+  {
+    "slug": "loach",
+    "name": "Loach",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-loach.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Loach"
+  },
+  {
+    "slug": "lobster",
+    "name": "Lobster",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-lobster.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lobster"
+  },
+  {
+    "slug": "luminescent-crab",
+    "name": "Luminescent Crab",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ancient Ruins"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-luminescent-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Luminescent_Crab"
+  },
+  {
+    "slug": "mackerel",
+    "name": "Mackerel",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-mackerel.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mackerel"
+  },
+  {
+    "slug": "massive-minnow",
+    "name": "Massive Minnow",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-massive-minnow.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Massive_Minnow"
+  },
+  {
+    "slug": "mini-whale-shark",
+    "name": "Mini-Whale Shark",
+    "rarity": "Rare",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-mini-whale-shark.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mini-Whale_Shark"
+  },
+  {
+    "slug": "minnow",
+    "name": "Minnow",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-minnow.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Minnow"
+  },
+  {
+    "slug": "mullet",
+    "name": "Mullet",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-mullet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mullet"
+  },
+  {
+    "slug": "muskie",
+    "name": "Muskie",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-muskie.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Muskie"
+  },
+  {
+    "slug": "newt",
+    "name": "Newt",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 25,
+    "icon": "/icons/fish-newt.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Newt"
+  },
+  {
+    "slug": "oarfish",
+    "name": "Oarfish",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-oarfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Oarfish"
+  },
+  {
+    "slug": "ocean-sunfish",
+    "name": "Ocean Sunfish",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-ocean-sunfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ocean_Sunfish"
+  },
+  {
+    "slug": "octopus",
+    "name": "Octopus",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 70,
+    "icon": "/icons/fish-octopus.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Octopus"
+  },
+  {
+    "slug": "paddlefish",
+    "name": "Paddlefish",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-paddlefish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Paddlefish"
+  },
+  {
+    "slug": "paper-pondshell",
+    "name": "Paper Pondshell",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 20,
+    "icon": "/icons/fish-paper-pondshell.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Paper_Pondshell"
+  },
+  {
+    "slug": "pearl-clam",
+    "name": "Pearl Clam",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 25,
+    "icon": "/icons/fish-pearl-clam.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pearl_Clam"
+  },
+  {
+    "slug": "pebble-minnow",
+    "name": "Pebble Minnow",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-pebble-minnow.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pebble_Minnow"
+  },
+  {
+    "slug": "perch",
+    "name": "Perch",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-perch.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Perch"
+  },
+  {
+    "slug": "pike",
+    "name": "Pike",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-pike.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pike"
+  },
+  {
+    "slug": "pollock",
+    "name": "Pollock",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-pollock.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pollock"
+  },
+  {
+    "slug": "pond-snail",
+    "name": "Pond Snail",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 25,
+    "icon": "/icons/fish-pond-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pond_Snail"
+  },
+  {
+    "slug": "puffer-fish",
+    "name": "Puffer Fish",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 90,
+    "icon": "/icons/fish-puffer-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Puffer_Fish"
+  },
+  {
+    "slug": "rainbow-trout",
+    "name": "Rainbow Trout",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-rainbow-trout.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rainbow_Trout"
+  },
+  {
+    "slug": "razorback",
+    "name": "Razorback",
+    "rarity": "Rare",
+    "size": "Medium",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 160,
+    "icon": "/icons/fish-razorback.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Razorback"
+  },
+  {
+    "slug": "red-snapper",
+    "name": "Red Snapper",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-red-snapper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper"
+  },
+  {
+    "slug": "river-snail",
+    "name": "River Snail",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 20,
+    "icon": "/icons/fish-river-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/River_Snail"
+  },
+  {
+    "slug": "roach",
+    "name": "Roach",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-roach.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roach"
+  },
+  {
+    "slug": "rock-bass",
+    "name": "Rock Bass",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-rock-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Bass"
+  },
+  {
+    "slug": "rock-guppy",
+    "name": "Rock Guppy",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-rock-guppy.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Guppy"
+  },
+  {
+    "slug": "rockbiter",
+    "name": "Rockbiter",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 55,
+    "icon": "/icons/fish-rockbiter.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rockbiter"
+  },
+  {
+    "slug": "salmon",
+    "name": "Salmon",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-salmon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Salmon"
+  },
+  {
+    "slug": "sand-lance",
+    "name": "Sand Lance",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-sand-lance.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Lance"
+  },
+  {
+    "slug": "sapphire-betta",
+    "name": "Sapphire Betta",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-sapphire-betta.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sapphire_Betta"
+  },
+  {
+    "slug": "sardine",
+    "name": "Sardine",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-sardine.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sardine"
+  },
+  {
+    "slug": "sauger",
+    "name": "Sauger",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-sauger.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sauger"
+  },
+  {
+    "slug": "saury",
+    "name": "Saury",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-saury.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Saury"
+  },
+  {
+    "slug": "sea-bass",
+    "name": "Sea Bass",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-sea-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bass"
+  },
+  {
+    "slug": "sea-bream",
+    "name": "Sea Bream",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-sea-bream.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream"
+  },
+  {
+    "slug": "sea-urchin",
+    "name": "Sea Urchin",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Fish Trap"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-sea-urchin.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Urchin"
+  },
+  {
+    "slug": "seaweed",
+    "name": "Seaweed",
+    "rarity": "Common",
+    "size": null,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": true
+    },
+    "sellValue": 15,
+    "icon": "/icons/fish-seaweed.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Seaweed"
+  },
+  {
+    "slug": "shad",
+    "name": "Shad",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-shad.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shad"
+  },
+  {
+    "slug": "shadow-bass",
+    "name": "Shadow Bass",
+    "rarity": "Rare",
+    "size": "Medium",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 140,
+    "icon": "/icons/fish-shadow-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Bass"
+  },
+  {
+    "slug": "shardfin",
+    "name": "Shardfin",
+    "rarity": "Uncommon",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 55,
+    "icon": "/icons/fish-shardfin.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shardfin"
+  },
+  {
+    "slug": "shark",
+    "name": "Shark",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-shark.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shark"
+  },
+  {
+    "slug": "shrimp",
+    "name": "Shrimp",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-shrimp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Shrimp"
+  },
+  {
+    "slug": "silver-redhorse",
+    "name": "Silver Redhorse",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-silver-redhorse.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Redhorse"
+  },
+  {
+    "slug": "silver-squid",
+    "name": "Silver Squid",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Any"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": false,
+      "diving": false
+    },
+    "sellValue": 75,
+    "icon": "/icons/fish-silver-squid.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Silver_Squid"
+  },
+  {
+    "slug": "smallmouth-bass",
+    "name": "Smallmouth Bass",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-smallmouth-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Smallmouth_Bass"
+  },
+  {
+    "slug": "snakehead",
+    "name": "Snakehead",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 60,
+    "icon": "/icons/fish-snakehead.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snakehead"
+  },
+  {
+    "slug": "snapping-turtle",
+    "name": "Snapping Turtle",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Summer",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-snapping-turtle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snapping_Turtle"
+  },
+  {
+    "slug": "snow-fish",
+    "name": "Snow Fish",
+    "rarity": "Legendary",
+    "size": "Medium",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 500,
+    "icon": "/icons/fish-snow-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snow_Fish"
+  },
+  {
+    "slug": "squid",
+    "name": "Squid",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 30,
+    "icon": "/icons/fish-squid.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Squid"
+  },
+  {
+    "slug": "stingray",
+    "name": "Stingray",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-stingray.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Stingray"
+  },
+  {
+    "slug": "stone-loach",
+    "name": "Stone Loach",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 35,
+    "icon": "/icons/fish-stone-loach.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Stone_Loach"
+  },
+  {
+    "slug": "striped-bass",
+    "name": "Striped Bass",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-striped-bass.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Striped_Bass"
+  },
+  {
+    "slug": "sturgeon",
+    "name": "Sturgeon",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-sturgeon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sturgeon"
+  },
+  {
+    "slug": "sulfur-crab",
+    "name": "Sulfur Crab",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Lava Caves"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 60,
+    "icon": "/icons/fish-sulfur-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sulfur_Crab"
+  },
+  {
+    "slug": "sunny",
+    "name": "Sunny",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Deep Woods"
+    ],
+    "weather": [
+      "Rain",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-sunny.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sunny"
+  },
+  {
+    "slug": "sweetfish",
+    "name": "Sweetfish",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-sweetfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweetfish"
+  },
+  {
+    "slug": "swordfish",
+    "name": "Swordfish",
+    "rarity": "Uncommon",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Fall"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-swordfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Swordfish"
+  },
+  {
+    "slug": "tarpon",
+    "name": "Tarpon",
+    "rarity": "Rare",
+    "size": "Giant",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 100,
+    "icon": "/icons/fish-tarpon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tarpon"
+  },
+  {
+    "slug": "tetra",
+    "name": "Tetra",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-tetra.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tetra"
+  },
+  {
+    "slug": "tilapia",
+    "name": "Tilapia",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-tilapia.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tilapia"
+  },
+  {
+    "slug": "transparent-jellyfish",
+    "name": "Transparent Jellyfish",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-transparent-jellyfish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Transparent_Jellyfish"
+  },
+  {
+    "slug": "trout",
+    "name": "Trout",
+    "rarity": "Common",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": true
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-trout.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Trout"
+  },
+  {
+    "slug": "tuna",
+    "name": "Tuna",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ocean"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 40,
+    "icon": "/icons/fish-tuna.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tuna"
+  },
+  {
+    "slug": "turtle",
+    "name": "Turtle",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-turtle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Turtle"
+  },
+  {
+    "slug": "walleye",
+    "name": "Walleye",
+    "rarity": "Common",
+    "size": "Large",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "River"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Thunderstorm"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 45,
+    "icon": "/icons/fish-walleye.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Walleye"
+  },
+  {
+    "slug": "water-balloon-fish",
+    "name": "Water Balloon Fish",
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 50,
+    "icon": "/icons/fish-water-balloon-fish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Water_Balloon_Fish"
+  },
+  {
+    "slug": "white-perch",
+    "name": "White Perch",
+    "rarity": "Rare",
+    "size": "Medium",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Pond"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 120,
+    "icon": "/icons/fish-white-perch.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/White_Perch"
+  },
+  {
+    "slug": "winged-shrimp",
+    "name": "Winged Shrimp",
+    "rarity": "Common",
+    "size": "Small",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Ancient Ruins"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "method": {
+      "rod": true,
+      "diving": false
+    },
+    "sellValue": 80,
+    "icon": "/icons/fish-winged-shrimp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Winged_Shrimp"
+  }
+]

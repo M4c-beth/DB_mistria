@@ -1,0 +1,2012 @@
+[
+  {
+    "slug": "ancient-firefly",
+    "name": "Ancient Firefly",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Ancient Ruins",
+      "(floors 81-99)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 40,
+    "icon": "/icons/bug-ancient-firefly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Firefly"
+  },
+  {
+    "slug": "ant",
+    "name": "Ant",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-ant.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ant"
+  },
+  {
+    "slug": "ant-queen",
+    "name": "Ant Queen",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Common Bug Pheromones",
+    "sellValue": 30,
+    "icon": "/icons/bug-ant-queen.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ant_Queen"
+  },
+  {
+    "slug": "beach-hopper",
+    "name": "Beach Hopper",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-beach-hopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Beach_Hopper"
+  },
+  {
+    "slug": "big-bee",
+    "name": "Big Bee",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-big-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Big_Bee"
+  },
+  {
+    "slug": "biggest-beetle",
+    "name": "Biggest Beetle",
+    "rarity": "Very Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Legendary Bug Pheromones",
+    "sellValue": 120,
+    "icon": "/icons/bug-biggest-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Biggest_Beetle"
+  },
+  {
+    "slug": "brightbulb-moth",
+    "name": "Brightbulb Moth",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-brightbulb-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Brightbulb_Moth"
+  },
+  {
+    "slug": "bumblebee",
+    "name": "Bumblebee",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-bumblebee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Bumblebee"
+  },
+  {
+    "slug": "butterfly",
+    "name": "Butterfly",
+    "rarity": "Common",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Butterfly"
+  },
+  {
+    "slug": "caterpillar",
+    "name": "Caterpillar",
+    "rarity": "Common",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 10,
+    "icon": "/icons/bug-caterpillar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Caterpillar"
+  },
+  {
+    "slug": "chillipede",
+    "name": "Chillipede",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-chillipede.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chillipede"
+  },
+  {
+    "slug": "cicada",
+    "name": "Cicada",
+    "rarity": "Common",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 10,
+    "icon": "/icons/bug-cicada.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cicada"
+  },
+  {
+    "slug": "cicada-nymph",
+    "name": "Cicada Nymph",
+    "rarity": "Common",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-cicada-nymph.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cicada_Nymph"
+  },
+  {
+    "slug": "cooktop-beetle",
+    "name": "Cooktop Beetle",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves",
+      "(floors 61-79)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-cooktop-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cooktop_Beetle"
+  },
+  {
+    "slug": "copper-nugget-beetle",
+    "name": "Copper Nugget Beetle",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines",
+      "(floors 1-19)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-copper-nugget-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Copper_Nugget_Beetle"
+  },
+  {
+    "slug": "coral-mantis",
+    "name": "Coral Mantis",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns",
+      "(floors 21-39)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 35,
+    "icon": "/icons/bug-coral-mantis.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Coral_Mantis"
+  },
+  {
+    "slug": "cricket",
+    "name": "Cricket",
+    "rarity": "Common",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-cricket.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cricket"
+  },
+  {
+    "slug": "crystal-caterpillar",
+    "name": "Crystal Caterpillar",
+    "rarity": "Rare",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 20,
+    "icon": "/icons/bug-crystal-caterpillar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Caterpillar"
+  },
+  {
+    "slug": "crystal-wing-moth",
+    "name": "Crystal Wing Moth",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth",
+      "(floors 41-59)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 50,
+    "icon": "/icons/bug-crystal-wing-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Wing_Moth"
+  },
+  {
+    "slug": "crystalline-cricket",
+    "name": "Crystalline Cricket",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth",
+      "(floors 41-59)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 25,
+    "icon": "/icons/bug-crystalline-cricket.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Crystalline_Cricket"
+  },
+  {
+    "slug": "deep-earthworm",
+    "name": "Deep Earthworm",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "3The Deep Earth",
+      "(floors 41-59)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 25,
+    "icon": "/icons/bug-deep-earthworm.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Deep_Earthworm"
+  },
+  {
+    "slug": "diamond-beetle",
+    "name": "Diamond Beetle",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves",
+      "(floors 61-79)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 80,
+    "icon": "/icons/bug-diamond-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Diamond_Beetle"
+  },
+  {
+    "slug": "dragon-horn-beetle",
+    "name": "Dragon Horn Beetle",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 40,
+    "icon": "/icons/bug-dragon-horn-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Horn_Beetle"
+  },
+  {
+    "slug": "dragonfly",
+    "name": "Dragonfly",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-dragonfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dragonfly"
+  },
+  {
+    "slug": "fairy-bee",
+    "name": "Fairy Bee",
+    "rarity": "Very rare",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Legendary",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-fairy-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fairy_Bee"
+  },
+  {
+    "slug": "fire-wasp",
+    "name": "Fire Wasp",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves",
+      "(floors 61-79)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-fire-wasp.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fire_Wasp"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "rarity": "Common",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-firefly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Firefly"
+  },
+  {
+    "slug": "flower-bee",
+    "name": "Flower Bee",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-flower-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flower_Bee"
+  },
+  {
+    "slug": "flower-crown-beetle",
+    "name": "Flower Crown Beetle",
+    "rarity": "Very rare",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Legendary",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-flower-crown-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Flower_Crown_Beetle"
+  },
+  {
+    "slug": "frost-flutter-butterfly",
+    "name": "Frost Flutter Butterfly",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-frost-flutter-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Flutter_Butterfly"
+  },
+  {
+    "slug": "fur-bee",
+    "name": "Fur Bee",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-fur-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fur_Bee"
+  },
+  {
+    "slug": "fuzzy-moth",
+    "name": "Fuzzy Moth",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-fuzzy-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Fuzzy_Moth"
+  },
+  {
+    "slug": "gem-shard-caterpillar",
+    "name": "Gem Shard Caterpillar",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth",
+      "(floors 41-59)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 40,
+    "icon": "/icons/bug-gem-shard-caterpillar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Gem_Shard_Caterpillar"
+  },
+  {
+    "slug": "giant-worm",
+    "name": "Giant Worm",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Ancient Ruins",
+      "(floors 81-99)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 50,
+    "icon": "/icons/bug-giant-worm.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Giant_Worm"
+  },
+  {
+    "slug": "grasshopper",
+    "name": "Grasshopper",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": "Additional spawns when cutting grass",
+    "sellValue": 10,
+    "icon": "/icons/bug-grasshopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Grasshopper"
+  },
+  {
+    "slug": "hermit-crab",
+    "name": "Hermit Crab",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-hermit-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Crab"
+  },
+  {
+    "slug": "hermit-snail",
+    "name": "Hermit Snail",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns",
+      "(floors 21-39)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 35,
+    "icon": "/icons/bug-hermit-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Snail"
+  },
+  {
+    "slug": "hidden-beetle",
+    "name": "Hidden Beetle",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Ancient Ruins",
+      "(floors 81-99)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 90,
+    "icon": "/icons/bug-hidden-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hidden_Beetle"
+  },
+  {
+    "slug": "hummingbird-hawk-moth",
+    "name": "Hummingbird Hawk Moth",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-hummingbird-hawk-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hummingbird_Hawk_Moth"
+  },
+  {
+    "slug": "icehopper",
+    "name": "Icehopper",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns when cutting grass",
+    "sellValue": 10,
+    "icon": "/icons/bug-icehopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Icehopper"
+  },
+  {
+    "slug": "inchworm",
+    "name": "Inchworm",
+    "rarity": "Common",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-inchworm.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Inchworm"
+  },
+  {
+    "slug": "jewel-beetle",
+    "name": "Jewel Beetle",
+    "rarity": "Rare",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-jewel-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jewel_Beetle"
+  },
+  {
+    "slug": "ladybug",
+    "name": "Ladybug",
+    "rarity": "Common",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-ladybug.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ladybug"
+  },
+  {
+    "slug": "lantern-moth",
+    "name": "Lantern Moth",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines",
+      "(floors 1-19)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Spawns near light sources",
+    "sellValue": 15,
+    "icon": "/icons/bug-lantern-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lantern_Moth"
+  },
+  {
+    "slug": "lava-snail",
+    "name": "Lava Snail",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves",
+      "(floors 61-79)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 45,
+    "icon": "/icons/bug-lava-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lava_Snail"
+  },
+  {
+    "slug": "leafhopper",
+    "name": "Leafhopper",
+    "rarity": "Common",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns when cutting grass",
+    "sellValue": 10,
+    "icon": "/icons/bug-leafhopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Leafhopper"
+  },
+  {
+    "slug": "lightning-dragonfly",
+    "name": "Lightning Dragonfly",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Sweetwater Farm",
+      "The Narrows",
+      "The Eastern Road",
+      "Mistria"
+    ],
+    "weather": [
+      "Storm",
+      "Thunderstorm"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-lightning-dragonfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Dragonfly"
+  },
+  {
+    "slug": "loam-caterpillar",
+    "name": "Loam Caterpillar",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 35,
+    "icon": "/icons/bug-loam-caterpillar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Loam_Caterpillar"
+  },
+  {
+    "slug": "luna-moth",
+    "name": "Luna Moth",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-luna-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Luna_Moth"
+  },
+  {
+    "slug": "magma-beetle",
+    "name": "Magma Beetle",
+    "rarity": "Rare",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-magma-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Magma_Beetle"
+  },
+  {
+    "slug": "mine-cricket",
+    "name": "Mine Cricket",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines",
+      "(floors 1-19)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 35,
+    "icon": "/icons/bug-mine-cricket.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mine_Cricket"
+  },
+  {
+    "slug": "mistmoth",
+    "name": "Mistmoth",
+    "rarity": "Rare",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-mistmoth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mistmoth"
+  },
+  {
+    "slug": "monarch-butterfly",
+    "name": "Monarch Butterfly",
+    "rarity": "Common",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-monarch-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Monarch_Butterfly"
+  },
+  {
+    "slug": "moonlight-bee",
+    "name": "Moonlight Bee",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-moonlight-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Moonlight_Bee"
+  },
+  {
+    "slug": "mote-firefly",
+    "name": "Mote Firefly",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 25,
+    "icon": "/icons/bug-mote-firefly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Mote_Firefly"
+  },
+  {
+    "slug": "orchid-mantis",
+    "name": "Orchid Mantis",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-orchid-mantis.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Orchid_Mantis"
+  },
+  {
+    "slug": "parchment-moth",
+    "name": "Parchment Moth",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Ancient Ruins",
+      "(floors 81-99)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 80,
+    "icon": "/icons/bug-parchment-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Parchment_Moth"
+  },
+  {
+    "slug": "petalhopper",
+    "name": "Petalhopper",
+    "rarity": "Common",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "Day",
+    "spawnCondition": "Additional spawns when breaking grass",
+    "sellValue": 10,
+    "icon": "/icons/bug-petalhopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Petalhopper"
+  },
+  {
+    "slug": "polar-fly",
+    "name": "Polar Fly",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-polar-fly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Polar_Fly"
+  },
+  {
+    "slug": "pond-skater",
+    "name": "Pond Skater",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Narrows",
+      "Eastern Road",
+      "Town"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "All day",
+    "spawnCondition": "On water",
+    "sellValue": 15,
+    "icon": "/icons/bug-pond-skater.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pond_Skater"
+  },
+  {
+    "slug": "praying-mantis",
+    "name": "Praying Mantis",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-praying-mantis.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Praying_Mantis"
+  },
+  {
+    "slug": "puddle-spider",
+    "name": "Puddle Spider",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns",
+      "(floors 21-39)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 45,
+    "icon": "/icons/bug-puddle-spider.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Puddle_Spider"
+  },
+  {
+    "slug": "queens-birdwing",
+    "name": "Queen's Birdwing",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Rare Bug Pheromones",
+    "sellValue": 90,
+    "icon": "/icons/bug-queens-birdwing.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Queen's_Birdwing"
+  },
+  {
+    "slug": "question-mark-butterfly",
+    "name": "Question Mark Butterfly",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-question-mark-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Question_Mark_Butterfly"
+  },
+  {
+    "slug": "raindrop-beetle",
+    "name": "Raindrop Beetle",
+    "rarity": null,
+    "seasons": [],
+    "locations": [],
+    "weather": [],
+    "time": null,
+    "spawnCondition": null,
+    "sellValue": null,
+    "icon": "/icons/bug-raindrop-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Raindrop_Beetle"
+  },
+  {
+    "slug": "redhead-worm",
+    "name": "Redhead Worm",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-redhead-worm.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Redhead_Worm"
+  },
+  {
+    "slug": "relic-crab",
+    "name": "Relic Crab",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-relic-crab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Relic_Crab"
+  },
+  {
+    "slug": "rhinoceros-beetle",
+    "name": "Rhinoceros Beetle",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "Night",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-rhinoceros-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rhinoceros_Beetle"
+  },
+  {
+    "slug": "rock-roach",
+    "name": "Rock Roach",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Earth",
+      "(floors 41-59)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 25,
+    "icon": "/icons/bug-rock-roach.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rock_Roach"
+  },
+  {
+    "slug": "roly-poly",
+    "name": "Roly Poly",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-roly-poly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Roly_Poly"
+  },
+  {
+    "slug": "saint-mantis",
+    "name": "Saint Mantis",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Uncommon Bug Pheromones",
+    "sellValue": 60,
+    "icon": "/icons/bug-saint-mantis.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Saint_Mantis"
+  },
+  {
+    "slug": "sand-bug",
+    "name": "Sand Bug",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-sand-bug.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sand_Bug"
+  },
+  {
+    "slug": "sea-scarab",
+    "name": "Sea Scarab",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns",
+      "(floors 21-39)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 20,
+    "icon": "/icons/bug-sea-scarab.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sea_Scarab"
+  },
+  {
+    "slug": "singing-katydid",
+    "name": "Singing Katydid",
+    "rarity": "Rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 70,
+    "icon": "/icons/bug-singing-katydid.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Singing_Katydid"
+  },
+  {
+    "slug": "smoke-moth",
+    "name": "Smoke Moth",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Lava Caves",
+      "(floors 61-79)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 40,
+    "icon": "/icons/bug-smoke-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Smoke_Moth"
+  },
+  {
+    "slug": "snail",
+    "name": "Snail",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snail"
+  },
+  {
+    "slug": "snowball-beetle",
+    "name": "Snowball Beetle",
+    "rarity": "Very rare",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Blizzard"
+    ],
+    "time": "Legendary",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-snowball-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snowball_Beetle"
+  },
+  {
+    "slug": "snug-bug",
+    "name": "Snug Bug",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-snug-bug.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snug_Bug"
+  },
+  {
+    "slug": "speedy-snail",
+    "name": "Speedy Snail",
+    "rarity": "Very rare",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind",
+      "Rain",
+      "Rainy"
+    ],
+    "time": "Legendary",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-speedy-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Speedy_Snail"
+  },
+  {
+    "slug": "strawhopper",
+    "name": "Strawhopper",
+    "rarity": "Common",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-strawhopper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Strawhopper"
+  },
+  {
+    "slug": "strobe-firefly",
+    "name": "Strobe Firefly",
+    "rarity": "Very Rare",
+    "seasons": [
+      "Summer"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny"
+    ],
+    "time": "Legendary",
+    "spawnCondition": null,
+    "sellValue": 30,
+    "icon": "/icons/bug-strobe-firefly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Strobe_Firefly"
+  },
+  {
+    "slug": "sunset-moth",
+    "name": "Sunset Moth",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Common Bug Pheromones",
+    "sellValue": 35,
+    "icon": "/icons/bug-sunset-moth.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sunset_Moth"
+  },
+  {
+    "slug": "surf-beetle",
+    "name": "Surf Beetle",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-surf-beetle.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Surf_Beetle"
+  },
+  {
+    "slug": "sweet-bee",
+    "name": "Sweet Bee",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-sweet-bee.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Bee"
+  },
+  {
+    "slug": "tiger-swallowtail-butterfly",
+    "name": "Tiger Swallowtail Butterfly",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "Day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-tiger-swallowtail-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tiger_Swallowtail_Butterfly"
+  },
+  {
+    "slug": "tunnel-millipede",
+    "name": "Tunnel Millipede",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines",
+      "(floors 1-19)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-tunnel-millipede.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tunnel_Millipede"
+  },
+  {
+    "slug": "void-snail",
+    "name": "Void Snail",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Ancient Ruins",
+      "(floors 81-99)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All Day",
+    "spawnCondition": null,
+    "sellValue": 40,
+    "icon": "/icons/bug-void-snail.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Void_Snail"
+  },
+  {
+    "slug": "walking-leaf",
+    "name": "Walking Leaf",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Fall"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "Day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 15,
+    "icon": "/icons/bug-walking-leaf.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Walking_Leaf"
+  },
+  {
+    "slug": "walking-stick",
+    "name": "Walking Stick",
+    "rarity": "Uncommon",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 15,
+    "icon": "/icons/bug-walking-stick.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Walking_Stick"
+  },
+  {
+    "slug": "waterbug",
+    "name": "Waterbug",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Beach"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 10,
+    "icon": "/icons/bug-waterbug.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Waterbug"
+  },
+  {
+    "slug": "waterfly",
+    "name": "Waterfly",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Tide Caverns",
+      "(floors 21-39)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-waterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Waterfly"
+  },
+  {
+    "slug": "windleaf-butterfly",
+    "name": "Windleaf Butterfly",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Deep Woods"
+    ],
+    "weather": [
+      "Sunny",
+      "Wind"
+    ],
+    "time": "All day",
+    "spawnCondition": null,
+    "sellValue": 20,
+    "icon": "/icons/bug-windleaf-butterfly.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Windleaf_Butterfly"
+  },
+  {
+    "slug": "winterpillar",
+    "name": "Winterpillar",
+    "rarity": "Common",
+    "seasons": [
+      "Winter"
+    ],
+    "locations": [
+      "Overworld"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Additional spawns in trees",
+    "sellValue": 10,
+    "icon": "/icons/bug-winterpillar.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Winterpillar"
+  },
+  {
+    "slug": "worm",
+    "name": "Worm",
+    "rarity": "Common",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "locations": [
+      "The Upper Mines",
+      "(floors 1-19)"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "time": "All day",
+    "spawnCondition": "Breaking rocks",
+    "sellValue": 15,
+    "icon": "/icons/bug-worm.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Worm"
+  }
+]

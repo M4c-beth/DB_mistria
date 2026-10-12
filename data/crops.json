@@ -1,0 +1,759 @@
+[
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "seed": "Apple Sapling",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 14,
+    "regrowDays": 3,
+    "sellValue": 45,
+    "icon": "/icons/crop-apple.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Apple"
+  },
+  {
+    "slug": "basil",
+    "name": "Basil",
+    "seed": "Basil Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-basil.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Basil"
+  },
+  {
+    "slug": "beet",
+    "name": "Beet",
+    "seed": "Beet Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-beet.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Beet"
+  },
+  {
+    "slug": "broccoli",
+    "name": "Broccoli",
+    "seed": "Broccoli Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 75,
+    "icon": "/icons/crop-broccoli.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Broccoli"
+  },
+  {
+    "slug": "burdock-root",
+    "name": "Burdock Root",
+    "seed": "Burdock Root Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-burdock-root.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Burdock_Root"
+  },
+  {
+    "slug": "cabbage",
+    "name": "Cabbage",
+    "seed": "Cabbage Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 9,
+    "regrowDays": null,
+    "sellValue": 180,
+    "icon": "/icons/crop-cabbage.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cabbage"
+  },
+  {
+    "slug": "carrot",
+    "name": "Carrot",
+    "seed": "Carrot Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 80,
+    "icon": "/icons/crop-carrot.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Carrot"
+  },
+  {
+    "slug": "catmint",
+    "name": "Catmint",
+    "seed": "Catmint Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-catmint.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Catmint"
+  },
+  {
+    "slug": "cauliflower",
+    "name": "Cauliflower",
+    "seed": "Cauliflower Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 75,
+    "icon": "/icons/crop-cauliflower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower"
+  },
+  {
+    "slug": "celosia",
+    "name": "Celosia",
+    "seed": "Celosia Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 25,
+    "icon": "/icons/crop-celosia.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Celosia"
+  },
+  {
+    "slug": "cherry",
+    "name": "Cherry",
+    "seed": "Cherry Sapling",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 14,
+    "regrowDays": 3,
+    "sellValue": 45,
+    "icon": "/icons/crop-cherry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cherry"
+  },
+  {
+    "slug": "chickpea",
+    "name": "Chickpea",
+    "seed": "Chickpea Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-chickpea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chickpea"
+  },
+  {
+    "slug": "chili-pepper",
+    "name": "Chili Pepper",
+    "seed": "Chili Pepper Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 75,
+    "icon": "/icons/crop-chili-pepper.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chili_Pepper"
+  },
+  {
+    "slug": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "seed": "Chrysanthemum Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-chrysanthemum.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Chrysanthemum"
+  },
+  {
+    "slug": "corn",
+    "name": "Corn",
+    "seed": "Corn Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 125,
+    "icon": "/icons/crop-corn.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Corn"
+  },
+  {
+    "slug": "cosmos",
+    "name": "Cosmos",
+    "seed": "Cosmos Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-cosmos.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cosmos"
+  },
+  {
+    "slug": "cranberry",
+    "name": "Cranberry",
+    "seed": "Cranberry Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 125,
+    "icon": "/icons/crop-cranberry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cranberry"
+  },
+  {
+    "slug": "cucumber",
+    "name": "Cucumber",
+    "seed": "Cucumber Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-cucumber.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Cucumber"
+  },
+  {
+    "slug": "daffodil",
+    "name": "Daffodil",
+    "seed": "Daffodil Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 25,
+    "icon": "/icons/crop-daffodil.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Daffodil"
+  },
+  {
+    "slug": "daikon-radish",
+    "name": "Daikon Radish",
+    "seed": "Daikon Radish Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 9,
+    "regrowDays": null,
+    "sellValue": 180,
+    "icon": "/icons/crop-daikon-radish.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Daikon_Radish"
+  },
+  {
+    "slug": "daisy",
+    "name": "Daisy",
+    "seed": "Daisy Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 15,
+    "icon": "/icons/crop-daisy.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Daisy"
+  },
+  {
+    "slug": "dill",
+    "name": "Dill",
+    "seed": "Dill Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-dill.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dill"
+  },
+  {
+    "slug": "frost-lily",
+    "name": "Frost Lily",
+    "seed": "Frost Lily Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 25,
+    "icon": "/icons/crop-frost-lily.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Frost_Lily"
+  },
+  {
+    "slug": "garlic",
+    "name": "Garlic",
+    "seed": "Garlic Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-garlic.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
+  },
+  {
+    "slug": "heather",
+    "name": "Heather",
+    "seed": "Heather Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-heather.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Heather"
+  },
+  {
+    "slug": "iris",
+    "name": "Iris",
+    "seed": "Iris Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-iris.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Iris"
+  },
+  {
+    "slug": "jasmine",
+    "name": "Jasmine",
+    "seed": "Jasmine Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 35,
+    "icon": "/icons/crop-jasmine.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
+  },
+  {
+    "slug": "lilac",
+    "name": "Lilac",
+    "seed": "Lilac Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 35,
+    "icon": "/icons/crop-lilac.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Lilac"
+  },
+  {
+    "slug": "marigold",
+    "name": "Marigold",
+    "seed": "Marigold Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 9,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-marigold.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Marigold"
+  },
+  {
+    "slug": "moon-fruit",
+    "name": "Moon Fruit",
+    "seed": "Moon Fruit Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 35,
+    "icon": "/icons/crop-moon-fruit.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit"
+  },
+  {
+    "slug": "night-queen",
+    "name": "Night Queen",
+    "seed": "Night Queen Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 35,
+    "icon": "/icons/crop-night-queen.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Night_Queen"
+  },
+  {
+    "slug": "onion",
+    "name": "Onion",
+    "seed": "Onion Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 135,
+    "icon": "/icons/crop-onion.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Onion"
+  },
+  {
+    "slug": "orange",
+    "name": "Orange",
+    "seed": "Orange Sapling",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 14,
+    "regrowDays": 3,
+    "sellValue": 45,
+    "icon": "/icons/crop-orange.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Orange"
+  },
+  {
+    "slug": "oregano",
+    "name": "Oregano",
+    "seed": "Oregano Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-oregano.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Oregano"
+  },
+  {
+    "slug": "peas",
+    "name": "Peas",
+    "seed": "Pea Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 135,
+    "icon": "/icons/crop-peas.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Peas"
+  },
+  {
+    "slug": "poinsettia",
+    "name": "Poinsettia",
+    "seed": "Poinsettia Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-poinsettia.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Poinsettia"
+  },
+  {
+    "slug": "pomegranate",
+    "name": "Pomegranate",
+    "seed": "Pomegranate Sapling",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 14,
+    "regrowDays": 3,
+    "sellValue": 45,
+    "icon": "/icons/crop-pomegranate.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate"
+  },
+  {
+    "slug": "potato",
+    "name": "Potato",
+    "seed": "Potato Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 75,
+    "icon": "/icons/crop-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Potato"
+  },
+  {
+    "slug": "pumpkin",
+    "name": "Pumpkin",
+    "seed": "Pumpkin Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 9,
+    "regrowDays": null,
+    "sellValue": 180,
+    "icon": "/icons/crop-pumpkin.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin"
+  },
+  {
+    "slug": "rice-stalk",
+    "name": "Rice Stalk",
+    "seed": "Rice Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 150,
+    "icon": "/icons/crop-rice-stalk.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rice_Stalk"
+  },
+  {
+    "slug": "rosemary",
+    "name": "Rosemary",
+    "seed": "Rosemary Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-rosemary.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Rosemary"
+  },
+  {
+    "slug": "sage",
+    "name": "Sage",
+    "seed": "Sage Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-sage.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sage"
+  },
+  {
+    "slug": "snapdragon",
+    "name": "Snapdragon",
+    "seed": "Snapdragon Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-snapdragon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snapdragon"
+  },
+  {
+    "slug": "snow-peas",
+    "name": "Snow Peas",
+    "seed": "Snow Pea Seed",
+    "seasons": [
+      "Winter"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 125,
+    "icon": "/icons/crop-snow-peas.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snow_Peas"
+  },
+  {
+    "slug": "snowdrop-anemone",
+    "name": "Snowdrop Anemone",
+    "seed": "Snowdrop Anemone Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-snowdrop-anemone.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Snowdrop_Anemone"
+  },
+  {
+    "slug": "strawberry",
+    "name": "Strawberry",
+    "seed": "Strawberry Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 125,
+    "icon": "/icons/crop-strawberry.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Strawberry"
+  },
+  {
+    "slug": "sugar-cane",
+    "name": "Sugar Cane",
+    "seed": "Sugar Cane Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 80,
+    "icon": "/icons/crop-sugar-cane.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sugar_Cane"
+  },
+  {
+    "slug": "sunflower",
+    "name": "Sunflower",
+    "seed": "Sunflower Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-sunflower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sunflower"
+  },
+  {
+    "slug": "sweet-potato",
+    "name": "Sweet Potato",
+    "seed": "Sweet Potato Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-sweet-potato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato"
+  },
+  {
+    "slug": "tea",
+    "name": "Tea",
+    "seed": "Tea Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 135,
+    "icon": "/icons/crop-tea.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tea"
+  },
+  {
+    "slug": "temple-flower",
+    "name": "Temple Flower",
+    "seed": "Temple Flower Seed",
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 25,
+    "icon": "/icons/crop-temple-flower.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Temple_Flower"
+  },
+  {
+    "slug": "thyme",
+    "name": "Thyme",
+    "seed": "Thyme Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 30,
+    "icon": "/icons/crop-thyme.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
+  },
+  {
+    "slug": "tomato",
+    "name": "Tomato",
+    "seed": "Tomato Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 5,
+    "regrowDays": 3,
+    "sellValue": 125,
+    "icon": "/icons/crop-tomato.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tomato"
+  },
+  {
+    "slug": "tulip",
+    "name": "Tulip",
+    "seed": "Tulip Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 30,
+    "icon": "/icons/crop-tulip.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Tulip"
+  },
+  {
+    "slug": "turnip",
+    "name": "Turnip",
+    "seed": "Turnip Seed",
+    "seasons": [
+      "Spring"
+    ],
+    "growthDays": 4,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-turnip.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Turnip"
+  },
+  {
+    "slug": "viola",
+    "name": "Viola",
+    "seed": "Viola Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 6,
+    "regrowDays": null,
+    "sellValue": 40,
+    "icon": "/icons/crop-viola.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Viola"
+  },
+  {
+    "slug": "watermelon",
+    "name": "Watermelon",
+    "seed": "Watermelon Seed",
+    "seasons": [
+      "Summer"
+    ],
+    "growthDays": 9,
+    "regrowDays": null,
+    "sellValue": 180,
+    "icon": "/icons/crop-watermelon.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Watermelon"
+  },
+  {
+    "slug": "wheat",
+    "name": "Wheat",
+    "seed": "Wheat Seed",
+    "seasons": [
+      "Fall"
+    ],
+    "growthDays": 9,
+    "regrowDays": 3,
+    "sellValue": 150,
+    "icon": "/icons/crop-wheat.png",
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wheat"
+  }
+]
