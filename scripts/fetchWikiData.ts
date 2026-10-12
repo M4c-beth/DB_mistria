@@ -7,6 +7,7 @@
  */
 import { mkdir, writeFile, access } from 'node:fs/promises';
 import path from 'node:path';
+import { parse as parseHtml, type HTMLElement } from 'node-html-parser';
 
 const API = 'https://fieldsofmistria.wiki.gg/api.php';
 const WIKI = 'https://fieldsofmistria.wiki.gg/wiki/';
@@ -355,6 +356,130 @@ async function fetchRecipes(): Promise<unknown[]> {
   return dedupe(out);
 }
 
+// ---------- Villager schedules & quests (rendered HTML; the wiki has no Cargo tables for these) ----------
+
+/** Rendered HTML of a page, or null if it doesn't exist. */
+async function pageHtml(page: string): Promise<HTMLElement | null> {
+  const json = (await api({ action: 'parse', page, prop: 'text', formatversion: '2', redirects: '1' })) as {
+    parse?: { text: string };
+  };
+  await sleep(300);
+  return json.parse ? parseHtml(json.parse.text) : null;
+}
+
+/** Visible text of an element: hidden sort keys and footnotes removed, line breaks kept. */
+function visibleText(el: HTMLElement): string {
+  const copy = parseHtml(el.outerHTML);
+  for (const hidden of copy.querySelectorAll('[style*="display:none"], [style*="display: none"], sup.reference, .mw-editsection')) {
+    hidden.remove();
+  }
+  const html = copy.innerHTML.replace(/<br\s*\/?>|<\/(li|p|div|dd|dt)>/gi, '\n');
+  return parseHtml(html)
+    .text.replace(/[\u00a0\u2000-\u200b\u202f\u205f]/g, ' ')
+    .split('\n')
+    .map((l) => l.replace(/[ \t]+/g, ' ').trim())
+    .filter(Boolean)
+    .join('\n');
+}
+
+/** Table -> header + body grid, expanding rowspan/colspan so columns stay aligned. */
+function tableGrid(table: HTMLElement): { headers: string[]; rows: string[][] } {
+  const grid: string[][] = [];
+  const carry: { text: string; left: number }[] = [];
+  table.querySelectorAll('tr').forEach((tr, r) => {
+    const row: string[] = [];
+    let col = 0;
+    const cells = tr.querySelectorAll('th, td').filter((c) => c.closest('tr') === tr);
+    const fillCarry = (): void => {
+      while (carry[col]?.left) {
+        row[col] = carry[col]!.text;
+        carry[col]!.left--;
+        col++;
+      }
+    };
+    for (const cell of cells) {
+      fillCarry();
+      const text = visibleText(cell);
+      const span = Number(cell.getAttribute('colspan') ?? 1) || 1;
+      const rowspan = Number(cell.getAttribute('rowspan') ?? 1) || 1;
+      for (let i = 0; i < span; i++) {
+        row[col] = text;
+        if (rowspan > 1) carry[col] = { text, left: rowspan - 1 };
+        col++;
+      }
+    }
+    fillCarry();
+    grid[r] = row.map((c) => c ?? '');
+  });
+  const [head = [], ...rows] = grid;
+  return { headers: head, rows: rows.filter((r) => r.some(Boolean)) };
+}
+
+const headingText = (h: HTMLElement): string => visibleText(h).replace(/\s*Schedules?$/i, '').trim();
+
+/** Content tables in document order with the h2/h3/h4 headings above them. Skips navboxes. */
+function tablesWithHeadings(root: HTMLElement): { h2: string; h3: string | null; h4: string | null; table: HTMLElement }[] {
+  const out: { h2: string; h3: string | null; h4: string | null; table: HTMLElement }[] = [];
+  let h2 = '';
+  let h3: string | null = null;
+  let h4: string | null = null;
+  for (const el of root.querySelectorAll('h2, h3, h4, table')) {
+    if (el.tagName === 'H2') [h2, h3, h4] = [headingText(el), null, null];
+    else if (el.tagName === 'H3') [h3, h4] = [headingText(el), null];
+    else if (el.tagName === 'H4') h4 = headingText(el);
+    else if (el.classList.contains('wikitable') && !el.classList.contains('navbox') && !el.closest('.navbox')) {
+      out.push({ h2, h3, h4, table: el });
+    }
+  }
+  return out;
+}
+
+async function fetchVillagerSchedule(page: string): Promise<unknown | null> {
+  const root = await pageHtml(`${page}/Schedule`);
+  if (!root) return null;
+  const sections: { title: string; days: { day: string; condition: string | null; stops: { time: string; place: string }[] }[] }[] = [];
+  for (const { h2, h3, h4, table } of tablesWithHeadings(root)) {
+    const { rows } = tableGrid(table);
+    const stops = rows
+      .filter((r) => r[0] && r[1])
+      .map((r) => ({ time: r[0]!, place: r[1]! }));
+    if (!stops.length || !h2) continue;
+    let section = sections.find((s) => s.title === h2);
+    if (!section) sections.push((section = { title: h2, days: [] }));
+    section.days.push({ day: h3 ?? h2, condition: h4, stops });
+  }
+  return sections.length ? { sections, source: sourceUrl(`${page}/Schedule`) } : null;
+}
+
+async function fetchVillagerQuests(page: string): Promise<unknown | null> {
+  const root = await pageHtml(`${page}/Quests`);
+  if (!root) return null;
+  const tables = tablesWithHeadings(root)
+    .map(({ h2, table }) => {
+      const { headers, rows } = tableGrid(table);
+      return { title: h2, headers: headers.map((h, i) => h || (i === 0 ? 'Name' : '')), rows };
+    })
+    .filter((t) => t.title && t.rows.length);
+  return tables.length ? { tables, source: sourceUrl(`${page}/Quests`) } : null;
+}
+
+async function fetchVillagerDetails(villagers: { slug: string; source: string }[]): Promise<{
+  schedules: Record<string, unknown>;
+  quests: Record<string, unknown>;
+}> {
+  console.log('Schedules & quests…');
+  const schedules: Record<string, unknown> = {};
+  const quests: Record<string, unknown> = {};
+  for (const v of villagers) {
+    const page = decodeURIComponent(v.source.slice(WIKI.length)).replace(/_/g, ' ');
+    const s = await fetchVillagerSchedule(page);
+    const q = await fetchVillagerQuests(page);
+    if (s) schedules[v.slug] = s;
+    if (q) quests[v.slug] = q;
+  }
+  return { schedules, quests };
+}
+
 function dedupe<T extends { slug: string; name: string }>(items: T[]): T[] {
   const seen = new Map<string, T>();
   for (const i of items) if (i.slug && !seen.has(i.slug)) seen.set(i.slug, i);
@@ -375,6 +500,11 @@ async function main(): Promise<void> {
   for (const [name, data] of Object.entries(datasets)) {
     await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');
     console.log(`  ${name}: ${data.length}`);
+  }
+  const details = await fetchVillagerDetails(datasets.villagers as { slug: string; source: string }[]);
+  for (const [name, data] of Object.entries(details)) {
+    await writeFile(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2) + '\n');
+    console.log(`  ${name}: ${Object.keys(data).length} villagers`);
   }
   await writeFile(
     path.join(DATA_DIR, 'meta.json'),

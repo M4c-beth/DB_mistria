@@ -1,0 +1,3055 @@
+{
+  "adeline": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Smell of Drying Ink",
+            "Adeline asked me to meet her in her office to get a better understanding of the inner workings of the government.",
+            "Letter from Adeline",
+            "(2 Hearts)",
+            "",
+            "Adeline's office in the Manor House",
+            "Cherry Tart"
+          ],
+          [
+            "A Rewarding Choice",
+            "Adeline asked me to meet her in her office. She wants my help with an important choice as \"an average Mistrian\".",
+            "Letter from Adeline",
+            "(4 Hearts)",
+            "",
+            "Adeline's office in the Manor House",
+            "Option 1:\nWood (25)\nStone (25)\nOption 2:\nBig Cookie (1)"
+          ],
+          [
+            "Chief Inspector",
+            "Adeline asked me to come along for her next inspection of Mistria. We'll start from the Request Board.",
+            "Letter from Adeline",
+            "(6 Hearts)",
+            "",
+            "Request Board",
+            ""
+          ],
+          [
+            "Lost Track of Time",
+            "Adeline asked me to join her for tea. I hope she takes the time to actually relax...",
+            "Letter from Adeline",
+            "(8 Hearts)",
+            "",
+            "Adeline's office in the Manor House",
+            "Hero's Ring"
+          ],
+          [
+            "A Craving",
+            "Adeline said she's been craving Lemon Pie. Anything to help her out!",
+            "Adeline",
+            "(10 Hearts)",
+            "Adeline is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Heather",
+            "This time of year always makes me think of my mother's favorite flower, heather.\nCould someone gather a few bunches for me?",
+            "Current Season: Fall",
+            "Heather (3)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Lemon",
+            "I was planning to make some tea with lemon, but I'm short on lemons!\nIf you have an extra one, can you bring it to me? I'll teach you my recipe!",
+            "Current Season: Spring\nObtained: Lemon",
+            "Lemon (1)",
+            "Recipe: Tea with Lemon\n20 Renown"
+          ],
+          [
+            "Request for Pineshrooms",
+            "Would someone bring me some pineshrooms?\nI'm really craving a nostalgic winter treat. If you don't mind bringing me some, I'll teach you how to make it!",
+            "Current Season: Winter",
+            "Pineshroom (2)",
+            "Recipe: Pineshroom Toast\n20 Renown"
+          ],
+          [
+            "Request for a Silver Sword",
+            "My father, Baron Wiscar, has requested I send him something that he can give to the King.\nI can't think of anything more suitable than a Silver Sword!",
+            "Reached The Deep Earth",
+            "Silver Sword (1)",
+            "2,000t\n20 Renown"
+          ],
+          [
+            "Request for a Turnip",
+            "It's that time of year! I need to write a report on Mistria's spring crop yield.\nCould you bring me a turnip to inspect?",
+            "Current Season: Spring",
+            "Turnip (1)",
+            "50t\n20 Renown"
+          ],
+          [
+            "Request for an Iron Watering Can",
+            "Our Iron Watering Can seems to have been misplaced, can I request someone craft me a new one?",
+            "Reached The Tide Caverns",
+            "Iron Watering Can (1)",
+            "2,200t\n20 Renown"
+          ],
+          [
+            "Request for a Mistril Ingot",
+            "Despite filling out the proper forms, we've had a request by the Capital for a Mistril Ingot to confirm that it's a new metal.",
+            "Reached The Ancient Ruins",
+            "Mistril Ingot (1)",
+            "1,250t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Adeline%2FQuests"
+  },
+  "balor": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Tall, Dark and Mysterious",
+            "Seeking help to unload supplies for the relief effort, paying 200t. Come talk to me.",
+            "Request Board",
+            "(2 Hearts)",
+            "Complete \"Repair the Bridge\"",
+            "Talk to Balor.",
+            ""
+          ],
+          [
+            "An Open Book",
+            "Balor wants to give me advice on the items I'm shipping. I should go meet him in the Inn to hear him out.",
+            "Letter from Balor",
+            "(4 Hearts)",
+            "",
+            "The Inn",
+            ""
+          ],
+          [
+            "Lemonade From Lemons",
+            "Balor asked me to join him for a meal at the Inn.\nBusiness must be good!",
+            "Letter from Balor",
+            "(6 Hearts)",
+            "The Player has earned 10,000t",
+            "The Inn",
+            ""
+          ],
+          [
+            "For Good",
+            "Balor asked me to meet him in his room at the Inn for a meal.",
+            "Letter from Balor",
+            "(8 Hearts)",
+            "",
+            "Balor's Room at The Inn",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for an Apple",
+            "Mistria's apples are second to none, I'd like to request one freshly picked from the tree.",
+            "Current Season: Fall",
+            "Apple (1)",
+            "180t\n20 Renown"
+          ],
+          [
+            "Request for a Copper Ingot",
+            "A trading partner wants to see the quality of the new copper coming out of the Mines.\nCould I get a Copper Ingot?",
+            "Unlocked The Mines",
+            "Copper Ingot (1)",
+            "220t\n20 Renown"
+          ],
+          [
+            "Request for an Emerald",
+            "The mines were once famous for the quality of their emeralds.\nIf you happen to find any, I'd pay handsomely.",
+            "Reached The Deep Earth",
+            "Emerald (1)",
+            "180t\n20 Renown"
+          ],
+          [
+            "Request for Gold Ore",
+            "I have it on good authority that the Mine is producing Gold Ore again. I'm paying handsomely to have some of that ore come directly to me.",
+            "Reached The Lava Caves",
+            "Gold Ore (3)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for a Ruby",
+            "I realize this is a big ask, but I have a customer who's willing to pay well for a ruby.\nIf you can get your hands on one, we can split the profits.",
+            "Unlocked The Mines",
+            "Ruby (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Ultimate Feed",
+            "A friend of a friend has a horse that needs to be in tiptop shape for a race. I've been asked to procure Ultimate Large Animal Feed. You'll be well compensated for assisting me.",
+            "Completed: \"The Mill Restoration Project\"",
+            "Ultimate Large Animal Feed (1)",
+            "750t\n20 Renown"
+          ],
+          [
+            "Request for a Pink Diamond",
+            "I'd quite like to get my hands on a Pink Diamond, if any are to be found in Mistria.",
+            "Reached The Ancient Ruins",
+            "Pink Diamond (1)",
+            "650t\n20 Renown"
+          ],
+          [
+            "Uncommon Pheromone Request",
+            "I'd like to request a bottle of Uncommon Pheromone. If it works on bugs, maybe it could have applications in the perfume industry.",
+            "Completed: Maple's Request for Common Pheromone",
+            "Uncommon Bug Pheromones (1)",
+            "250t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Balor%2FQuests"
+  },
+  "caldarus": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Life in This Form",
+            "Caldarus asked me to join him at his temple for a meal. What could he want to speak about?",
+            "Letter from Caldarus",
+            "(8 Hearts)",
+            "",
+            "The Temple",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Dog Treat",
+            "I'd like to request a Dog Treat for the Bathhouse owner.",
+            "Have Met Seridia",
+            "Dog Treat (1)",
+            "510t\n20 Renown"
+          ],
+          [
+            "Request for Fried Rice",
+            "I had some Fried Rice at the Inn which I found to be quite enjoyable! I would like to request more from another chef to see how it differs.",
+            "Have Met Seridia",
+            "Fried Rice (1)",
+            "750t\n20 Renown"
+          ],
+          [
+            "Request for a Lobster",
+            "It's quite the walk to the ocean from my home. I'd like to request a Lobster from an angler.",
+            "Have Met Seridia",
+            "Lobster (1)",
+            "445t\n20 Renown"
+          ],
+          [
+            "Request for Monster Mash",
+            "I would like to request a dish called \"Monster Mash\". My own attempts at creating it have been less than successful.",
+            "Have Met Seridia",
+            "Monster Mash (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for a Pumpkin Pie",
+            "Could I request a fresh Pumpkin Pie?",
+            "Have Met Seridia",
+            "Pumpkin Pie (1)",
+            "670t\n20 Renown"
+          ],
+          [
+            "Request for a Sushi Platter",
+            "May I request a Sushi Platter?",
+            "Have Met Seridia",
+            "Sushi Platter (1)",
+            "800t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Caldarus%2FQuests"
+  },
+  "celine": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Unusual Seed",
+            "Celine has a question about a flower that she hopes I can help her with.",
+            "Letter from Celine",
+            "(2 Hearts)",
+            "",
+            "Celine's Cottage",
+            "Peat (5)\nSod (5)"
+          ],
+          [
+            "Water and Soil",
+            "Celine asked me to meet her at her cottage. The mystery seed hasn't sprouted yet and she wants my insight into what could possibly make this seed grow.",
+            "Letter from Celine",
+            "(4 Hearts)",
+            "",
+            "Celine's Cottage",
+            ""
+          ],
+          [
+            "A Change of Green-ery",
+            "Celine says the she can't get the sprout to grow any more and wants to brainstorm what to do. Is there something special it needs?",
+            "Letter from Celine",
+            "(6 Hearts)",
+            "",
+            "Celine's Cottage",
+            "Cherry Cobbler"
+          ],
+          [
+            "A Lost Flower",
+            "Celine asked me to join her for a picnic! She wants to meet at her cottage first.",
+            "Letter from Celine",
+            "(8 Hearts)",
+            "",
+            "Celine's Cottage"
+          ],
+          [
+            "A Craving",
+            "Celine said she's been craving a Spring Salad. Anything to help her out!",
+            "Celine",
+            "(10 Hearts)",
+            "Celine is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Copper Shovel",
+            "I've saved up for a new Copper Shovel, but the Blacksmith's is so busy, I don't want to trouble them.\nCould someone help me out?",
+            "Unlocked The Mines",
+            "Copper Shovel (1)",
+            "960t\n20 Renown"
+          ],
+          [
+            "Request for Coral",
+            "I've read that ground up Coral can be good for growing certain types of plants.\nCan someone bring me some?",
+            "Reached The Tide Caverns",
+            "Coral (5)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Fennel",
+            "Can you bring me some fennel if you find any growing east of town?\nI'll teach you how to make a spring salad in return!",
+            "Current Season: Spring\nObtained: Fennel",
+            "Fennel (1)",
+            "Recipe: Spring Salad\n20 Renown"
+          ],
+          [
+            "Request for Gardening Materials",
+            "Would someone bring me some sod and peat for a potting soil mix I'm testing?\nI'll share some fresh flowers from my garden in return!",
+            "Current Season: Spring\nObtained: Worn Pickaxe",
+            "Sod (1)\nPeat (1)",
+            "Tulip (1)\nDaffodil (1)\n20 Renown"
+          ],
+          [
+            "Request for a Shadow Flower",
+            "The Codex Mistria has some very interesting flowers it says are native to the region including a \"Shadow Flower\".\nI'd like to have one to see how it grows!",
+            "Unlocked The Mines",
+            "Shadow Flower (1)",
+            "300t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Celine%2FQuests"
+  },
+  "darcy": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "A New Blend",
+            "Darcy asked me to meet her at the Sleeping Dragon Inn to try her new coffee blends.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Inn",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Spirit Mushroom Tea",
+            "Valen told me that Mistria has a tea I've never even heard of! Could I request a cup of Spirit Mushroom Tea, please?",
+            "Unlocked The Deep Woods",
+            "Spirit Mushroom Tea (3)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for Walnuts",
+            "I love working with regional ingredients, could I request 3 Walnuts?",
+            "Unlocked The Deep Woods",
+            "Walnut (3)",
+            "175t\n20 Renown"
+          ],
+          [
+            "Request for Coconuts",
+            "Terithia told me that Mistria has Coconuts at the beach, but I haven't had the time to get out there myself. Could I request 3 Coconuts?",
+            "Current Season: Summer",
+            "Coconut (3)",
+            "155t\n20 Renown"
+          ],
+          [
+            "Request for Peaches",
+            "I've always enjoyed Peaches, and I thought it'd be fun to request some to experiment with in my drinks!",
+            "Current Season: Summer",
+            "Peach (3)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for a Pomegranate",
+            "I've really been craving a Pomegranate for some reason. Could anyone help me out?",
+            "Current Season: Winter\nCompleted: \"Greet the Vendors\"",
+            "Pomegranate (1)",
+            "175t\n20 Renown"
+          ],
+          [
+            "Request for Legendary Honey",
+            "Has anyone heard of Legendary Honey? Supposedly even a single drop of it makes any dessert taste amazing! I gotta have a jar!",
+            "Completed: \"Apiaries and Terrariums\"",
+            "Legendary Honey (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for a Spell Fruit",
+            "Have anyone ever seen a Spell Fruit? Celine told me about them from that old book of hers. I'd love to try one!",
+            "Reached The Ancient Ruins",
+            "Spell Fruit (1)",
+            "750t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Darcy%2FQuests"
+  },
+  "dell": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Acorns",
+            "Celine read me a story about a princess befriending woodland creatures with a song. I can't sing, but I bet I could bribe them! Can I get some Acorns to help build my woodland army?",
+            "Current Season: Fall",
+            "Acorn (3)",
+            "70t\n20 Renown"
+          ],
+          [
+            "Request for Chestnuts",
+            "URGENT: I need some chestnuts!\nPlease bring me some as soon as possible! I'll trade you an apple!",
+            "Current Season: Fall",
+            "Chestnut (3)",
+            "Apple\n20 Renown"
+          ],
+          [
+            "Request for a Frog",
+            "Every fantasy story I read has a talking frog in it! There's too many in the Eastern Road's pond for me to check them all.\nHelp me start my big adventure!",
+            "Current Season: Winter",
+            "Frog (1)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for a Crocus",
+            "Could someone get me a Crocus? Please?",
+            "Current Season: Winter",
+            "Crocus (1)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for Iron",
+            "Mister March said if I could bring him iron, he'd make me a sword!\nI've been saving my allowance for forever to post this!",
+            "Reached The Tide Caverns",
+            "Iron Ore (2)",
+            "30t\n20 Renown"
+          ],
+          [
+            "Request for Obsidian",
+            "Olric told me that Obsidian is cooled down lava! I want one! Someone get me one!",
+            "Reached The Lava Caves",
+            "Obsidian (3)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for a Snail",
+            "Mom said I shouldn't keep catching snails to bring home, but she didn't say I couldn't put up a request for one!\nPlease help, I just need one more to complete the whole set!",
+            "Obtained: Worn Fishing Rod",
+            "Snail (1)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for a Cherry Tart",
+            "Could someone make me a Cherry Tart, fast? It's life or death!",
+            "Current Season: Spring\nReached Year 2",
+            "Cherry Tart (1)",
+            "75t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dell%2FQuests"
+  },
+  "dozy": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Tidestone",
+            "Dozy asked me to request someone bring him a \"Tidestone\" he thinks it'll be a real draw at the Bathhouse.",
+            "Reached The Tide Caverns",
+            "Tidestone (1)",
+            "450t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Dozy%2FQuests"
+  },
+  "eiland": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Stele",
+            "Eiland asked me to meet him at the Manor House. He wants to show me an \"interesting\" historical site on the grounds.",
+            "Letter from Eiland",
+            "(2 Hearts)",
+            "",
+            "Manor House",
+            ""
+          ],
+          [
+            "The Ruins",
+            "Eiland asked me to meet him at the Western Ruins to look for more clues and possibly more Dragonsworn Armor.",
+            "Letter from Eiland",
+            "(4 Hearts)",
+            "",
+            "The Western Ruins",
+            ""
+          ],
+          [
+            "The Manor",
+            "Eiland says that the search for the Dragonsworn Armor has taken an unexpected turn. I should meet him at the manor.",
+            "Letter from Eiland",
+            "(6 Hearts)",
+            "",
+            "Manor House",
+            ""
+          ],
+          [
+            "The Glade",
+            "Eiland needs more time to find a lead on the Dragonsworn armor, but wants go for a walk in the Deep Woods. Maybe walking will clear his mind?",
+            "Letter from Eiland",
+            "(8 Hearts)",
+            "Access to The Lava Caves",
+            "The Deep Woods",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Berries",
+            "I'm craving something sweet!\nIf you bring me some wild berries, I'll teach you how to make berries and cream!",
+            "Current Season: Spring",
+            "Wild Berries (5)",
+            "Recipe: Berries and Cream\n20 Renown"
+          ],
+          [
+            "Request for Eggs",
+            "Errol suggested that more protein in my diet could help with my excavation work.\nMay I request three eggs?",
+            "Built: a Coop",
+            "Egg (3)",
+            "Recipe: Hardboiled Egg\n20 Renown"
+          ],
+          [
+            "Request for a Moon Fruit",
+            "Has anyone seen any Moon Fruit? They're quite hard to come by, but can be foraged around Mistria this time of year.\nPlease bring me one and I'll share a wonderful recipe for them!",
+            "Current Season: Fall",
+            "Moon Fruit (1)",
+            "Recipe: Caramelized Moon Fruit\n20 Renown"
+          ],
+          [
+            "Request for Shards",
+            "I'm seeking some shards as part of my archaeological research. They can often be unearthed at dig sites!\nIf you come across any, could you bring me some?",
+            "Obtained: Worn Pickaxe",
+            "Shards (2)",
+            "50t\n20 Renown"
+          ],
+          [
+            "Request for a Strawberry",
+            "Can someone bring me a strawberry? I'll share my recipe for strawberry shortcake as a reward!",
+            "Current Season: Spring\nCooking Lv.20",
+            "Strawberry (1)",
+            "Recipe: Strawberry Shortcake\n20 Renown"
+          ],
+          [
+            "Request for a Strawberry",
+            "Would someone please bring me a strawberry?\nI'm happy to share my recipe for strawberries and cream in return!",
+            "Current Season: Spring",
+            "Strawberry (1)",
+            "Recipe: Strawberries and Cream\n20 Renown"
+          ],
+          [
+            "Request for a Striped Bass",
+            "A fellow researcher has written to me with an unusual request for a Striped Bass from Mistria.\nCould I prevail on someone to help me by catching one?",
+            "Current Season: Fall",
+            "Striped Bass (1)",
+            "450t\n20 Renown"
+          ],
+          [
+            "Request for Pudding",
+            "I recently read a treatise on Puddings, and now I can't stop thinking about them. May I request one?",
+            "Cooking Lv.10",
+            "Pudding (1)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Pumpkin",
+            "I'm quite fond of Pumpkin Pie, and would like to request a Pumpkin for one!",
+            "Current Season: Fall",
+            "Pumpkin (1)",
+            "200t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Eiland%2FQuests"
+  },
+  "elsie": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Sweet Memories",
+            "Elsie asked me to meet her in her room at the Manor House to discuss her memoirs.",
+            "",
+            "(2 Gems)*",
+            "",
+            "Elsie's room in the Manor House",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Blackberries",
+            "Could someone drop off some blackberries, please?\nI just love blackberry jam but I'm nearly out. If you can bring me some, I'll teach you how to make your own!",
+            "Current Season: Fall",
+            "Blackberry (6)",
+            "Recipe: Blackberry Jam\n20 Renown"
+          ],
+          [
+            "Request for an Orange",
+            "Would someone be a dear and fetch me an Orange? I need to make a fresh batch of my famous Marmalade.\nI'd be happy to reveal the recipe to you in exchange.",
+            "Current Season: Fall",
+            "Orange (1)",
+            "Recipe: Marmalade\n20 Renown"
+          ],
+          [
+            "Request for a Silver Ingot",
+            "A personal friend in the Capital, who happens to be a rather famous jeweler, has been complaining about the silver shortage.\nPlease bring me a bar so I can make a gift of it.",
+            "Reached The Deep Earth",
+            "Silver Ingot (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for a Snowdrop Anemone",
+            "If you wouldn't mind bringing me one of those lovely flowers that grows by the Western Ruins, I can provide you with seeds to grow more.",
+            "Current Season: Spring",
+            "Snowdrop Anemone (1)",
+            "Snowdrop Anemone Seed (3)\n20 Renown"
+          ],
+          [
+            "Request for Wild Berries",
+            "There are many ways to use the Mistrian Wild Berry, but in my opinion there's no finer way than in a fresh scone!\nBring me some wild berries and let me share the recipe with you.",
+            "Current Season: Spring",
+            "Wild Berries (6)",
+            "Recipe: Wild Berry Scone\n20 Renown"
+          ],
+          [
+            "Request for Roses",
+            "Could someone bring me a dozen Roses? I quite like the flower, but I'm not much of a fan of the actual picking, too many thorns.",
+            "Current Season: Summer",
+            "Rose (12)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for Blueberry Jam",
+            "I'm quite partial to Blueberry Jam, could I request a few jars?",
+            "Current Season: Spring\nReached Year 2",
+            "Blueberry Jam (3)",
+            "1,000t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Elsie%2FQuests"
+  },
+  "errol": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "A Mysterious Treasure",
+            "I've got an old chest gathering dust at the museum, and I just can't get it open. Could someone lend me a hand?",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Museum",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Berries",
+            "If someone would be so kind as to bring me some wild berries for my snack, I would be in your debt.",
+            "Current Season: Spring",
+            "Wild Berries (5)",
+            "40t\n20 Renown"
+          ],
+          [
+            "Request for a Clam",
+            "Years ago Terithia showed me how to make the most delectable Clam Chowder, but I'm too old to be diving for the Clam I need off the coast.\nHelp a fellow out?",
+            "Current Season: Summer",
+            "Clam (1)",
+            "Recipe: Clam Chowder\n20 Renown"
+          ],
+          [
+            "Request for Iron Armor",
+            "Armor styles have changed greatly throughout Aldaria's history.\nI would like to request Iron Armor crafted in the modern style for my research.",
+            "Reached The Tide Caverns",
+            "Iron Armor (1)",
+            "1,450t\n20 Renown"
+          ],
+          [
+            "Request for a Perch",
+            "I'm quite fond of Perch Risotto, but lack the fish.\nIf anyone is fishing in the river on a rainy day, please keep an eye out for it and bring one to me for the recipe.",
+            "Current Season: Fall",
+            "Perch (1)",
+            "Recipe: Perch Risotto\n20 Renown"
+          ],
+          [
+            "Request for a Tilapia",
+            "The Capital Museum has requested a Tilapia, but my skills do not lie in fishing.\nThere is a generous reimbursement if you can help.",
+            "Current Season: Winter",
+            "Tilapia (1)",
+            "750t\n20 Renown"
+          ],
+          [
+            "Request for a Scarecrow",
+            "I'm afraid my patch of garden has become a breakfast spot to some very unruly birds. May I request a Scarecrow so my vegetables remain unharmed?",
+            "Woodcrafting Lv.4",
+            "Scarecrow (1)",
+            "425t\n20 Renown"
+          ],
+          [
+            "Request for Pears",
+            "May I request a brace of Pears? They make an excellent snack.",
+            "Current Season: Summer",
+            "Pear (2)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Corrupted Mistril Sword Request",
+            "There is a very old sword made of an unidentified type of metal in the Museum's backroom. I would like to request a Corrupted Mistril Sword to compare the two.",
+            "Reached The Ancient Ruins",
+            "Corrupted Mistril Sword (1)",
+            "1,500t\n20 Renown"
+          ],
+          [
+            "Request for Uncommon Bait",
+            "I have a dear friend who loves to fish, and am hoping to procure her some Uncommon Bait as a gift.",
+            "Completed: Terithia's Request for Common Bait",
+            "Uncommon Fish Bait (1)",
+            "250t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Errol%2FQuests"
+  },
+  "hayden": {
+    "tables": [
+      {
+        "title": "Important Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Tea with Hayden",
+            "Can't thank you enough for your work on the mill, [Player]!\nIf you've got some time, come on over to my place. I'll put on the kettle and we can chat about ranching and raising animals!",
+            "Letter from Hayden, after completing Story Quest \"The Mill Restoration Project\"",
+            "Complete Story Quest \"The Mill Restoration Project\"",
+            "Meet Hayden at his house west of your farm.",
+            "Hay (10)\nGrass Seed (10)\nTea with Lemon (1)"
+          ]
+        ]
+      },
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "A Get Together",
+            "Hayden has invited me to a get together at his place.",
+            "Letter from Hayden",
+            "(2 Hearts)",
+            "",
+            "Hayden's House at Sweetwater Farm",
+            ""
+          ],
+          [
+            "Extra Feed",
+            "Hayden has some extra feed to give me and wants me to meet him at his farm. I wonder how Henrietta's doing...",
+            "Letter from Hayden",
+            "(4 Hearts)",
+            "",
+            "Sweetwater Farm",
+            "Quality Small Animal Feed (3)"
+          ],
+          [
+            "Real Fine Day",
+            "Hayden says he has a day planed to help socialize Henrietta. Does the General Store let chickens inside... ?",
+            "Letter from Hayden",
+            "(6 Hearts)",
+            "",
+            "General Store",
+            ""
+          ],
+          [
+            "A Little While Longer",
+            "Hayden asked me to come over so that we could spend some time together. I wonder what food he's making...",
+            "Letter from Hayden",
+            "(8 Hearts)",
+            "",
+            "Hayden's House at Sweetwater Farm",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Baked Potato",
+            "I have a theory I'd like to test, but I need some help!\nCan someone bring me a baked potato? I think I can improve the recipe!",
+            "Cooking Lv.4",
+            "Baked Potato (1)",
+            "Recipe: Loaded Baked Potato\n20 Renown"
+          ],
+          [
+            "Request for Thorn Vine",
+            "Could I request some Thorn Vine? Could be a good deterrent to keep pests out of my field!",
+            "Unlocked The Deep Woods",
+            "Thorn Vine (2)",
+            "240t\n20 Renown"
+          ],
+          [
+            "Request for Hay",
+            "I'd like to give my cows a little extra hay for being so good. I can swap it for some of their milk!",
+            "Obtained: Hay",
+            "Hay (5)",
+            "Milk\n20 Renown"
+          ],
+          [
+            "Request for Wood Fencing",
+            "Could someone craft some wood fencing for me?\nHenrietta's been testing the integrity of my current enclosure and it's simply not meeting her standards.",
+            "Obtained: Wooden Fence",
+            "Wooden Fence (5)",
+            "Egg (3)\n20 Renown"
+          ],
+          [
+            "Request for Ultimate Feed",
+            "Henrietta was a big help with farm chores the other day and deserves a special treat. Could someone bring me a bag of Ultimate Small Animal Feed?",
+            "Completed: \"The Mill Restoration Project\"",
+            "Ultimate Small Animal Feed (1)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for Peas",
+            "Could I request some fresh Peas? Henrietta's a big fan!",
+            "Current Season: Spring\nReached Year 2",
+            "Peas (3)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for Blackberries",
+            "Anyone got any spare Blackberries? They make great feed for my animals!",
+            "Current Season: Fall\nObtained: Any Animal",
+            "Blackberry (5)",
+            "150t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hayden%2FQuests"
+  },
+  "hemlock": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Happy Anniversary",
+            "Hemlock asked me to meet him at the Sleeping Dragon Inn to help plan a date night for Josephine.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Inn",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Caterpillar",
+            "Luc's been asking me to get a friend for his caterpillar but I'm not sure where to get one.\nCan someone bring me one? I'll repay you with a bite to eat!",
+            "Obtained: Worn Fishing Rod",
+            "Caterpillar (1)",
+            "Rice Ball (1)\n20 Renown"
+          ],
+          [
+            "Request for a Catfish",
+            "I need a catfish for a dish we're making at the inn! If you bring me one, I'll teach you my recipe!",
+            "Current Season: Spring\nObtained: Worn Fishing Rod",
+            "Catfish (1)",
+            "Recipe: Breaded Catfish\n20 Renown"
+          ],
+          [
+            "Request for Chestnuts",
+            "This crisp weather has me in the mood for Roasted Chestnuts!\nBring me some and I'll share my recipe with you.",
+            "Current Season: Fall",
+            "Chestnut (2)",
+            "Recipe: Roasted Chestnuts\n20 Renown"
+          ],
+          [
+            "Request for Rice",
+            "When we have a really spicy dish I like to keep plenty of Rice on the table to help cut the heat for the kids. Can I request a couple of bags?",
+            "Current Season: Fall\nReached Year 2",
+            "Rice (2)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Sapphire",
+            "A friend went out of the way to do me a favor and I'd like to show him how much I appreciated it.\nCould you find me a Sapphire?",
+            "Reached The Tide Caverns",
+            "Sapphire (1)",
+            "150t\n20 Renown"
+          ],
+          [
+            "Request for Sheep Wool",
+            "We're placing an order for new blankets for the inn soon, and I think it'd make them extra special to be made of wool from Mistrian sheep.\nI'll need half a dozen!",
+            "Completed: \"Upgrade Hayden's Barn\"",
+            "Sheep Wool (6)",
+            "800t\n20 Renown"
+          ],
+          [
+            "Request for a Potted Plant",
+            "Hard to keep plants around the Inn, since Luc keeps making them into his bug's habitats. Can I request a Potted Plant so he can have a designated place for them?",
+            "Woodcrafting Lv.4",
+            "Potted Plant (1)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for Wild Grapes",
+            "Things around here are too busy to go foraging myself, so can someone please hunt down some Wild Grapes for me? Try the Narrows!",
+            "Current Season: Summer",
+            "Wild Grapes (3)",
+            "125t\n20 Renown"
+          ],
+          [
+            "Request for a Copper Net",
+            "I'd like to surprise someone with a Copper Net! Can anyone make one for me?",
+            "Unlocked The Mines",
+            "Copper Net (1)",
+            "520t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Hemlock%2FQuests"
+  },
+  "holt": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Beet",
+            "Winter's here and that means Beets!\nI'd like to request the freshest, most mouthwatering Beet you can find!",
+            "Current Season: Winter",
+            "Beet (1)",
+            "150t\n20 Renown"
+          ],
+          [
+            "Request for Bell Berry Bakewell Tart",
+            "Could someone whip me up a Bell Berry Bakewell Tart, now that the Deep Woods are opened back up?",
+            "Unlocked The Deep Woods",
+            "Bell Berry Bakewell Tart (1)",
+            "350t\n20 Renown"
+          ],
+          [
+            "Request for Tomatoes",
+            "Would someone bring me some tomatoes?\nI could really go for some nice cool gazpacho! I'll make enough for both of us!",
+            "Current Season: Summer",
+            "Tomato (2)",
+            "Gazpacho\n20 Renown"
+          ],
+          [
+            "Request for a Goby",
+            "Can I get someone to fish me up a Goby? They're good luck!",
+            "Fishing Lv.2",
+            "Goby (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Lake Trout",
+            "Can someone fish me up a Lake Trout from the Deep Woods?",
+            "Unlocked The Deep Woods",
+            "Lake Trout (1)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for a Monster Horn",
+            "Now, I love to whittle, but I've been thinking of expanding out into other materials. Could I request a Monster Horn to practice on?",
+            "Unlocked The Mines",
+            "Monster Horn (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Cabbage",
+            "I'm requesting a fresh snacking Cabbage!",
+            "Current Season: Spring",
+            "Cabbage (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Cauliflower",
+            "Looking for the freshest, most delicious Cauliflower in Mistria!",
+            "Current Season: Winter",
+            "Cauliflower (1)",
+            "225t\n20 Renown"
+          ],
+          [
+            "Request for Sugar Cane",
+            "You wouldn't believe how hard it is to get Sugar Cane in Mistria! Could I request one?",
+            "Current Season: Summer\nReached Year 2",
+            "Sugar Cane (1)",
+            "225t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Holt%2FQuests"
+  },
+  "josephine": {
+    "tables": [
+      {
+        "title": "Important Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Jo's Cooking Class",
+            "On your own for the first time and unsure how to feed yourself?\nCome to the Sleeping Dragon Inn for a free cooking class with Josephine! Learn the ins and outs of cooking!",
+            "Request Board on Year 1, 13 Spring",
+            "Reach 13 Spring",
+            "Meet Josephine at the Sleeping Dragon Inn.",
+            "Recipe: Vegetable Soup"
+          ]
+        ]
+      },
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Josephine's Strays",
+            "I'm having trouble with a stray cat. I just cannot get the poor dear to come out of the stables.\nCome talk to me and we'll come up with a plan!",
+            "",
+            "(2 Gems)*",
+            "",
+            "Outside of The Inn's stables",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Ice",
+            "You'd be amazed at how much ice we need to stock up on to keep our drinks cold and our food fresh!\nWould you mind helping out?",
+            "Current Season: Winter",
+            "Ice Block (3)",
+            "Recipe: Wintergreen Ice Cream\n20 Renown"
+          ],
+          [
+            "Request for Rooster Feathers",
+            "We could use some fresh Rooster Feathers to refill our guest pillows.\nCould someone help us out?",
+            "Built: a Coop",
+            "Rooster Feather (4)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Salmon",
+            "If it's not too much trouble, could someone bring me some fresh salmon? Our last shipment was a little short.",
+            "Current Season: Spring",
+            "Salmon (1)",
+            "50t\n20 Renown"
+          ],
+          [
+            "Request for Trail Mix",
+            "I like to keep plenty of Trail Mix on hand for the kids, but they sure eat a lot of it! Can someone mix some more up for me? You'll need Wild Berries and Water Chestnuts from the Narrows to make it!\nFeel free to use the kitchen at the inn.",
+            "Current Season: Spring",
+            "Trail Mix (3)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for Crystal Berries",
+            "I've heard of something called \"Crystal Berries\" that grow in Mistria, but I haven't been able to find any! Can I request some? I'd love to see what I can bake with them!",
+            "Reached The Deep Earth",
+            "Crystal Berries (3)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for Noodles",
+            "Maple keeps asking for Noodles, but then tells me \"not these Noodles, the other ones!\" I'm at my wit's end, can someone bring me a plateful to try to appease my little princess?",
+            "No Requirements to Appear",
+            "Noodles (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Dill",
+            "Could I request some Dill? Can't make good Crab Cakes without it!",
+            "Current Season: Summer",
+            "Dill (2)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Chili Peppers",
+            "Seems to me I'm always running out of Chili Peppers! I'd like to request a few.",
+            "Current Season: Summer",
+            "Chili Pepper (3)",
+            "310t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Josephine%2FQuests"
+  },
+  "juniper": {
+    "tables": [
+      {
+        "title": "Important Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Stinky Stamina Potion",
+            "Attractive and extremely talented bathhouse owner seeks a gopher to find and hand over a Lilac.",
+            "Request Board on Year 1, 5 Spring",
+            "Reach 5 Spring",
+            "Bring a lilac to Juniper.\nLilac (1)",
+            "Heath and Stamina full recovery\n5 free The Bathhouse visits\nWeather Crystal Ball"
+          ]
+        ]
+      },
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Becoming Juniper's Guinea Pig",
+            "Come and get your free health tonic at Juniper's Bathhouse!\nClears your pores, freshens your breath, and side effects are minimal.\nAvailable while supplies last.",
+            "Request Board",
+            "(2 Hearts)",
+            "",
+            "The Bathhouse",
+            ""
+          ],
+          [
+            "Horsing Around",
+            "Juniper wants to test another potion on me. I should go to the bathhouse before she tests it on someone else.",
+            "Letter from Juniper",
+            "(4 Hearts)",
+            "",
+            "The Bathhouse",
+            ""
+          ],
+          [
+            "Working Like a Dog",
+            "Juniper asked me to come and help her with some \"menial errands\". How does Dozy put up with it...",
+            "Letter from Juniper",
+            "(6 Hearts)",
+            "",
+            "The Bathhouse",
+            ""
+          ],
+          [
+            "Potions and Errands",
+            "Juniper asked me to bring her a Breath of Flame flower for a new bath infusion. Another errand?",
+            "Letter from Juniper",
+            "(8 Hearts)",
+            "Access to The Lava Caves",
+            "The Bathhouse",
+            ""
+          ],
+          [
+            "A Craving",
+            "Juniper said she's been craving Pizza. Anything to help her out!",
+            "Juniper",
+            "(10 Hearts)",
+            "Juniper is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Capybara Bristles",
+            "You won't find a more comfortable stuffing for a chair than Capybara Bristles, which is why I require some.",
+            "Completed: \"Upgrade Hayden's Barn\"",
+            "Bristle (3)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for Crystals",
+            "Rumor has it that crystals of marvelous quality can be found below the mines.\nI would be willing to pay top tesserae for some.",
+            "Reached The Deep Earth",
+            "Crystal (5)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for a Duck Egg",
+            "Dozy likes a duck egg in his food every now and then, bring one to me.",
+            "Completed: \"Upgrade Hayden's Barn\"",
+            "Duck Egg (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for a Fog Orchid",
+            "Eiland claims he saw a \"mystical, ethereal flower that seemed out of a bygone era\" at the Western Ruins.\nI've got better things to do then hunt for it, but if you find it, bring it to me.",
+            "Current Season: Fall",
+            "Fog Orchid (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for Monster Powder",
+            "I've recently seen a curious new item called \"monster powder\" on the market.\nI would like to investigate its uses. Bring some to me.",
+            "Unlocked The Mines\nObtained: Monster Powder",
+            "Monster Powder (3)",
+            "Monster Mash\n20 Renown"
+          ],
+          [
+            "Important Request for a Moon Fruit",
+            "I had no idea Mistria was so far out in the country that I'd need to bake my own Moon Fruit Cake.\nLuckily Dozy has chef training. Would someone bring me a Moon Fruit?",
+            "Current Season: Fall",
+            "Moon Fruit (1)",
+            "Recipe: Moon Fruit Cake\n20 Renown"
+          ],
+          [
+            "Request for a Red Toadstool",
+            "I require a red toadstool for something I'm working on. I will not be elaborating.",
+            "Obtained: Red Toadstool",
+            "Red Toadstool (1)",
+            "50t\n20 Renown"
+          ],
+          [
+            "Request for Water Chestnuts",
+            "I keep seeing folks enjoying Water Chestnuts in all the ways but the best way- deep fried.\nBring me some and I'll enlighten you to the recipe.",
+            "Current Season: Spring",
+            "Water Chestnut (2)",
+            "Recipe: Water Chestnut Fritters\n20 Renown"
+          ],
+          [
+            "Request for a Monster Core",
+            "Seeking a Monster Core to help settle an academic debate.",
+            "Unlocked The Mines",
+            "Monster Core (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Carrot",
+            "Dozy quite enjoys a raw Carrot as a treat, and I'd like for him to have the very best. Gather me a few, or, uh grow them? I'm not sure.",
+            "Current Season: Spring\nReached Year 2",
+            "Carrot (3)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Night Queen",
+            "Requesting a Night Queen flower. I need one for my work, but apparently they're quite rare, so I'm prepared to pay well.",
+            "Current Season: Summer",
+            "Night Queen (1)",
+            "600t\n20 Renown"
+          ],
+          [
+            "Request for Rare Pheromone",
+            "I've had no luck hunting down a particularly rare bug, so I'd like to request a bottle of Rare Pheromone to assist.",
+            "Completed: Balor's Uncommon Pheromone Request",
+            "Rare Bug Pheromones (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for Voidite",
+            "Looking for Voidite. It's a theoretical \"mineral\" formed in unusual circumstances.",
+            "Reached The Ancient Ruins",
+            "Voidite (1)",
+            "650t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Juniper%2FQuests"
+  },
+  "landen": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Coconuts",
+            "Would someone bring me some coconuts from the beach?\nThis weather calls for a nice cold drink. Bring me some and I'll fix us up some coconut milk!",
+            "Current Season: Summer",
+            "Coconut (3)",
+            "Coconut Milk\n20 Renown"
+          ],
+          [
+            "Request for Glass",
+            "It was hard enough to get glass before the earthquake, now it's near impossible!\nI'll pay good money to whoever can find us some.",
+            "Unlocked The Mines",
+            "Glass (3)",
+            "240t\n20 Renown"
+          ],
+          [
+            "Request for Wood",
+            "Can someone bring me some wood to help us restock? I'll pay a fair price!",
+            "No Requirements to Appear",
+            "Wood (10)",
+            "40t\n20 Renown"
+          ],
+          [
+            "Request for Sap",
+            "I don't like dipping into the shop's supplies for personal projects. Can I request 5 Sap for my woodworking?",
+            "Unlocked The Mines",
+            "Sap (5)",
+            "125t\n20 Renown"
+          ],
+          [
+            "Request for Tomato Soup",
+            "Could I get a bowl of Tomato Soup? I've had it at the Inn, I've had it at the Capital, I want to try everyone's take on it!",
+            "Current Season: Summer",
+            "Tomato Soup (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Rare Bait",
+            "Need someone who has got the know-how to get me some Rare Bait!",
+            "Completed: Errol's Request for Uncommon Bait",
+            "Rare Fish Bait (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for a Silver Axe",
+            "I don't know if I'm just getting older, or the trees are getting tougher, but I'd like to request a Silver Axe to even the odds!",
+            "No Requirements to Appear",
+            "Silver Axe (1)",
+            "3,300t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Landen%2FQuests"
+  },
+  "louis": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Rabbit Wool",
+            "Rabbit Wool is essential for high quality garments, and one of my preferred materials to work in.\nPlease bring some to me!",
+            "Completed: \"Upgrade Hayden's Barn\"",
+            "Rabbit Wool (4)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Monster Fang",
+            "A customer of mine wants something unusual and daring to offset his new outfit. I'd like to request a Monster Fang to help in my design.",
+            "Unlocked The Mines\nCompleted: \"Greet the Vendors\"",
+            "Monster Fang (1)",
+            "220t\n20 Renown"
+          ],
+          [
+            "Request for Apple Pie",
+            "I would like to request an Apple Pie, if someone would be so kind!",
+            "Completed: \"Greet the Vendors\"\nCurrent Day: Saturday\nCurrent Season: Fall",
+            "Apple Pie (1)",
+            "750t\n20 Renown"
+          ],
+          [
+            "Request for a Middlemist",
+            "I've heard rumors of Mistria's rarest flower, the Middlemist. Can anyone find one for me?",
+            "Current Season: Spring\nReached Year 2\nCompleted: \"Greet the Vendors\"",
+            "Middlemist (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for Holly",
+            "Could I request a few sprigs of Holly to decorate my booth with?",
+            "Completed: \"Greet the Vendors\"\nCurrent Season: Winter",
+            "Holly (3)",
+            "310t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Louis%2FQuests"
+  },
+  "luc": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "A Fine Discovery",
+            "I believe I have discovered a way to attract a never before seen insect species.\nCan I count on you to assist me? If so, meet me inside the Sleeping Dragon Inn.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Inn",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Copper Beetle",
+            "I've heard there's an amazing beetle found in the Mines... Please, I must have it for my collection! I'll trade for it!",
+            "Obtained: Copper Nugget Beetle",
+            "Copper Nugget Beetle (1)",
+            "Trail Mix\n20 Renown"
+          ],
+          [
+            "Request for Dragon Horn Beetle",
+            "Have you ever heard of the Dragon Horn Beetle? I have! But I haven't been able to find one in the Deep Woods yet. Please help!",
+            "Unlocked The Deep Woods",
+            "Dragon Horn Beetle (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for a Pond Skater",
+            "Mom says I can't keep trying to catch a Pond Skater, cause I keep falling into the water when I miss!\nCan someone help me catch one?",
+            "Current Season: Summer",
+            "Pond Skater (1)",
+            "Grilled Cheese\n20 Renown"
+          ],
+          [
+            "Request for a Crab",
+            "Could someone bring me a Crab? From the beach?",
+            "Current Season: Fall",
+            "Crab (1)",
+            "20t\n20 Renown"
+          ],
+          [
+            "Request for Cheese",
+            "Mom says I can't eat a big chunk of Cheese as a meal, but I can't think of any scientific reason why not. Could I request some Cheese, for science?",
+            "Completed: \"The Mill Restoration Project\"",
+            "Cheese (1)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for Singing Katydid",
+            "Can someone help me catch a Singing Katydid? I want to put on a concert for all of my other bugs!",
+            "Unlocked The Deep Woods",
+            "Singing Katydid (1)",
+            "225t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Luc%2FQuests"
+  },
+  "maple": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Mullet",
+            "Miss Terithia told me there's a fish called a Mullet, and I don't believe it!\nI'd cough up my favorite snack if someone proves me wrong!",
+            "Current Season: Fall",
+            "Mullet (1)",
+            "Chocolate\n20 Renown"
+          ],
+          [
+            "Request for a Seashell",
+            "If I'm going to become queen someday, I need to get more comfortable giving orders...\nBring me a pretty seashell... please!",
+            "Current Season: Summer",
+            "Pink Scallop Shell (1)",
+            "Tulip (1)\n20 Renown"
+          ],
+          [
+            "Request for a Freshwater Oyster",
+            "Did you know that pearls come from oysters? I didn't! I can't afford a pearl, but I can request a Freshwater Oyster!",
+            "No Requirements to Appear",
+            "Freshwater Oyster (1)",
+            "100t\n20 Renown"
+          ],
+          [
+            "Request for Temple Flower",
+            "Did you know the Princess of Aldaria is really into flowers? It'd be cool to have a flower to talk to her about. Help me find a Temple Flower!",
+            "Unlocked The Deep Woods",
+            "Temple Flower (1)",
+            "150t\n20 Renown"
+          ],
+          [
+            "Request for a Sunflower",
+            "Sunflowers are so pretty, and they have so many seeds! I bet with just one I could make a whole FIELD of Sunflowers! Can I have one whole Sunflower, please?",
+            "Current Season: Summer",
+            "Sunflower (1)",
+            "60t\n20 Renown"
+          ],
+          [
+            "Request for Common Pheromone",
+            "Luc really likes finding new bugs, and he told me that the Pheromone stuff the Terrarium makes helps a lot!\nSo I want to request a Common Pheromone to give to him!",
+            "Completed: \"Apiaries and Terrariums\"",
+            "Common Bug Pheromones (1)",
+            "10t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Maple%2FQuests"
+  },
+  "march": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Surprise Me",
+            "March asked to meet at the Blacksmiths without delay. No further explanation provided.",
+            "Letter from March",
+            "(2 Hearts)",
+            "",
+            "Blacksmith",
+            "Copper Hoe ( Lightweight)"
+          ],
+          [
+            "Many Hands Make Light Work",
+            "Olric asked me to come help him and March out with their work. March said my blacksmithing is improving but Olric wasn't supposed to tell me that...",
+            "Letter from Olric",
+            "(4 Hearts)",
+            "",
+            "The Blacksmith's Forge",
+            ""
+          ],
+          [
+            "Shield of the Realm",
+            "March asked me in a short letter to stop by if I wanted part-time work. How loquacious...",
+            "Letter from March",
+            "(6 Hearts)",
+            "",
+            "Inside The Blacksmith",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Armored Bass",
+            "Terithia told me a legend of an Armored Bass, a fish that grows its own armor. Willing to pay well to see if it really exists.",
+            "Reached The Lava Caves",
+            "Armored Bass (5)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for Copper",
+            "I need some copper ore and I need it soon. If you can manage it, I'll pay you for it.",
+            "Completed: \"Cop Some Ore\"",
+            "Copper Ore (5)",
+            "75t\n20 Renown"
+          ],
+          [
+            "Request for Freshwater Eel",
+            "I need a freshwater eel. Bring one to me if you want to know how to make a grilled eel rice bowl.",
+            "Current Season: Winter",
+            "Freshwater Eel (1)",
+            "Recipe: Grilled Eel Rice Bowl\n20 Renown"
+          ],
+          [
+            "Request for an Iron Ingot",
+            "Let's see how your blacksmithing is coming along, bring me an Iron Ingot.\nYes, [Player]. I'm talking to you.",
+            "Reached The Tide Caverns",
+            "Iron Ingot (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Monster Shell",
+            "I want to try forging something with these \"monster shells\" I've been seeing around.\nI don't care to know where they come from, just bring me some.",
+            "Unlocked The Mines\nObtained: Monster Shell",
+            "Monster Shell (5)",
+            "Iron Ingot (2)\n20 Renown"
+          ],
+          [
+            "Request for Silver Ore",
+            "The prices for importing silver into Mistria are outrageous.\nDig some up for me, I don't need much.",
+            "Reached The Deep Earth",
+            "Silver Ore (3)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for a Shipping Bin",
+            "Can I request a Shipping Bin? We're running out of room at the Blacksmith's.",
+            "Woodcrafting Lv.4",
+            "Shipping Bin (1)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Dragon-Forged Bracelet Request",
+            "Eiland mentioned an ancient technique called \"Dragon Forging\" but couldn't remember where he read it. I'm requesting a Dragon Forged Bracelet, but I'm not sure it exists.",
+            "Reached The Ancient Ruins",
+            "Dragon-Forged Bracelet (1)",
+            "999t\n20 Renown"
+          ],
+          [
+            "Request for Mistril Ore",
+            "I've heard there's a new type of metal ore coming out of the mines. Could I request some Mistril Ore?",
+            "Reached The Ancient Ruins",
+            "Mistril Ore (4)",
+            "780t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/March%2FQuests"
+  },
+  "merri": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Horse Hair",
+            "I could use some horse hair for my reupholstery work, please and thank you.",
+            "Completed: \"Upgrade Hayden's Barn\"",
+            "Horse Hair (3)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Hay Bale",
+            "Can I request a Hay Bale? They've got a lot of design potential!",
+            "Completed: \"Greet the Vendors\"",
+            "Hay Bale (1)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for a Watermelon",
+            "My horse Swiftwind is a big fan of Watermelon, I'd like to request one as a treat for him.",
+            "Current Season: Summer",
+            "Watermelon (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Fiddlehead",
+            "A friend of mine says that Mistrian Fiddleheads are the best around, and asked if I could gather one for her. But I don't even know what they look like. Little help?",
+            "Current Season: Spring\nReached Year 2\nCompleted: \"Greet the Vendors\"",
+            "Fiddlehead (1)",
+            "310t\n20 Renown"
+          ],
+          [
+            "Request for Hardwood",
+            "I know it isn't easy to get a hold of, but if anyone has Hard Wood they can sell me it'd be big help!",
+            "Current Season: Fall\nCompleted: \"Greet the Vendors\"",
+            "Hard Wood (5)",
+            "450t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Merri%2FQuests"
+  },
+  "nora": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Market Committee Election",
+            "The Saturday Market Committee Election is upon us again! I'm seeking re-election as Chief Councilor and I'd love your help, [Player].\nMeet me at the town square.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Town Square",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Art Supplies",
+            "I need to get my hands on some clay so that Dell can finish her \"art project\".\nApparently she needs it to make a legendary sword?",
+            "Obtained: Worn Pickaxe",
+            "Clay (1)",
+            "50t\n20 Renown"
+          ],
+          [
+            "Request for Breath of Flame",
+            "I'm looking for a unique gift for Celine. I know it's a longshot, but can someone help me find a Breath Of Flame flower?",
+            "Reached The Lava Caves",
+            "Breath of Flame (1)",
+            "300t\n20 Renown"
+          ],
+          [
+            "Request for Burdock Root",
+            "It's burdock root season!\nCould someone bring me one?",
+            "Current Season: Winter",
+            "Burdock Root (1)",
+            "240t\n20 Renown"
+          ],
+          [
+            "Request for an Onion",
+            "I'm making my favorite Onion Soup, but I seem to be short on the most important ingredient.\nCould someone bring me an Onion?",
+            "Current Season: Fall",
+            "Onion (1)",
+            "270t\n20 Renown"
+          ],
+          [
+            "Request for Golden Butter",
+            "A Capital merchant with a high opinion of himself recently told me I couldn't expect something like Golden Butter out of Mistria. I'll pay handsomely to prove him wrong.",
+            "Completed: \"The Mill Restoration Project\"",
+            "Golden Butter (1)",
+            "750t\n20 Renown"
+          ],
+          [
+            "Request for a Sweet Potato",
+            "A Roasted Sweet Potato is especially good when the weather starts to turn cold. Can I request a Sweet Potato?",
+            "Current Season: Fall",
+            "Sweet Potato (1)",
+            "150t\n20 Renown"
+          ],
+          [
+            "Request for Grilled Corn",
+            "A few ears of Grilled Corn would be a perfect summer side dish. Could someone grill them up for me?",
+            "Current Season: Summer",
+            "Grilled Corn (3)",
+            "450t\n20 Renown"
+          ],
+          [
+            "Request for Corn",
+            "Grilled Corn is a regular side at our dinner table, but I don't want to dip into our shop's stock. I'd like to request 4 ears of corn.",
+            "Current Season: Summer",
+            "Corn (4)",
+            "500t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Nora%2FQuests"
+  },
+  "olric": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Olric's Super Normal Dilemma",
+            "Olric asked me to meet him at the Bathhouse to help him with a \"super normal\" situation.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Bathhouse",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Diamond",
+            "Diamonds have a lot of industrial uses, but I just like'em cause they're shiny! Hard to find though, could someone bring me one?",
+            "Reached The Lava Caves",
+            "Diamond (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for a Miner's Pickaxe",
+            "When the earthquake hit, we lost a lot of our gear in the mines.\nI found my pickaxe, but Errol never found his. I'd love to return it to him!",
+            "Unlocked The Mines",
+            "Miner's Pickaxe (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Really Round Rock",
+            "I once saw an incredibly round rock in the mines, but it rolled out of sight before I could grab it!\nIf you see it, could you bring it to me?",
+            "Reached The Deep Earth",
+            "Really Round Rock (1)",
+            "Rock Floor (1)\n20 Renown"
+          ],
+          [
+            "Request for a Rock",
+            "Hi, can someone bring me a cool rock? I'm collecting them! I'll give you a nice chair in exchange.",
+            "Obtained: Stone",
+            "Stone (1)",
+            "Mines Crate Chair (1)\n20 Renown"
+          ],
+          [
+            "Request for a Pike",
+            "Can I request a Pike? I hear fish is brain food, and I've never caught a pike so I figure they're pretty smart!",
+            "Fishing Lv.2",
+            "Pike (1)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Oyster Mushrooms",
+            "March never really liked Oyster Mushrooms when he was little, but maybe now that he's older he'll like them! Could someone find some for me?",
+            "Current Season: Winter",
+            "Oyster Mushroom (2)",
+            "310t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Olric%2FQuests"
+  },
+  "priestess": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Your Heart Desires",
+            "Seridia asked me to meet her at her temple to discuss something privately. Does she want me to pay homage again?",
+            "Letter from Seridia",
+            "(8 Hearts)",
+            "Completion of The Mines' Questline",
+            "Seridia's Temple",
+            ""
+          ],
+          [
+            "A Craving",
+            "Seridia said she's been craving an Ice Cream Sundae. Anything to help her out!",
+            "Seridia",
+            "(10 Hearts)",
+            "Seridia is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Bomb",
+            "There seems to be a type of Rockclod that possesses the remarkable ability to spit Bombs. I would like one. A Bomb, that is.",
+            "Have Met Seridia",
+            "Clod Bomb (1)",
+            "700t\n20 Renown"
+          ],
+          [
+            "Request for a Dragon-Forged Core",
+            "I require a Dragon-Forged Core, to test out fluctuations in this era's ley lines.",
+            "Have Met Seridia",
+            "Dragon-Forged Core (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for a Fire Wasp",
+            "Have you heard of a Fire Wasp? It sounds delightful! I would like to request one.",
+            "Have Met Seridia",
+            "Fire Wasp (1)",
+            "666t\n20 Renown"
+          ],
+          [
+            "Request for an Iron Shovel",
+            "I require an Iron Shovel.",
+            "Have Met Seridia",
+            "Iron Shovel (1)",
+            "777t\n20 Renown"
+          ],
+          [
+            "Request for a Latte",
+            "I wish to try the popular new drink called the \"Latte\".",
+            "Have Met Seridia",
+            "Latte (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for Mont Blanc",
+            "I would like to request the dessert known as \"Mont Blanc\".",
+            "Have Met Seridia",
+            "Mont Blanc (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for Void Stone",
+            "I may have punched a teeny tiny hole in space-time. I'd like to request 3 Void Stone. Quickly, please.",
+            "Have Met Seridia",
+            "Void Stone (3)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for a Butterfly",
+            "I would like to request a Butterfly. Please take extra care, I am told they are quite delicate.",
+            "Have Met Seridia\nCurrent Season: Spring",
+            "Butterfly (1)",
+            "550t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Priestess%2FQuests"
+  },
+  "reina": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Pie in the Sky",
+            "Reina asked me to come by the Inn when possible to try out a new dish of hers.",
+            "Letter from Reina",
+            "(2 Hearts)",
+            "",
+            "The Inn",
+            "Wild Berry Pie"
+          ],
+          [
+            "Shopping Buddy",
+            "Reina asked me to join her in the General Store. She's on the hunt for ingredients to wow the judges of the cooking competition.",
+            "Letter from Reina",
+            "(4 Hearts)",
+            "",
+            "General Store",
+            "Dragon Horn Mushroom with Thyme"
+          ],
+          [
+            "Farm Fresh Sous Chef",
+            "Reina says she has something important she needs to ask me. I wonder if she's heard more about the Cooking Competition...",
+            "Letter from Reina",
+            "(6 Hearts)",
+            "",
+            "General Store",
+            "Honey Curry"
+          ],
+          [
+            "The Aldarian Cooking Contest",
+            "It's time! This is Reina's big moment in front of the judges for the Aldarian Cooking Contest.",
+            "Letter from Reina",
+            "(8 Hearts)",
+            "",
+            "The Inn",
+            ""
+          ],
+          [
+            "A Craving",
+            "Reina said she's been craving an Ice Cream Sundae. Anything to help her out!",
+            "Reina",
+            "(10 Hearts)",
+            "Reina is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Berries",
+            "I'm working on a pie recipe, but I need some fresh wild berries.\nIf you bring me some I'll teach it to you!",
+            "Current Season: Spring\nCooking Lv.12",
+            "Wild Berries (5)",
+            "Recipe: Wild Berry Pie\n20 Renown"
+          ],
+          [
+            "Request for Blueberries",
+            "It's blueberry season, so I want to make some blueberry jam!\nIf you can bring me some, I'll share my recipe!",
+            "Current Season: Spring",
+            "Blueberry (3)",
+            "Recipe: Blueberry Jam\n20 Renown"
+          ],
+          [
+            "Request for Broccoli",
+            "Can I request some fresh broccoli?\nThere's a tough recipe I want to try out...",
+            "Current Season: Fall",
+            "Broccoli (1)",
+            "Recipe: Broccoli Salad\n20 Renown"
+          ],
+          [
+            "Request for Cod",
+            "Anyone in the mood for a little ocean fishing?\nI'm looking for a Cod, and I've got a recipe to share if you do!",
+            "Current Season: Summer",
+            "Cod (1)",
+            "Recipe: Cod with Thyme\n20 Renown"
+          ],
+          [
+            "Request for a Deep Earthworm",
+            "Luc wants to see a bug he's never seen before!\nCan you help me be a cool big sister and find an insect from deep in the mines?",
+            "Reached The Deep Earth",
+            "Deep Earthworm (1)",
+            "Coconut Cream Pie\n20 Renown"
+          ],
+          [
+            "Request for Milk",
+            "I've been experimenting with ice cream recently, and that takes a lot of milk!\nBring me some and I'll let you try out one of my recipes!",
+            "Built: a Barn",
+            "Milk (4)",
+            "Ice Cream Sundae\n20 Renown"
+          ],
+          [
+            "Request for Rosemary",
+            "I think my Rosemary might be getting a bit old, could someone bring me a fresh sprig now that it's back in season?",
+            "Current Season: Fall",
+            "Rosemary (1)",
+            "450t\n20 Renown"
+          ],
+          [
+            "Request for Wild Leek",
+            "Could someone bring me a wild leek? I'm a little short for my soup recipe.\nI'll give you a bowl to take home in return!",
+            "Current Season: Spring",
+            "Wild Leek (1)",
+            "Potato Soup (1)\n20 Renown"
+          ],
+          [
+            "Request for Garlic",
+            "Could someone please bring me some garlic?\nSince garlic is in season, I'd love to make a batch of garlic bread. If you can bring me some, I'll share my recipe!",
+            "Current Season: Fall",
+            "Garlic (1)",
+            "Recipe: Garlic Bread\n20 Renown"
+          ],
+          [
+            "Request for Butter",
+            "Any Chef will tell you that the one thing they can never have enough of is Butter! I'd like to request some.",
+            "Completed: \"The Mill Restoration Project\"",
+            "Butter (2)",
+            "270t\n20 Renown"
+          ],
+          [
+            "Request for Deluxe Honey",
+            "Luc told me about Deluxe Honey and how only a hive of rare bees can make it! I'd love to try cooking with some!",
+            "Completed: \"Apiaries and Terrariums\"",
+            "Deluxe Honey (1)",
+            "750t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Reina%2FQuests"
+  },
+  "ryis": {
+    "tables": [
+      {
+        "title": "Important Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Crafting Tutorial",
+            "Ryis asked me to meet him to review crafting.",
+            "Letter from Ryis on Year 1, 10 Spring",
+            "Reach 10 Spring",
+            "Bring Ryis 10 wood.\nWood (10)",
+            "Wooden Fence (5)"
+          ]
+        ]
+      },
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Bird Song",
+            "Landen asked me if I had any spare wood on the farm. He said to bring him 15 pieces for 150t!",
+            "Letter from Landen",
+            "(2 Hearts)",
+            "",
+            "Speak with Landen",
+            "150t"
+          ],
+          [
+            "A Sapling",
+            "Ryis wants me to meet him in his room to talk about a new tree for the cottage ruins. One step closer to a new birdhouse!",
+            "Letter from Ryis",
+            "(4 Hearts)",
+            "",
+            "Second floor of The Carpenter"
+          ],
+          [
+            "A Birdhouse",
+            "Ryis says the tree is ready for a birdhouse and asked me to come over to build it. What color should we paint it?",
+            "Letter from Ryis",
+            "(6 Hearts)",
+            "",
+            "First floor of The Carpenter",
+            "Coconut Cream Pie"
+          ],
+          [
+            "A Duet",
+            "Ryis says he spotted a blue feather by the birdhouse. I should meet him at the Hawthorn tree for some bird watching!",
+            "Letter from Ryis",
+            "(8 Hearts)",
+            "",
+            "The Hawthorn Tree",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Bull Horns",
+            "I've got some crafting orders that need Bull Horns to finish, but they're in short supply.\nCan you help?",
+            "Built: a Barn",
+            "Bull Horn (2)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Cranberries",
+            "Would someone mind bringing me some cranberries?\nThis chilly weather has me craving a taste of home.\nIf you can bring me some, I'll share my recipe for cranberry orange scones!",
+            "Current Season: Fall",
+            "Cranberry (3)",
+            "Recipe: Cranberry Orange Scone\n20 Renown"
+          ],
+          [
+            "Request for Glowberries",
+            "Looking for someone to gather Glowberries for me, I'd like to make some cookies.",
+            "Current Season: Winter",
+            "Glowberry (12)",
+            "Glowberry Cookies\n20 Renown"
+          ],
+          [
+            "Request for Materials",
+            "I'm slightly short on materials for a project. Can anyone spare some wood and stone? I can pay, of course!",
+            "No Requirements to Appear",
+            "Wood (10)\nStone (10)",
+            "80t\n20 Renown"
+          ],
+          [
+            "Request for Smallmouth Bass",
+            "My parents really like Mistrian Smallmouth bass. Can I request a couple to send them?",
+            "Fishing Lv.2",
+            "Smallmouth Bass (2)",
+            "275t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Ryis%2FQuests"
+  },
+  "taliferro": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "A Heartfelt Apology",
+            "Taliferro asked me to meet him at the Sleeping Dragon Inn to give him a commoner's insight into crafting his apology.",
+            "",
+            "(2 Gems)*",
+            "",
+            "The Inn",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Red Wine",
+            "You would think as a professional food judge I would have a dedicated sommelier, but no. I'd like to request a GOOD bottle of Red Wine.",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Red Wine (1)",
+            "310t\n20 Renown"
+          ],
+          [
+            "Request for Spring Galette",
+            "Sometimes the best chef in the world would like the best food in the world without having to prepare it himself. Bring me a Spring Galette, posthaste.",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Spring Galette (1)",
+            "1,000t\n20 Renown"
+          ],
+          [
+            "Request for Beet Soup",
+            "If there was someone... who had made an exceptional Beet Soup, and was so inclined to make more... I'd be willing to pay handsomely.",
+            "Completed: Cooking Challenge \"Beet Soup Challenge\"\nCurrent Day: Saturday",
+            "Beet Soup (1)",
+            "650t\n20 Renown"
+          ],
+          [
+            "Request for Duck Mayo",
+            "Has anyone even heard of Duck Mayonnaise in this backwater? Paying good money for a jar.",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Duck Mayonnaise (1)",
+            "500t\n20 Renown"
+          ],
+          [
+            "Request for Golden Duck Mayonnaise",
+            "Requesting a jar of Golden Duck Mayonnaise. Preferably not from [Ari].",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday\nCompleted: Taliferro's Request for Duck Mayo",
+            "Golden Duck Mayonnaise (1)",
+            "1,000t\n20 Renown"
+          ]
+        ]
+      },
+      {
+        "title": "Cooking Challenges",
+        "headers": [
+          "#",
+          "Name",
+          "Description",
+          "Required Dish",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "1",
+            "Rice Ball Challenge",
+            "Our first cooking challenge is...\nThe simple yet satisfying Rice Ball!",
+            "Rice Ball",
+            "100 Renown\nStockpot (Blue) + Recipe"
+          ],
+          [
+            "2",
+            "Crystal Berry Pie Challenge",
+            "This week's cooking challenge dish is...\nThe beautiful Crystal Berry Pie!",
+            "Crystal Berry Pie",
+            "100 Renown\nHanging Pans (2 Pans) + Recipe"
+          ],
+          [
+            "3",
+            "Fried Earthshroom Challenge",
+            "This week's cooking challenge dish is...\nThe umami Crispy Fried Earthshroom!",
+            "Crispy Fried Earthshroom",
+            "100 Renown\nFrying Pan (Blue) + Recipe"
+          ],
+          [
+            "4",
+            "Chocolate Cake Challenge",
+            "Today's cooking challenge dish is...\nThe rich and decadent Chocolate Cake!",
+            "Chocolate Cake",
+            "100 Renown\nGarlic Braid + Recipe"
+          ],
+          [
+            "5",
+            "Tide Salad Challenge",
+            "Today's cooking challenge dish is...\nThe crisp and healthy Tide Salad!",
+            "Tide Salad",
+            "100 Renown\nHanging Onion Basket + Recipe"
+          ],
+          [
+            "6",
+            "Omelet Challenge",
+            "Today's cooking challenge dish is...\nThe fluffy and cheese-filled Omelet!",
+            "Omelet",
+            "100 Renown\nTea Kettle (Gold) + Recipe"
+          ],
+          [
+            "7",
+            "Bell Berry Bakewell Tart Challenge",
+            "This week's cooking challenge dish is...\nThe new and trending Bell Berry Bakewell Tart!",
+            "Bell Berry Bakewell Tart",
+            "100 Renown\nHerb Planter (White and Blue) + Recipe"
+          ],
+          [
+            "8",
+            "Herb Salad Challenge",
+            "Today's cooking challenge dish is...\nThe delicate and refreshing Herb Salad!",
+            "Herb Salad",
+            "100 Renown\nOil & Vinegar Basket (White) + Recipe"
+          ],
+          [
+            "9",
+            "Incredibly Hot Pot Challenge",
+            "Today's cooking challenge dish is...\nThe unbelievably spicy Incredibly Hot Pot!",
+            "Incredibly Hot Pot",
+            "100 Renown\nKitchen Scale (Blue) + Recipe"
+          ],
+          [
+            "10",
+            "Golden Cookies Challenge",
+            "This week's cooking challenge dish is...\nThe incredibly delicious Golden Cookies!",
+            "Golden Cookies",
+            "100 Renown\nMixing Bowls (Blue) + Recipe"
+          ],
+          [
+            "11",
+            "Veggie Sub Sandwich Challenge",
+            "This week's cooking challenge dish is...\nThe beloved Veggie Sub Sandwich!",
+            "Veggie Sub Sandwich",
+            "100 Renown\nUtensil Holder (Blue) + Recipe"
+          ],
+          [
+            "12",
+            "Beet Soup Challenge",
+            "Our final cooking challenge dish is...\nThe legendary Beet Soup!",
+            "Beet Soup",
+            "100 Renown\nChampion's Kitchen (Blue) + Recipe\nChampion's Kitchen Counter (Blue) + Recipe"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Taliferro%2FQuests"
+  },
+  "terithia": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Big One",
+            "Terithia asked me to meet her at her shack to tell me about The Big One.",
+            "",
+            "(2 Gems)*",
+            "",
+            "Outside Terithia's house",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Bait",
+            "I could use a little extra help getting the fish to bite. Can someone bring me a worm?",
+            "Obtained: Worm",
+            "Worm (1)",
+            "40t\n20 Renown"
+          ],
+          [
+            "Request for an Earthshroom",
+            "Don't know if it's found around these parts, but I'm looking for an Earthshroom.\nI got a recipe to exchange for it that'll make it worth the hunt!",
+            "Reached The Deep Earth",
+            "Earthshroom (1)",
+            "Recipe: Sea Bream Rice\n20 Renown"
+          ],
+          [
+            "Request for Ingredients",
+            "It's salmon season again, and I'm craving some horseradish salmon!\nIf someone can bring me some key ingredients, I'll share my recipe!",
+            "Current Season: Fall",
+            "Salmon (1)\nHorseradish (1)",
+            "Recipe: Horseradish Salmon\n20 Renown"
+          ],
+          [
+            "Request for Trout",
+            "I'm craving some smoked trout soup, but the fish aren't biting for me!\nIf you can bring me a trout I'll teach you my recipe!",
+            "Current Season: Spring",
+            "Trout (1)",
+            "Recipe: Smoked Trout Soup\n20 Renown"
+          ],
+          [
+            "Request for Underseaweed",
+            "I like seaweed fine in a cooked dish, but not too much by itself.\nMaybe I just haven't tried the right kind. Bring me some I haven't tried before!",
+            "Reached The Tide Caverns",
+            "Underseaweed (1)",
+            "150t\n20 Renown"
+          ],
+          [
+            "Request for Tuna Sashimi",
+            "I've got a craving for Tuna Sashimi, but I just haven't had any luck with my catches! Can someone help out?",
+            "Fishing Lv.2",
+            "Tuna Sashimi (1)",
+            "400t\n20 Renown"
+          ],
+          [
+            "Request for a Coelacanth",
+            "You ever heard of the Coelacanth? They say it's a fish that's been around for pretty much forever. I've never caught one, but I'd love to see one!",
+            "Reached The Ancient Ruins",
+            "Coelacanth (1)",
+            "70t\n20 Renown"
+          ],
+          [
+            "Request for Common Bait",
+            "Little Luc was telling me that those new Terrariums thingies can produce Common Bait that helps attract fish. I'm not much for taking care of bugs, so I'd like to request one!",
+            "Completed: \"Apiaries and Terrariums\"",
+            "Common Fish Bait (1)",
+            "100t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Terithia%2FQuests"
+  },
+  "valen": {
+    "tables": [
+      {
+        "title": "Heart Quests",
+        "headers": [
+          "Name",
+          "Description",
+          "Source",
+          "Friendship Level Required",
+          "Other Requirements to Receive",
+          "Location",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "The Annual Check-up",
+            "It's time for YOUR free annual check-up! Yes you, the person reading this.\nCome to Valen's Clinic today for a healthier you!",
+            "Request Board",
+            "(2 Hearts)",
+            "",
+            "The Clinic",
+            ""
+          ],
+          [
+            "Batch 312",
+            "Valen asked me to bring her one piece of peat for her research. I hope it's not for flavoring her medicine...",
+            "Letter from Valen",
+            "(4 Hearts)",
+            "",
+            "Speak with Valen",
+            "200t"
+          ],
+          [
+            "An Outside Consultant",
+            "Valen is struggling with her research into the panacea and wants to get Juniper's help. This might be tricky...",
+            "Letter from Valen",
+            "(6 Hearts)",
+            "",
+            "The Bathhouse",
+            ""
+          ],
+          [
+            "The Panacea",
+            "Valen asked me to meet her at the Western Ruins to search for the Cliffblossom. There are a lot of cliffs there, so hopefully it'll turn up...",
+            "Letter from Valen",
+            "(8 Hearts)",
+            "",
+            "The Western Ruins",
+            ""
+          ],
+          [
+            "A Craving",
+            "Valen said she's been craving a Grilled Cheese. Anything to help her out!",
+            "Valen",
+            "(10 Hearts)",
+            "Valen is pregnant",
+            "The Farm"
+          ]
+        ]
+      },
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Herbs",
+            "Would someone please bring me some herbs?\nI'm planning to make some herb salad but I'm a little short on ingredients.",
+            "Current Season: Summer",
+            "Basil (1)\nThyme (1)",
+            "Herb Salad\n20 Renown"
+          ],
+          [
+            "Request for a Morel Mushroom",
+            "I would like to source a morel mushroom, as it's known to have anti-inflammatory properties.\nPlease deliver one if possible.",
+            "Current Season: Spring",
+            "Morel Mushroom (1)",
+            "75t\n20 Renown"
+          ],
+          [
+            "Request for Rose Hips",
+            "I would like to request some fresh rose hips so I can make some seasonal jam.\nThey can be found fruiting on rose bushes when the weather gets cold.\nIf you can bring me some, I'll share my recipe for rose hip jam!",
+            "Current Season: Winter",
+            "Rose Hip (3)",
+            "Recipe: Rosehip Jam\n20 Renown"
+          ],
+          [
+            "Request for Seaweed",
+            "Would someone please deliver some seaweed?\nThis hot weather calls for a nice chilled seaweed salad. If you can bring me some, I'll share my recipe!",
+            "Current Season: Summer",
+            "Seaweed (2)",
+            "Recipe: Seaweed Salad\n20 Renown"
+          ],
+          [
+            "Request for Tea",
+            "My favorite tea has been in short supply for ages now.\nCould I request some local tea instead?",
+            "Current Season: Summer",
+            "Tea (1)",
+            "270t\n20 Renown"
+          ],
+          [
+            "Request for a Bird House",
+            "I woke up to birdsong yesterday morning and quite enjoyed it. I'd like to request a Birdhouse to hopefully attract some new bird friends to my Clinic.",
+            "Woodcrafting Lv.4",
+            "Birdhouse (1)",
+            "430t\n20 Renown"
+          ],
+          [
+            "Request for Cucumbers",
+            "One of the joys of summer is fresh Cucumbers. Could I request a few?",
+            "Current Season: Summer",
+            "Cucumber (3)",
+            "200t\n20 Renown"
+          ],
+          [
+            "Request for Premium Honey",
+            "I'm a bit of a Honey connoisseur, recently I read about a special Premium Honey but I can't seem to find any. Little help?",
+            "Completed: \"Apiaries and Terrariums\"",
+            "Premium Honey (1)",
+            "500t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Valen%2FQuests"
+  },
+  "vera": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for a Daikon Radish",
+            "As the name suggests, Winter Stew is just the thing for a frosty day in Mistria!\nBring me a Daikon Radish and I'll share my recipe with you.",
+            "Current Season: Winter",
+            "Daikon Radish (1)",
+            "Recipe: Winter Stew\n20 Renown"
+          ],
+          [
+            "Request for Sesame",
+            "One of my favorite herbs in Mistria is the Sesame!\nBring me some and I'll show you a great dish to make with it.",
+            "Current Season: Summer",
+            "Sesame (1)",
+            "Recipe: Sesame Broccoli\n20 Renown"
+          ],
+          [
+            "Request for Pomegranate Juice",
+            "Can I request a glass of Pomegranate Juice? There's nothing more refreshing!",
+            "Completed: \"Greet the Vendors\"",
+            "Pomegranate Juice (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for a Riceball",
+            "I'd like to request a Riceball, I need something I can eat while working.",
+            "Completed: \"Greet the Vendors\"\nCooking Lv.14",
+            "Rice Ball (1)",
+            "250t\n20 Renown"
+          ],
+          [
+            "Request for Salted Watermelon",
+            "Can anyone in Mistria make me a Salted Watermelon? It's a perfect summer treat!",
+            "Current Season: Summer\nCompleted: \"Greet the Vendors\"",
+            "Salted Watermelon (1)",
+            "250t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Vera%2FQuests"
+  },
+  "wheedle": {
+    "tables": [
+      {
+        "title": "Requests",
+        "headers": [
+          "Name",
+          "Description",
+          "Requirements to Receive",
+          "Requirements to Complete",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Request for Gold Ingots",
+            "The Needy Children of Aldaria are doing their annual fundraising mission for Gold Ingots. Please, help the Needy Children.",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Gold Ingot (3)",
+            "810t\n40 Renown"
+          ],
+          [
+            "Request for Emeralds",
+            "Legend says that Mistria was once famous for its Emeralds. I'd like to request seven of them, for completely legitimate reasons.",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Emerald (7)",
+            "415t\n40 Renown"
+          ],
+          [
+            "Request for Golden Cookies",
+            "I've heard tell of a cookie, a GOLDEN cookie. Just thinking about them is making me hungry! Someone bake me Golden Cookies posthaste!",
+            "Completed: \"Upgrade the Saturday Market\"\nCurrent Day: Saturday",
+            "Golden Cookies (1)",
+            "2,100t\n20 Renown"
+          ],
+          [
+            "Request for a Written Root",
+            "Looking for Written Root to do a little business forecasting. Payment on delivery, NO cut of future sales.",
+            "Completed: \"Upgrade the Saturday Market\"\nReached The Ancient Ruins",
+            "Written Root (1)",
+            "800t\n20 Renown"
+          ]
+        ]
+      }
+    ],
+    "source": "https://fieldsofmistria.wiki.gg/wiki/Wheedle%2FQuests"
+  }
+}
