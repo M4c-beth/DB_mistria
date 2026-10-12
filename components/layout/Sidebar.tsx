@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { GuideCount } from '@/components/guide/GuideCount';
+import { SpoilerToggle } from '@/components/spoiler/SpoilerToggle';
 import { NAV_ITEMS, isActive } from './navItems';
 
 const STORAGE_KEY = 'mistria-sidebar-collapsed';
@@ -70,6 +71,9 @@ export function Sidebar(): React.JSX.Element {
           );
         })}
       </nav>
+      <div className="mx-3 border-t border-amber-200 pt-3">
+        <SpoilerToggle compact={collapsed} />
+      </div>
       <button
         type="button"
         onClick={toggle}

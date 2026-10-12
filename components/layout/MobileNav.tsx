@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { GuideCount } from '@/components/guide/GuideCount';
+import { SpoilerToggle } from '@/components/spoiler/SpoilerToggle';
 import { NAV_ITEMS, isActive } from './navItems';
 
 /** Bottom tab bar for small screens with the main tabs plus a "More" sheet for the rest. */
@@ -49,6 +50,9 @@ export function MobileNav(): React.JSX.Element {
                 );
               })}
             </ul>
+            <div className="mt-2 border-t border-amber-200 pt-2">
+              <SpoilerToggle />
+            </div>
           </nav>
         </div>
       )}

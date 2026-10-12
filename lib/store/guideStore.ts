@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { create } from 'zustand';
-import { createJSONStorage, persist, type StateStorage } from 'zustand/middleware';
+import { createJSONStorage, persist } from 'zustand/middleware';
 import { GIFT_TIERS, GUIDE_KINDS, type GiftTier, type GuideKind } from '@/lib/data/schemas';
+import { safeStorage } from './safeStorage';
 
 export interface GuideEntry {
   kind: GuideKind;
@@ -29,31 +30,6 @@ interface GuideState {
 }
 
 const same = (a: GuideEntry, b: GuideEntry): boolean => a.kind === b.kind && a.slug === b.slug;
-
-// localStorage can throw (private mode, blocked storage); fall back to in-memory.
-const safeStorage: StateStorage = {
-  getItem: (k) => {
-    try {
-      return window.localStorage.getItem(k);
-    } catch {
-      return null;
-    }
-  },
-  setItem: (k, v) => {
-    try {
-      window.localStorage.setItem(k, v);
-    } catch {
-      /* ignore */
-    }
-  },
-  removeItem: (k) => {
-    try {
-      window.localStorage.removeItem(k);
-    } catch {
-      /* ignore */
-    }
-  },
-};
 
 const KINDS = GUIDE_KINDS;
 
