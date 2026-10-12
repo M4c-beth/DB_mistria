@@ -2,8 +2,6 @@ import type { GiftTier } from '@/lib/data/schemas';
 import { GiftBadge, TIER_ICON, TIER_LABEL } from '@/components/ui/GiftBadge';
 import { cn } from '@/lib/utils';
 import { getItemIcon, isSpoilerName } from '@/lib/data';
-import { markSpoiler } from '@/lib/spoiler';
-import { SpoilerText } from '@/components/spoiler/SpoilerText';
 
 interface Props {
   tier: GiftTier;
@@ -29,7 +27,7 @@ export function GiftSection({ tier, items, collapsible = false }: Props): React.
         {items.map((item) => (
           <li key={item}>
             <GiftBadge tier={tier} icon={getItemIcon(item)} spoiler={isSpoilerName(item)}>
-              <SpoilerText text={markSpoiler(item, isSpoilerName(item))} />
+              {item}
             </GiftBadge>
           </li>
         ))}

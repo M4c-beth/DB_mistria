@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Ban, Heart, Minus, ThumbsDown, ThumbsUp } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { assetPath, cn } from '@/lib/utils';
-import { SpoilerHide } from '@/components/spoiler/SpoilerHide';
+import { SpoilerBlur } from '@/components/spoiler/SpoilerBlur';
 import type { GiftTier } from '@/lib/data/schemas';
 
 export const TIER_LABEL: Record<GiftTier, string> = {
@@ -31,7 +31,7 @@ export const TIER_ICON: Record<GiftTier, LucideIcon> = {
 
 interface GiftBadgeProps {
   tier: GiftTier;
-  /** Item sprite; hidden along with the name when the item is a spoiler. */
+  /** Item sprite; blurred together with the name when the item is a spoiler. */
   icon?: string | null;
   spoiler?: boolean;
   children: React.ReactNode;
@@ -42,12 +42,10 @@ export function GiftBadge({ tier, icon = null, spoiler = false, children }: Gift
     <span
       className={cn('inline-flex items-center gap-1.5 rounded-md border py-1 pl-1.5 pr-2 text-sm font-medium', TIER_STYLE[tier])}
     >
-      {icon && (
-        <SpoilerHide spoiler={spoiler}>
-          <Image src={assetPath(icon)} alt="" width={20} height={20} className="pixelated size-5 object-contain" />
-        </SpoilerHide>
-      )}
-      {children}
+      <SpoilerBlur spoiler={spoiler} className="inline-flex items-center gap-1.5">
+        {icon && <Image src={assetPath(icon)} alt="" width={20} height={20} className="pixelated size-5 object-contain" />}
+        {children}
+      </SpoilerBlur>
     </span>
   );
 }
