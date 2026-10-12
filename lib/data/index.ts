@@ -6,6 +6,8 @@ import bugsJson from '@/data/bugs.json';
 import cropsJson from '@/data/crops.json';
 import forageJson from '@/data/forage.json';
 import recipesJson from '@/data/recipes.json';
+import schedulesJson from '@/data/schedules.json';
+import questsJson from '@/data/quests.json';
 import metaJson from '@/data/meta.json';
 import {
   GIFT_TIERS,
@@ -14,6 +16,8 @@ import {
   FishSchema,
   ForageSchema,
   MetaSchema,
+  QuestsSchema,
+  ScheduleSchema,
   RecipeSchema,
   VillagerSchema,
   type Bug,
@@ -22,6 +26,8 @@ import {
   type Fish,
   type Forage,
   type GiftTier,
+  type Quests,
+  type Schedule,
   type Recipe,
   type Season,
   type Villager,
@@ -34,6 +40,8 @@ const bugs: Bug[] = z.array(BugSchema).parse(bugsJson);
 const crops: Crop[] = z.array(CropSchema).parse(cropsJson);
 const forage: Forage[] = z.array(ForageSchema).parse(forageJson);
 const recipes: Recipe[] = z.array(RecipeSchema).parse(recipesJson);
+const schedules: Record<string, Schedule> = z.record(z.string(), ScheduleSchema).parse(schedulesJson);
+const quests: Record<string, Quests> = z.record(z.string(), QuestsSchema).parse(questsJson);
 const meta: DataMeta = MetaSchema.parse(metaJson);
 
 export const getVillagers = (): Villager[] => villagers;
@@ -48,6 +56,10 @@ export const getBug = (slug: string): Bug | undefined => bugs.find((b) => b.slug
 export const getCrop = (slug: string): Crop | undefined => crops.find((c) => c.slug === slug);
 export const getForageable = (slug: string): Forage | undefined => forage.find((f) => f.slug === slug);
 export const getRecipe = (slug: string): Recipe | undefined => recipes.find((r) => r.slug === slug);
+export const getSchedule = (villagerSlug: string): Schedule | undefined => schedules[villagerSlug];
+export const getQuests = (villagerSlug: string): Quests | undefined => quests[villagerSlug];
+export const getAllSchedules = (): Record<string, Schedule> => schedules;
+export const getAllQuests = (): Record<string, Quests> => quests;
 export const getDataMeta = (): DataMeta => meta;
 
 export type GiftReactions = Record<GiftTier, Villager[]>;

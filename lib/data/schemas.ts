@@ -119,6 +119,38 @@ export const RecipeSchema = z
   })
   .strict();
 
+export const ScheduleSchema = z
+  .object({
+    sections: z.array(
+      z
+        .object({
+          title: z.string().min(1),
+          days: z.array(
+            z
+              .object({
+                day: z.string().min(1),
+                condition: z.string().nullable(),
+                stops: z.array(z.object({ time: z.string(), place: z.string() }).strict()),
+              })
+              .strict(),
+          ),
+        })
+        .strict(),
+    ),
+    source: sourceUrl,
+  })
+  .strict();
+
+/** Quest tables kept in the wiki's own column layout (columns differ between quest types). */
+export const QuestsSchema = z
+  .object({
+    tables: z.array(
+      z.object({ title: z.string().min(1), headers: z.array(z.string()), rows: z.array(z.array(z.string())) }).strict(),
+    ),
+    source: sourceUrl,
+  })
+  .strict();
+
 export const MetaSchema = z
   .object({
     source: z.url(),
@@ -133,6 +165,8 @@ export type Bug = z.infer<typeof BugSchema>;
 export type Crop = z.infer<typeof CropSchema>;
 export type Forage = z.infer<typeof ForageSchema>;
 export type Recipe = z.infer<typeof RecipeSchema>;
+export type Schedule = z.infer<typeof ScheduleSchema>;
+export type Quests = z.infer<typeof QuestsSchema>;
 export type DataMeta = z.infer<typeof MetaSchema>;
 
 /** Seasonal item lists that share the filterable table. Doubles as the URL segment. */

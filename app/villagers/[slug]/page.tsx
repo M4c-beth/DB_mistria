@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Cake, ExternalLink, Heart, Sparkles, Users } from 'lucide-react';
-import { getVillager, getVillagers } from '@/lib/data';
+import { getQuests, getSchedule, getVillager, getVillagers } from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { AddToGuideButton } from '@/components/guide/AddToGuideButton';
 import { GiftSection } from '@/components/villagers/GiftSection';
+import { QuestTables } from '@/components/villagers/QuestTables';
+import { ScheduleTabs } from '@/components/villagers/ScheduleTabs';
 import { Sprite } from '@/components/ui/Sprite';
 import { EmptyState } from '@/components/ui/EmptyState';
 
@@ -32,6 +34,8 @@ export default async function VillagerPage({ params }: Params): Promise<React.JS
   const v = getVillager((await params).slug);
   if (!v) notFound();
   const { gifts } = v;
+  const schedule = getSchedule(v.slug);
+  const quests = getQuests(v.slug);
   const hasGifts = gifts.love.length + gifts.like.length + gifts.neutral.length + gifts.dislike.length + gifts.hate.length > 0;
 
   const stats: { label: string; value: string | null; icon: React.ReactNode }[] = [
@@ -72,7 +76,21 @@ export default async function VillagerPage({ params }: Params): Promise<React.JS
         </div>
       </section>
 
-      <h2 className="mb-4 text-2xl">Gift guide</h2>
+      <nav aria-label="On this page" className="mb-6 flex flex-wrap gap-2 text-sm">
+        {[
+          ['#gifts', 'Gift guide'],
+          ['#schedule', 'Schedule'],
+          ['#quests', 'Quests'],
+        ].map(([href, label]) => (
+          <a key={href} href={href} className="pill border-stone-300 bg-white/60 text-stone-600 hover:bg-amber-100">
+            {label}
+          </a>
+        ))}
+      </nav>
+
+      <h2 id="gifts" className="mb-4 scroll-mt-20 text-2xl">
+        Gift guide
+      </h2>
       {hasGifts ? (
         <div className="space-y-4">
           <GiftSection tier="love" items={gifts.love} />
@@ -91,6 +109,36 @@ export default async function VillagerPage({ params }: Params): Promise<React.JS
           The wiki doesn&apos;t list gift preferences for {v.name}. Check back after the next data update.
         </EmptyState>
       )}
+
+      <section aria-labelledby="schedule" className="mt-10">
+        <h2 id="schedule" className="mb-4 scroll-mt-20 text-2xl">
+          Schedule
+        </h2>
+        {schedule ? (
+          <>
+            <ScheduleTabs schedule={schedule} />
+            <p className="mt-3 text-xs text-stone-600">
+              Times are when {v.name} sets off for each spot.{' '}
+              <a href={schedule.source} target="_blank" rel="noopener noreferrer" className="text-mistria-blue-ink underline">
+                Full schedule on the wiki
+              </a>
+            </p>
+          </>
+        ) : (
+          <EmptyState title={`No schedule for ${v.name} yet.`}>The wiki hasn&apos;t filled in {v.name}&apos;s schedule yet.</EmptyState>
+        )}
+      </section>
+
+      <section aria-labelledby="quests" className="mt-10">
+        <h2 id="quests" className="mb-4 scroll-mt-20 text-2xl">
+          Quests
+        </h2>
+        {quests ? (
+          <QuestTables quests={quests} />
+        ) : (
+          <EmptyState title={`No quests listed for ${v.name}.`}>The wiki doesn&apos;t list any quests for {v.name}.</EmptyState>
+        )}
+      </section>
     </>
   );
 }
