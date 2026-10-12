@@ -6,6 +6,8 @@ import {
   type Crop,
   type Fish,
   type Forage,
+  type Quests,
+  type Schedule,
   type GiftTier,
   type Recipe,
   type Season,
@@ -16,6 +18,9 @@ export interface GuidePdfInput {
   title: string;
   giftTiers: GiftTier[];
   groupBySeason: boolean;
+  /** Keyed by villager slug; empty when the option is off. */
+  schedules: Record<string, Schedule>;
+  quests: Record<string, Quests>;
   villagers: Villager[];
   fish: Fish[];
   bugs: Bug[];
@@ -47,6 +52,18 @@ const TIER: Record<GiftTier, { label: string; color: RGB }> = {
 
 const MARGIN = 40;
 
+/** The built-in PDF fonts only cover Latin-1; map common typography and drop anything else. */
+function pdfSafe(text: string): string {
+  return text
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00d7/g, 'x')
+    .replace(/[\u2000-\u200b\u202f]/g, ' ')
+    .replace(/[^\u0000-\u00ff]/g, '');
+}
+
 function finalY(doc: jsPDF): number {
   const last = (doc as unknown as { lastAutoTable?: { finalY?: number } }).lastAutoTable;
   return last?.finalY ?? MARGIN;
@@ -77,7 +94,7 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   const heading = (text: string, size: number, gap = 8): void => {
     ensureSpace(size + 40);
     doc.setFont('helvetica', 'bold').setFontSize(size).setTextColor(...COLOR.wood);
-    doc.text(text, MARGIN, y + size);
+    doc.text(pdfSafe(text), MARGIN, y + size);
     y += size + gap;
   };
 
@@ -92,6 +109,9 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
       headStyles: { fillColor: COLOR.wood, textColor: COLOR.parchment, fontStyle: 'bold' },
       alternateRowStyles: { fillColor: COLOR.stripe },
       columnStyles,
+      didParseCell: (data) => {
+        data.cell.text = data.cell.text.map(pdfSafe);
+      },
     });
     y = finalY(doc) + 18;
   };
@@ -99,7 +119,7 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
   // Title block
   doc.setFillColor(...COLOR.parchment).rect(0, 0, pageWidth, 90, 'F');
   doc.setFont('helvetica', 'bold').setFontSize(24).setTextColor(...COLOR.wood);
-  doc.text(input.title || 'My Mistria Guide', MARGIN, 50);
+  doc.text(pdfSafe(input.title) || 'My Mistria Guide', MARGIN, 50);
   doc.setFont('helvetica', 'normal').setFontSize(10).setTextColor(...COLOR.muted);
   doc.text(`Fields of Mistria  -  made ${new Date().toLocaleDateString('en-US', { dateStyle: 'medium' })}`, MARGIN, 70);
   y = 120;
@@ -126,6 +146,29 @@ export function buildGuidePdf(input: GuidePdfInput): jsPDF {
         doc.setFont('helvetica', 'italic').setFontSize(9).setTextColor(...COLOR.muted);
         doc.text('No gift data listed for the selected reactions.', MARGIN, y + 6);
         y += 22;
+      }
+
+      const schedule = input.schedules[v.slug];
+      if (schedule) {
+        for (const s of schedule.sections) {
+          heading(`${v.name}'s schedule: ${s.title}`, 11, 4);
+          table(
+            ['Day', 'Leaves at', 'Goes to'],
+            s.days.flatMap((d) =>
+              d.stops.map((stop, i) => [i === 0 ? (d.condition ? `${d.day}
+${d.condition}` : d.day) : '', stop.time, stop.place]),
+            ),
+            { 0: { cellWidth: 120 }, 1: { cellWidth: 90 } },
+          );
+        }
+      }
+
+      const quests = input.quests[v.slug];
+      if (quests) {
+        for (const t of quests.tables) {
+          heading(`${v.name}: ${t.title}`, 11, 4);
+          table(t.headers, t.rows, { 0: { cellWidth: 90 } });
+        }
       }
     }
   }

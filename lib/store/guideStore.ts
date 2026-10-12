@@ -14,6 +14,8 @@ export interface GuideOptions {
   title: string;
   giftTiers: GiftTier[];
   groupBySeason: boolean;
+  includeSchedules: boolean;
+  includeQuests: boolean;
 }
 
 interface GuideState {
@@ -65,7 +67,13 @@ export const useGuideStore = create<GuideState>()(
   persist(
     (set) => ({
       entries: [],
-      options: { title: 'My Mistria Guide', giftTiers: ['love', 'like', 'hate'], groupBySeason: false },
+      options: {
+        title: 'My Mistria Guide',
+        giftTiers: ['love', 'like', 'hate'],
+        groupBySeason: false,
+        includeSchedules: false,
+        includeQuests: false,
+      },
       toggle: (entry) =>
         set((s) => ({
           entries: s.entries.some((e) => same(e, entry))
@@ -94,6 +102,8 @@ export const useGuideStore = create<GuideState>()(
             ? o.giftTiers.filter((t): t is GiftTier => GIFT_TIERS.includes(t))
             : current.options.giftTiers,
           groupBySeason: typeof o?.groupBySeason === 'boolean' ? o.groupBySeason : current.options.groupBySeason,
+          includeSchedules: o?.includeSchedules === true,
+          includeQuests: o?.includeQuests === true,
         };
         return { ...current, entries, options };
       },

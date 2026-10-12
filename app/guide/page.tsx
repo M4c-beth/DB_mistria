@@ -1,5 +1,15 @@
 import type { Metadata } from 'next';
-import { getBugs, getCrops, getDataMeta, getFish, getForage, getRecipes, getVillagers } from '@/lib/data';
+import {
+  getAllQuests,
+  getAllSchedules,
+  getBugs,
+  getCrops,
+  getDataMeta,
+  getFish,
+  getForage,
+  getRecipes,
+  getVillagers,
+} from '@/lib/data';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { GuideBuilder } from '@/components/guide/GuideBuilder';
@@ -24,6 +34,8 @@ export default function GuidePage(): React.JSX.Element {
         crops={getCrops()}
         forage={getForage()}
         recipes={getRecipes()}
+        schedules={getAllSchedules()}
+        quests={getAllQuests()}
         meta={getDataMeta()}
       />
     </>

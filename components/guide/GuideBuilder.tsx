@@ -11,7 +11,9 @@ import {
   type Fish,
   type Forage,
   type GuideKind,
+  type Quests,
   type Recipe,
+  type Schedule,
   type Villager,
 } from '@/lib/data/schemas';
 import { useGuideHydrated, useGuideStore } from '@/lib/store/guideStore';
@@ -27,6 +29,8 @@ interface Props {
   crops: Crop[];
   forage: Forage[];
   recipes: Recipe[];
+  schedules: Record<string, Schedule>;
+  quests: Record<string, Quests>;
   meta: DataMeta;
 }
 
@@ -46,7 +50,7 @@ const GROUPS: { kind: GuideKind; label: string; browse: string }[] = [
   { kind: 'recipes', label: 'Recipes', browse: '/recipes/' },
 ];
 
-export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, meta }: Props): React.JSX.Element {
+export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, schedules, quests, meta }: Props): React.JSX.Element {
   const hydrated = useGuideHydrated();
   const entries = useGuideStore((s) => s.entries);
   const options = useGuideStore((s) => s.options);
@@ -92,6 +96,8 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, me
         title: options.title.trim() || 'My Mistria Guide',
         giftTiers: GIFT_TIERS.filter((t) => options.giftTiers.includes(t)),
         groupBySeason: options.groupBySeason,
+        schedules: options.includeSchedules ? schedules : {},
+        quests: options.includeQuests ? quests : {},
         villagers: selected.villager,
         fish: selected.fish,
         bugs: selected.bugs,
@@ -225,6 +231,29 @@ export function GuideBuilder({ villagers, fish, bugs, crops, forage, recipes, me
             <span className="font-semibold">Group seasonal items by season</span>
             <span className="block text-xs text-stone-600">Year-round items appear under every season.</span>
           </span>
+        </label>
+
+        <label className="flex min-h-10 cursor-pointer items-center gap-3 text-sm">
+          <input
+            type="checkbox"
+            checked={options.includeSchedules}
+            onChange={(e) => setOptions({ includeSchedules: e.target.checked })}
+            className="size-5 accent-[#3F6630]"
+          />
+          <span>
+            <span className="font-semibold">Include villager schedules</span>
+            <span className="block text-xs text-stone-600">Only some villagers have schedules on the wiki so far.</span>
+          </span>
+        </label>
+
+        <label className="flex min-h-10 cursor-pointer items-center gap-3 text-sm">
+          <input
+            type="checkbox"
+            checked={options.includeQuests}
+            onChange={(e) => setOptions({ includeQuests: e.target.checked })}
+            className="size-5 accent-[#3F6630]"
+          />
+          <span className="font-semibold">Include villager quests</span>
         </label>
 
         <button type="button" onClick={download} disabled={busy} className="btn-primary w-full">
