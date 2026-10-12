@@ -7,7 +7,7 @@
 - **Icons:** Lucide React
 
 ## Backend & Database
-- **ORM:** Prisma (or Drizzle, specify your preference)
+- **ORM:** Prisma
 - **Database:** PostgreSQL (via Supabase or Neon)
 - **Data Fetching:** React Server Components (RSC) for data fetching. Use `fetch` with caching for external API/wiki data if applicable.
 
