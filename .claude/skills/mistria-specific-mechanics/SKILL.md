@@ -8,7 +8,7 @@ description: Fields of Mistria game mechanics the site must support — weather,
 When building features for Fields of Mistria, keep these game-specific mechanics in mind:
 
 ## Key Villagers
-Ariadne, Galen, Jojo, Tully, Valen, etc. (Ensure the UI supports filtering by specific villagers).
+The canonical villager list comes from `data/villagers.json` (pulled from the wiki), e.g. Adeline, Balor, Celine, Eiland, Hayden, Juniper, March, Ryis, Valen. Never hardcode or guess names. (Ensure the UI supports filtering by specific villagers.)
 
 ## Unique Mechanics to Support in DB
 1. **Weather System:** Mistria has specific weather types (Sunny, Rain, Snow, Storm). Crops and forageables are tied to these.
