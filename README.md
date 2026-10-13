@@ -2,7 +2,7 @@
 
 An unofficial fan database for **[Fields of Mistria](https://store.steampowered.com/app/2142790/Fields_of_Mistria/)**. Look up what every villager loves, what you can catch or grow each season, and build your own printable PDF guide.
 
-**👉 Use the site: [m4c-beth.github.io/DB_mistria](https://m4c-beth.github.io/DB_mistria/)**
+**👉 Use the site: [m4c-beth.github.io/Mistria-Almanac](https://m4c-beth.github.io/Mistria-Almanac/)**
 
 ## What's inside
 

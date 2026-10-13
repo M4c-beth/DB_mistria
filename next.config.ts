@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 // GitHub Pages serves the site from /<repo-name>/. Override with PAGES_BASE_PATH
 // (e.g. "" for a custom domain).
-const basePath = process.env.NODE_ENV === 'production' ? (process.env.PAGES_BASE_PATH ?? '/DB_mistria') : '';
+const basePath = process.env.NODE_ENV === 'production' ? (process.env.PAGES_BASE_PATH ?? '/Mistria-Almanac') : '';
 
 const nextConfig: NextConfig = {
   output: 'export',

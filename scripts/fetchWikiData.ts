@@ -11,7 +11,7 @@ import { parse as parseHtml, type HTMLElement } from 'node-html-parser';
 
 const API = 'https://fieldsofmistria.wiki.gg/api.php';
 const WIKI = 'https://fieldsofmistria.wiki.gg/wiki/';
-const USER_AGENT = 'MistriaDB/0.1 (community fan database; https://github.com/M4c-beth/DB_mistria)';
+const USER_AGENT = 'MistriaDB/0.1 (community fan database; https://github.com/M4c-beth/Mistria-Almanac)';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const ICON_DIR = path.join(ROOT, 'public', 'icons');
